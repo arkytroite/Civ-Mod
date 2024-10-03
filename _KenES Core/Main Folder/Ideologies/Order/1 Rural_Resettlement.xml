@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/9/2013 6:37:47 PM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Set Level="1"
+				 PolicyBranchType="POLICY_BRANCH_ORDER"
+				 CatchSpiesModifier="100" />
+			<Where Type="POLICY_DOUBLE_AGENTS" />
+		</Update>
+	</Policies>
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_DOUBLE_AGENTS</PolicyType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_DOUBLE_AGENTS</PolicyType>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_DOUBLE_AGENTS</PolicyType>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+
+	<Policy_Flavors>
+		<Delete PolicyType="POLICY_DOUBLE_AGENTS" />
+		<Row>
+			<PolicyType>POLICY_DOUBLE_AGENTS</PolicyType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_DOUBLE_AGENTS</PolicyType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>13</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_DOUBLE_AGENTS" />
+			<Set Text="Rural Resettlement" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_DOUBLE_AGENTS_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Rural Resettlement[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] Culture from Farms, Plantations, and Pastures.[NEWLINE][ICON_BULLET]Spies are twice as likely to capture enemy spies attempting to steal a technology." />
+		</Update>
+	</Language_en_US>
+
+	
+</GameData>
+
+<!-- 
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_RURAL_RESETTLEMENT</Type>
+			<DefaultBuilding>BUILDING_RURAL_RESETTLEMENT</DefaultBuilding>
+			<Description>TXT_KEY_POLICY_DOUBLE_AGENTS</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_RURAL_RESETTLEMENT</Type>
+			<BuildingClass>BUILDINGCLASS_RURAL_RESETTLEMENT</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
+			<Description>TXT_KEY_POLICY_DOUBLE_AGENTS</Description>
+			<Help>TXT_KEY_BUILDING_RURAL_RESETTLEMENT_HELP</Help>
+		</Row>
+	</Buildings>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_RURAL_RESETTLEMENT</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RURAL_RESETTLEMENT</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<Policy_PGB_FreeBuildingClass>
+		<Row>
+			<PolicyType>POLICY_DOUBLE_AGENTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_RURAL_RESETTLEMENT</BuildingClassType>
+		</Row>
+	</Policy_PGB_FreeBuildingClass>
+	
+			<Row Tag="TXT_KEY_BUILDING_RURAL_RESETTLEMENT_HELP">
+			<Text>+1 [ICON_RESEARCH] Science from every [ICON_RES_WHEAT] Wheat and [ICON_RES_BANANA] Banana.</Text>
+		</Row>
+-->

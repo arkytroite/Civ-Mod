@@ -1,0 +1,2158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/2/2013 12:35:49 AM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_LEGISLATURE</Type>
+			<DefaultBuilding>BUILDING_LEGISLATURE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_LEGISLATURE</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_UNIQUE</Type>
+			<DefaultBuilding>BUILDING_UNIQUE</DefaultBuilding>
+			<Description>TXT_BUILDING_UNIQUE</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_LEGISLATURE</Type>
+			<BuildingClass>BUILDINGCLASS_LEGISLATURE</BuildingClass>
+			<Cost>850</Cost>
+			<GoldMaintenance>3</GoldMaintenance>
+			<PrereqTech>TECH_SCIENTIFIC_THEORY</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_FREEDOM</PolicyBranchType>
+			<Help>TXT_KEY_BUILDING_LEGISLATURE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_LEGISLATURE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LEGISLATURE_DESC</Civilopedia>
+			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<Happiness>2</Happiness>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>JUSTGOV_ATLAS_1</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_SACRIFICIAL_ALTAR</Type>
+			<BuildingClass>BUILDINGCLASS_COURTHOUSE</BuildingClass>
+			<Cost>60</Cost>
+			<PrereqTech>TECH_POTTERY</PrereqTech>
+			<Help>TXT_SACRIFICIAL_ALTAR_HELP</Help>
+			<Description>TXT_SACRIFICIAL_ALTAR</Description>
+			<Civilopedia>TXT_SACRIFICIAL_ALTAR_DESC</Civilopedia>
+			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
+			<NoOccupiedUnhappiness>true</NoOccupiedUnhappiness>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>DRAGON_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>49</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_WEIGH_HOUSE</Type>
+			<BuildingClass>BUILDINGCLASS_MARKET</BuildingClass>
+			<Cost>100</Cost>
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<Help>TXT_WEIGH_HOUSE_HELP</Help>
+			<Description>TXT_WEIGH_HOUSE</Description>
+			<Civilopedia>TXT_WEIGH_HOUSE_DESC</Civilopedia>
+			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
+			<Happiness>2</Happiness>
+			<IconAtlas>DRAGON_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>13</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_SIEGE_WORKS</Type>
+			<BuildingClass>BUILDINGCLASS_CASTLE</BuildingClass>
+			<Cost>140</Cost>
+			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
+			<Help>TXT_SIEGE_WORKS_HELP</Help>
+			<Description>TXT_SIEGE_WORKS</Description>
+			<Civilopedia>TXT_SIEGE_WORKS_DESC</Civilopedia>
+			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>25</HurryCostModifier>
+			<Defense>700</Defense>
+			<ExtraCityHitPoints>25</ExtraCityHitPoints>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<IconAtlas>DRAGON_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_SMELTER</Type>
+			<BuildingClass>BUILDINGCLASS_FORGE</BuildingClass>
+			<Cost>100</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
+			<Help>TXT_SMELTER_HELP</Help>
+			<Description>TXT_SMELTER</Description>
+			<Civilopedia>TXT_SMELTER_DESC</Civilopedia>
+			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<UnitUpgradeCostMod>-50</UnitUpgradeCostMod>
+			<IconAtlas>DRAGON_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>23</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_UNIQUE</Type>
+			<BuildingClass>BUILDINGCLASS_UNIQUE</BuildingClass>
+			<Cost>100</Cost>
+			<ObsoleteTech>TECH_AGRICULTURE</ObsoleteTech>
+			<Help>TXT_VINEYARD_HELP</Help>
+			<Description>TXT_UNIQUE</Description>
+			<Civilopedia>TXT_VINEYARD_DESC</Civilopedia>
+			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>DRAGON_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>15</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_VINEYARD</Type>
+			<BuildingClass>BUILDINGCLASS_UNIQUE</BuildingClass>
+			<Cost>100</Cost>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
+			<EnhancedYieldTech>TECH_FLIGHT</EnhancedYieldTech>
+			<TechEnhancedTourism>1</TechEnhancedTourism>
+			<Help>TXT_VINEYARD_HELP</Help>
+			<Description>TXT_VINEYARD</Description>
+			<Civilopedia>TXT_VINEYARD_DESC</Civilopedia>
+			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>DRAGON_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>15</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_LODGE</Type>
+			<BuildingClass>BUILDINGCLASS_HOTEL</BuildingClass>
+			<Cost>100</Cost>
+			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
+			<Help>TXT_LODGE_HELP</Help>
+			<Description>TXT_LODGE</Description>
+			<Civilopedia>TXT_LODGE_DESC</Civilopedia>
+			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<LandmarksTourismPercent>50</LandmarksTourismPercent>
+			<IconAtlas>ENLIGHTENMENT_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_SPARTAN</Type>
+			<BuildingClass>BUILDINGCLASS_BARRACKS</BuildingClass>
+			<Cost>75</Cost>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Help>TXT_SPARTAN_HELP</Help>
+			<Description>TXT_SPARTAN</Description>
+			<Civilopedia>TXT_SPARTAN_DESC</Civilopedia>
+			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<Happiness>1</Happiness>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>25</HurryCostModifier>
+			<Defense>500</Defense>
+			<Experience>15</Experience>
+			<IconAtlas>DRAGON_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>24</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_MEDICAL_SCHOOL</Type>
+			<BuildingClass>BUILDINGCLASS_HOSPITAL</BuildingClass>
+			<Cost>360</Cost>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<Help>TXT_MEDICAL_SCHOOL_HELP</Help>
+			<Description>TXT_MEDICAL_SCHOOL</Description>
+			<Civilopedia>TXT_MEDICAL_SCHOOL_DESC</Civilopedia>
+			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>ENLIGHTENMENT_WONDER_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_BALAWAT</Type>
+			<BuildingClass>BUILDINGCLASS_CASTLE</BuildingClass>
+			<Cost>120</Cost>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<Help>TXT_BALAWAT_HELP</Help>
+			<Description>TXT_BALAWAT</Description>
+			<Civilopedia>TXT_BALAWAT_DESC</Civilopedia>
+			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<Happiness>1</Happiness>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>25</HurryCostModifier>
+			<Defense>700</Defense>
+			<ExtraCityHitPoints>25</ExtraCityHitPoints>
+			<IconAtlas>DRAGON_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_CONSERVATORY</Type>
+			<BuildingClass>BUILDINGCLASS_WATERMILL</BuildingClass>
+			<Cost>75</Cost>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
+			<Help>TXT_CONSERVATORY_HELP</Help>
+			<Description>TXT_CONSERVATORY</Description>
+			<Strategy>TXT_CONSERVATORY_STRATEGY</Strategy>
+			<Civilopedia>TXT_CONSERVATORY_DESC</Civilopedia>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<EnhancedYieldTech>TECH_EDUCATION</EnhancedYieldTech>
+			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
+			<River>true</River>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_RESOURCE</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_JAMU</Type>
+			<BuildingClass>BUILDINGCLASS_MARKET</BuildingClass>
+			<Cost>100</Cost>
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<Help>TXT_JAMU_HELP</Help>
+			<Description>TXT_JAMU</Description>
+			<Civilopedia>TXT_JAMU_DESC</Civilopedia>
+			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<FoodKept>10</FoodKept>
+			<TradeRouteLandGoldBonus>100</TradeRouteLandGoldBonus>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>DRAGON_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>11</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_BOLLYWOOD</Type>
+			<BuildingClass>BUILDINGCLASS_BROADCAST_TOWER</BuildingClass>
+			<Cost>500</Cost>
+			<GoldMaintenance>3</GoldMaintenance>
+			<PrereqTech>TECH_PLASTIC</PrereqTech>
+			<Help>TXT_BOLLYWOOD_STRATEGY</Help>
+			<Description>TXT_BOLLYWOOD</Description>
+			<Civilopedia>TXT_BOLLYWOOD_DESC</Civilopedia>
+			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_MUSIC</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<IconAtlas>DRAGON_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>50</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_FUNDUQ</Type>
+			<BuildingClass>BUILDINGCLASS_CARAVANSARY</BuildingClass>
+			<Cost>120</Cost>
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+			<Description>TXT_KEY_BUILDING_FUNDUQ</Description>
+			<Civilopedia>TXT_KEY_BUILDING_FUNDUQ_TEXT</Civilopedia>
+			<Help>TXT_KEY_BUILDING_FUNDUQ_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_CARAVANSARY</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<ArtInfoEraVariation>true</ArtInfoEraVariation>
+			<TradeRouteLandDistanceModifier>50</TradeRouteLandDistanceModifier>
+			<TradeRouteLandGoldBonus>400</TradeRouteLandGoldBonus>
+			<IconAtlas>5UC_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_HAMMER_MONUMENT</Type>
+			<BuildingClass>BUILDINGCLASS_MONUMENT</BuildingClass>
+			<Cost>40</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<Help>TXT_KEY_BUILDING_HAMMER_MONUMENT_HELP</Help>
+			<Description>TXT_KEY_BUILDING_HAMMER_MONUMENT</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HAMMER_MONUMENT_TEXT</Civilopedia>
+			<ArtDefineTag>MONUMENT</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>40</HurryCostModifier>
+			<EnhancedYieldTech>TECH_WRITING</EnhancedYieldTech>
+			<IconAtlas>5UC_ATLAS</IconAtlas>
+			<ConquestProb>66</ConquestProb>
+			<PortraitIndex>5</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_BASILICA</Type>
+			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
+			<Cost>100</Cost>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<Help>TXT_BUILDING_BASILICA_HELP</Help>
+			<Description>TXT_BASILICA</Description>
+			<Civilopedia>TXT_BASILICA_TEXT</Civilopedia>
+			<ArtDefineTag>MONUMENT</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>40</HurryCostModifier>
+			<ConquestProb>66</ConquestProb>
+			<IconAtlas>DRAGON_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>31</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_ORCHESTRA</Type>
+			<BuildingClass>BUILDINGCLASS_OPERA_HOUSE</BuildingClass>
+			<Cost>200</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_ACOUSTICS</PrereqTech>
+			<Help>TXT_BUILDING_ORCHESTRA_HELP</Help>
+			<Description>TXT_ORCHESTRA</Description>
+			<Civilopedia>TXT_ORCHESTRA_TEXT</Civilopedia>
+			<ArtDefineTag>MONUMENT</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>40</HurryCostModifier>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_MUSIC</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<ConquestProb>66</ConquestProb>
+			<IconAtlas>ENLIGHTENMENT_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_DOLMEN</Type>
+			<BuildingClass>BUILDINGCLASS_STONE_WORKS</BuildingClass>
+			<Cost>75</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<Help>TXT_BUILDING_DOLMEN_HELP</Help>
+			<Description>TXT_DOLMEN</Description>
+			<Civilopedia>TXT_DOLMEN_TEXT</Civilopedia>
+			<ArtDefineTag>MONUMENT</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>40</HurryCostModifier>
+			<Happiness>1</Happiness>
+			<ConquestProb>66</ConquestProb>
+			<IconAtlas>5UC_ATLAS</IconAtlas>
+			<PortraitIndex>15</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_TEXTILE</Type>
+			<BuildingClass>BUILDINGCLASS_EE_CLOTH_MILL</BuildingClass>
+			<Cost>150</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<Help>TXT_TEXTILE_HELP</Help>
+			<Description>TXT_TEXTILE</Description>
+			<Civilopedia>TXT_TEXTILE_TEXT</Civilopedia>
+			<ArtDefineTag>MONUMENT</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>40</HurryCostModifier>
+			<ConquestProb>66</ConquestProb>
+			<IconAtlas>4UC_ATLAS</IconAtlas>
+			<PortraitIndex>13</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_KANTONE</Type>
+			<BuildingClass>BUILDINGCLASS_BARRACKS</BuildingClass>
+			<Cost>75</Cost>
+			<HurryCostModifier>25</HurryCostModifier>
+			<GoldMaintenance>0</GoldMaintenance>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Help>TXT_KANTONE_HELP</Help>
+			<Description>TXT_KANTONE</Description>
+			<Civilopedia>TXT_KANTONE_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<Experience>15</Experience>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>5UC_ATLAS</IconAtlas>
+			<PortraitIndex>16</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_SEWER</Type>
+			<BuildingClass>BUILDINGCLASS_AQUEDUCT</BuildingClass>
+			<Cost>75</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Help>TXT_SEWER_HELP</Help>
+			<Description>TXT_SEWER</Description>
+			<Civilopedia>TXT_SEWER_PEDIA</Civilopedia>
+			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<FoodKept>40</FoodKept>
+			<IconAtlas>5UC_ATLAS</IconAtlas>
+			<PortraitIndex>20</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_PESANTREN</Type>
+			<BuildingClass>BUILDINGCLASS_PUBLIC_SCHOOL</BuildingClass>
+			<Cost>300</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_SCIENTIFIC_THEORY</PrereqTech>
+			<Description>TXT_PESANTREN</Description>
+			<Civilopedia>TXT_PESANTREN_TEXT</Civilopedia>
+			<Help>TXT_PESANTREN_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_PUBLIC_SCHOOL</ArtDefineTag>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<ReligiousPressureModifier>25</ReligiousPressureModifier>
+			<IconAtlas>5UC_ATLAS</IconAtlas>
+			<PortraitIndex>21</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_HOKURA</Type>
+			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
+			<Cost>100</Cost>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<Description>TXT_HOKURA</Description>
+			<Help>TXT_HOKURA_HELP</Help>
+			<Civilopedia>TXT_HOKURA_TEXT</Civilopedia>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>5UC_ATLAS</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>23</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_AEDES</Type>
+			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<Cost>60</Cost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<Description>TXT_AEDES</Description>
+			<Help>TXT_AEDES_HELP</Help>
+			<Civilopedia>TXT_AEDES_TEXT</Civilopedia>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<UnmoddedHappiness>1</UnmoddedHappiness>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>5UC_ATLAS</IconAtlas>
+			<PortraitIndex>34</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_BANYA</Type>
+			<BuildingClass>BUILDINGCLASS_GARDEN</BuildingClass>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<Cost>120</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+			<Description>TXT_BANYA</Description>
+			<Help>TXT_BANYA_HELP</Help>
+			<Civilopedia>TXT_BANYA_TEXT</Civilopedia>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<GreatPeopleRateModifier>15</GreatPeopleRateModifier>
+			<IconAtlas>5UC_ATLAS</IconAtlas>
+			<PortraitIndex>35</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_QADI_COURT</Type>
+			<BuildingClass>BUILDINGCLASS_CIRCUS</BuildingClass>
+			<Cost>75</Cost>
+			<PrereqTech>TECH_TRAPPING</PrereqTech>
+			<Description>TXT_QADI_COURT</Description>
+			<Civilopedia>TXT_QADI_COURT_TEXT</Civilopedia>
+			<Help>TXT_QADI_COURT_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_CIRCUS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<Happiness>2</Happiness>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>5UC_ATLAS</IconAtlas>
+			<PortraitIndex>38</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_ALCAZAR</Type>
+			<BuildingClass>BUILDINGCLASS_CASTLE</BuildingClass>
+			<Cost>160</Cost>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<Help>TXT_ALCAZAR_HELP</Help>
+			<Description>TXT_ALCAZAR</Description>
+			<Civilopedia>TXT_ALCAZAR_TEXT</Civilopedia>
+			<ArtDefineTag>CASTLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<AllowsRangeStrike>true</AllowsRangeStrike>
+			<Defense>700</Defense>
+			<ExtraCityHitPoints>25</ExtraCityHitPoints>
+			<HurryCostModifier>25</HurryCostModifier>
+			<ArtInfoCulturalVariation>true</ArtInfoCulturalVariation>
+			<DisplayPosition>1</DisplayPosition>
+			<NeverCapture>true</NeverCapture>
+			<Experience>15</Experience>
+			<IconAtlas>5UC_ATLAS</IconAtlas>
+			<PortraitIndex>39</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_TZOMPANTLI</Type>
+			<BuildingClass>BUILDINGCLASS_WALLS</BuildingClass>
+			<Cost>50</Cost>
+			<Help>TXT_TZOMPANTLI_HELP</Help>
+			<Description>TXT_TZOMPANTLI</Description>
+			<Civilopedia>TXT_TZOMPANTLI_TEXT</Civilopedia>
+			<MinAreaSize>-1</MinAreaSize>
+			<AllowsRangeStrike>true</AllowsRangeStrike>
+			<Defense>500</Defense>
+			<ExtraCityHitPoints>50</ExtraCityHitPoints>
+			<CityWall>true</CityWall>
+			<HurryCostModifier>25</HurryCostModifier>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>5UC_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_STANNARY</Type>
+			<BuildingClass>BUILDINGCLASS_FORGE</BuildingClass>
+			<Cost>120</Cost>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Description>TXT_STANNARY</Description>
+			<Civilopedia>TXT_STANNARY_TEXT</Civilopedia>
+			<Help>TXT_STANNARY_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>5UC_ATLAS</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_INTIWASI</Type>
+			<BuildingClass>BUILDINGCLASS_GRAND_TEMPLE</BuildingClass>
+			<Cost>125</Cost>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+			<Description>TXT_INTIWASI</Description>
+			<Civilopedia>TXT_INTIWASI_TEXT</Civilopedia>
+			<Help>TXT_INTIWASI_HELP</Help>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<NumCityCostMod>30</NumCityCostMod>
+			<HolyCity>true</HolyCity>
+			<ReligiousPressureModifier>100</ReligiousPressureModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<TradeRouteRecipientBonus>4</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>2</TradeRouteTargetBonus>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>5UC_ATLAS</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_SACBE</Type>
+			<BuildingClass>BUILDINGCLASS_CARAVANSARY</BuildingClass>
+			<Cost>75</Cost>
+			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
+			<Description>TXT_SACBE</Description>
+			<Civilopedia>TXT_SACBE_TEXT</Civilopedia>
+			<Help>TXT_SACBE_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_CARAVANSARY</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<ArtInfoEraVariation>true</ArtInfoEraVariation>
+			<TradeRouteLandDistanceModifier>50</TradeRouteLandDistanceModifier>
+			<TradeRouteLandGoldBonus>200</TradeRouteLandGoldBonus>
+			<IconAtlas>5UC_ATLAS</IconAtlas>
+			<PortraitIndex>25</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_O_CISTERN</Type>
+			<BuildingClass>BUILDINGCLASS_AQUEDUCT</BuildingClass>
+			<Cost>75</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_ENGINEERING</PrereqTech>
+			<Help>TXT_O_CISTERN_HELP</Help>
+			<Description>TXT_O_CISTERN</Description>
+			<Civilopedia>TXT_O_CISTERN_PEDIA</Civilopedia>
+			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<FoodKept>40</FoodKept>
+			<IconAtlas>5UC_ATLAS</IconAtlas>
+			<PortraitIndex>29</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_TOTEM_POLE</Type>
+			<BuildingClass>BUILDINGCLASS_MONUMENT</BuildingClass>
+			<Cost>40</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<Help>TXT_TOTEM_POLE_HELP</Help>
+			<Description>TXT_TOTEM_POLE</Description>
+			<Civilopedia>TXT_TOTEM_POLE_TEXT</Civilopedia>
+			<ArtDefineTag>MONUMENT</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>40</HurryCostModifier>
+			<EnhancedYieldTech>TECH_TRAPPING</EnhancedYieldTech>
+			<IconAtlas>5UC_ATLAS</IconAtlas>
+			<ConquestProb>66</ConquestProb>
+			<PortraitIndex>36</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_CHINA_STUPA</Type>
+			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<Cost>100</Cost>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<Description>TXT_CHINA_STUPA</Description>
+			<Help>TXT_CHINA_STUPA_HELP</Help>
+			<Civilopedia>TXT_CHINA_STUPA_TEXT</Civilopedia>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>5UC_ATLAS</IconAtlas>
+			<ConquestProb>66</ConquestProb>
+			<PortraitIndex>10</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_SPHYNX</Type>
+			<BuildingClass>BUILDINGCLASS_GRAND_TEMPLE</BuildingClass>
+			<Cost>125</Cost>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+			<Description>TXT_EGYPT_SPHYNX</Description>
+			<Civilopedia>TXT_EGYPT_SPHYNX_TEXT</Civilopedia>
+			<Help>TXT_EGYPT_SPHYNX_HELP</Help>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<NumCityCostMod>30</NumCityCostMod>
+			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
+			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<HolyCity>true</HolyCity>
+			<ReligiousPressureModifier>100</ReligiousPressureModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<Defense>500</Defense>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>ENLIGHTENMENT_TECH_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_BANCO</Type>
+			<BuildingClass>BUILDINGCLASS_STONE_WORKS</BuildingClass>
+			<Cost>75</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<Help>TXT_BANCO_HELP</Help>
+			<Description>TXT_BANCO</Description>
+			<Civilopedia>TXT_BANCO_TEXT</Civilopedia>
+			<Strategy>Songhai's unique stone works. It provides more base production and isn't related to stone. It also provides no happiness.</Strategy>
+			<ArtDefineTag>MONUMENT</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>40</HurryCostModifier>
+			<ConquestProb>66</ConquestProb>
+			<IconAtlas>DRAGON_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>22</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_SILK</Type>
+			<BuildingClass>BUILDINGCLASS_EE_CLOTH_MILL</BuildingClass>
+			<Cost>100</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
+			<Help>TXT_CHINA_SILK_HELP</Help>
+			<Description>TXT_CHINA_SILK</Description>
+			<Civilopedia>TXT_CHINA_SILK_TEXT</Civilopedia>
+			<Strategy>China's unique cloth mill. It can be built much earlier at Calendars and extends the range of trade routes in addition to the usual benefits of a cloth mill. </Strategy>
+			<ArtDefineTag>MONUMENT</ArtDefineTag>
+			<TradeRouteLandDistanceModifier>50</TradeRouteLandDistanceModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>40</HurryCostModifier>
+			<ConquestProb>66</ConquestProb>
+			<IconAtlas>DRAGON_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_AZTEC</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+			<BuildingType>BUILDING_SACRIFICIAL_ALTAR</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EGYPT</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+			<BuildingType>BUILDING_WEIGH_HOUSE</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ETHIOPIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+			<BuildingType>BUILDING_SIEGE_WORKS</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HUNS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_FORGE</BuildingClassType>
+			<BuildingType>BUILDING_SMELTER</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANCE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_UNIQUE</BuildingClassType>
+			<BuildingType>BUILDING_VINEYARD</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_HOTEL</BuildingClassType>
+			<BuildingType>BUILDING_LODGE</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<BuildingType>BUILDING_SPARTAN</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
+			<BuildingType>BUILDING_MEDICAL_SCHOOL</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ASSYRIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+			<BuildingType>BUILDING_BALAWAT</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BRAZIL</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_WATERMILL</BuildingClassType>
+			<BuildingType>BUILDING_CONSERVATORY</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_INDONESIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+			<BuildingType>BUILDING_JAMU</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_INDIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
+			<BuildingType>BUILDING_BOLLYWOOD</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ARABIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_CARAVANSARY</BuildingClassType>
+			<BuildingType>BUILDING_FUNDUQ</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BABYLON</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<BuildingType>BUILDING_HAMMER_MONUMENT</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BYZANTIUM</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_BASILICA</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+			<BuildingType>BUILDING_ORCHESTRA</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANCE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_STONE_WORKS</BuildingClassType>
+			<BuildingType>BUILDING_DOLMEN</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_EE_CLOTH_MILL</BuildingClassType>
+			<BuildingType>BUILDING_TEXTILE</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<BuildingType>BUILDING_KANTONE</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_INDIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_AQUEDUCT</BuildingClassType>
+			<BuildingType>BUILDING_SEWER</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_INDONESIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PUBLIC_SCHOOL</BuildingClassType>
+			<BuildingType>BUILDING_PESANTREN</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_HOKURA</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_AEDES</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_RUSSIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_GARDEN</BuildingClassType>
+			<BuildingType>BUILDING_BANYA</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SONGHAI</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_CIRCUS</BuildingClassType>
+			<BuildingType>BUILDING_QADI_COURT</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SPAIN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+			<BuildingType>BUILDING_ALCAZAR</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AZTEC</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+			<BuildingType>BUILDING_TZOMPANTLI</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CELTS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_FORGE</BuildingClassType>
+			<BuildingType>BUILDING_STANNARY</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_INCA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_INTIWASI</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MAYA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_CARAVANSARY</BuildingClassType>
+			<BuildingType>BUILDING_SACBE</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OTTOMAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_AQUEDUCT</BuildingClassType>
+			<BuildingType>BUILDING_O_CISTERN</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SHOSHONE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<BuildingType>BUILDING_TOTEM_POLE</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_CHINA_STUPA</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EGYPT</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_SPHYNX</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SONGHAI</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_STONE_WORKS</BuildingClassType>
+			<BuildingType>BUILDING_BANCO</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_EE_CLOTH_MILL</BuildingClassType>
+			<BuildingType>BUILDING_SILK</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_SIEGE_WORKS</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDICAL_SCHOOL</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_AQUEDUCT</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BALAWAT</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BOLLYWOOD</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BASILICA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ORCHESTRA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PESANTREN</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AEDES</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALCAZAR</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOKURA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHINA_STUPA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_PrereqBuildingClasses>
+		<Row>
+			<BuildingType>BUILDING_INTIWASI</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<NumBuildingNeeded>-1</NumBuildingNeeded>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SPHYNX</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<NumBuildingNeeded>-1</NumBuildingNeeded>
+		</Row>
+	</Building_PrereqBuildingClasses>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_QADI_COURT</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_QADI_COURT</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LEGISLATURE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SACRIFICIAL_ALTAR</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WEIGH_HOUSE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMELTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_VINEYARD</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LODGE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDICAL_SCHOOL</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BALAWAT</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JAMU</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BOLLYWOOD</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FUNDUQ</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HAMMER_MONUMENT</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BASILICA</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>4</Yield>
+		</Row>	
+		<Row>
+			<BuildingType>BUILDING_ORCHESTRA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EE_CLOTH_MILL</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KANTONE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KANTONE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOKURA</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOKURA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AEDES</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALCAZAR</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TZOMPANTLI</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TZOMPANTLI</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INTIWASI</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>8</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INTIWASI</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SACBE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SACBE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SACBE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TOTEM_POLE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHINA_STUPA</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHINA_STUPA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SPHYNX</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>8</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SPHYNX</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>8</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BANCO</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CONSERVATORY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CONSERVATORY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_YieldChangesPerPop>
+		<Row>
+			<BuildingType>BUILDING_PESANTREN</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>100</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PESANTREN</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>25</Yield>
+		</Row>
+	</Building_YieldChangesPerPop>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_WEIGH_HOUSE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>25</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JAMU</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>25</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BOLLYWOOD</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>33</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_SMELTER</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DOLMEN</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DOLMEN</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEXTILE</BuildingType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEXTILE</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEXTILE</BuildingType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STANNARY</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STANNARY</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SILK</BuildingType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SILK</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SILK</BuildingType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<Building_TerrainYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_BANYA</BuildingType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BANYA</BuildingType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_TerrainYieldChanges>
+	<Building_FeatureYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_JAMU</BuildingType>
+			<FeatureType>FEATURE_ATOLL</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOKURA</BuildingType>
+			<FeatureType>FEATURE_MOUNTAIN_YIELD</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DOLMEN</BuildingType>
+			<FeatureType>FEATURE_MOUNTAIN_YIELD</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INTIWASI</BuildingType>
+			<FeatureType>FEATURE_MOUNTAIN_YIELD</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_FeatureYieldChanges>
+	<Building_LakePlotYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_O_CISTERN</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_LakePlotYieldChanges>
+	<Building_TechEnhancedYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_HAMMER_MONUMENT</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TOTEM_POLE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CONSERVATORY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_TechEnhancedYieldChanges>
+	<Building_DomainProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_STANNARY</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Modifier>15</Modifier>
+		</Row>
+	</Building_DomainProductionModifiers>
+	<Building_LocalResourceOrs>
+		<Row>
+			<BuildingType>BUILDING_VINEYARD</BuildingType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_VINEYARD</BuildingType>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEXTILE</BuildingType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEXTILE</BuildingType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEXTILE</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SILK</BuildingType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SILK</BuildingType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SILK</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+		</Row>
+	</Building_LocalResourceOrs>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_LEGISLATURE</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LEGISLATURE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LEGISLATURE</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SACRIFICIAL_ALTAR</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SACRIFICIAL_ALTAR</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WEIGH_HOUSE</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WEIGH_HOUSE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SIEGE_WORKS</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMELTER</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_VINEYARD</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LODGE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SPARTAN</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SPARTAN</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDICAL_SCHOOL</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BALAWAT</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BALAWAT</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CONSERVATORY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JAMU</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JAMU</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FUNDUQ</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FUNDUQ</BuildingType>
+			<FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FUNDUQ</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HAMMER_MONUMENT</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BASILICA</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ORCHESTRA</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DOLMEN</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DOLMEN</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEXTILE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEXTILE</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KANTONE</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KANTONE</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SEWERS</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PESANTREN</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PESANTREN</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PESANTREN</BuildingType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PESANTREN</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PESANTREN</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOKURA</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOKURA</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AEDES</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AEDES</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BANYA</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_QADI_COURT</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_QADI_COURT</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_QADI_COURT</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_QADI_COURT</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_QADI_COURT</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALCAZAR</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALCAZAR</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALCAZAR</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TZOMPANTLI</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TZOMPANTLI</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TZOMPANTLI</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STANNARY</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STANNARY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INTIWASI</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INTIWASI</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INTIWASI</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INTIWASI</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_DESTINATION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INTIWASI</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SACBE</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SACBE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SACBE</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SACBE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SACBE</BuildingType>
+			<FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SACBE</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_O_CISTERN</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TOTEM_POLE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TOTEM_POLE</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHINA_STUPA</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHINA_STUPA</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SPHYNX</BuildingType>
+			<FlavorType>FLAVOR_FAITH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SILK</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SILK</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_SACRIFICIAL_ALTAR">
+			<TEXT>
+				Sacrificial Altar
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_SACRIFICIAL_ALTAR_HELP">
+			<TEXT>
+				A Sacrificial Altar removes unhappiness from its city at no maintenance and at reduced production. Provides +2 [ICON_PEACE] Faith.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_SACRIFICIAL_ALTAR_STRATEGY">
+			<TEXT>
+				The Sacrificial Altar is the unique courthouse of the Aztecs that can be built quickly and cheaply. Provides +2 [ICON_PEACE] Faith.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_SACRIFICIAL_ALTAR_DESC">
+			<Text>Sacrifice was not only believed to be a necessity in Aztec culture, but also cause for celebration.</Text>
+		</Row>
+		<Row Tag="TXT_WEIGH_HOUSE">
+			<TEXT>
+				Weigh House
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_WEIGH_HOUSE_HELP">
+			<TEXT>
+				A Weigh House adds 1 [ICON_HAPPINESS_1] Happiness in the city which it is built, as well as 1 [ICON_GOLD] Gold in place of the extra gold from trade routes provided by the market.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_WEIGH_HOUSE_STRATEGY">
+			<TEXT>
+				The Weigh House is the unique market of the Egyptians. It provides a small boost in happiness and doesn't require foriegn trade routes to boost gold.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_WEIGH_HOUSE_DESC">
+			<Text>A Weigh House is a place where traders can go to accurately weigh their goods. It improves commerce by instilling a sense of fairness.</Text>
+		</Row>
+		<Row Tag="TXT_SIEGE_WORKS">
+			<TEXT>
+				Siege Works
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_SIEGE_WORKS_HELP">
+			<TEXT>
+				The Siege Works add [ICON_STRENGTH] Defense and Health to a city, as well as an [ICON_GREAT_ENGINEER] Engineer Slot.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_SIEGE_WORKS_STRATEGY">
+			<TEXT>
+				The Siege Works is the unique castle of Ethiopia. It can be built much earlier than the castle at Mathematics and provides a slot for an Engineer.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_SIEGE_WORKS_DESC">
+			<Text>Sacrifice was not only believed to be a necessity in Aztec culture, but also cause for celebration.</Text>
+		</Row>
+		<Row Tag="TXT_SMELTER">
+			<TEXT>
+				Smelter
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_SMELTER_HELP">
+			<TEXT>
+				The Smelter reduces the cost of upgrading military units, allowing for cheap modernization.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_SMELTERS_STRATEGY">
+			<TEXT>
+				The Smelter is the unique forge of the Huns. It can be built slightly cheaper and allows for cheaper upgrading of military units.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_SMELTER_DESC">
+			<Text>By quickly reforging outdated or captured weapons, the Huns can quickly redeploy with new technology.</Text>
+		</Row>
+		<Row Tag="TXT_UNIQUE">
+			<TEXT>
+				Nothing
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_VINEYARD">
+			<TEXT>
+				Vineyard
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_VINEYARD_HELP">
+			<TEXT>
+				The Vineyard provides some [ICON_HAPPINESS_1] happiness, and after Flight is researched, [ICON_TOURISM] Tourism. It requires [ICON_RES_WINE] Wine or [ICON_RES_CITRUS] Citrus to build in a city.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_VINEYARD_STRATEGY">
+			<TEXT>
+				The Vineyard is a unique building of France. It provides culture, and after Flight is researched, Tourism.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_VINEYARD_DESC">
+			<Text>The stomping of the grapes is a lasting tradition that encourages participation from even those the most distanct from the craft. One could imagine a similar tradition forming from any sugar rich fruit.</Text>
+		</Row>
+		<Row Tag="TXT_LODGE">
+			<TEXT>
+				Alpine Lodge
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_LODGE_HELP">
+			<TEXT>
+				An Alpine Lodge provides a bit of gold in addition to the tourism generated by a hotel. It can also be built earlier, at electricity, and more cheaply.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_LODGE_STRATEGY">
+			<TEXT>
+				The Alpine Lodge is the unique hotel of Austira. It can be built at Electricity, and provides +2 [ICON_GOLD] Gold.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_LODGE_DESC">
+			<Text>Alpine Lodges are popular tourist destinations for skiing, and due to the cold, require no air conditioning. They often sell themselves in part as an escape from technology.</Text>
+		</Row>
+		<Row Tag="TXT_SPARTAN">
+			<TEXT>
+				Crypteia
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_SPARTAN_HELP">
+			<TEXT>
+				A Crypteia provides +15% Experience for all troops trained in this city and increases city [ICON_STRENGTH] Defense. It costs no maintenance and provides +1 [ICON_HAPPINESS_1] Happiness.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_SPARTAN_STRATEGY">
+			<TEXT>
+				The Crypteia is the unique barracks of Greece. It increases city defense, costs no maintenance and provides +1 [ICON_HAPPINESS_1] Happiness.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_SPARTAN_DESC">
+			<Text>Crypteia were groups of Spartan warriors who doubled as combat trainers for young Spartans and overseers or enforcers of the enslaved population.</Text>
+		</Row>
+		<Row Tag="TXT_MEDICAL_SCHOOL">
+			<TEXT>
+				Medical School
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_MEDICAL_SCHOOL_HELP">
+			<TEXT>
+				A Medical School provides +5 [ICON_FOOD] food and +1 [ICON_GREAT_SCIENTIST] Great Scientist Point.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_MEDICAL_SCHOOL_STRATEGY">
+			<TEXT>
+				The Medical School is the unique hospital of Austria. It can be built earlier at Architecture and provides 1 Great Scientist Point.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_MEDICAL_SCHOOL_DESC">
+			<Text>The Vienna Medical School was the world's second medical academy and was built with the express purpose of creating a science focused populace comfortable with innoculation in a pre-vaccine world.</Text>
+		</Row>
+		<Row Tag="TXT_BALAWAT">
+			<TEXT>
+				Balawat Gates
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_BALAWAT_HELP">
+			<TEXT>
+				The Balawat Gates provide +2 [ICON_CULTURE] culture and +2 [ICON_HAPPINESS_1] Happiness.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_BALAWAT_STRATEGY">
+			<TEXT>
+				The Balawat Gates is the unique castle of Assyria. It provides +2 [ICON_CULTURE] culture and +2 [ICON_HAPPINESS_1] Happiness and is cheaper than the castle it replaces.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_BALAWAT_DESC">
+			<Text>The Balawat Gates are a cultural icon of Assyria consisting of Bronze rings that reinforce and decorate palace gates.</Text>
+		</Row>
+		<Row Tag="TXT_CONSERVATORY">
+			<TEXT>
+				Slash and Burn Farmstead
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_CONSERVATORY_HELP">
+			<TEXT>
+				The Slash and Burn Farmstead is the unique Water Mill of Brazil. It has an [ICON_GREAT_ENGINEER] Engineer slot in addition to the usual benefits of a Water Mill.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_CONSERVATORY_STRATEGY">
+			<TEXT>
+				The Engineer slot gives extra [ICON_PRODUCTION] Production and Great Person Points. Build near rivers so you can use this building to offset the low Production of jungles. The Great Engineers this produces are ideal to grabbing World Wonders you otherwise would be unable to win the Wonder Race for. They can also be used to create Manufacturies for longer term boosts, but be careful to leave yourself enough jungle tiles for your Brazilwood Camps later on.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_CONSERVATORY_DESC">
+			<Text>Long before European colonists landed in the Americas, Brazillian natives were practicing slash and burn farming. The practice was completed simply by chopping down trees in strategic positions to create a more flammable landscape, then setting it ablaze. This creates flat fertile land that is ideal for agriculture. There is some debate as to the sustainability of such practices, but the immediate consquences were well managed through reforestation and general moderation. [NEWLINE][NEWLINE]With the demands to be a profitable colony came demands for exports, which lead late 14th century European colonists to harshly overwork the land with these techniques they picked up from the natives. The establishment of large permanent monocrop farms devistated the local flora. It wasn't until the 19th century that this practice became critically examined on a large scale. Agronomy schools were established to assess agricultural techniques in the context of long term sustainability and, of course, profitability. </Text>
+		</Row>
+		<Row Tag="TXT_JAMU">
+			<TEXT>
+				Jamu Plaza
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_JAMU_HELP">
+			<TEXT>
+				A Jamu Plaza bolsters growth in your cities and provides bonus [ICON_FOOD] food to atolls in addition to the normal benefits of a market.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_JAMU_STRATEGY">
+			<TEXT>
+				The Jamu Plaza  is the unique market of Indonesia. It provides a small boost to growth and provides bonus [ICON_FOOD] food to atolls in addition to the normal benefits of a market.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_JAMU_DESC">
+			<Text>Jamu is a traditional form of medicine from Indonesia served as a drink. Recipes for Jamu are numerous, each with their own proposed benefits. The variance in their recipes is due in part to the wide array of ingredients available in the many islands of Indonesia. Many such ingredients cannot be easily grown elsewhere, being adapted to particular small islands. </Text>
+		</Row>
+		<Row Tag="TXT_BOLLYWOOD">
+			<TEXT>
+				Bollywood Studio
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_BOLLYWOOD_STRATEGY">
+			<TEXT>
+				The Bollywood Studio  is the unique broadcast tower of India. It is obtained later, at Plastics. It provides a [ICON_GREAT_WRITER] writer specialist slot in addition to the normal benefits of a broadcast tower.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_BOLLYWOOD_DESC">
+			<Text>Bollywood films are known for their whimsical tone and trademark music. While barely cracking the top ten in total box office sales by country, Bollywood films have a distinct style all their own.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LEGISLATURE">
+			<TEXT>
+				Polling Station
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LEGISLATURE_HELP">
+			<TEXT>
+				A Polling Station adds 1 [ICON_CULTURE] Culture and 2 [ICON_HAPPINESS_1] Happiness in the city which it is built.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LEGISLATURE_STRATEGY">
+			<TEXT>
+				A Polling Station is a government building available only to Freedom Civilizations that raises the [ICON_CULTURE] and [ICON_HAPPINESS_1] of a city.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LEGISLATURE_DESC">
+			<Text>The growth of civil society demanded the devolution of powers to the local in a system that became known as federalism. It is a system of division of powers between a federal government and subordinate geopoltical entities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FUNDUQ">
+			<Text>Funduq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FUNDUQ_HELP">
+			<Text>Improves the ranged and [ICON_GOLD] Gold yield of [ICON_INTERNATIONAL_TRADE] land trade routes. Only Arabia may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FUNDUQ_STRATEGY">
+			<Text>The Arabian unique building Funduq replaces the Caravansary. Land routes originating from this City have a 50% increase in range and produce an additional 4 [ICON_GOLD] Gold when connecting to another civilization. Unlike the Caravansary, the Funduq also generates [ICON_GOLD] Gold without any trade routes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FUNDUQ_TEXT">
+			<Text>
+				As Islam spread, the Persian tradition of the caravansaries took root in the Arabian Caliphate. In Arabic, this was called a funduq. These were inns and resting places for travelers and their animals. Fresh water was provided for human and animal consumption, and some had elaborate baths. They also kept fodder for animals and had shops that would purchase and sell goods, and some levied taxes on merchants passing through.
+			</Text>
+		</Row>
+		<Row Tag="TXT_BASILICA">
+			<Text>Basilica</Text>
+		</Row>
+		<Row Tag="TXT_BUILDING_BASILICA_TEXT">
+			<Text>
+				The Early Christian purpose-built basilica was the cathedral basilica of the bishop, on the model of the semi-public secular basilicas, and its growth in size and importance signalled the gradual transfer of civic power into episcopal hands, which was under way in the 5th century. Basilicas in this sense are divided into classes, the major ("greater") basilicas and the minor basilicas; there are three other papal and several pontifical minor basilicas in Italy, and over 1,400 lesser basilicas around the world.[NEWLINE][NEWLINE]Prime examples of early Byzantine architecture date from Justinian I's reign and survive in Ravenna and Istanbul, as well as in Sofia (the Church of St Sophia). One of the great breakthroughs in the history of Western architecture occurred when Justinian's architects invented a complex system providing for a smooth transition from a square plan of the church to a circular dome by means of pendentives.
+			</Text>
+		</Row>
+		<Row Tag="TXT_BUILDING_BASILICA_STRATEGY">
+			<Text>The Basilica is a Byzantine unique building that boosts a city's [ICON_PEACE] Faith, moreso than the Temple it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_BUILDING_BASILICA_HELP">
+			<Text>Greatly boosts a city's [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HAMMER_MONUMENT">
+			<Text>Diorite Stele</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HAMMER_MONUMENT_HELP">
+			<Text>Increases the [ICON_CULTURE] Culture of a city. Only Babylon may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HAMMER_MONUMENT_STRATEGY">
+			<Text>The Diorite Stele is a Babylonian unique building that increases the [ICON_CULTURE] Culture of a city. Unlike the Monument it replaces, the Diorite Stele costs no maintenance and yields additional [ICON_CULTURE] Culture upon the discovery of Writing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HAMMER_MONUMENT_TEXT">
+			<Text>The Code of Hammurabi is a well-preserved Babylonian law code of ancient Mesopotamia, dating back to about 1754 BC. It is one of the oldest deciphered writings of significant length in the world. The sixth Babylonian king, Hammurabi, enacted the code, and partial copies exist on a human-sized stone stele and various clay tablets. One nearly complete example of the Code survives today, on a diorite stele in the shape of a huge index finger, 2.25-meters (7.4 ft) tall. The stele was probably erected at Sippar, city of the sun god Shamash, god of justice, who is depicted handing authority to the king in the image at the top of the stele.[NEWLINE][NEWLINE]The Code of Hammurabi is the longest surviving text from the Old Babylonian period. The code has been seen as an early example of a fundamental law regulating a government. The code is also one of the earliest examples of the idea of presumption of innocence, and it also suggests that both the accused and accuser have the opportunity to provide evidence</Text>
+		</Row>
+		<Row Tag="TXT_ORCHESTRA">
+			<Text>Orchestra</Text>
+		</Row>
+		<Row Tag="TXT_BUILDING_ORCHESTRA_HELP">
+			<Text>Greatly increases the [ICON_CULTURE] Culture of a city. Only Austria may build it.</Text>
+		</Row>
+		<Row Tag="TXT_BUILDING_ORCHESTRA_STRATEGY">
+			<Text>The Orchestra is an Austrian unique building that increases the [ICON_CULTURE] Culture of a city, moreso than the Opera House it replaces. Requires an Amphitheater in the city.</Text>
+		</Row>
+		<Row Tag="TXT_BUILDING_ORCHESTRA_TEXT">
+			<Text>An orchestra is a large instrumental ensemble that contains sections of string, brass, woodwind, and percussion instruments. Other instruments such as the piano and celesta may sometimes be grouped into a fifth section such as a keyboard section or may stand alone, as may the concert harp and electric and electronic instruments. The orchestra grew by accretion throughout the 18th and 19th centuries, but changed very little in composition during the course of the 20th century.[NEWLINE][NEWLINE]Vienna has long been an important centre of musical innovation. Composers of the 18th and 19th centuries were drawn to the city by the patronage of the Habsburgs, and made Vienna the European capital of classical music. Wolfgang Amadeus Mozart, Ludwig van Beethoven, and Johann Strauss, Jr., among others, were associated with the city. Vienna's status began its rise as a cultural center in the early 16th century, and was focused around instruments including the lute. The Vienna Philharmonic, founded in 1842, is regularly considered one of the finest orchestras in the world.</Text>
+		</Row>
+		<Row Tag="TXT_DOLMEN">
+			<Text>Dolmen</Text>
+		</Row>
+		<Row Tag="TXT_BUILDING_DOLMEN_HELP">
+			<Text>+1 [ICON_CULTURE] Culture for all stone, marble, and moutains.</Text>
+		</Row>
+		<Row Tag="TXT_DOLMEN_STRATEGY">
+			<Text>The Dolmen is France's unique version of the Stone Works. It has no requirements, and produces [ICON_CULTURE] culture instead of [ICON_PRODUCTION] production.</Text>
+		</Row>
+		<Row Tag="TXT_DOLMEN_TEXT">
+			<Text>A dolmen is an ancient burial structure built out of large stacked stones. Together with the other ancient stone structures of France, they are known as the Carnac Stones.</Text>
+		</Row>
+		<Row Tag="TXT_TEXTILE">
+			<Text>Textile Mill</Text>
+		</Row>
+		<Row Tag="TXT_TEXTILE_HELP">
+			<Text>The Textile Mill is England's unique version of the Cloth Mill. It produces double the [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_TEXTILE_TEXT">
+			<Text>In the early days of the Industrial Revolution, before demand for more advanced machine parts became the primary target of industrialized production, large scale textile mills were already starting to urbanize industrialized nations.</Text>
+		</Row>
+		<Row Tag="TXT_KANTONE">
+			<Text>Kantone</Text>
+		</Row>
+		<Row Tag="TXT_KANTONE_HELP">
+			<Text>The Kantone is Germany's unique version of the Barracks. In addition to the XP, it gives a city +2 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KANTONE_TEXT">
+			<Text>Kantones were governmental subdivisions designed to allow for easy levying of taxes and troops and improved public works organization.</Text>
+		</Row>
+		<Row Tag="TXT_SEWER">
+			<Text>Sewer</Text>
+		</Row>
+		<Row Tag="TXT_SEWER_HELP">
+			<Text>The Sewer is India's unique version of the aqueduct. It can be built much earlier, at Masonry.</Text>
+		</Row>
+		<Row Tag="TXT_SEWER_TEXT">
+			<Text>The sewers of northern India were the first sanitation systems of their time. </Text>
+		</Row>
+		<Row Tag="TXT_PESANTREN">
+			<Text>Pesentren</Text>
+		</Row>
+		<Row Tag="TXT_PESANTREN_HELP">
+			<Text>The Pesantren is Indonesia's unique version of a public school. It produces [ICON_PEACE] faith and [ICON_RELIGION] religious pressure in addition to [ICON_SCIENCE] science.</Text>
+		</Row>
+		<Row Tag="TXT_PESANTREN_TEXT">
+			<Text>A Pesantren is an Islamic boarding school. </Text>
+		</Row>
+		<Row Tag="TXT_HOKURA">
+			<Text>Hokura</Text>
+		</Row>
+		<Row Tag="TXT_HOKURA_HELP">
+			<Text>The Hokura is Japan's unique version of a temple. It produces [ICON_PEACE] faith for mountains and extra [ICON_CULTURE] culture in addition to the effects of a temple.</Text>
+		</Row>
+		<Row Tag="TXT_HOKURA_TEXT">
+			<Text>Hokura are temples dedicated to local Kami that protect the populace. </Text>
+		</Row>
+		<Row Tag="TXT_AEDES">
+			<Text>Aedes</Text>
+		</Row>
+		<Row Tag="TXT_AEDES_HELP">
+			<Text>The Aedes is Romes's unique version of a temple. It produces +1 [ICON_HAPPINESS_1] happiness for mountains and costs no maintenance in addition to the effects of a temple.</Text>
+		</Row>
+		<Row Tag="TXT_AEDES_TEXT">
+			<Text>The word temple does derive from latin, but it referred to the area, not the building. </Text>
+		</Row>
+		<Row Tag="TXT_BANYA">
+			<Text>Banya</Text>
+		</Row>
+		<Row Tag="TXT_BANYA_HELP">
+			<Text>The Banya is Russia's unique version of a garden. Provides +1 [ICON_FOOD] food to all snow and tundra tiles, as well as an increase to great people generation.</Text>
+		</Row>
+		<Row Tag="TXT_BANYA_TEXT">
+			<Text>Banya are saunas in Russia. They are cultural mainstays and provide a reprieve from harsh winters, which can be especially welcome to permafrost farmers, experts in revitalizing soil. Through a combination of aggressive irrigation and fertilization using local salmon, small agrarian communities have persisted in even the coldest parts of Russia. </Text>
+		</Row>
+		<Row Tag="TXT_QADI_COURT">
+			<Text>Qadi Court</Text>
+		</Row>
+		<Row Tag="TXT_QADI_COURT_HELP">
+			<Text>The Qadi Court is Songhai's unique version of a circus. It provides +2 [ICON_GOLD] Gold and [ICON_HAPPINESS_1] as well +1 [ICON_PEACE] faith.</Text>
+		</Row>
+		<Row Tag="TXT_QADI_COURT_TEXT">
+			<Text>Qadi are religious judges that oversee theocratic law. </Text>
+		</Row>
+		<Row Tag="TXT_ALCAZAR">
+			<Text>Alcazar</Text>
+		</Row>
+		<Row Tag="TXT_ALCAZAR_HELP">
+			<Text>The Alcazar is Spain's unique version of a castle. It provides +2 [ICON_PEACE] faith and +15 Experience to units trained in this city in addition to the normal benefits of a castle.</Text>
+		</Row>
+		<Row Tag="TXT_ALCAZAR_TEXT">
+			<Text>The Alcazar are castles built during the Muslim rule of Spain. They were used as palaces, and continued to be used as such when overtaken by Christians.</Text>
+		</Row>
+		<Row Tag="TXT_TZOMPANTLI">
+			<Text>Tzompantli</Text>
+		</Row>
+		<Row Tag="TXT_TZOMPANTLI_HELP">
+			<Text>The tzompantli is the Aztec's unique version of a wall. It provides +1 [ICON_Culture] culture in addition to the normal benefits of a wall.</Text>
+		</Row>
+		<Row Tag="TXT_TZOMPANTLI_TEXT">
+			<Text>Tzompantli were walls of skulls used to intimidate enemies. Not structurally sound, but they send a message.</Text>
+		</Row>
+		<Row Tag="TXT_STANNARY">
+			<Text>Stannary</Text>
+		</Row>
+		<Row Tag="TXT_STANNARY_HELP">
+			<Text>The Stannary is the Celts's unique version of a forge. It provides +2 [ICON_PRODUCTION] Production from Iron and Copper, as well as +15% production rate on land units. It does not require iron like the forge it replaces, and can be built earlier, at bronze working.</Text>
+		</Row>
+		<Row Tag="TXT_STANNARY_TEXT">
+			<Text>Stannaries were forging facilities that focused on the use of copper, tin, and bronze.</Text>
+		</Row>
+		<Row Tag="TXT_INTIWASI">
+			<Text>Intiwasi</Text>
+		</Row>
+		<Row Tag="TXT_INTIWASI_HELP">
+			<Text>Intiwasi is the Inca's unique version of the Grand Temple. It provides +4 [ICON_GOLD] from [ICON_INTERNATIONAL_TRADE] trade routes, and +2 [ICON_GOLD] from mountains in addition to the usual benefits of a Grand Temple.</Text>
+		</Row>
+		<Row Tag="TXT_INTIWASI_TEXT">
+			<Text>
+				Intiwasi was the most important temple in the Inca Empire, dedicated primarily to Inti, the Sun God. It was one of the most revered temples of the capital city of Cusco. Pachacuti Inca Yupanqui rebuilt Cuzo and the House of the Sun, enriching it with more oracles and edifices, and adding plates of fine gold. He provided vases of gold and silver for the Mama-cunas, nuns, to use in the veneration services. Finally, he took the bodies of the seven deceased Incas, and enriched them with masks, head-dresses, medals, bracelets, sceptres of gold, placing them on a golden bench.[NEWLINE][NEWLINE]
+				The Spanish colonists built the Church of Santo Domingo on the site, demolishing the temple and using its foundations for the cathedral. Construction took most of a century. This is one of numerous sites where the Spanish incorporated Inca stonework into the structure of a colonial building. Major earthquakes severely damaged the church, but the Inca stone walls, built out of huge, tightly-interlocking blocks of stone, still stand due to their sophisticated stone masonry.
+			</Text>
+		</Row>
+		<Row Tag="TXT_SACBE">
+			<Text>Sacbe</Text>
+		</Row>
+		<Row Tag="TXT_SACBE_HELP">
+			<Text>The Sacbe is the Maya's unique version of the caravanasary. It provides +1 [ICON_CULTURE] Culture, [ICON_PEACE] Faith, and [ICON_PRODUCTION] Production in addition to the usual benefits of a caravanasary. It is available earlier, at animal husbandry.</Text>
+		</Row>
+		<Row Tag="TXT_SACBE_TEXT">
+			<Text>The Sacbe were incredibly well made and ornate roads. The care put into them has baffled historians, because without large pack animals and carts, there is no obvious need to undertake such large projects.</Text>
+		</Row>
+		<Row Tag="TXT_O_CISTERN">
+			<Text>Cistern</Text>
+		</Row>
+		<Row Tag="TXT_O_CISTERN_HELP">
+			<Text>The Cistern is the Ottoman's unique version of the Aqueduct. It provides +2 [ICON_FOOD] on Lakes in addition to the usual benefits of an Aqueduct.</Text>
+		</Row>
+		<Row Tag="TXT_O_CISTERN_TEXT">
+			<Text>A cistern is a building usually carved from solid stone with the purpose of storing water. It is useful in areas of inconsitant rainfail and for irrigation.</Text>
+		</Row>
+		<Row Tag="TXT_TOTEM_POLE">
+			<Text>Totem Pole</Text>
+		</Row>
+		<Row Tag="TXT_TOTEM_POLE_HELP">
+			<Text>The Totem Pole is the Shoshone's unique version of the Monument. It provides +1 [ICON_PEACE] faith after researching trapping in addition to the usual benefits of a Monument.</Text>
+		</Row>
+		<Row Tag="TXT_TOTEM_POLE_TEXT">
+			<Text>Totem poles show reverance to local spirits and important animals.</Text>
+		</Row>
+		<Row Tag="TXT_CHINA_STUPA">
+			<Text>Stupa</Text>
+		</Row>
+		<Row Tag="TXT_CHINA_STUPA_HELP">
+			<Text>The Stupa is China's unique version of the Temple. It provides +2 [ICON_Culture] culture in addition to the usual benefits of a Temple.</Text>
+		</Row>
+		<Row Tag="TXT_CHINA_STUPA_TEXT">
+			<Text>Stupas are places of worship in confusionism. They have a focus both on spiritual enlightenment and societal organization.</Text>
+		</Row>
+		<Row Tag="TXT_CHINA_SILK">
+			<Text>Atelier</Text>
+		</Row>
+		<Row Tag="TXT_CHINA_SILK_HELP">
+			<Text>The Atelier China's unique cloth mill. It can be built much earlier at Calendars and extends the range of [ICON_INTERNATIONAL_TRADE] trade routes in addition to the usual benefits of a Cloth Mill.</Text>
+		</Row>
+		<Row Tag="TXT_CHINA_SILK_TEXT">
+			<Text>China closely guarded the secrets of silk production in order to gain dominance in the trade of high grade textiles over the entire Eastern hemisphere. Even when the fundamentals of their secrets were leaked by savvy merchants, it took centuries before the scale of their operation could be matched.</Text>
+		</Row>
+		<Row Tag="TXT_BANCO">
+			<Text>Banco Field</Text>
+		</Row>
+		<Row Tag="TXT_BANCO_TEXT">
+			<Text>The Banco Field is Songhai's unique Stone Works. It provides more base [ICON_PRODUCTION] production and isn't related to stone. It provides no happiness.</Text>
+		</Row>
+		<Row Tag="TXT_EGYPT_SPHYNX">
+			<Text>The Sphynx</Text>
+		</Row>
+		<Row Tag="TXT_EGYPT_SPHYNX_HELP">
+			<Text>The Sphynx is Egypt's unique Grand Temple. It provides writer points, [ICON_STRENGTH] defense, and [ICON_CULTURE] culture in addition to the usual benefits of a Grand Temple.</Text>
+		</Row>
+		<Row Tag="TXT_EGYPT_SPHYNX_TEXT">
+			<Text>The Sphynx in a symbol of wisdom and strength that guards over the tombs of great kings.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

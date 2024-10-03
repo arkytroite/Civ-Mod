@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/10/2013 1:39:20 PM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Set StrategicResourceMod="100"
+				 Level="2"
+				 PolicyBranchType="POLICY_BRANCH_AUTOCRACY" />
+			<Where Type="POLICY_THIRD_ALTERNATIVE" />
+		</Update>
+	</Policies>
+	<Policy_CapitalYieldChanges>
+		<Delete PolicyType="POLICY_THIRD_ALTERNATIVE" />
+	</Policy_CapitalYieldChanges>
+	
+	<Resources>
+		<Update>
+			<Set PolicyReveal="POLICY_THIRD_ALTERNATIVE" />
+			<Where Type="RESOURCE_HIDDEN_ARTIFACTS" />
+		</Update>
+	</Resources>
+	
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_THIRD_ALTERNATIVE</PolicyType>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_THIRD_ALTERNATIVE</PolicyType>
+			<ImprovementType>IMPROVEMENT_CITY_RUINS</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_THIRD_ALTERNATIVE</PolicyType>
+			<ImprovementType>IMPROVEMENT_ARCHAEOLOGICAL_DIG</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>12</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+
+	<Policy_Flavors>
+		<Delete PolicyType="POLICY_THIRD_ALTERNATIVE" />
+		<Row>
+			<PolicyType>POLICY_THIRD_ALTERNATIVE</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>33</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_THIRD_ALTERNATIVE</PolicyType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>11</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE" />
+			<Set Text="Imperial Legacy" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Imperial Legacy[ENDCOLOR][NEWLINE][ICON_BULLET]+12 [ICON_RESEARCH] Science from dig sites when conducting Archaeological Digs.[NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] Culture from Landmarks and +10 for City Ruins.[NEWLINE] +3 [ICON_CULTURE] from Citadels." />
+		</Update>
+	</Language_en_US>
+	
+	<Language_RU_RU>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE" />
+			<Set Text="Имперское наследие" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Имперское наследие[ENDCOLOR][NEWLINE][ICON_BULLET]Открывает скрытые места для раскопок.[NEWLINE][ICON_BULLET]+2 [ICON_RESEARCH] науки от памятников." />
+		</Update>
+	</Language_RU_RU>
+
+	<Language_ES_ES>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE" />
+			<Set Text="Legado Imperial" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Legado Imperial[ENDCOLOR][NEWLINE][ICON_BULLET]Revela enclaves históricos ocultos.[NEWLINE][ICON_BULLET]+2 de [ICON_RESEARCH] Ciencia por Sitios de interés." />
+		</Update>
+	</Language_ES_ES>
+</GameData>

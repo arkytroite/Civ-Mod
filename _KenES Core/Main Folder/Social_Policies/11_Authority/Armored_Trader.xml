@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/20/2022 12:15:02 AM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_ARDL_CARGO_SHIP</Type>
+			<Description>TXT_KEY_UNIT_ARDL_CARGO_SHIP</Description>
+			<DefaultUnit>UNIT_ARDL_CARGO_SHIP</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	
+	<Units>
+		<Row>
+			<Class>UNITCLASS_ARDL_CARGO_SHIP</Class>
+			<Type>UNIT_ARDL_CARGO_SHIP</Type>
+			<PrereqTech>TECH_SAILING</PrereqTech>
+			<Cost>100</Cost>
+			<HurryCostModifier>20</HurryCostModifier>
+			<NoMaintenance>true</NoMaintenance>
+			<Moves>1</Moves>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_TRADE_UNIT</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_ARDL_CARGO_SHIP</Description>
+			<Civilopedia>TXT_KEY_CIV5_ARDL_CARGO_SHIP_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_ARDL_CARGO_SHIP_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_ARDL_CARGO_SHIP_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>10</AdvancedStartCost>
+			<CombatLimit>0</CombatLimit>
+			<XPValueDefense>3</XPValueDefense>
+			<Trade>true</Trade>
+			<Immobile>true</Immobile>
+			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
+			<UnitArtInfo>ART_DEF_UNIT_CARGO_SHIP</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION2_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>4</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+		</Row>
+	</Units>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_ARDL_CARGO_SHIP</UnitType>
+			<FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARDL_CARGO_SHIP</UnitType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARDL_CARGO_SHIP</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_ARDL_CARGO_SHIP">
+			<Text>Armored Cargo Ship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ARDL_CARGO_SHIP_HELP">
+			<Text>Only availible with the Armed Trader policy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ARDL_CARGO_SHIP_TEXT">
+			<Text>Placeholder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARGO_SHIP_STRATEGY">
+			<Text>Armored Cargo Ship are hardier vessels than defenseless cargo ships. Very useful for not loosing your trade routes every turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ARDL_CARGO_SHIP">
+			<Text>Armored Cargo Ship are hardier vessels than defenseless cargo ships. Very useful for not loosing your trade routes every turn.</Text>
+		</Row>
+
+	</Language_en_US>
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+  
+</GameData>

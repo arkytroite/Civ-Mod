@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/6/2013 1:15:40 AM -->
+<GameData>
+	<UnitGameplay2DScripts>
+		<Row UnitType="UNIT_GUNGDO">
+			<SelectionSound>AS2D_SELECT_CROSSBOWMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CROSSBOWMAN</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+	
+	<Units>
+		<Row>
+			<Class>UNITCLASS_CROSSBOWMAN</Class>
+			<Type>UNIT_GUNGDO</Type>
+			<PrereqTech>TECH_MACHINERY</PrereqTech>
+			<Combat>13</Combat>
+			<RangedCombat>18</RangedCombat>
+			<Cost>120</Cost>
+			<FaithCost>240</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<Range>2</Range>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_GUNGDO</Description>
+			<Civilopedia>TXT_KEY_UNIT_GUNGDO_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_GUNGDO_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_GUNGDO_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_INDUSTRIALIZATION</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_GATLINGGUN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_GUNGDO</UnitArtInfo>
+			<UnitFlagAtlas>GUNGDO_FLAG</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>GUNGDO_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_GUNGDO</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>		
+	</Unit_AITypes>
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_GUNGDO</UnitType>
+			<UnitClassType>UNITCLASS_GATLINGGUN</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_GUNGDO</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GUNGDO</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GUNGDO</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<UnitPromotions>
+	<Row>
+		<Type>PROMOTION_GUNGDO</Type>
+		<Description>TXT_KEY_PROMOTION_GUNGDO</Description>
+		<Help>TXT_KEY_PROMOTION_GUNGDO_HELP</Help>
+		<Sound>AS2D_IF_LEVELUP</Sound>
+		<CannotBeChosen>true</CannotBeChosen>
+		<OrderPriority>5</OrderPriority>
+		<PortraitIndex>59</PortraitIndex>
+		<IconAtlas>ABILITY_ATLAS</IconAtlas>
+		<PediaType>PEDIA_ATTRIBUTES</PediaType>
+		<PediaEntry>TXT_KEY_PROMOTION_GUNGDO</PediaEntry>
+	</Row>
+		</UnitPromotions>
+	
+	<UnitPromotions_UnitCombatMods>
+		<Row>
+			<PromotionType>PROMOTION_GUNGDO</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<Modifier>33</Modifier>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_GUNGDO</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<Modifier>33</Modifier>
+		</Row>
+	</UnitPromotions_UnitCombatMods>
+	
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_GUNGDO</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GUNGDO</UnitType>
+			<PromotionType>PROMOTION_GUNGDO</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_GUNGDO">
+			<Text>Gungdo Archer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GUNGDO_HELP">
+			<Text>Ranged Unit. Only Korea may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GUNGDO_STRATEGY">
+			<Text>The Gungdo Archer is a Korean unique unit. Unlike the Crossbowman it replaces, the Gungdo Archer receives a combat bonus against mounted units and other archer units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GUNGDO_TEXT">
+			<Text>
+				Gungdo is the art of Korean Traditional Archery. The Korean Bow is a water buffalo horn-based composite reflex bow, standardized about 1900 CE from the variety of such weapons in earlier use, and uses with thumb draw. The Korean Thumb ring is different from the Manchu, Mongol, or the Turkish Thumb Ring. It comes in two styles, male and female. Male thumb ring sticks out as an extra appendage, while the female thumb ring covers the front joint of the thumb only. Also, the arrow is laid on the right side of the bow, unlike the western bow, where the arrow is laid on the left side of the bow.[NEWLINE][NEWLINE]With the Mongol Conquest of Korea, archery became the main stay of Korean military. Sword and spear of Korea and China did nothing to stop the Mongol archery, so were quickly discarded in favor of the ultimate weapon, the composite bow. Under the Joseon dynasty, archery reached its zenith, resulting in the invention of pyeonjeon, which saw great service against the Japanese in 1592 and against the Manchus in early 1600s. It was the Korean composite bow, referred to as the "half bow" by the Japanese, that halted the Japanese at the Battle of Haengju as well as at the Battle of Ulsan. Although Joseon adopted the arquebus during the Imjin War, the composite bow remained the main stay of its Army until the reforms of 1894.
+			</Text>
+		</Row>
+			<Row Tag="TXT_KEY_PROMOTION_GUNGDO">
+				<Text>Gungdo Training</Text>
+			</Row>
+			<Row Tag="TXT_KEY_PROMOTION_GUNGDO_HELP">
+				<Text>+33 Combat bonus against archer and mounted units.</Text>
+			</Row>
+	
+	</Language_en_US>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_KOREA</CivilizationType>
+			<UnitClassType>UNITCLASS_CROSSBOWMAN</UnitClassType>
+			<UnitType>UNIT_GUNGDO</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>GUNGDO_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>koreagungdo256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>GUNGDO_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>koreagungdo128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>GUNGDO_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>koreagungdo80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>GUNGDO_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>koreagungdo64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>GUNGDO_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>koreagungdo45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>GUNGDO_FLAG</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>IconGungdo32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+	<ArtDefine_StrategicView>
+		<Replace>
+			<StrategicViewType>ART_DEF_UNIT_GUNGDO</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>IconGungdoSV.dds</Asset>
+		</Replace>
+	</ArtDefine_StrategicView>
+</GameData>

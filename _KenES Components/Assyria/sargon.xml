@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/24/2015 8:31:48 AM -->
+<GameData>
+	<Buildings>
+	<Row>
+	<Type>BUILDING_SARGON_SHRINE</Type>
+	<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
+	<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
+	<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+	<Cost>100</Cost>
+	<GoldMaintenance>2</GoldMaintenance>
+	<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+	<Description>TXT_KEY_BUILDING_SARGON_SHRINE</Description>
+	<Civilopedia>TXT_KEY_BUILDING_SARGON_SHRINE_TEXT</Civilopedia>
+	<Strategy>TXT_KEY_BUILDING_SARGON_SHRINE_STRATEGY</Strategy>
+	<ArtDefineTag>TEMPLE</ArtDefineTag>
+	<ConquestProb>66</ConquestProb>
+	<Defense>250</Defense>
+	<MinAreaSize>-1</MinAreaSize>
+	<HurryCostModifier>25</HurryCostModifier>
+	<IconAtlas>SARGON_SHRINE_ATLAS</IconAtlas>
+	<PortraitIndex>0</PortraitIndex>
+	</Row>
+	</Buildings>
+	
+	<Building_Flavors>
+	<Row>
+		<BuildingType>BUILDING_SARGON_SHRINE</BuildingType>
+		<FlavorType>FLAVOR_RELIGION</FlavorType>
+		<Flavor>25</Flavor>
+	</Row>
+		<Row>
+			<BuildingType>BUILDING_SARGON_SHRINE</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		</Building_Flavors>
+
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_ASSYRIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_SARGON_SHRINE</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Building_YieldChanges>
+	<Row>
+		<BuildingType>BUILDING_SARGON_SHRINE</BuildingType>
+		<YieldType>YIELD_FAITH</YieldType>
+		<Yield>2</Yield>
+	</Row>
+	</Building_YieldChanges>
+
+	<Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_SARGON_SHRINE</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>5</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SARGON_SHRINE</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>5</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SARGON_SHRINE</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>5</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_SARGON_SHRINE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_SARGON_SHRINE">
+			<Text>Lamassu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SARGON_SHRINE_HELP">
+			<Text>Increases the [ICON_PEACE] Faith and [ICON_RANGE_STRENGTH] Combat Strength of a city. Only Assyria may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SARGON_SHRINE_STRATEGY">
+			<Text>The Lamassu is an Assyrian unique construction that increases the [ICON_PEACE] Faith of a city. Unlike the Temple it replaces, the Lamassu also slightly increases the [ICON_RANGE_STRENGTH] Combat Strength of the city. All units trained in a city with a Lamassu receive an additional 5 XP.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SARGON_SHRINE_TEXT">
+			<Text>A lamassu is an Assyrian protective deity, often depicted with a bull or lion's body, eagle's wings, and human's head. The Assyrians typically prominently placed lamassu at the entrances of cities and palaces. From the front they appear to stand, and from the side, walk.[NEWLINE][NEWLINE]To protect houses, the lamassu were engraved in clay tablets, which were then buried under the door's threshold. They were often placed as a pair at the entrance of palaces. At the entrance of cities, they were sculpted in colossal size, and placed as a pair, one at each side of the door of the city, that generally had doors in the surrounding wall, each one looking towards one of the cardinal points.</Text>
+		</Row>
+	</Language_en_US>
+
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>SARGON_SHRINE_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>sargon256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SARGON_SHRINE_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>sargon128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SARGON_SHRINE_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>sargon64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SARGON_SHRINE_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>sargon45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

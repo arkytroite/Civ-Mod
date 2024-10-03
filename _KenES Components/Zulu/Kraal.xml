@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/3/2013 5:31:33 PM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_KRAAL</Type>
+			<BuildingClass>BUILDINGCLASS_STABLE</BuildingClass>
+			<Cost>100</Cost>
+			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
+			<GoldMaintenance>1</GoldMaintenance>
+			<Help>TXT_KEY_BUILDING_KRAAL_HELP</Help>
+			<Description>TXT_KEY_BUILDING_KRAAL</Description>
+			<Civilopedia>TXT_KEY_BUILDINGS_KRAAL_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_KRAAL_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_STABLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>KRAAL_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+
+	<Building_LocalResourceOrs>
+		<Row>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+	</Building_LocalResourceOrs>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_ZULU</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_STABLE</BuildingClassType>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Language_en_US>
+
+		
+		<Row Tag="TXT_KEY_BUILDING_KRAAL">
+			<Text>Boma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_KRAAL_HELP">
+			<Text>Bonus [ICON_PRODUCTION] Production and [ICON_CULTURE] Culture for every [ICON_RES_COW] Cow, [ICON_RES_SHEEP] Sheep, and [ICON_RES_HORSE] Horse tile worked by this city. Only the Zulus may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_KRAAL_STRATEGY">
+			<Text>The Boma is a Zulu unique building that replaces the Stable. It increases the [ICON_PRODUCTION] Production and [ICON_CULTURE] Culture of every [ICON_RES_COW] Cow, [ICON_RES_SHEEP] Sheep, and [ICON_RES_HORSE] Horse tile worked by this city, unlike the Stable it replaces. Available upon the discover of Animal Husbandry, but does not increase the rate at which mounted units are trained. Requires an improved source of [ICON_RES_COW] Cows, [ICON_RES_SHEEP] Sheep, or [ICON_RES_HORSE] Horses.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDINGS_KRAAL_TEXT">
+			<Text>A Boma is an enclosure for cattle, goats, and sheep. This Boma itself is also often referred to as a Kraal, the term denoting the structure surrounding the village. [NEWLINE][NEWLINE]The Zulu man loves his cattle more than anything else. He will spend hours just watching the herd - knowing every individual in it. Cattle mean status, wealth, and power. Frequently, Zulu chiefs would be buried in their cattle bomas.</Text>
+		</Row>
+	</Language_en_US>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>KRAAL_ICON_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>kraal_256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>KRAAL_ICON_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>kraal_128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>KRAAL_ICON_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>kraal_64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>KRAAL_ICON_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>kraal_45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

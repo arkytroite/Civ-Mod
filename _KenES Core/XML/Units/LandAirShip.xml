@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/17/2021 11:33:12 PM -->
+<GameData>
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_AIRSHIP</Type>
+			<Description>TXT_KEY_UNIT_AIRSHIP_CUS</Description>
+			<DefaultUnit>UNIT_AIRSHIP</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_LAND_IRONCLAD</Type>
+			<Description>TXT_KEY_UNIT_LAND_IRONCLAD_CUS</Description>
+			<DefaultUnit>UNIT_LAND_IRONCLAD</DefaultUnit>
+		</Row>
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_AIRSHIP</Class>
+			<Type>UNIT_AIRSHIP</Type>
+			<PrereqTech>TECH_DE_LANDSHIP</PrereqTech>
+			<Combat>30</Combat>
+			<Cost>250</Cost>
+			<Moves>4</Moves>
+			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AIRSHIP_CUS</Description>
+			<Strategy>TXT_KEY_UNIT_AIRSHIP_CUS_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_AIRSHIP_CUS</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<ObsoleteTech>TECH_COMBINED_ARMS</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_ANTI_TANK_GUN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SMOKEY_STEAM_AIRSHIP_LEVEL_1</UnitArtInfo>
+			<UnitFlagIconOffset>7</UnitFlagIconOffset>
+			<UnitFlagAtlas>EXPANSION_SCEN_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<IconAtlas>EXPANSION_SCEN_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_LAND_IRONCLAD</Class>
+			<Type>UNIT_LAND_IRONCLAD</Type>
+			<PrereqTech>TECH_DE_LANDSHIP</PrereqTech>
+			<Combat>38</Combat>
+			<Cost>250</Cost>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_LAND_IRONCLAD_CUS</Description>
+			<Strategy>TXT_KEY_UNIT_LAND_IRONCLAD_CUS_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_LAND_IRONCLAD_CUS</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>
+			<ObsoleteTech>TECH_COMBUSTION</ObsoleteTech>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_WWI_TANK</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SMOKEY_LANDSHIP_LEVEL_1</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION_SCEN_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION_SCEN_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+		</Row>
+
+
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<UnitClassType>UNITCLASS_ANTI_TANK_GUN</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<UnitClassType>UNITCLASS_WWI_TANK</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>11</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_FLAT_MOVEMENT_COST_A</Type>
+			<Description>TXT_KEY_PROMOTION_FLAT_MOVEMENT_COST</Description>
+			<Help>TXT_KEY_PROMOTION_FLAT_MOVEMENT_COST</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<FlatMovementCost>true</FlatMovementCost>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<PortraitIndex>58</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_FLAT_MOVEMENT_COST</PediaEntry>
+		</Row>
+
+		<Row>
+			<Type>PROMOTION_HOVERING_UNIT_A</Type>
+			<Description>TXT_KEY_PROMOTION_HOVERING_UNIT</Description>
+			<Help>TXT_KEY_PROMOTION_HOVERING_UNIT_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CanMoveImpassable>true</CanMoveImpassable>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<HoveringUnit>true</HoveringUnit>
+			<PortraitIndex>58</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_HOVERING_UNIT</PediaEntry>
+		</Row>
+
+		<Row>
+			<Type>PROMOTION_NO_CAPTURE_A</Type>
+			<Description>TXT_KEY_PROMOTION_NO_CAPTURE</Description>
+			<Help>TXT_KEY_PROMOTION_NO_CAPTURE</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<NoCapture>true</NoCapture>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<PortraitIndex>57</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_NO_CAPTURE</PediaEntry>
+		</Row>
+	</UnitPromotions>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<PromotionType>PROMOTION_FLAT_MOVEMENT_COST_A</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<PromotionType>PROMOTION_HOVERING_UNIT_A</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<PromotionType>PROMOTION_ANTI_TANK</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<PromotionType>PROMOTION_NO_CAPTURE_A</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_LAND_IRONCLAD</UnitClassType>
+			<UnitType />
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_AIRSHIP</UnitClassType>
+			<UnitType />
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+
+	<UnitGameplay2DScripts>
+		<Row UnitType="UNIT_LAND_IRONCLAD">
+			<SelectionSound>AS2D_SELECT_TANK</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TANK</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_AIRSHIP">
+			<SelectionSound>AS2D_SELECT_BOMBER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_BOMBER</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AIRSHIP_CUS">
+			<Text>Airship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AIRSHIP_CUS_STRATEGY">
+			<Text>The airship is an hovering unit that is sligthly weaker than other industrial era units, but receives a hefty combat bonus when figthing Land ironclads or tanks. It can move over all terrain type without penalty but receives damage when ending its turn on a mountain and must embark to cross oceans. It requires and consumes 1 Coal when produced.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_AIRSHIP_CUS">
+			<Text>Industrial Era unit which specialized in figthing Land ironclads and tanks and is unaffected by terrain movement restrictions or bonus defense. It cannot capture cities.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_LAND_IRONCLAD_CUS">
+			<Text>Land Ironclad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LAND_IRONCLAD_CUS_STRATEGY">
+			<Text>The land ironclad is the first tank-type unit to appear in the game, it has a stronger combat strength than other land units but is weak against Airships and Anti-tank units. It requires and consume 1 Coal when produced.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_LAND_IRONCLAD_CUS">
+			<Text>Industrial Era unit which is good against all other land units but weak against Airships and Anti-tank units.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

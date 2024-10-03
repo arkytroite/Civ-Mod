@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>CA_DORO_ICON</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>ART/CadOroIcon256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CA_DORO_ICON</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>ART/CadOroIcon128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CA_DORO_ICON</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ART/CadOroIcon64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CA_DORO_ICON</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>ART/CadOroIcon45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

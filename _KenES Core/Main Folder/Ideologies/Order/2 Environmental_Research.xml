@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/9/2013 10:33:16 PM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Set Level="2"
+				 PolicyBranchType="POLICY_BRANCH_ORDER" />
+			<Where Type="POLICY_ACADEMY_SCIENCES" />
+		</Update>
+	</Policies>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_ACADEMY_SCIENCES" />
+			<Set Text="Environmental Research" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_ACADEMY_SCIENCES_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Environmental Research[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] per Observatory, Public School and Research Lab." />
+		</Update>
+		<Row Tag="TXT_KEY_BUILDING_ENVIRONMENTAL_RESEARCH_HELP">
+			<Text>+4 [ICON_RES_ALUMINUM] Aluminum.</Text>
+		</Row>
+	</Language_en_US>
+
+	
+</GameData>

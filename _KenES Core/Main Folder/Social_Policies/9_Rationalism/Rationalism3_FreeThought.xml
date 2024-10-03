@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/12/2015 4:21:54 AM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Set MedianTechPercentChange="50" />
+			<Where Type="POLICY_FREE_THOUGHT" />
+		</Update>
+	</Policies>
+	<!-- FREE THOUGHT -->
+	<Policy_BuildingClassYieldModifiers>
+		<Delete PolicyType="POLICY_FREE_THOUGHT" />
+	</Policy_BuildingClassYieldModifiers>
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<!--
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_BRAZILWOOD_CAMP</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_CHATEAU</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_FEITORIA</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_KASBAH</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_MOAI</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		-->
+	</Policy_ImprovementYieldChanges>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_FREE_THOUGHT_HELP" />
+		<Row Tag="TXT_KEY_POLICY_FREE_THOUGHT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Free Thought[ENDCOLOR][NEWLINE]+3 [ICON_RESEARCH] Science from every Academy, Customs House, Manufactory, Citadel, Holy Site, and Landmark. Boosts [ICON_RESEARCH] Science gained from research agreements by 50%.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

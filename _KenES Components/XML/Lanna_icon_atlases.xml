@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/19/2014 9:13:55 PM -->
+<GameData>
+	-<IconTextureAtlases>
+
+
+		-<Row>
+
+			<Atlas>RJ_LANNA_ATLAS</Atlas>
+
+			<IconSize>256</IconSize>
+
+			<Filename>LannaIconAtlas256.dds</Filename>
+
+			<IconsPerRow>8</IconsPerRow>
+
+			<IconsPerColumn>8</IconsPerColumn>
+
+		</Row>
+
+
+		-<Row>
+
+			<Atlas>RJ_LANNA_ATLAS</Atlas>
+
+			<IconSize>128</IconSize>
+
+			<Filename>LannaIconAtlas128.dds</Filename>
+
+			<IconsPerRow>8</IconsPerRow>
+
+			<IconsPerColumn>8</IconsPerColumn>
+
+		</Row>
+
+
+		-<Row>
+
+			<Atlas>RJ_LANNA_ATLAS</Atlas>
+
+			<IconSize>80</IconSize>
+
+			<Filename>LannaIconAtlas80.dds</Filename>
+
+			<IconsPerRow>8</IconsPerRow>
+
+			<IconsPerColumn>8</IconsPerColumn>
+
+		</Row>
+
+
+		-<Row>
+
+			<Atlas>RJ_LANNA_ATLAS</Atlas>
+
+			<IconSize>64</IconSize>
+
+			<Filename>LannaIconAtlas64.dds</Filename>
+
+			<IconsPerRow>8</IconsPerRow>
+
+			<IconsPerColumn>8</IconsPerColumn>
+
+		</Row>
+
+
+		-<Row>
+
+			<Atlas>RJ_LANNA_ATLAS</Atlas>
+
+			<IconSize>45</IconSize>
+
+			<Filename>LannaIconAtlas45.dds</Filename>
+
+			<IconsPerRow>8</IconsPerRow>
+
+			<IconsPerColumn>8</IconsPerColumn>
+
+		</Row>
+
+
+		-<Row>
+
+			<Atlas>RJ_LANNA_ATLAS</Atlas>
+
+			<IconSize>32</IconSize>
+
+			<Filename>LannaIconAtlas32.dds</Filename>
+
+			<IconsPerRow>8</IconsPerRow>
+
+			<IconsPerColumn>8</IconsPerColumn>
+
+		</Row>
+
+
+		-<Row>
+
+			<Atlas>RJ_LANNA_ALPHA_ATLAS</Atlas>
+
+			<IconSize>256</IconSize>
+
+			<Filename>LannaAlpha256.dds</Filename>
+
+			<IconsPerRow>1</IconsPerRow>
+
+			<IconsPerColumn>1</IconsPerColumn>
+
+		</Row>
+
+
+		-<Row>
+
+			<Atlas>RJ_LANNA_ALPHA_ATLAS</Atlas>
+
+			<IconSize>128</IconSize>
+
+			<Filename>LannaAlpha128.dds</Filename>
+
+			<IconsPerRow>1</IconsPerRow>
+
+			<IconsPerColumn>1</IconsPerColumn>
+
+		</Row>
+
+
+		-<Row>
+
+			<Atlas>RJ_LANNA_ALPHA_ATLAS</Atlas>
+
+			<IconSize>80</IconSize>
+
+			<Filename>LannaAlpha80.dds</Filename>
+
+			<IconsPerRow>1</IconsPerRow>
+
+			<IconsPerColumn>1</IconsPerColumn>
+
+		</Row>
+
+
+		-<Row>
+
+			<Atlas>RJ_LANNA_ALPHA_ATLAS</Atlas>
+
+			<IconSize>64</IconSize>
+
+			<Filename>LannaAlpha64.dds</Filename>
+
+			<IconsPerRow>1</IconsPerRow>
+
+			<IconsPerColumn>1</IconsPerColumn>
+
+		</Row>
+
+
+		-<Row>
+
+			<Atlas>RJ_LANNA_ALPHA_ATLAS</Atlas>
+
+			<IconSize>48</IconSize>
+
+			<Filename>LannaAlpha48.dds</Filename>
+
+			<IconsPerRow>1</IconsPerRow>
+
+			<IconsPerColumn>1</IconsPerColumn>
+
+		</Row>
+
+
+		-<Row>
+
+			<Atlas>RJ_LANNA_ALPHA_ATLAS</Atlas>
+
+			<IconSize>45</IconSize>
+
+			<Filename>LannaAlpha45.dds</Filename>
+
+			<IconsPerRow>1</IconsPerRow>
+
+			<IconsPerColumn>1</IconsPerColumn>
+
+		</Row>
+
+
+		-<Row>
+
+			<Atlas>RJ_LANNA_ALPHA_ATLAS</Atlas>
+
+			<IconSize>32</IconSize>
+
+			<Filename>LannaAlpha32.dds</Filename>
+
+			<IconsPerRow>1</IconsPerRow>
+
+			<IconsPerColumn>1</IconsPerColumn>
+
+		</Row>
+
+
+		-<Row>
+
+			<Atlas>RJ_LANNA_ALPHA_ATLAS</Atlas>
+
+			<IconSize>24</IconSize>
+
+			<Filename>LannaAlpha24.dds</Filename>
+
+			<IconsPerRow>1</IconsPerRow>
+
+			<IconsPerColumn>1</IconsPerColumn>
+
+		</Row>
+
+
+		-<Row>
+
+			<Atlas>RJ_LANNA_ALPHA_ATLAS</Atlas>
+
+			<IconSize>24</IconSize>
+
+			<Filename>LannaAlpha24.dds</Filename>
+
+			<IconsPerRow>1</IconsPerRow>
+
+			<IconsPerColumn>1</IconsPerColumn>
+
+		</Row>
+
+
+		-<Row>
+
+			<Atlas>RJ_LANNA_ALPHA_ATLAS</Atlas>
+
+			<IconSize>16</IconSize>
+
+			<Filename>LannaAlpha16.dds</Filename>
+
+			<IconsPerRow>1</IconsPerRow>
+
+			<IconsPerColumn>1</IconsPerColumn>
+
+		</Row>
+		
+		
+		-<Row>
+
+			<Atlas>RJ_LANNA_UNIT_ALPHA</Atlas>
+
+			<IconSize>256</IconSize>
+
+			<Filename>unitflag256.dds</Filename>
+
+			<IconsPerRow>1</IconsPerRow>
+
+			<IconsPerColumn>1</IconsPerColumn>
+
+		</Row>
+
+
+		-<Row>
+
+			<Atlas>RJ_LANNA_UNIT_ALPHA</Atlas>
+
+			<IconSize>128</IconSize>
+
+			<Filename>unitflag128.dds</Filename>
+
+			<IconsPerRow>1</IconsPerRow>
+
+			<IconsPerColumn>1</IconsPerColumn>
+
+		</Row>
+
+
+		-<Row>
+
+			<Atlas>RJ_LANNA_UNIT_ALPHA</Atlas>
+
+			<IconSize>80</IconSize>
+
+			<Filename>unitflag80.dds</Filename>
+
+			<IconsPerRow>1</IconsPerRow>
+
+			<IconsPerColumn>1</IconsPerColumn>
+
+		</Row>
+
+
+		-<Row>
+
+			<Atlas>RJ_LANNA_UNIT_ALPHA</Atlas>
+
+			<IconSize>64</IconSize>
+
+			<Filename>unitflag64.dds</Filename>
+
+			<IconsPerRow>1</IconsPerRow>
+
+			<IconsPerColumn>1</IconsPerColumn>
+
+		</Row>
+
+
+		-<Row>
+
+			<Atlas>RJ_LANNA_UNIT_ALPHA</Atlas>
+
+			<IconSize>45</IconSize>
+
+			<Filename>unitflag45.dds</Filename>
+
+			<IconsPerRow>1</IconsPerRow>
+
+			<IconsPerColumn>1</IconsPerColumn>
+
+		</Row>
+
+
+		-<Row>
+
+			<Atlas>RJ_LANNA_UNIT_ALPHA</Atlas>
+
+			<IconSize>32</IconSize>
+
+			<Filename>unitflag32.dds</Filename>
+
+			<IconsPerRow>1</IconsPerRow>
+
+			<IconsPerColumn>1</IconsPerColumn>
+
+		</Row>
+
+	</IconTextureAtlases>
+  
+</GameData>

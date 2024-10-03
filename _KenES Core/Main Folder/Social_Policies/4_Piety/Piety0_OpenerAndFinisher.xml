@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/11/2015 7:43:29 PM -->
+<GameData>
+	
+	<!-- Branch Tooltip -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Piety[ENDCOLOR] increases the [ICON_PEACE] Faith of empires.[NEWLINE][NEWLINE]Adopting Piety provides you with +1 [ICON_PEACE] Faith in the [ICON_CAPITAL] Capital and allows you to build Shrines and Temples in half the usual time. [NEWLINE]Unlocks building [COLOR_GREEN]Great Mosque of Djenne[ENDCOLOR].[NEWLINE][NEWLINE]Adopting all Policies in the Piety tree causes a Great Prophet to appear. Holy Sites provide +2 [ICON_FOOD] Food and +3 [ICON_CULTURE] Culture.[NEWLINE]+8 [ICON_CULTURE] Culture and +15% [ICON_FOOD] Food from the Grand Temple.</Text>
+		</Row>
+	</Language_en_US>
+	
+
+
+	<!-- PIETY OPENER -->
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_MOSQUE_OF_DJENNE"/>
+			<Set PolicyBranchType="NULL"/>
+		</Update>
+	</Buildings>
+	<Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_PIETY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		
+	</Policy_BuildingClassYieldChanges>
+	<Policy_BuildingClassCultureChanges>
+		<Row>
+			<PolicyType>POLICY_PIETY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<CultureChange>8</CultureChange>
+		</Row>
+	</Policy_BuildingClassCultureChanges>
+	<Policy_BuildingClassYieldModifiers>
+		<Row>
+			<PolicyType>POLICY_PIETY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldMod>15</YieldMod>
+		</Row>
+	</Policy_BuildingClassYieldModifiers>
+	
+	<!-- PIETY FINISHER -->
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_PIETY_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+
+</GameData>

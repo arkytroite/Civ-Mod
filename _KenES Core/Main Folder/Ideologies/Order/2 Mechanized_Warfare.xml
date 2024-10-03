@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/9/2013 10:29:51 PM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Set NewCityExtraPopulation="0"
+				 Level="2"
+				 PolicyBranchType="POLICY_BRANCH_ORDER" />
+			<Where Type="POLICY_RESETTLEMENT" />
+		</Update>
+	</Policies>
+	<Policy_CityYieldChanges>
+		<Delete PolicyType="POLICY_RESETTLEMENT" />
+	</Policy_CityYieldChanges>
+	<Policy_ImprovementYieldChanges>
+		<Delete PolicyType="POLICY_RESETTLEMENT" />
+	</Policy_ImprovementYieldChanges>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_MECHANIZED_WARFARE</Type>
+			<Description>TXT_KEY_PROMOTION_MECHANIZED_WARFARE</Description>
+			<Help>TXT_KEY_PROMOTION_MECHANIZED_WARFARE_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>5</PortraitIndex>
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_MECHANIZED_WARFARE</PediaEntry>
+
+			<ExtraAttacks>1</ExtraAttacks>
+			<CanMoveAfterAttacking>true</CanMoveAfterAttacking>
+			<IgnoreZOC>true</IgnoreZOC>
+		</Row>
+	</UnitPromotions>
+	<Policy_FreePromotions>
+		<Row>
+			<PolicyType>POLICY_RESETTLEMENT</PolicyType>
+			<PromotionType>PROMOTION_MECHANIZED_WARFARE</PromotionType>
+		</Row>
+	</Policy_FreePromotions>
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_MECHANIZED_WARFARE</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+
+	<Policy_Flavors>
+		<Delete PolicyType="POLICY_RESETTLEMENT" />
+		<Row>
+			<PolicyType>POLICY_RESETTLEMENT</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>11</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_RESETTLEMENT</PolicyType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>22</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_RESETTLEMENT</PolicyType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>11</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_RESETTLEMENT" />
+			<Set Text="Mechanized Warfare" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_RESETTLEMENT_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Mechanized Warfare[ENDCOLOR][NEWLINE][ICON_BULLET]Armor Units get +1 Attack and ignore enemy Zones of Control.[NEWLINE][ICON_BULLET]Armor Units get +15 experience from Factories." />
+		</Update>
+		<Row Tag="TXT_KEY_PROMOTION_MECHANIZED_WARFARE">
+			<Text>Mechanized Warfare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MECHANIZED_WARFARE_HELP">
+			<Text>+1 Attack and ignore enemy Zones of Control.</Text>
+		</Row>
+	</Language_en_US>
+
+	<Language_RU_RU>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_RESETTLEMENT" />
+			<Set Text="Механизированная война" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_RESETTLEMENT_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Механизированная война[ENDCOLOR][NEWLINE][ICON_BULLET]Бронетехника получает дополниельную атаку и игнорирует вражеские зоны влияния.[NEWLINE][ICON_BULLET]Бронетехника получает +15 опыта от фабрик." />
+		</Update>
+		<Row Tag="TXT_KEY_PROMOTION_MECHANIZED_WARFARE">
+			<Text>Механизированная война</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MECHANIZED_WARFARE_HELP">
+			<Text>+1 атака и игнорирование вражеских зон влияния.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_ES_ES>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_RESETTLEMENT" />
+			<Set Text="Guerra mecanizada" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_RESETTLEMENT_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Guerra mecanizada[ENDCOLOR][NEWLINE][ICON_BULLET]Las unidades blindadas obtienen +1 Ataque e ignoran zonas de control enemigas.[NEWLINE][ICON_BULLET]Las unidades blindadas obtienen +15 de Experiencia por Fábricas." />
+		</Update>
+		<Row Tag="TXT_KEY_PROMOTION_MECHANIZED_WARFARE">
+			<Text>Guerra mecanizada</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MECHANIZED_WARFARE_HELP">
+			<Text>+1 Ataque e ignora zonas de control enemigas.</Text>
+		</Row>
+	</Language_ES_ES>
+</GameData>

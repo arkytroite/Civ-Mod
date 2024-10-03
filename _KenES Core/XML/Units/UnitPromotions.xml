@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/02/17 12:56:58 PM -->
+<GameData>
+
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_SMAN_SANDSTORM_PROMOTION</Type>
+			<Description>TXT_KEY_PROMOTION_SMAN_SANDSTORM_PROMOTION</Description>
+			<Help>TXT_KEY_PROMOTION_SMAN_SANDSTORM_PROMOTION_HELP</Help>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SMAN_SANDSTORM_PROMOTION_PEDIA</PediaEntry>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<IconAtlas>SMAN_EXOTIC_UNIT_PROMOTION_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<CannotBeChosen>true</CannotBeChosen>
+			<LostWithUpgrade>false</LostWithUpgrade>
+			<CanMoveAfterAttacking>false</CanMoveAfterAttacking>						<!-- Camel Bowman Abilities-->
+			<OnlyDefensive>1</OnlyDefensive>
+			<FreePillageMoves>true</FreePillageMoves>
+		</Row>
+		<!--			Elephant Unit Promotions			-->
+		<Row>
+			<Type>PROMOTION_SMAN_PERILOUS_PACHYDERM_1_PROMOTION</Type>
+			<Description>TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_1_PROMOTION</Description>
+			<Help>TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_1_PROMOTION_HELP</Help>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_1_PROMOTION_PEDIA</PediaEntry>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<IconAtlas>SMAN_EXOTIC_UNIT_PROMOTION_ATLAS</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+			<CannotBeChosen>true</CannotBeChosen>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<NoDefensiveBonus>true</NoDefensiveBonus>								<!-- Tamed Mammoth Abilities-->
+			<CityAttack>-33</CityAttack>
+			<NearbyEnemyCombatMod>-10</NearbyEnemyCombatMod>
+			<NearbyEnemyCombatRange>1</NearbyEnemyCombatRange>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SMAN_PERILOUS_PACHYDERM_2_PROMOTION</Type>
+			<Description>TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_2_PROMOTION</Description>
+			<Help>TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_2_PROMOTION_HELP</Help>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_2_PROMOTION_PEDIA</PediaEntry>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<IconAtlas>SMAN_EXOTIC_UNIT_PROMOTION_ATLAS</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
+			<CannotBeChosen>true</CannotBeChosen>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<NoDefensiveBonus>true</NoDefensiveBonus>								<!-- Battle Elephant Abilities-->
+			<CityAttack>-33</CityAttack>
+			<OpenAttack>15</OpenAttack>
+			<CanMoveAfterAttacking>true</CanMoveAfterAttacking>
+			<NearbyEnemyCombatMod>-15</NearbyEnemyCombatMod>
+			<NearbyEnemyCombatRange>1</NearbyEnemyCombatRange>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SMAN_PERILOUS_PACHYDERM_3_PROMOTION</Type>
+			<Description>TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_3_PROMOTION</Description>
+			<Help>TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_3_PROMOTION_HELP</Help>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_3_PROMOTION_PEDIA</PediaEntry>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<IconAtlas>SMAN_EXOTIC_UNIT_PROMOTION_ATLAS</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
+			<CannotBeChosen>true</CannotBeChosen>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<NoDefensiveBonus>true</NoDefensiveBonus>								<!-- Siege Elephant Abilities-->
+			<CityAttack>33</CityAttack>
+			<CanMoveAfterAttacking>true</CanMoveAfterAttacking>
+			<OnlyDefensive>true</OnlyDefensive>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SMAN_PERILOUS_PACHYDERM_4_PROMOTION</Type>
+			<Description>TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_4_PROMOTION</Description>
+			<Help>TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_4_PROMOTION_HELP</Help>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_4_PROMOTION_PEDIA</PediaEntry>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<IconAtlas>SMAN_EXOTIC_UNIT_PROMOTION_ATLAS</IconAtlas>
+			<PortraitIndex>11</PortraitIndex>
+			<CannotBeChosen>true</CannotBeChosen>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<NoDefensiveBonus>true</NoDefensiveBonus>								<!-- Turreted Elephant / Howdah Abilities-->
+			<CityAttack>-33</CityAttack>
+			<OpenAttack>25</OpenAttack>
+			<CanMoveAfterAttacking>true</CanMoveAfterAttacking>
+			<NearbyEnemyCombatMod>-25</NearbyEnemyCombatMod>
+			<NearbyEnemyCombatRange>1</NearbyEnemyCombatRange>
+		</Row>		
+		<Row>
+			<Type>PROMOTION_HUN_INVADER</Type>
+			<Description>TXT_KEY_PROMOTION_EXOTIC_UNIT_GUERILLA_PROMOTION</Description>
+			<Help>TXT_KEY_PROMOTION_EXOTIC_UNIT_GUERILLA_PROMOTION_HELP</Help>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_EXOTIC_UNIT_GUERILLA_PROMOTION_PEDIA</PediaEntry>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<IconAtlas>SMAN_EXOTIC_UNIT_PROMOTION_ATLAS</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+			<CannotBeChosen>true</CannotBeChosen>
+			<LostWithUpgrade>false</LostWithUpgrade>
+			<EnemyHealChange>10</EnemyHealChange>
+		</Row>
+	</UnitPromotions>
+
+	<UnitPromotions_Terrains>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_SANDSTORM_PROMOTION</PromotionType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<Attack>33</Attack>
+			<DoubleMove>true</DoubleMove>
+		</Row>
+	</UnitPromotions_Terrains>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_SANDSTORM_PROMOTION">
+			<Text>Sandstorm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_SANDSTORM_PROMOTION_HELP">
+			<Text>+33% attack bonus when attacking from Desert tiles, doubles its movement in Desert tiles, and can pillage at no movement cost</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_SANDSTORM_PROMOTION_PEDIA">
+			<Text>Sandstorm</Text>
+		</Row>
+		<!--			Elephant Unit Promotions			-->
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_1_PROMOTION">
+			<Text>Perilous Pachyderm I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_1_PROMOTION_HELP">
+			<Text>Frightens adjacent enemies, reducing their Combat Strength -10%, no defensive terrain bonuses, and -33% penalty when attacking cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_1_PROMOTION_PEDIA">
+			<Text>Perilous Pachyderm I</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_2_PROMOTION">
+			<Text>Perilous Pachyderm II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_2_PROMOTION_HELP">
+			<Text>+15% Combat Strength when fighting in open terrain, frightens adjacent enemies, reducing their Combat Strength -15%, may move after attacking, no defensive terrain bonuses, and -33% penalty when attacking cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_2_PROMOTION_PEDIA">
+			<Text>Perilous Pachyderm II</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_3_PROMOTION">
+			<Text>Perilous Pachyderm III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_3_PROMOTION_HELP">
+			<Text>+33% bonus when attacking cities, may move after attacking, and no defensive terrain bonuses</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_3_PROMOTION_PEDIA">
+			<Text>Perilous Pachyderm III</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_4_PROMOTION">
+			<Text>Perilous Pachyderm IV</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_4_PROMOTION_HELP">
+			<Text>+25% Combat Strength when fighting in open terrain, frightens adjacent enemies, reducing their Combat Strength -25%, may move after attacking, no defensive terrain bonuses, and -33% penalty when attacking cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_4_PROMOTION_PEDIA">
+			<Text>Perilous Pachyderm IV</Text>
+		</Row>
+
+		<!--	Guerilla Promotion		-->
+		<Row Tag="TXT_KEY_PROMOTION_EXOTIC_UNIT_GUERILLA_PROMOTION">
+			<Text>Invader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EXOTIC_UNIT_GUERILLA_PROMOTION_HELP">
+			<Text>Heals in enemy territory as if it were their own.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EXOTIC_UNIT_GUERILLA_PROMOTION_PEDIA">
+			<Text>Invader</Text>
+		</Row>
+	</Language_en_US>	
+
+</GameData>

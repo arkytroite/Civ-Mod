@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/9/2015 11:37:21 PM -->
+<GameData>
+
+	<!-- Branch tooltip -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_ARDL_HOMELANDDEVELOPEMENT">
+			<Text>Homeland Developement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ARDL_HOMELANDDEVELOPEMENT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Homeland and Hearth[ENDCOLOR][NEWLINE]Grants a free Great Person.[NEWLINE]+2 [ICON_HAPPINESS_1] Happiness per City.[NEWLINE]+1 [ICON_CULTURE] Culture to Farms and Forts. [NEWLINE]+1 [ICON_FOOD] Food to Plantations and Fishingboats.[NEWLINE]+1 [ICON_GOLD] Gold to Pastures and Lumbermills[NEWLINE]+1 [ICON_PRODUCTION] Production to Mines and Quarries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ARDL_HOMELANDDEVELOPEMENT_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Homeland and Hearth[ENDCOLOR][NEWLINE]Grants a free Great Person.[NEWLINE]+2 [ICON_HAPPINESS_1] Happiness per City.[NEWLINE]+1 [ICON_CULTURE] Culture to Farms and Forts. [NEWLINE]+1 [ICON_FOOD] Food to Plantations and Fishingboats.[NEWLINE]+1 [ICON_GOLD] Gold to Pastures and Lumbermills[NEWLINE]+1 [ICON_PRODUCTION] Production to Mines and Quarries.</Text>
+		</Row>
+	</Language_en_US>
+
+
+
+	<!-- OPENER -->
+	<Policies>
+		<Row>
+			<Type>POLICY_ARDL_HOMELANDDEVELOPEMENT</Type>
+			<Description>TXT_KEY_POLICY_ARDL_HOMELANDDEVELOPEMENT</Description>
+			<Civilopedia>TXT_KEY_POLICY_ARDL_HOMELANDDEVELOPEMENT_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_ARDL_HOMELANDDEVELOPEMENT_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_ARDL_SECURITY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>1</GridX>
+			<GridY>3</GridY>
+			<NumFreeGreatPeople>1</NumFreeGreatPeople>
+			<IncludesOneShotFreeUnits>1</IncludesOneShotFreeUnits>
+			<ExtraHappinessPerCity>2</ExtraHappinessPerCity>
+			<PortraitIndex>35</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+	</Policies>
+
+	<!--
+	<Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_ARDL_HOMELANDDEVELOPEMENT</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+	
+		<Row>
+			<PolicyType>POLICY_ARDL_HOMELANDDEVELOPEMENT</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+	
+	</Policy_BuildingClassYieldChanges>
+	-->
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_ARDL_HOMELANDDEVELOPEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ARDL_HOMELANDDEVELOPEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_FORT</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ARDL_HOMELANDDEVELOPEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ARDL_HOMELANDDEVELOPEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ARDL_HOMELANDDEVELOPEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		
+		<Row>
+			<PolicyType>POLICY_ARDL_HOMELANDDEVELOPEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ARDL_HOMELANDDEVELOPEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>	
+		<Row>
+			<PolicyType>POLICY_ARDL_HOMELANDDEVELOPEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ARDL_HOMELANDDEVELOPEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		
+		
+	</Policy_ImprovementYieldChanges>
+	
+	<!--
+	<Policy_FreeUnitClasses>
+		<Row>
+			<PolicyType>POLICY_ARDL_HOMELANDDEVELOPEMENT</PolicyType>
+			<UnitClassType>UNITCLASS_ENGINEER</UnitClassType>
+			<Count>1</Count>
+		</Row>
+	</Policy_FreeUnitClasses>
+	-->
+</GameData>

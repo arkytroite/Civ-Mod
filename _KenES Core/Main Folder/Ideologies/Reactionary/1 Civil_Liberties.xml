@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/11/2013 9:08:54 AM -->
+<GameData>
+	<Policies>
+		<Row>
+			<Type>POLICY_CIVIL_LIBERTIES</Type>
+			<Description>TXT_KEY_POLICY_CIVIL_LIBERTIES</Description>
+			<Civilopedia>TXT_KEY_POLICY_CIVIL_LIBERTIES_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_CIVIL_LIBERTIES_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_REACTIONARY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<Level>1</Level>
+			<GreatPeopleRateModifier>15</GreatPeopleRateModifier>
+			<PolicyCostModifier>-10</PolicyCostModifier>
+			<PortraitIndex>44</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+	</Policies>
+	
+	
+
+	<Policy_Flavors>
+		<Row>
+			<PolicyType>POLICY_CIVIL_LIBERTIES</PolicyType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>22</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CIVIL_LIBERTIES</PolicyType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>22</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CIVIL_LIBERTIES</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>11</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+	
+</GameData>

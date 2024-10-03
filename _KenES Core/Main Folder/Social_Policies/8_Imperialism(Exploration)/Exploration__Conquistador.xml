@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/7/2015 12:55:40 AM -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_ARDL_CONQUISTA</Type>
+			<Description>Adventuring Company</Description>
+			<DefaultUnit>UNIT_ARDL_CONQUISTA</DefaultUnit>
+			<MaxPlayerInstances>15</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Type>UNIT_ARDL_CONQUISTA</Type>
+			<Description>TXT_KEY_UNIT_ARDL_CONQUISTA</Description>
+			<Civilopedia>TXT_KEY_CIV5_ARDL_CONQUISTA_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_ARDL_CONQUISTA_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_ARDL_CONQUISTA</Help>
+			<Requirements></Requirements>
+			<Combat>25</Combat>
+			<Cost>250</Cost>
+			<FaithCost>0</FaithCost>
+			<RequiresFaithPurchaseEnabled>0</RequiresFaithPurchaseEnabled>
+			<PurchaseOnly>0</PurchaseOnly>
+			<Moves>2</Moves>
+			<Immobile>0</Immobile>
+			<BaseSightRange>2</BaseSightRange>
+			<Class>UNITCLASS_ARDL_CONQUISTA</Class>
+			<Special></Special>
+			<Capture></Capture>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<CivilianAttackPriority></CivilianAttackPriority>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+			<MilitarySupport>1</MilitarySupport>
+			<MilitaryProduction>1</MilitaryProduction>
+			<Pillage>1</Pillage>
+			<IgnoreBuildingDefense>1</IgnoreBuildingDefense>
+			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
+			<ObsoleteTech>TECH_INDUSTRIALIZATION</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass></GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>35</AdvancedStartCost>
+			<MinAreaSize>-1</MinAreaSize>
+			<NukeDamageLevel>-1</NukeDamageLevel>
+			<PolicyType>POLICY_EXPLORATION</PolicyType>
+			<RangedCombatLimit>0</RangedCombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>6</Conscription>
+			<ExtraMaintenanceCost>0</ExtraMaintenanceCost>
+			<NoMaintenance>0</NoMaintenance>
+			<Unhappiness>0</Unhappiness>
+			
+			<UnitArtInfo>ART_DEF_UNIT_ARDL_CONQUISTA</UnitArtInfo>
+			<!-- <UnitArtInfo>ART_DEF_UNIT_GENERAL</UnitArtInfo> -->
+			<ShowInPedia>1</ShowInPedia>
+			<MoveRate>BIPED</MoveRate>
+			<UnitFlagIconOffset>1</UnitFlagIconOffset>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>DLC02_UNIT_ATLAS</IconAtlas>
+			<UnitFlagAtlas>DLC02_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_ARDL_CONQUISTA</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARDL_CONQUISTA</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARDL_CONQUISTA</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<!-- Unit_Buildings -->
+	<!-- Unit_BuildingClassRequireds -->
+	<!-- Unit_ProductionModifierBuildings -->
+	<!-- Unit_Builds -->
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_ARDL_CONQUISTA</UnitType>
+			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_ARDL_CONQUISTA</UnitType>
+			<PromotionType>PROMOTION_FOREIGN_LANDS</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARDL_CONQUISTA</UnitType>
+			<PromotionType>PROMOTION_CITY_SIEGE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARDL_CONQUISTA</UnitType>
+			<PromotionType>PROMOTION_DEFENSIVE_EMBARKATION</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_ARDL_CONQUISTA</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARDL_CONQUISTA</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<!-- Unit_GreatPersons -->
+	<!-- Unit_ResourceQuantityRequirements -->
+	<!-- Unit_UniqueNames -->
+	<!-- Unit_YieldFromKills -->
+	<!-- Unit_NotAITypes -->
+	<!-- Unit_ProductionTraits -->
+	<!-- Unit_TechTypes -->
+	<!-- UnitPromotions_CivilianUnitType -->
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_ARDL_CONQUISTA</UnitType>
+			<SelectionSound>AS2D_SELECT_MUSKETMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MUSKETMAN</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_ARDL_CONQUISTA">
+			<Text>Conquistador Company</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ARDL_CONQUISTA_TEXT">
+			<Text>
+				<!-- Add Civilopedia text here -->
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ARDL_CONQUISTA_STRATEGY">
+			<Text>The Conquistador Company is a special Medieval Era unit that specializes in scouting and conquering new lands. Unlocked by opening the Exploration social policy tree. It receives a significant combat bonus when operating outside of home territory and when sieging cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ARDL_CONQUISTA">
+			<Text>Multi-purpose unit that serves as an military with the ability to siege cities effectively. In the water it has the defensive embarkation promotion that allows it to defend itself against naval units.</Text>
+		</Row>
+
+		<Delete Tag="TXT_KEY_MISSION_BUILD_CITY_HELP" />
+		<Row Tag="TXT_KEY_MISSION_BUILD_CITY_HELP">
+			<Text>Order this unit to found a city in its current location. It is consumed in the process.</Text>
+		</Row>
+	</Language_en_US>
+	
+	
+</GameData>

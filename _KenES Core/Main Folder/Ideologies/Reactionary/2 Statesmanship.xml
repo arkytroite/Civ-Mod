@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/11/2013 8:35:23 AM -->
+<GameData>
+	<Policies>
+		<Row>
+			<Type>POLICY_ARDLSTATEMANSHIP</Type>
+			<Description>TXT_KEY_POLICY_ARDLSTATEMANSHIP</Description>
+			<Civilopedia>TXT_KEY_POLICY_ARDLSTATEMANSHIP_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_ARDLSTATEMANSHIP_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_REACTIONARY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<Level>2</Level>
+			<ProtectedMinorPerTurnInfluence>200</ProtectedMinorPerTurnInfluence>
+			<CatchSpiesModifier>100</CatchSpiesModifier>
+			<PortraitIndex>44</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+	</Policies>
+
+
+	<Policy_BuildingClassYieldModifiers>
+		<Row>
+			<PolicyType>POLICY_ARDLSTATEMANSHIP</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldMod>20</YieldMod>
+		</Row>
+	</Policy_BuildingClassYieldModifiers>
+	<!--
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_DIPLOMATICCORE</Type>
+			<DefaultBuilding>BUILDING_DIPLOMATICCORE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_DIPLOMATICCORE_DESC</Description>
+		</Row>
+	</BuildingClasses>
+	
+	<Buildings>
+		<Row>
+			<Type>BUILDING_DIPLOMATICCORE</Type>
+			<BuildingClass>BUILDINGCLASS_DIPLOMATICCORE</BuildingClass>
+			<Cost>-1</Cost>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<NukeImmune>true</NukeImmune>
+			<ExtraLeagueVotes>2</ExtraLeagueVotes>
+			<Help>TXT_KEY_BUILDING_RENAISSANCE_CONSULATE_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_RENAISSANCE_CONSULATE_DESC</Description>
+			<Strategy>TXT_KEY_BUILDING_RENAISSANCE_CONSULATE_STRATEGY</Strategy>
+			<ArtDefineTag>PALACE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<PortraitIndex>35</PortraitIndex>
+		</Row>
+	</Buildings>
+	
+	<Policy_PGB_FreeBuildingClassCapital>
+		<Row>
+			<PolicyType>POLICY_ARDLSTATEMANSHIP</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_DIPLOMATICCORE</BuildingClassType>
+		</Row>
+	</Policy_PGB_FreeBuildingClassCapital>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_DIPLOMATICCORE_HELP">
+			<Text>The Imperial Diplomacy Core gives +1 delegate in the World Congress.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DIPLOMATICCORE_DESC">
+			<Text>Imperial Diplomacy Core</Text>
+		</Row>
+	</Language_en_US>
+	-->
+
+	<Policy_Flavors>
+		<Row>
+			<PolicyType>POLICY_ARDLSTATEMANSHIP</PolicyType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>33</Flavor>
+		</Row>
+	</Policy_Flavors>
+	
+</GameData>

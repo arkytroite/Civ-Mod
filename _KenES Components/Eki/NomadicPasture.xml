@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/17/2014 1:33:43 PM -->
+<GameData>
+	<Builds>
+		<Row>
+			<Type>BUILD_3EKI</Type>
+			<Time>699</Time>
+			<ImprovementType>IMPROVEMENT_3EKI</ImprovementType>
+			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
+			<Description>TXT_KEY_BUILD_3EKI</Description>
+			<Recommendation>TXT_KEY_BUILD_3EKI_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_E</HotKey>
+			<OrderPriority>50</OrderPriority>
+			<IconIndex>0</IconIndex>
+			<IconAtlas>UNIT_ACTION_3EKI</IconAtlas>
+		</Row>
+	</Builds>
+	<BuildFeatures>
+		<Row>
+			<BuildType>BUILD_3EKI</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>699</Time>
+			<Production>15</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_3EKI</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Time>399</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+	</BuildFeatures>
+	<Improvements>
+		<Row>
+			<Type>IMPROVEMENT_3EKI</Type>
+			<Description>TXT_KEY_IMPROVEMENT_3EKI</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_3EKI_TEXT</Civilopedia>
+			<Help>TXT_KEY_CIV5_IMPROVEMENTS_3EKI_HELP</Help>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_3EKI</ArtDefineTag>
+			<SpecificCivRequired>true</SpecificCivRequired>
+			<CivilizationType>CIVILIZATION_INDONESIA</CivilizationType>
+			<RequiresFeature>true</RequiresFeature>
+			<PortraitIndex>0</PortraitIndex>
+			<DestroyedWhenPillaged>true</DestroyedWhenPillaged>
+			<IconAtlas>TERRAIN_IMPROVEMENT_3EKI</IconAtlas>
+		</Row>
+	</Improvements>
+	<Improvement_ValidFeatures>
+		<Row>
+			<ImprovementType>IMPROVEMENT_3EKI</ImprovementType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+		</Row>
+	</Improvement_ValidFeatures>
+	<Improvement_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_3EKI</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Improvement_Yields>
+	<Improvement_TechNoFreshWaterYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_3EKI</ImprovementType>
+			<TechType>TECH_FERTILIZER</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_TechNoFreshWaterYieldChanges>
+	<Improvement_TechFreshWaterYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_3EKI</ImprovementType>
+			<TechType>TECH_CIVIL_SERVICE</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_TechFreshWaterYieldChanges>
+<!--	<Improvement_YieldAdjacentTwoSameType>
+		<Row>
+			<ImprovementType>IMPROVEMENT_EKI</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_YieldAdjacentTwoSameType>
+	<Improvement_TechYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_EKI</ImprovementType>
+			<TechType>TECH_FERTILIZER</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_TechYieldChanges>-->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_IMPROVEMENT_3EKI">
+			<Text>Paddy Field</Text>
+			<Gender>neuter:a</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_3EKI_TEXT">
+			<Text>A Paddy Field is the most efficient way to produce rice, utilizing wetlands in conjuction with beasts of burden well suited to those areas, such as water buffalo, can allow enormous food production in a relatively small area.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_3EKI_HELP">
+			<Text>A Paddy Field can only be built on a Marsh. It provides [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_3EKI">
+			<Text>Construct a [LINK=IMPROVEMENT_EKI]Paddy Field[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_3EKI_HELP">
+			<Text>Constructs a Nomadic Pasture, which increases the [ICON_FOOD] Food of a tile. Must be build on a Marsh. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_3EKI_REC">
+			<Text>It will increase the [ICON_FOOD] Food on this tile.</Text>
+		</Row>
+	</Language_en_US>
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_3EKI</BuildType>
+		</Row>
+	</Unit_Builds>
+	<PostDefines>
+		<Row Name="3EKI_IMPROVEMENT">
+			<Key>IMPROVEMENT_3EKI</Key>
+			<Table>Improvements</Table>
+		</Row>
+	</PostDefines>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>UNIT_ACTION_3EKI</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>EkiBuildIcon64.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UNIT_ACTION_3EKI</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>EkiBuildIcon45.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>TERRAIN_IMPROVEMENT_3EKI</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>EkiAtlas256.dds</Filename>
+			<IconsPerRow>3</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>TERRAIN_IMPROVEMENT_3EKI</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>EkiAtlas64.dds</Filename>
+			<IconsPerRow>3</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+	<ArtDefine_StrategicView>
+		<Row>
+			<StrategicViewType>ART_DEF_IMPROVEMENT_3EKI</StrategicViewType>
+			<TileType>Improvement</TileType>
+			<Asset>SV_Eki.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
+</GameData>

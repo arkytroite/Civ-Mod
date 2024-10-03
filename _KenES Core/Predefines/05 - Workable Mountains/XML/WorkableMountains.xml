@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+<!-- Create a new, invisible feature that can accept all these building bonuses. Lua will apply it to all mountains. -->
+	<Features>
+		<Row>
+			<Type>FEATURE_MOUNTAIN_YIELD</Type>
+			<Description>TXT_KEY_FEATURE_MOUNTAIN_YIELD</Description>
+			<Civilopedia>TXT_KEY_FEATURE_MOUNTAIN_YIELD_PEDIA</Civilopedia>
+			<ArtDefineTag>NULL</ArtDefineTag>
+			<Movement>2</Movement>
+			<Impassable>true</Impassable>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>NW_ATLAS</IconAtlas>
+		</Row>
+	</Features>
+<!-- Set all of the bonuses that buildings apply. -->
+	<Building_FeatureYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_PALACE</BuildingType>
+			<FeatureType>FEATURE_MOUNTAIN_YIELD</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_3DOGEPALACE</BuildingType>
+			<FeatureType>FEATURE_MOUNTAIN_YIELD</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_3_GRANDPALACE</BuildingType>
+			<FeatureType>FEATURE_MOUNTAIN_YIELD</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AQUEDUCT</BuildingType>
+			<FeatureType>FEATURE_MOUNTAIN_YIELD</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONE_WORKS</BuildingType>
+			<FeatureType>FEATURE_MOUNTAIN_YIELD</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MACHU_PICHU</BuildingType>
+			<FeatureType>FEATURE_MOUNTAIN_YIELD</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BROADCAST_TOWER</BuildingType>
+			<FeatureType>FEATURE_MOUNTAIN_YIELD</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TAKTSANG</BuildingType>
+			<FeatureType>FEATURE_MOUNTAIN_YIELD</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TAKTSANG</BuildingType>
+			<FeatureType>FEATURE_MOUNTAIN_YIELD</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_FeatureYieldChanges>
+<!-- Removes Machu Pichu's faith in exchange for the faith it now adds to mountains -->
+	<Building_YieldChanges>
+		<Delete BuildingType="BUILDING_MACHU_PICHU" YieldType="YIELD_FAITH" />
+	</Building_YieldChanges>
+</GameData>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Pouakai-->
+<GameData>
+	<Buildings>
+		<!--==================-->
+		<!--== Buildings =====-->
+		<!--==================-->
+		<!--Cloth Mill-->
+		<Row>
+			<Type>BUILDING_EE_CLOTH_MILL</Type>
+			<BuildingClass>BUILDINGCLASS_EE_CLOTH_MILL</BuildingClass>
+			<Cost>150</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<Help>TXT_KEY_BUILDING_EE_CLOTH_MILL_HELP</Help>
+			<Description>TXT_KEY_BUILDING_EE_CLOTH_MILL</Description>
+			<Civilopedia>TXT_KEY_BUILDING_EE_CLOTH_MILL_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_EE_CLOTH_MILL_STRATEGY</Strategy>
+			<ArtDefineTag>FORGE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>10</HurryCostModifier>
+			<IconAtlas>ENLIGHTENMENT_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_EE_CLOTH_MILL</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_LocalResourceOrs>
+		<Row>
+			<BuildingType>BUILDING_EE_CLOTH_MILL</BuildingType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EE_CLOTH_MILL</BuildingType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EE_CLOTH_MILL</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+		</Row>
+	</Building_LocalResourceOrs>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_EE_CLOTH_MILL</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_EE_CLOTH_MILL</BuildingType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EE_CLOTH_MILL</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EE_CLOTH_MILL</BuildingType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+</GameData>

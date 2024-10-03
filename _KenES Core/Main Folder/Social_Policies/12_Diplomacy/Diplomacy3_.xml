@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/7/2022 11:14:57 PM -->
+<GameData>
+  <!-- ARMED TRADE -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_ARDL_DIPLO03">
+			<Text>Immigration and Nationality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ARDL_DIPLO03_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Immigration and Nationality Act[ENDCOLOR][NEWLINE]+15% Great Person [ICON_GREAT_PEOPLE] generation. You may choose a a free Great Person [ICON_GREAT_PEOPLE]. </Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_POLICY_ARDL_DIPLO03_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Immigration and Nationality Act[ENDCOLOR][NEWLINE]+15% Great Person [ICON_GREAT_PEOPLE] generation. You may choose a a free Great Person [ICON_GREAT_PEOPLE]. </Text>
+		</Row>
+	</Language_en_US>
+	
+	<!--
+	<Units>
+		<Update>
+			<Where Class="UNITCLASS_CARGO_SHIP"/>
+			<Set>
+				<Combat>16</Combat>
+				<CombatLimit>1</CombatLimit>
+			</Set>
+		</Update>
+	</Units>
+	-->
+
+	<!-- OPENER -->
+	<Policies>
+		<Row>
+			<Type>POLICY_ARDL_DIPLO03</Type>
+			<Description>TXT_KEY_POLICY_ARDL_DIPLO03</Description>
+			<Civilopedia>TXT_KEY_POLICY_ARDL_DIPLO03_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_ARDL_DIPLO03_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_ARDL_DIPLOMACY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>2</GridX>
+			<GridY>2</GridY>
+			<GreatPeopleRateModifier>15</GreatPeopleRateModifier>
+			<IncludesOneShotFreeUnits>true</IncludesOneShotFreeUnits>
+			<NumFreeGreatPeople>1</NumFreeGreatPeople>
+			<PortraitIndex>15</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+	</Policies>
+
+	<Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_ARDL_DIPLO03</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+	</Policy_BuildingClassYieldChanges>
+  
+</GameData>

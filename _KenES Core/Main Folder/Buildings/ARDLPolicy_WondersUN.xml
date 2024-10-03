@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/8/2023 7:11:36 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_ARDL_UN">
+			<Text>League of Nations Headquarters</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_ARDL_UN_HELP">
+			<Text>+2 Vote in World Congress</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_ARDL_UN_QUOTE">
+			<Text>[NEWLINE]
+				The well-heing of man depended in a very
+				great measure on the conditions existing in the
+				community to which he helonged, and, therefore,
+				the protection of that community, whether social,
+				religious or of any other character, ought to
+				have heen included among human rights. -10th Dec 1948 9pm UN General Meeting[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_ARDL_UN_PEDIA">
+			<Text>The design process for the United Nations headquarters formally began in February 1947, and a groundbreaking ceremony for the Secretariat Building occurred on September 14, 1948. Staff started moving into the building on August 21, 1950, and it was completed in June 1951. Within a decade, the Secretariat Building was overcrowded, prompting the UN to build additional office space in the area. The building started to deteriorate in the 1980s due to a lack of funding, which was worsened by the fact that it did not meet modern New York City building codes. UN officials considered renovating the building by the late 1990s, but the project was deferred for several years. The Secretariat Building was renovated starting in 2010, and it reopened in phases from July to December 2012. -WIKIPEDIA.</Text>
+		</Row>
+	</Language_en_US>
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_ARDL_UN</Type>
+			<DefaultBuilding>BUILDING_ARDL_UN</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ARDL_UN</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_ARDL_UN</Type>
+			<BuildingClass>BUILDINGCLASS_ARDL_UN</BuildingClass>
+			<Cost>250</Cost>
+			<PrereqTech>TECH_RADIO</PrereqTech>
+			<Help>TXT_KEY_WONDER_ARDL_UN_HELP</Help>
+			<Description>TXT_KEY_BUILDING_ARDL_UN</Description>
+			<Civilopedia>TXT_KEY_WONDER_ARDL_UN_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_ARDL_UN_QUOTE</Quote>
+			<PolicyBranchType>POLICY_BRANCH_ARDL_DIPLOMACY</PolicyBranchType>
+			<NukeImmune>true</NukeImmune>
+			<ExtraLeagueVotes>2</ExtraLeagueVotes>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>26</PortraitIndex>
+			<WonderSplashImage>WonderConceptUN.dds</WonderSplashImage>
+			<WonderSplashAnchor>R,T</WonderSplashAnchor>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_ARDL_UN</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARDL_UN</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARDL_UN</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_ARDL_UN</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_ARDL_UN</BuildingClassType>
+			<BuildingType/>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_ARDL_UN</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+</GameData>

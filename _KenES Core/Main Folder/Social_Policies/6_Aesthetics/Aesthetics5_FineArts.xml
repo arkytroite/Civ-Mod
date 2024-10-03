@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/19/2015 12:35:24 PM -->
+<GameData>
+<!-- State Media (previously called Merchant Navy) -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_FINE_ARTS" />
+		<Row Tag="TXT_KEY_POLICY_FINE_ARTS">
+			<Text>State Media</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_FINE_ARTS_HELP" />
+		<Row Tag="TXT_KEY_POLICY_FINE_ARTS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]State Media[ENDCOLOR][NEWLINE]+0.5 [ICON_CULTURE] Culture for every excess [ICON_HAPPINESS_1] Happiness.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

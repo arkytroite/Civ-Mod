@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/9/2013 10:33:42 PM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Set SharedIdeologyTourismModifier="0"
+				 Level="2"
+				 PolicyBranchType="POLICY_BRANCH_ORDER" />
+			<Where Type="POLICY_CULTURAL_REVOLUTION" />
+		</Update>
+	</Policies>
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_CULTURAL_REVOLUTION</PolicyType>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CULTURAL_REVOLUTION</PolicyType>
+			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+	<Policy_BuildingClassTourismModifiers>
+		<Row>
+			<PolicyType>POLICY_CULTURAL_REVOLUTION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_WRITERS_GUILD</BuildingClassType>
+			<TourismModifier>35</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CULTURAL_REVOLUTION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_ARTISTS_GUILD</BuildingClassType>
+			<TourismModifier>35</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CULTURAL_REVOLUTION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MUSICIANS_GUILD</BuildingClassType>
+			<TourismModifier>35</TourismModifier>
+		</Row>
+	</Policy_BuildingClassTourismModifiers>
+
+	<Policy_Flavors>
+		<Delete PolicyType="POLICY_CULTURAL_REVOLUTION" />
+		<Row>
+			<PolicyType>POLICY_CULTURAL_REVOLUTION</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>44</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_CULTURAL_REVOLUTION" />
+			<Set Text="Socialist Realism" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_CULTURAL_REVOLUTION_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Socialist Realism[ENDCOLOR][NEWLINE][ICON_BULLET]+35% [ICON_TOURISM] Tourism from the Writer, Artist, and Musician Guilds.[NEWLINE][ICON_BULLET]Mines and Quarries yield +1 [ICON_CULTURE] Culture" />
+		</Update>
+	</Language_en_US>
+
+	<Language_RU_RU>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_CULTURAL_REVOLUTION" />
+			<Set Text="Пропаганда" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_CULTURAL_REVOLUTION_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Пропаганда[ENDCOLOR][NEWLINE][ICON_BULLET]+25% [ICON_TOURISM] туризма от гильдии писателей, гильдии художников и гильдии музыкантов." />
+		</Update>
+	</Language_RU_RU>
+
+	<Language_ES_ES>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_CULTURAL_REVOLUTION" />
+			<Set Text="Propaganda" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_CULTURAL_REVOLUTION_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Propaganda[ENDCOLOR][NEWLINE][ICON_BULLET]+25% de [ICON_TOURISM] Turismo por los Gremios de Escritores, Artistas y Músicos." />
+		</Update>
+	</Language_ES_ES>
+</GameData>

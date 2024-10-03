@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/26/2016 6:23:12 PM -->
+<GameData>
+		<Buildings>
+			<Row>
+				<Type>BUILDING_IKEA</Type>
+				<BuildingClass>BUILDINGCLASS_UNIQUE</BuildingClass>
+				<Cost>550</Cost>
+				<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
+				<Help>Provides +5 [ICON_PRODUCTION] Production, +10 [ICON_GOLD] Gold, and +1 [ICON_FOOD] Food in city.</Help>
+				<Description>Ikea</Description>
+				<Civilopedia>
+					Ikea is the absolute pride and joy of Sweden, being founded in 1943 by Ingvar Kamprad, is one of the most famous furniture stores in existance, not to mention their Swedish meatballs.
+				</Civilopedia>
+				<ArtDefineTag>NONE</ArtDefineTag>
+				<HurryCostModifier>-1</HurryCostModifier>
+				<MinAreaSize>-1</MinAreaSize>
+				<ConquestProb>33</ConquestProb>
+				<IconAtlas>IkeaIcons</IconAtlas>
+				<PortraitIndex>0</PortraitIndex>
+			</Row>
+			<Row>
+				<Type>BUILDING_OPEN_AIR_MUSEUM</Type>
+				<BuildingClass>BUILDINGCLASS_MUSEUM</BuildingClass>
+				<Cost>400</Cost>
+				<PrereqTech>TECH_ARCHAEOLOGY</PrereqTech>
+				<Help>Sweden's unique Museum. It produces much more [ICON_CULTURE] culture, but has higher production costs and maintenance than the Museum it replaces.</Help>
+				<Description>Open Air Museum</Description>
+				<Civilopedia>
+					Open Air Museums are made to display the buildings and  spaces of bygone eras to immerse visitors in an unfamiliar way of life.
+				</Civilopedia>
+				<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+				<GreatWorkCount>2</GreatWorkCount>
+				<GoldMaintenance>5</GoldMaintenance>
+				<ArtDefineTag>NONE</ArtDefineTag>
+				<HurryCostModifier>-1</HurryCostModifier>
+				<MinAreaSize>-1</MinAreaSize>
+				<ConquestProb>33</ConquestProb>
+				<IconAtlas>ARDLBUILDINGS_ICON_ATLAS</IconAtlas>
+				<PortraitIndex>38</PortraitIndex>
+			</Row>
+		</Buildings>
+		<Building_Flavors>
+			<Row>
+				<BuildingType>BUILDING_TEMPORALTOWER</BuildingType>
+				<FlavorType>FLAVOR_WONDER</FlavorType>
+				<Flavor>0</Flavor>
+			</Row>
+			<Row>
+				<BuildingType>BUILDING_TEMPORALTOWER</BuildingType>
+				<FlavorType>FLAVOR_GOLD</FlavorType>
+				<Flavor>50</Flavor>
+			</Row>
+			<Row>
+				<BuildingType>BUILDING_TEMPORALTOWER</BuildingType>
+				<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+				<Flavor>25</Flavor>
+			</Row>
+		</Building_Flavors>
+		<Civilization_BuildingClassOverrides>
+			<Row>
+				<CivilizationType>CIVILIZATION_SWEDEN</CivilizationType>
+				<BuildingClassType>BUILDINGCLASS_UNIQUE</BuildingClassType>
+				<BuildingType>BUILDING_IKEA</BuildingType>
+			</Row>
+			<Row>
+				<CivilizationType>CIVILIZATION_SWEDEN</CivilizationType>
+				<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
+				<BuildingType>BUILDING_OPEN_AIR_MUSEUM</BuildingType>
+			</Row>
+		</Civilization_BuildingClassOverrides>
+		<Building_YieldChanges>
+			<Row>
+				<BuildingType>BUILDING_IKEA</BuildingType>
+				<YieldType>YIELD_PRODUCTION</YieldType>
+				<Yield>5</Yield>
+			</Row>
+			<Row>
+				<BuildingType>BUILDING_IKEA</BuildingType>
+				<YieldType>YIELD_GOLD</YieldType>
+				<Yield>10</Yield>
+			</Row>
+			<Row>
+				<BuildingType>BUILDING_IKEA</BuildingType>
+				<YieldType>YIELD_FOOD</YieldType>
+				<Yield>1</Yield>
+			</Row>
+			<Row>
+				<BuildingType>BUILDING_OPEN_AIR_MUSEUM</BuildingType>
+				<YieldType>YIELD_CULTURE</YieldType>
+				<Yield>8</Yield>
+			</Row>
+		</Building_YieldChanges>
+		<Building_ClassesNeededInCity>
+			<Row>
+				<BuildingType>BUILDING_OPEN_AIR_MUSEUM</BuildingType>
+				<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+			</Row>
+		</Building_ClassesNeededInCity>
+</GameData>

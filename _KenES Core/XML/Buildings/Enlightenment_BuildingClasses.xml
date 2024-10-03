@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_EE_SMITHSONIAN</Type>
+			<DefaultBuilding>BUILDING_EE_SMITHSONIAN</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_EE_SMITHSONIAN</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_EE_CLOTH_MILL</Type>
+			<DefaultBuilding>BUILDING_EE_CLOTH_MILL</DefaultBuilding>
+		</Row>
+	</BuildingClasses>
+</GameData>

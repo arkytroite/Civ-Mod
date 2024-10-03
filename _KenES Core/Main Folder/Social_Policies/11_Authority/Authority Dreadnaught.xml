@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/13/2023 2:48:54 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_AUTHORITY_ADMIRAL</Type>
+			<Description>TXT_KEY_UNIT_AUTHORITY_ADMIRAL</Description>
+			<DefaultUnit>UNIT_AUTHORITY_ADMIRAL</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+		
+	<Units>
+		<Row>
+			<Class>UNITCLASS_AUTHORITY_ADMIRAL</Class>
+			<Type>UNIT_AUTHORITY_ADMIRAL</Type>
+			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
+			<Combat>70</Combat>
+			<RangedCombat>70</RangedCombat>
+			<Range>3</Range>
+			<Cost>130</Cost>
+			<FaithCost>0</FaithCost>
+			<RequiresFaithPurchaseEnabled>0</RequiresFaithPurchaseEnabled>
+			<Moves>4</Moves>
+			<HurryCostModifier>25</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AUTHORITY_ADMIRAL</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_AUTHORITY_ADMIRAL_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_GALLEON_STRATEGY2</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_AUTHORITY_ADMIRAL</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<PurchaseOnly>true</PurchaseOnly>
+			<Pillage>true</Pillage>
+			<BaseSightRange>4</BaseSightRange>
+			<PolicyType>POLICY_ARDL_AUTHORITY_FINISHER</PolicyType>
+			<Mechanized>true</Mechanized>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<ObsoleteTech></ObsoleteTech>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<MinAreaSize>20</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_DREADNOUGHT</UnitArtInfo>			
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>46</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>38</UnitFlagIconOffset>
+			<MoveRate>WOODEN_BOAT</MoveRate>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AUTHORITY_ADMIRAL</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AUTHORITY_ADMIRAL</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AUTHORITY_ADMIRAL</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AUTHORITY_ADMIRAL</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<!--
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_AUTHORITY_ADMIRAL</UnitType>
+			<UnitClassType>UNITCLASS_IRONCLAD</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	-->
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AUTHORITY_ADMIRAL</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AUTHORITY_ADMIRAL</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AUTHORITY_ADMIRAL</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AUTHORITY_ADMIRAL</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+	</Unit_Flavors>
+	
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_AUTHORITY_ADMIRAL</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AUTHORITY_ADMIRAL</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AUTHORITY_ADMIRAL</UnitType>
+			<PromotionType>PROMOTION_GREAT_ADMIRAL</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AUTHORITY_ADMIRAL</UnitType>
+			<PromotionType>PROMOTION_GOLDEN_AGE_POINTS</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AUTHORITY_ADMIRAL</UnitType>
+			<PromotionType>PROMOTION_SAPPER</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	
+	
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_AUTHORITY_ADMIRAL</UnitType>
+			<SelectionSound>AS2D_SELECT_FRIGATE</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_FRIGATE</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+	
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AUTHORITY_ADMIRAL">
+			<Text>Dreadnaught Admiral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_AUTHORITY_ADMIRAL">
+			<Text>Only availible by completing the Authority Tree. Gives a bonus to all units within 2 tiles against cities. Gives golden age points from defeating units. Along with the normal great admiral promotions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_AUTHORITY_ADMIRAL_TEXT">
+			<Text>
+				
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AUTHORITY_ADMIRAL_STRATEGY">
+			<Text>The Great Admiral has the ability to instantly repair every naval and embarked unit in the same hex, as well as in adjacent hexes. The Great Admiral is consumed when performing this action. The Great Admiral also provides a 15% combat bonus to all player-owned naval units within 2 tiles. The Great Admiral is NOT consumed when he provides this bonus.</Text>
+		</Row>
+
+	</Language_en_US>
+	
+</GameData>

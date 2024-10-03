@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 27-Jun-14 04:57:30 -->
+
+	<GameData>
+		
+		<!-- Edits information entries to reflect changes -->
+		
+		<Language_en_US>
+			<Update>
+				<Where Tag="TXT_KEY_CIV5_IMPROVEMENTS_POLDER_HELP" />
+				<Set Text="A Polder is a unique improvement that can only be built on Lakes and Coast adjacent to at least three land tiles. It boosts food output by +2 [ICON_FOOD] Food. " />
+			</Update>
+		</Language_en_US>
+		
+	</GameData>

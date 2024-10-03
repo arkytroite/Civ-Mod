@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/10/2013 12:17:22 PM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Set Level="1"
+				 PolicyBranchType="POLICY_BRANCH_AUTOCRACY"
+				 StealTechFasterModifier="50" />
+			<Where Type="POLICY_INDUSTRIAL_ESPIONAGE" />
+		</Update>
+	</Policies>
+	<!-- 
+	<Policy_BuildingClassProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_INDUSTRIAL_ESPIONAGE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_INTELLIGENCE_AGENCY</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+	</Policy_BuildingClassProductionModifiers>
+	-->
+	<Policy_BuildingClassYieldModifiers>
+		<Row>
+			<PolicyType>POLICY_INDUSTRIAL_ESPIONAGE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_INTELLIGENCE_AGENCY</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldMod>25</YieldMod>
+		</Row>
+	</Policy_BuildingClassYieldModifiers>
+	<Policy_BuildingClassTourismModifiers>
+		<Row>
+			<PolicyType>POLICY_INDUSTRIAL_ESPIONAGE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_INTELLIGENCE_AGENCY</BuildingClassType>
+			<TourismModifier>25</TourismModifier>
+		</Row>
+	</Policy_BuildingClassTourismModifiers>
+
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_INDUSTRIAL_ESPIONAGE</PolicyType>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+	
+	<Policy_Flavors>
+		<Delete PolicyType="POLICY_INDUSTRIAL_ESPIONAGE" />
+		<Row>
+			<PolicyType>POLICY_INDUSTRIAL_ESPIONAGE</PolicyType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_INDUSTRIAL_ESPIONAGE</PolicyType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>13</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_INDUSTRIAL_ESPIONAGE_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Industrial Espionage[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_RESEARCH] Science from customs houses.[NEWLINE][ICON_BULLET]Spies steal technologies 50% faster.[NEWLINE][ICON_BULLET]+25% [ICON_RESEARCH] Science and +25% [ICON_TOURISM] Tourism from the National Intelligence Agency." />
+		</Update>
+	</Language_en_US>
+
+	<Language_RU_RU>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_INDUSTRIAL_ESPIONAGE_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Промышленный шпионаж[ENDCOLOR][NEWLINE][ICON_BULLET]Шпионы крадут технологии на 50% быстрее.[NEWLINE][ICON_BULLET]+25% [ICON_RESEARCH] науки и +25% [ICON_TOURISM] туризма от Разведовытельного управления." />
+		</Update>
+	</Language_RU_RU>
+
+	<Language_ES_ES>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_INDUSTRIAL_ESPIONAGE_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Espionaje industrial[ENDCOLOR][NEWLINE][ICON_BULLET]Los espías pueden robar tecnologías un 50% más rápido.[NEWLINE][ICON_BULLET]+25% de [ICON_RESEARCH] Ciencia y de [ICON_TOURISM] Turismo por la Agencia Nacional de Inteligencia." />
+		</Update>
+	</Language_ES_ES>
+</GameData>

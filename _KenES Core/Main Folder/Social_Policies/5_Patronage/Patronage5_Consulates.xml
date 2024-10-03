@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/2/2015 11:43:13 PM -->
+<GameData>
+	
+	<!-- Consulates now creates a building in your Capital that gives you votes based on Era (1 vote + 1 vote per era after Renaissance. -->
+	<Policies>
+		<Update>
+			<Set RiggingElectionModifier="200" />
+			<Where Type="POLICY_CONSULATES" />
+		</Update>
+		
+	</Policies>
+	
+	<!-- Consulats Localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_CONSULATES_HELP" />
+		<Row Tag="TXT_KEY_POLICY_CONSULATES_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Consulates[ENDCOLOR][NEWLINE]Improves influence resting rate by 20 and doubles the rate at which allied spies rig elections.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

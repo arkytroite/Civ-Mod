@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/9/2015 11:34:48 PM -->
+<GameData>
+
+	<!-- Branch tooltip -->
+	<Language_en_US>
+		
+		<Row Tag="TXT_KEY_POLICY_ARDL_CITYFESTIVALS">
+			<Text>City Festivals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ARDL_CITYFESTIVALS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]City Festivals[ENDCOLOR][NEWLINE]All specialists produce +1 [ICON_CULTURE].[NEWLINE]A Great Artist [ICON_GREAT_ARTIST] appears.[NEWLINE] 10 Cities will gain the lowest tier [ICON_CULTURE] culture building (Monument-Ampitheater-Operahouse-Museum-Broadcast Tower) that has not been built in that city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ARDL_CITYFESTIVALS_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]City Festivals[ENDCOLOR][NEWLINE]All specialists produce +1 [ICON_CULTURE].[NEWLINE]A Great Artist [ICON_GREAT_ARTIST] appears.[NEWLINE] 10 Cities will gain the lowest tier [ICON_CULTURE] culture building (Monument-Ampitheater-Operahouse-Museum-Broadcast Tower) that has not been built in that city.</Text>
+		</Row>
+
+	</Language_en_US>
+
+
+
+	<!-- OPENER -->
+	<Policies>
+		<Row>
+			<Type>POLICY_ARDL_CITYFESTIVALS</Type>
+			<Description>TXT_KEY_POLICY_ARDL_CITYFESTIVALS</Description>
+			<Civilopedia>TXT_KEY_POLICY_ARDL_CITYFESTIVALS_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_ARDL_CITYFESTIVALS_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_ARDL_SECURITY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>3</GridX>
+			<GridY>3</GridY>
+			<IncludesOneShotFreeUnits>1</IncludesOneShotFreeUnits>
+			<NumCitiesFreeCultureBuilding>10</NumCitiesFreeCultureBuilding>
+			<PortraitIndex>32</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+	</Policies>
+
+	<Policy_SpecialistExtraYields>
+		<Row>
+			<PolicyType>POLICY_ARDL_CITYFESTIVALS</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_SpecialistExtraYields>
+
+	<Policy_FreeUnitClasses>
+		<Row>
+			<PolicyType>POLICY_ARDL_CITYFESTIVALS</PolicyType>
+			<UnitClassType>UNITCLASS_ARTIST</UnitClassType>
+			<Count>1</Count>
+		</Row>
+	</Policy_FreeUnitClasses>
+	
+
+</GameData>

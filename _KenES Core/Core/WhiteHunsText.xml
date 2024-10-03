@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/28/2020 3:33:20 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_GT_TOKHAROI">
+			<Text>Xingar-Yir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GT_TOKHAROI_TEXT">
+			<Text>An important area of power for the Hephthalite, Alchon, and succeeding dynasties was in the area of Tokharistan, or Bactria. Around 6,000 soldiers, mostly bowmen or mounted cavalry, were recruited from the area, sometimes known as 'xingār-yir', meaning 'swords of the sun.'</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GT_TOKHAROI_HELP">
+			<Text>The Huns' unique Swordsman. They have the Invader Promotion, allowing them to heal in enemy territory as if it were their own. Requires Iron.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GT_TOKHAROI_STRATEGY">
+			<Text>The Huns' unique Swordsman. They have the Invader Promotion, allowing them to heal in enemy territory as if it were their own. Requires Iron.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

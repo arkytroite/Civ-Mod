@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<BuildingClasses>
+	<Row>
+		<Type>BUILDINGCLASS_ARDL_BUCKINGHAM</Type>
+		<DefaultBuilding>BUILDING_ARDL_BUCKINGHAM</DefaultBuilding>
+		<Description>TXT_KEY_BUILDING_ARDL_BUCKINGHAM</Description>
+		<MaxGlobalInstances>1</MaxGlobalInstances>
+	</Row>
+	</BuildingClasses>
+	
+	<Buildings>
+		
+		<!-- Wailing Wall -->
+		<Row>
+			<Type>BUILDING_ARDL_BUCKINGHAM</Type>
+			<BuildingClass>BUILDINGCLASS_ARDL_BUCKINGHAM</BuildingClass>
+			<Cost>1060</Cost>
+			<PrereqTech>TECH_RADIO</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_REACTIONARY</PolicyBranchType>
+			<Help>TXT_KEY_WONDER_ARDL_BUCKINGHAM_HELP</Help>
+			<Description>TXT_KEY_BUILDING_ARDL_BUCKINGHAM</Description>
+			<Civilopedia>TXT_KEY_WONDER_ARDL_BUCKINGHAM_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_ARDL_BUCKINGHAM_QUOTE</Quote>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<FreePolicies>1</FreePolicies>
+			<GlobalGreatPeopleRateModifier>15</GlobalGreatPeopleRateModifier>
+			<IconAtlas>ARDL_REACTIONARY_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>WonderBuckinghamPalace.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_ARDL_BUCKINGHAM</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_ARDL_BUCKINGHAM</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARDL_BUCKINGHAM</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARDL_BUCKINGHAM</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARDL_BUCKINGHAM</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Building_Flavors>
+</GameData>

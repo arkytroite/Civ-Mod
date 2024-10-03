@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/2/2015 5:17:35 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_4UC_ZELLIGE_TEMPLE">
+			<Text>Khalwa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_4UC_ZELLIGE_TEMPLE_STRATEGY">
+			<Text>The Khalmw is a Moroccan unique building that increases the [ICON_PEACE] Faith of a city. Unlike the Temple it replaces, it also increases a city's [ICON_CULTURE] Culture output by 15%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_4UC_ZELLIGE_TEMPLE_HELP">
+			<Text>Increases the [ICON_PEACE] Faith and [ICON_CULTURE] Culture of a city. Only Morocco may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_4UC_ZELLIGE_TEMPLE_TEXT">
+			<Text>
+				Khalwa is a place for spiritual exercize in Sufiism. A solitary retreat to one of these places traditionally lasts forty days under instruction from a shaykh, or religious instructor.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>ZELLIGE_TEMPLE_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>zellige256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ZELLIGE_TEMPLE_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>zellige128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ZELLIGE_TEMPLE_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>zellige64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ZELLIGE_TEMPLE_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>zellige45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+</GameData>

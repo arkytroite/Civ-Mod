@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/9/2013 10:34:32 PM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Set Level="2"
+				 PolicyBranchType="POLICY_BRANCH_ORDER" />
+			<Where Type="POLICY_WORKERS_FACULTIES" />
+		</Update>
+	</Policies>	
+		<Policy_Flavors>
+		<Delete PolicyType="POLICY_WORKERS_FACULTIES" />
+		<Row>
+			<PolicyType>POLICY_WORKERS_FACULTIES</PolicyType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>44</Flavor>
+		</Row>
+	</Policy_Flavors>
+	<Policy_BuildingClassProductionModifiers>
+		<Delete PolicyType="POLICY_WORKERS_FACULTIES" />
+	</Policy_BuildingClassProductionModifiers>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_WORKERS_FACULTIES" />
+			<Set Text="Soviets" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_WORKERS_FACULTIES_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Soviets[ENDCOLOR][NEWLINE][ICON_BULLET]+25% [ICON_RESEARCH] Science from Cities with Factories." />
+		</Update>
+	</Language_en_US>
+
+	<Language_RU_RU>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_WORKERS_FACULTIES" />
+			<Set Text="Пролетарская солидарность" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_WORKERS_FACULTIES_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Пролетарская солидарность[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастья от фабрик, ГЭС, мусорных заводов, солнечных ЭС и АЭС." />
+		</Update>
+	</Language_RU_RU>
+
+	<Language_ES_ES>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_WORKERS_FACULTIES" />
+			<Set Text="Solidaridad del Proletariado" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_WORKERS_FACULTIES_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Solidaridad del Proletariado[ENDCOLOR][NEWLINE][ICON_BULLET]+1 de [ICON_HAPPINESS_1] Felicidad por Fábricas, Centrales Hidráulicas, Centros de reciclaje, Centrales de energía solar y Centrales Nucleares." />
+		</Update>
+	</Language_ES_ES>
+</GameData>

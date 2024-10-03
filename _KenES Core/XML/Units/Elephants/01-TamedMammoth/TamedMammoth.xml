@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/05/17 5:24:12 AM -->
+<GameData>
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_EU_TAMED_MAMMOTH</Type>
+			<Description>TXT_KEY_UNIT_SMAN_EU_TAMED_MAMMOTH</Description>
+			<DefaultUnit>NONE</DefaultUnit>
+		</Row>
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SMAN_EU_TAMED_MAMMOTH</Class>
+			<Type>UNIT_SMAN_EU_TAMED_MAMMOTH</Type>
+			<Combat>12</Combat>
+			<Cost>70</Cost>
+			<FaithCost>140</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<BaseSightRange>3</BaseSightRange>
+			<!--<PrereqTech>TECH_TRAPPING</PrereqTech>-->
+			<ObsoleteTech>TECH_AGRICULTURE</ObsoleteTech>
+			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SMAN_EU_TAMED_MAMMOTH</Description>
+			<Help>TXT_KEY_UNIT_SMAN_EU_TAMED_MAMMOTH_HELP</Help>
+			<Strategy>TXT_KEY_UNIT_SMAN_EU_TAMED_MAMMOTH_STRATEGY</Strategy>
+			<Civilopedia>TXT_KEY_UNIT_SMAN_EU_TAMED_MAMMOTH_PEDIA</Civilopedia>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<HurryCostModifier>25</HurryCostModifier>
+			<AdvancedStartCost>25</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_EU_TAMED_MAMMOTH</UnitArtInfo>
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>4</UnitFlagIconOffset>
+			<MoveRate>PHANT</MoveRate>
+		</Row>
+	</Units>
+
+	<!--
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_TAMED_MAMMOTH</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_CAMEL_BAZAAR</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+	-->
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_TAMED_MAMMOTH</UnitType>
+			<PromotionType>PROMOTION_SMAN_PERILOUS_PACHYDERM_1_PROMOTION</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_TAMED_MAMMOTH</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_TAMED_MAMMOTH</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_TAMED_MAMMOTH</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_TAMED_MAMMOTH</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_TAMED_MAMMOTH</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_TAMED_MAMMOTH</UnitType>
+			<UnitClassType>UNITCLASS_SMAN_EU_BATTLE_ELEPHANT</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_TAMED_MAMMOTH</UnitType>
+			<SelectionSound>AS2D_SELECT_SIAMESE_WAR_ELEPHANT</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_SIAMESE_WAR_ELEPHANT</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SMAN_EU_TAMED_MAMMOTH">
+			<Text>Tamed Mammoth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_EU_TAMED_MAMMOTH_HELP">
+			<Text>Lumbering Ancient Era melee Unit, weak to Spearmen and Pikemen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_EU_TAMED_MAMMOTH_STRATEGY">
+			<Text>Tamed Mammoth Strategy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_EU_TAMED_MAMMOTH_PEDIA">
+			<Text>
+				The Tamed Mammoth is an Ancient Era melee unit, available at the discovery of Trapping. It becomes obsolete at the discovery of Horseback Riding, at which time it may upgrade to the Battle Elephant unit.[NEWLINE][NEWLINE]One of the most interesting and unusual uses of domesticated animals in history was the use of war elephants, which probably first began around 4,000 BCE in the Indus River Valley. Later, the largest land mammals in the animal kingdom were used in many battles including against Alexander the Great's forces, by Hannibal's Carthaginian army against the Romans and by the Sultans of India when fighting the Mongols. Working with animals on the battlefield had both advantages and disadvantages and this was particularly true of the war elephant, whose use down the ages has had varying degrees of success.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

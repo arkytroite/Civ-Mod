@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/6/2015 4:51:27 PM -->
+<GameData>
+
+	<!-- Naval Tradition: Now +1 Happiness and +1 Culture from Lighthouse, Harbor, and Seaport. -->
+	<Policies>
+		<Update>
+			<Set PortraitIndex="10" />
+			<Where Type="POLICY_NAVAL_TRADITION" />
+		</Update>
+	</Policies>
+	<Policy_UnitCombatProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_NAVAL_TRADITION</PolicyType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NAVAL_TRADITION</PolicyType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NAVAL_TRADITION</PolicyType>
+			<UnitCombatType>UNITCOMBAT_SUBMARINE</UnitCombatType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NAVAL_TRADITION</PolicyType>
+			<UnitCombatType>UNITCOMBAT_CARRIER</UnitCombatType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+	</Policy_UnitCombatProductionModifiers>
+	<Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_NAVAL_TRADITION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NAVAL_TRADITION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NAVAL_TRADITION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+
+	</Policy_BuildingClassYieldChanges>
+	<Policy_BuildingClassCultureChanges>
+		<Row>
+			<PolicyType>POLICY_NAVAL_TRADITION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<CultureChange>1</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NAVAL_TRADITION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
+			<CultureChange>1</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NAVAL_TRADITION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
+			<CultureChange>1</CultureChange>
+		</Row>
+	</Policy_BuildingClassCultureChanges>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_NAVAL_TRADITION_HELP" />
+		<Row Tag="TXT_KEY_POLICY_NAVAL_TRADITION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Naval Tradition[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness,+1 [ICON_CULTURE] Culture, and +2 [ICON_GOLD] Gold for each Harbor, Seaport, or Lighthouse.[NEWLINE]+25% [ICON_PRODUCTION] Production when building Naval Units.</Text>
+		</Row>
+	</Language_en_US>
+	
+
+</GameData>

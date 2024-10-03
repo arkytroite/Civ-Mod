@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/12/2015 3:19:34 AM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Set UnitPurchaseCostModifier="-10" />
+			<Where Type="POLICY_TRADE_UNIONS" />
+		</Update>
+	</Policies>
+	
+
+	<!-- Mercenary Army -->
+	<Units>
+		<Update>
+			<Set Class="UNITCLASS_LANDSKNECHT" Cost="45" Combat="17" PolicyType="POLICY_TRADE_UNIONS" PrereqTech="TECH_GUILDS" FaithCost="0" RequiresFaithPurchaseEnabled="false" ObsoleteTech="TECH_DYNAMITE" PurchaseOnly="true" MoveAfterPurchase="true" UnitFlagAtlas="ARDL_UNIT_FLAG_ATLAS_A" UnitFlagIconOffset="7"/>
+			<Where Type="UNIT_GERMAN_LANDSKNECHT" />
+		</Update>
+		
+		<Update>
+			<Set Class="UNITCLASS_ARDL_MERCENARYLEGION" Cost="220" Combat="42" PolicyType="POLICY_TRADE_UNIONS" PrereqTech="TECH_DYNAMITE" FaithCost="0" RequiresFaithPurchaseEnabled="false" ObsoleteTech="TECH_ATOMIC_THEORY" PurchaseOnly="true" MoveAfterPurchase="true" />
+			<Where Type="UNIT_ARDL_MERCENARYLEGION" />
+		</Update>
+		
+		<Update>
+			<Set Class="UNITCLASS_GALLEON2" Cost="150" PolicyType="POLICY_TRADE_UNIONS" FaithCost="0" RequiresFaithPurchaseEnabled="false" ObsoleteTech="TECH_ATOMIC_THEORY" PurchaseOnly="true" MoveAfterPurchase="true" />
+			<Where Type="UNIT_GALLEON2" />
+		</Update>
+		
+	</Units>
+
+	<Unit_ClassUpgrades>
+		<Update>
+			<Set UnitType="UNIT_GERMAN_LANDSKNECHT" />
+			<Where UnitClassType="UNITCLASS_HALBERDIER" />
+		</Update>
+	</Unit_ClassUpgrades>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_TRADE_UNIONS_HELP" />
+		<Row Tag="TXT_KEY_POLICY_TRADE_UNIONS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Mercenary Army[ENDCOLOR][NEWLINE]Allows the purchasing of Landsknechts at Guilds, Merchantman at Navigation, and Mercenary Company at Dynamite. -10% [ICON_GOLD] cost of purchasing units.</Text>
+		</Row>
+	</Language_en_US>
+	
+	
+</GameData>

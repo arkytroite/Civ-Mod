@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/12/2015 3:04:23 AM -->
+<GameData>
+
+	<!-- Commerce Opener -->
+	<Policies>
+		<Update>
+			<Set GreatMerchantRateModifier="33" />
+			<Where Type="POLICY_COMMERCE" />
+		</Update>
+	</Policies>
+	<Policy_CapitalYieldModifiers>
+		<Delete PolicyType="POLICY_COMMERCE" />
+	</Policy_CapitalYieldModifiers>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP" />
+		<Row Tag="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Commerce[ENDCOLOR] provides bonuses to empires focused on [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Adopting Commerce allows you to earn Great Merchants 33% faster and grants +2 [ICON_GOLD] Gold in every city. [NEWLINE]Unlocks building [COLOR_YELLOW]Big Ben[ENDCOLOR][NEWLINE][NEWLINE]Adopting all Policies in the Commerce tree will grant you triple [ICON_GOLD] Gold from Great Merchant Trade Missions. It also provides +1 [ICON_GOLD] Gold from Trading Posts, Camps, and Plantations and allows the purchase of Great Merchants with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
+		</Row>
+	</Language_en_US>
+	
+
+
+	<!-- Commerce Finisher -->
+	<!-- NOTE: tooltip is updated in opener -->
+	<Policies>
+		<Update>
+			<Set TradeMissionGoldModifier="300" IncludesOneShotFreeUnits="false" />
+			<Where Type="POLICY_COMMERCE_FINISHER" />
+		</Update>
+	</Policies>
+
+	<Policy_CityYieldChanges>
+		<Row>
+			<PolicyType>POLICY_COMMERCE</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Policy_CityYieldChanges>	
+	
+	<Policy_ImprovementYieldChanges>
+		
+		<Row>
+			<PolicyType>POLICY_COMMERCE_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_COMMERCE_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+	</Policy_ImprovementYieldChanges>
+	<!--
+	<Policy_FreeUnitClasses>
+		<Row>
+			<PolicyType>POLICY_COMMERCE_FINISHER</PolicyType>
+			<UnitClassType>UNITCLASS_MERCHANT</UnitClassType>
+			<Count>2</Count>
+		</Row>
+	</Policy_FreeUnitClasses>
+	-->
+
+</GameData>

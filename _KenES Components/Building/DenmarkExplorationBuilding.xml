@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<!-- Load in icons -->
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>RUNESTONE_ICON</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>ART/RunestoneIcon256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>RUNESTONE_ICON</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>ART/RunestoneIcon128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>RUNESTONE_ICON</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ART/RunestoneIcon64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>RUNESTONE_ICON</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>ART/RunestoneIcon45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+
+
+	<!-- Adds the new Runestone -->
+	<Buildings>
+		<Row>
+			<Type>BUILDING_RUNESTONE</Type>
+			<BuildingClass>BUILDINGCLASS_AMPHITHEATER</BuildingClass>
+			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+			<Cost>100</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_DRAMA</PrereqTech>
+			<Description>TXT_KEY_BUILDING_RUNESTONE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_RUNESTONE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_RUNESTONE_STRATEGY</Strategy>
+			<ArtDefineTag>COLESSEUM</ArtDefineTag>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<ConquestProb>0</ConquestProb>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>RUNESTONE_ICON</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_RUNESTONE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RUNESTONE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_RUNESTONE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_RUNESTONE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RUNESTONE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RUNESTONE</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_DENMARK</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<BuildingType>BUILDING_RUNESTONE</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+
+	<!-- Adds new text -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_RUNESTONE">
+			<Text>Runestone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RUNESTONE_STRATEGY">
+			<Text>The Danish unique building, Runestone, replaces the Amphitheater. It produces more [ICON_CULTURE] Culture and [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RUNESTONE_TEXT">
+			<Text>
+				A runestone is typically a raised stone with a runic inscription, but the term can also be applied to inscriptions on boulders and on bedrock. The tradition of raising stones that had runic inscriptions first appeared in the 4th and 5th century in Norway and Sweden, and these early runestones were usually placed next to graves. The earliest Danish runestones appeared in the 6th and 7th centuries, and there are about 50 runestones from the Migration Period in Scandinavia. Most runestones were erected during the late Viking Age, due to a trend that began in Denmark in the 960s. King Harald Bluetooth had just been baptised and in order to mark the arrival of a new order and a new age, he commanded the construction of a runestone.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

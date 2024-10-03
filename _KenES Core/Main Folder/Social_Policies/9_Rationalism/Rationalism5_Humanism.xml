@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/18/2015 9:47:01 AM -->
+<GameData>
+
+	<!-- HUMANISM -->
+	<Policies>
+		<Update>
+			<Set GreatScientistRateModifier="0" />
+			<Where Type="POLICY_HUMANISM" />
+		</Update>
+	</Policies>
+	<Policy_BuildingClassYieldModifiers>
+		<Delete PolicyType="POLICY_HUMANISM" BuildingClassType="BUILDINGCLASS_UNIVERSITY" YieldType="YIELD_SCIENCE" YieldMod="17" />
+	</Policy_BuildingClassYieldModifiers>
+	
+	<Policy_BuildingClassHappiness>
+		<Row>
+			<PolicyType>POLICY_HUMANISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_HUMANISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_HUMANISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_OBSERVATORY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_HUMANISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PUBLIC_SCHOOL</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_HUMANISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+	</Policy_BuildingClassHappiness>
+	
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_HUMANISM_HELP" />
+		<Row Tag="TXT_KEY_POLICY_HUMANISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Humanism[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from Libraries, Universities, Observatories, Public Schools, and Research Labs.</Text>
+		</Row>
+	</Language_en_US>
+	
+
+</GameData>

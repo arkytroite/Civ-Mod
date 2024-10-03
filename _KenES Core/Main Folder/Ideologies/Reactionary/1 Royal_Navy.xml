@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/11/2013 12:28:55 AM -->
+<GameData>
+	<Policies>
+	<Row>
+		<Type>POLICY_ROYAL_NAVY</Type>
+		<Description>TXT_KEY_POLICY_ROYAL_NAVY</Description>
+		<Civilopedia>TXT_KEY_POLICY_ROYAL_NAVY_TEXT</Civilopedia>
+		<Help>TXT_KEY_POLICY_ROYAL_NAVY_HELP</Help>
+		<PolicyBranchType>POLICY_BRANCH_REACTIONARY</PolicyBranchType>
+		<CultureCost>10</CultureCost>
+		<Level>1</Level>
+		<PortraitIndex>44</PortraitIndex>
+		<IconAtlas>POLICY_ATLAS</IconAtlas>
+		<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+	</Row>
+	</Policies>
+	
+	<Policy_CoastalCityYieldChanges>
+		<Row>
+			<PolicyType>POLICY_ROYAL_NAVY</PolicyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Policy_CoastalCityYieldChanges>
+	<Policy_FreePromotions>
+		<Row>
+			<PolicyType>POLICY_ROYAL_NAVY</PolicyType>
+			<PromotionType>PROMOTION_ROYAL_NAVY</PromotionType>
+		</Row>
+	</Policy_FreePromotions>
+	
+
+	<!-- Naval Tradition promotion -->
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_ROYAL_NAVY</Type>
+			<Description>TXT_KEY_PROMOTION_ROYAL_NAVY_BOOST</Description>
+			<Help>TXT_KEY_PROMOTION_ROYAL_NAVY_BOOST_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_ROYAL_NAVY_BOOST</PediaEntry>
+			<CombatPercent>15</CombatPercent>
+		</Row>
+	</UnitPromotions>
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_ROYAL_NAVY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_ROYAL_NAVY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_ROYAL_NAVY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_CARRIER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_ROYAL_NAVY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SUBMARINE</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_ROYAL_NAVY_BOOST">
+			<Text>Royal Navy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ROYAL_NAVY_BOOST_HELP">
+			<Text>+10% [ICON_STRENGTH] Combat Strength</Text>
+		</Row>
+	</Language_en_US>
+
+	<Policy_Flavors>
+		<Row>
+			<PolicyType>POLICY_ROYAL_NAVY</PolicyType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ROYAL_NAVY</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>13</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+	
+</GameData>

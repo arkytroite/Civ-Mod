@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/6/2015 11:23:57 PM -->
+<GameData>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_3QURIKANCHA">
+			<Text>Qurikancha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3QURIKANCHA_STRATEGY">
+			<Text>The Qurikancha is an Incan unique building that increases the [ICON_PEACE] Faith of a city. Unlike the Temple it replaces, it also yields 1 [ICON_GOLD] Gold and has no maintenance cost.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3QURIKANCHA_TEXT">
+			<Text>
+				With a name roughly translating to "golden shrine" Qurikachas lived up to their name as glittering places of spendorous worship until they were stripped clean by conquistadors.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3QURIKANCHA_HELP">
+			<Text>
+				Increases the [ICON_PEACE] Faith and [ICON_GOLD] Gold of a city. Only the Incans may build it.
+
+			</Text>
+		</Row>
+	</Language_en_US>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>3QURIKANCHA_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>Qurikancha256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3QURIKANCHA_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>Qurikancha128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3QURIKANCHA_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>Qurikancha64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3QURIKANCHA_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>Qurikancha45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+</GameData>

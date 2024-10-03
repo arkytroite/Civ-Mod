@@ -1,0 +1,1498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" version="7">
+  <Properties>
+    <Name>*KenES Core</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Adds 4 more unique components to all civs, overhauls the policy tree, and adds several other features.</Teaser>
+    <Description>Feature List:[NEWLINE]Adds 4 unique components to all civilizations, including buildings, units, and improvements. Also adjusts a few existing unique components. [NEWLINE]Includes 3 new policy trees and a new ideology as well as a few new buildings that require certain policy trees to be unlocked to build.[NEWLINE]Makes captured civilian units turn into slaves, which are less effective than workers and may revolt.[NEWLINE]Adds new buildable units, including an upgrade path for the scout, mercenary army units for later in the game, and an extremely cheap ancient era military unit. [NEWLINE]Adds new tile improvements that require new "detour" technologies to build. These improvements are not focused on yields, but rather utility. One such technology gives access to hand-axemen.[NEWLINE]Adds the cloth mill, which provides gold for textile resources.</Description>
+    <Authors>KenES</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="A04531A84042F066E86361B8CE00EBB1" import="1">Atlas/4UC_IconAtlas_128.dds</File>
+    <File md5="62D541EFCA1B156C3465DB690A083CC9" import="1">Atlas/4UC_IconAtlas_256.dds</File>
+    <File md5="0F5B6B813E9A147CDB9FE0D0929A0B2C" import="1">Atlas/4UC_IconAtlas_32.dds</File>
+    <File md5="C749C83C86A81099BFCF5E9860ED1021" import="1">Atlas/4UC_IconAtlas_45.dds</File>
+    <File md5="0A16A4E2842AF347EFB38D656CBB49CC" import="1">Atlas/4UC_IconAtlas_64.dds</File>
+    <File md5="CB00AED3A11E419DFDA7DB3ADAE3C314" import="1">Atlas/4UC_IconAtlas_80.dds</File>
+    <File md5="62CE92436099517E861C0B4523369FBA" import="1">Atlas/5UC_IconAtlas_128.dds</File>
+    <File md5="CECF801F81CB9ACAEC740A5AFEBBE701" import="1">Atlas/5UC_IconAtlas_256.dds</File>
+    <File md5="ACAD35D5B657F1AB10BDDDE19A722CA0" import="1">Atlas/5UC_IconAtlas_32.dds</File>
+    <File md5="54FAF2E97A6A81CC4E64130BA05944B2" import="1">Atlas/5UC_IconAtlas_45.dds</File>
+    <File md5="310E4FEA35D4B1BCE42D1901BA8C71FF" import="1">Atlas/5UC_IconAtlas_64.dds</File>
+    <File md5="E932F07585C8AF706BDDEC1C3EE3519C" import="1">Atlas/5UC_IconAtlas_80.dds</File>
+    <File md5="908681938DDAFCE137A83A74A4B4FEB2" import="0">Atlas/4UC_IconAtlas.xml</File>
+    <File md5="620EFB6F7180CDF5D6E6011EC62BDF3D" import="0">Atlas/5UC_IconAtlas.xml</File>
+    <File md5="038C737F1289296DF61C4B156967BD16" import="1">Main Folder/Art/ardlbuildings_atlas_128.dds</File>
+    <File md5="4B54A9B2EA99B8A729410EF8820D067F" import="1">Main Folder/Art/ardlbuildings_atlas_256.dds</File>
+    <File md5="BEBD63A7432DC6DF258F21D3F8CAA9F0" import="1">Main Folder/Art/ardlbuildings_atlas_45.dds</File>
+    <File md5="11108E672D65E18558594088238F2C7B" import="1">Main Folder/Art/ardlbuildings_atlas_64.dds</File>
+    <File md5="9680D1796DFE286564600EA4D97A1DF7" import="1">Main Folder/Art/ardlbuildings_atlas_80.dds</File>
+    <File md5="D419BB1AE2A86DC978526916F9008A15" import="0">Main Folder/Art/ARDLCombined_IconAtlases.xml</File>
+    <File md5="2333ADE1FF153AAA14FEDB1FECE5866B" import="1">Main Folder/Art/ARDLScoutIcons.dds</File>
+    <File md5="AA3F36D4C02EF47EC24E1793474218D4" import="1">Main Folder/Art/ARDL_Reactionary_Atlas128.dds</File>
+    <File md5="D46234F313ED4754578C52642BBFAFBF" import="1">Main Folder/Art/ARDL_Reactionary_Atlas256.dds</File>
+    <File md5="4BE07226F0E2D8C7A0D62B25E7C83546" import="1">Main Folder/Art/ARDL_Reactionary_Atlas45.dds</File>
+    <File md5="1C54989E723D3D3989CB7C03C3F0B5AF" import="1">Main Folder/Art/ARDL_Reactionary_Atlas64.dds</File>
+    <File md5="B3CCEB294CC601104478A37E57EAD8AC" import="1">Main Folder/Art/ARDL_Reactionary_Atlas80.dds</File>
+    <File md5="E26DBF00D1CEEAAFACB1E13CB2F2D20E" import="1">Main Folder/Art/IdeologyOverviewBackground_One.dds</File>
+    <File md5="BCF2B26015645652784C168B952A1B38" import="1">Main Folder/Art/LEPZIG.dds</File>
+    <File md5="8A6D6377ECEB3E43BD9479907B79EB14" import="1">Main Folder/Art/mod_galleon.fxsxml</File>
+    <File md5="2CE071B138339613EEB708147C706FF0" import="1">Main Folder/Art/mod_galleon.gr2</File>
+    <File md5="F8A9A0912BFDCEE1E71CCB895F646E50" import="1">Main Folder/Art/mod_galleon_diff.dds</File>
+    <File md5="0C4FFF6062C19D7BAD1DA2536512A00B" import="1">Main Folder/Art/mod_galleon_sref.dds</File>
+    <File md5="9FA924195E7807F87BBF8E6A67E25F46" import="0">Main Folder/Art/NOVGOROD_splash.dds</File>
+    <File md5="9187D36F37CE9FF4F9D62074BD25BF79" import="1">Main Folder/Art/socialpoliciesaestheticsnew.dds</File>
+    <File md5="D70AA50F79F7C1CBAE9CAF0301855A74" import="1">Main Folder/Art/socialpoliciesaestheticsnew2.dds</File>
+    <File md5="6B681669817058E1C20A3B63E640D3A5" import="1">Main Folder/Art/socialpoliciesaestheticsnew3.dds</File>
+    <File md5="040C57BB45981D81DBA0ED7CFEEED955" import="1">Main Folder/Art/socialpoliciesaestheticsnew4.dds</File>
+    <File md5="86ECDB67D4D93CF3C0190DC5A8A77C0F" import="1">Main Folder/Art/socialpoliciesauthoritynew.dds</File>
+    <File md5="86ECDB67D4D93CF3C0190DC5A8A77C0F" import="1">Main Folder/Art/socialpoliciesauthoritynew2.dds</File>
+    <File md5="F1A57924B9778B0A0B827DFB3B726BFC" import="1">Main Folder/Art/socialpoliciesautocracy.dds</File>
+    <File md5="463AF612AABAE13E96321D8B7300D89E" import="0">Main Folder/Art/socialpoliciesautocracy_old.dds</File>
+    <File md5="8B6EB68EB7BBE24917AB19256D2F2515" import="1">Main Folder/Art/socialpoliciescommercenew.dds</File>
+    <File md5="E71D108FE5BCB9A6599941F040C674B1" import="1">Main Folder/Art/socialpoliciescommercenew2.dds</File>
+    <File md5="40FBCD1842035CA1C569FD12841DF2F7" import="1">Main Folder/Art/socialpoliciescommercenew3.dds</File>
+    <File md5="B6F051C93DEAE94A563169734E5A30E4" import="1">Main Folder/Art/socialpoliciesddefensenew.dds</File>
+    <File md5="3CCF5EB5A5B6E6D5AA676B0E22AC7B43" import="1">Main Folder/Art/socialpoliciesdefensenew2.dds</File>
+    <File md5="BD6CAD18E41B49EE8B7EDB6E901D5FC1" import="1">Main Folder/Art/socialpoliciesdiplomacynew.dds</File>
+    <File md5="E0A12C6E3E2257C498292AEEEAFBC837" import="1">Main Folder/Art/socialpoliciesfaithnew.dds</File>
+    <File md5="1D109CBBA0419630EA1F6D9F16FC7556" import="0">Main Folder/Art/socialpoliciesfreedom.dds</File>
+    <File md5="C663C323BA01D6DE8CBACF2B41636F82" import="1">Main Folder/Art/SocialPoliciesReactionary.dds</File>
+    <File md5="FEB5BE6066EE1FF8212D925FCB12186B" import="1">Main Folder/Art/socialpolicieshonornew.dds</File>
+    <File md5="82DCF086CCE2A6B152B76E99B3E3B287" import="1">Main Folder/Art/socialpolicieshonornew2.dds</File>
+    <File md5="ADCA6BF701F8D00647B450511DCFC43F" import="1">Main Folder/Art/socialpoliciesimperialism.dds</File>
+    <File md5="35BD2D75D5BA0098F63DDDB955BCC230" import="1">Main Folder/Art/socialpolicieslibertynew.dds</File>
+    <File md5="0D0C2AC3D501CE76FC54F29CCD28EAB0" import="0">Main Folder/Art/socialpoliciesorder.dds</File>
+    <File md5="0D80F6D5C0B92979596EBDB7CE02CB26" import="0">Main Folder/Art/socialpoliciesorder_old.dds</File>
+    <File md5="0D80F6D5C0B92979596EBDB7CE02CB26" import="1">Main Folder/Art/socialpoliciessdiplomacy.dds</File>
+    <File md5="0D80F6D5C0B92979596EBDB7CE02CB26" import="1">Main Folder/Art/socialpoliciessecuritynew.dds</File>
+    <File md5="7F9781D128B8C446409A88E389D30409" import="1">Main Folder/Art/socialpoliciestraditionnew.dds</File>
+    <File md5="88BF7FC523350D31FB46318684D5698A" import="1">Main Folder/Art/WonderBuckinghamPalace.dds</File>
+    <File md5="FE60559A36A48A0FD70DD8F316066DAB" import="0">Main Folder/Buildings/ARDLPolicy_Buildings.xml</File>
+    <File md5="C41F712F991D5448380B00875E56F23E" import="0">Main Folder/Buildings/ARDLPolicy_WondersIVANFORT.xml</File>
+    <File md5="0748E468E91BFD7FD3DAF6C7A66BE585" import="0">Main Folder/Buildings/ARDLPolicy_WondersLEPZIG.xml</File>
+    <File md5="7B6D196B015CA1CE9CDF02728695EE8B" import="0">Main Folder/Buildings/ARDLPolicy_WondersUN.xml</File>
+    <File md5="36A6DEDE8CEA4ADD19A9FF0F7616FBCD" import="0">Main Folder/Buildings/Palisade_WeaponsDepot_Buildings.xml</File>
+    <File md5="2AA299449926A16079309CB1177DB7E0" import="0">Main Folder/Buildings/Wonder_Update.xml</File>
+    <File md5="F9B058A1202001D08CF3E9B935F36B1C" import="1">Main Folder/ChooseIdeologyPopup.lua</File>
+    <File md5="0550BE7AAE1ADD53DB59A44873CB657C" import="0">Main Folder/Ideologies/Autocracy/1 Combined_Arms.xml</File>
+    <File md5="22F0A3AA85A094D7E7C7BFF82701ED65" import="0">Main Folder/Ideologies/Autocracy/1 Conscription.xml</File>
+    <File md5="71E62FB3A97908D049D6DB1F4335931D" import="0">Main Folder/Ideologies/Autocracy/1 Hero_Of_People.xml</File>
+    <File md5="9CBF05C36A6AC4D4174C60B26D41387A" import="0">Main Folder/Ideologies/Autocracy/1 Industrial_Espionage.xml</File>
+    <File md5="8F72AB4754CA505FC4D53252044C7674" import="0">Main Folder/Ideologies/Autocracy/1 Military_Industrial_Complex.xml</File>
+    <File md5="CA07772607D7309FEF943C7B160DEF06" import="0">Main Folder/Ideologies/Autocracy/1 Military_Parades.xml</File>
+    <File md5="4901502BC1AEE0E9EF691458BBBD34FB" import="0">Main Folder/Ideologies/Autocracy/1 Secret_Police.xml</File>
+    <File md5="8D047CAC9BEBD977B641A1590CD19BF3" import="0">Main Folder/Ideologies/Autocracy/2 Educated_Officers.lua</File>
+    <File md5="7889F158E12F8C3DB02BA4CB6F18A9A9" import="0">Main Folder/Ideologies/Autocracy/2 Educated_Officers.xml</File>
+    <File md5="C5E0308712E28988B0C283447DE345A8" import="0">Main Folder/Ideologies/Autocracy/2 Imperial_Legacy.xml</File>
+    <File md5="2B3A26A6716DDF861DF24A2165834026" import="0">Main Folder/Ideologies/Autocracy/2 Infiltration_Tactics.xml</File>
+    <File md5="489C18FAD2B22BA203620C703FB06135" import="0">Main Folder/Ideologies/Autocracy/2 Martial_Law.xml</File>
+    <File md5="BB070E9CE4A484725966650AAAB76434" import="0">Main Folder/Ideologies/Autocracy/2 Militarism.xml</File>
+    <File md5="238A76A544A29EA156BFFA53DB09D395" import="0">Main Folder/Ideologies/Autocracy/2 Nationalism.xml</File>
+    <File md5="C22C31AAA8C239AB37B188D239564EA2" import="0">Main Folder/Ideologies/Autocracy/3 Cult_Of_Personality.xml</File>
+    <File md5="32B7C5CDE376649EAB494CFB49019F73" import="0">Main Folder/Ideologies/Autocracy/3 Expeditionary_Force.xml</File>
+    <File md5="A9DE38BAA1F285727BFA2F426DEE82AD" import="0">Main Folder/Ideologies/Autocracy/3 Protectorate.xml</File>
+    <File md5="DE6BECEB6C3703C6CFABB790D683A59B" import="0">Main Folder/Ideologies/Freedom/1 Avante_Garde.sql</File>
+    <File md5="044365EC1646E70204FDB6C9965917AD" import="0">Main Folder/Ideologies/Freedom/1 Avant_Garde.xml</File>
+    <File md5="D1B60E44AA8F96AA09FA158D04D4B481" import="0">Main Folder/Ideologies/Freedom/1 CIA.xml</File>
+    <File md5="0BDB794E041D2CEF27DEB1EBD840908B" import="0">Main Folder/Ideologies/Freedom/1 CivilSociety.xml</File>
+    <File md5="5DFF9409F0C8941ACDCCB0AC351A3F49" import="0">Main Folder/Ideologies/Freedom/1 CreativeExpression.xml</File>
+    <File md5="B1C7145D47969D0840BFAB58C8C311D8" import="0">Main Folder/Ideologies/Freedom/1 Gilded Age.xml</File>
+    <File md5="4FF2521888B427A39A1BBC03CEB3434B" import="0">Main Folder/Ideologies/Freedom/1 Liberalism 2.xml</File>
+    <File md5="5F1D903FF0AB0AB496F8BDDBB6AC8CE7" import="0">Main Folder/Ideologies/Freedom/1 Liberalism.lua</File>
+    <File md5="8B7D7CEBB643E79072A9ECF16059E0EC" import="0">Main Folder/Ideologies/Freedom/1 Liberalism.xml</File>
+    <File md5="884FCA21091CFA5C5F4539660D4F9B2D" import="0">Main Folder/Ideologies/Freedom/1 Open_Society.xml</File>
+    <File md5="D13B0A09EECC1444D7A58A7F7DB62891" import="0">Main Folder/Ideologies/Freedom/1 Visionary.xml</File>
+    <File md5="C881AA87FD345D56C7DF6D9D64FE05FD" import="0">Main Folder/Ideologies/Freedom/2 Arsenal_of_Democracy.xml</File>
+    <File md5="8CA941477824BD53A8FCF8EF83D21F50" import="0">Main Folder/Ideologies/Freedom/2 Civil_Rights.xml</File>
+    <File md5="6DB5E6A1CC5BF374E1EE2982FF3483E2" import="0">Main Folder/Ideologies/Freedom/2 Free_Speech.xml</File>
+    <File md5="B07C9B15B3EABC6A4D0FC5233F6B5F74" import="0">Main Folder/Ideologies/Freedom/2 New_Deal.xml</File>
+    <File md5="CBB5F8A675CE533E6EC80A2DA0C1F8FB" import="0">Main Folder/Ideologies/Freedom/2 Urbanization.xml</File>
+    <File md5="718B97D1C467CA772247D0023F7E6802" import="0">Main Folder/Ideologies/Freedom/2 VolunteerArmy.xml</File>
+    <File md5="D29A2C82F48EE20F524C2675D36D694E" import="0">Main Folder/Ideologies/Freedom/3 Aerospace_Engineering.xml</File>
+    <File md5="E67729BAAA2AB5ED18CDB6C123427348" import="0">Main Folder/Ideologies/Freedom/3 A_New_Order.xml</File>
+    <File md5="A6CBB8E6407DAA8D8EC9E43102470D1A" import="0">Main Folder/Ideologies/Freedom/3 Land_Of_Prosperity.xml</File>
+    <File md5="229282A8A077780EA94259C962EE5E12" import="0">Main Folder/Ideologies/Freedom/ExtraTourismGreatWorkWonder.sql</File>
+    <File md5="7013167AD0E70E2560E57EAF8FB73977" import="0">Main Folder/Ideologies/Freedom/FreedomTreatyOrganization.lua</File>
+    <File md5="4E82F8F5504F0C89869F75495B9220F2" import="0">Main Folder/Ideologies/Freedom/PoliciesChanges.sql</File>
+    <File md5="DC0D4F3E6A22DA39D77B7F69FEC61EC0" import="0">Main Folder/Ideologies/Order/1 Communism.xml</File>
+    <File md5="B37C0112E6DE6393CCF57575F06E32FD" import="0">Main Folder/Ideologies/Order/1 Great_Leap_Forward.xml</File>
+    <File md5="255F551FADC9A3F95DAFA132D075CDF1" import="0">Main Folder/Ideologies/Order/1 Monument_To_Party.sql</File>
+    <File md5="CAC91DA5F06704D4246614F861110DED" import="0">Main Folder/Ideologies/Order/1 Monument_To_Party.xml</File>
+    <File md5="7761BF529F07B8402CAA0021628B7CF7" import="0">Main Folder/Ideologies/Order/1 Public_Works.xml</File>
+    <File md5="6E18A1675764F09C8799F0C1B5160DAD" import="0">Main Folder/Ideologies/Order/1 Rural_Resettlement.xml</File>
+    <File md5="6FC852779CCA3C92E19AB7DE15A79BB8" import="0">Main Folder/Ideologies/Order/1 State_Monopoly.xml</File>
+    <File md5="B9D6D3D3CAB94F6E1A69FEB5A883E9C3" import="0">Main Folder/Ideologies/Order/1 World_Revolution.xml</File>
+    <File md5="39EBE9E59EF7E8DA1AC4CC4FC3B51529" import="0">Main Folder/Ideologies/Order/2 Air_Superiority.lua</File>
+    <File md5="52DEE3FF30ACC9E5CB5CB9A4065F024B" import="0">Main Folder/Ideologies/Order/2 Air_Superiority.xml</File>
+    <File md5="288B5643DE606A95F2A30E919E118316" import="0">Main Folder/Ideologies/Order/2 Birthplace_Revolution.xml</File>
+    <File md5="4D2EC393BACFDB621667C7EE44CA6CF0" import="0">Main Folder/Ideologies/Order/2 Environmental_Research.xml</File>
+    <File md5="615828742242A82317DD6ACB6A195702" import="0">Main Folder/Ideologies/Order/2 Mechanized_Warfare.lua</File>
+    <File md5="E6065584F2A021A7ED3918CEA224994E" import="0">Main Folder/Ideologies/Order/2 Mechanized_Warfare.xml</File>
+    <File md5="B776DCA5ACD915FF225267DA780491D9" import="0">Main Folder/Ideologies/Order/2 Proletariate_Solidarity.xml</File>
+    <File md5="3A25D2DDF90A156A0AD53A7B5B69AE76" import="0">Main Folder/Ideologies/Order/2 Propaganda.xml</File>
+    <File md5="016FE652CAD3141568C407D5DA4C75E3" import="0">Main Folder/Ideologies/Order/3 National_Space_Agency.xml</File>
+    <File md5="B3FCB3AE5E1C3C0BDE3F8191221F11D9" import="0">Main Folder/Ideologies/Order/3 Nuclear_Program.lua</File>
+    <File md5="3AF163091A9037C0FA9B3E940574D535" import="0">Main Folder/Ideologies/Order/3 Nuclear_Program.xml</File>
+    <File md5="968DB3FD6E30F73942716109D30BA9D6" import="0">Main Folder/Ideologies/Order/3 Utopian_Socialism.xml</File>
+    <File md5="51BF14731828509B362C16DA0994E631" import="0">Main Folder/Ideologies/Reactionary/1 Ancien_Regime.xml</File>
+    <File md5="484B738AD29F23FEDA49235D55A482FD" import="0">Main Folder/Ideologies/Reactionary/1 Civil_Liberties.xml</File>
+    <File md5="30223F76DEAA3DB31E1B09482D945A9B" import="0">Main Folder/Ideologies/Reactionary/1 Divine_Right.xml</File>
+    <File md5="BA53CB339BBEC387C02A358E0D3345F3" import="0">Main Folder/Ideologies/Reactionary/1 Legion of Honor.xml</File>
+    <File md5="5CD8C4F0D7FB35716654A2BF2A9A4495" import="0">Main Folder/Ideologies/Reactionary/1 Matternich_Reforms.xml</File>
+    <File md5="FB1899168621BCF67FA5879A992D6460" import="0">Main Folder/Ideologies/Reactionary/1 Monarchal_Restoration.xml</File>
+    <File md5="C9BB95E088BCF58271300CB8B094ED05" import="0">Main Folder/Ideologies/Reactionary/1 Royal_Navy.xml</File>
+    <File md5="EC4A6A000F5639788054D944111D68D9" import="0">Main Folder/Ideologies/Reactionary/1 Thermidorian.xml</File>
+    <File md5="91B2359FB143818100F253E85A82A1B8" import="0">Main Folder/Ideologies/Reactionary/1 Universal_Healthcare.xml</File>
+    <File md5="845889741BA0014485F7BB9740FF260D" import="0">Main Folder/Ideologies/Reactionary/2 Elective_Monarchy.xml</File>
+    <File md5="AADF689E7D5CAFF6A34F6A63860A6A93" import="0">Main Folder/Ideologies/Reactionary/2 Parliamentary_Reforms.xml</File>
+    <File md5="49C77A3022C55B91EF9D9BD6E3094CA8" import="0">Main Folder/Ideologies/Reactionary/2 Statesmanship.xml</File>
+    <File md5="5DA6899A0878744C3C5D2A9D29078AD4" import="0">Main Folder/Ideologies/Reactionary/2 Universal_Education.xml</File>
+    <File md5="1077099DF7FEEE34BF93CFD38C5354AD" import="0">Main Folder/Ideologies/Reactionary/3 Commonwealth_of_Nations.xml</File>
+    <File md5="2FB5EAD854FDF491FD4421D1186719F1" import="0">Main Folder/Ideologies/Reactionary/3 Enlightened Absolutism.xml</File>
+    <File md5="BDD1CAA2FB55D419ED227922050C77F8" import="0">Main Folder/Ideologies/Reactionary/3 We_Shall_Never_Surrender.xml</File>
+    <File md5="6518333BF0703EA66CDFECFAC443BE30" import="0">Main Folder/Ideologies/Reactionary/ARDL_REA_Buildings.xml</File>
+    <File md5="547DE09C7390EC68636BAA69A58351EF" import="0">Main Folder/Ideologies/Reactionary/ARDL_REA_Dialogs.xml</File>
+    <File md5="34D69EE74C7027680687E6C6A93B47B1" import="0">Main Folder/Ideologies/Reactionary/ARDL_REA_GameTextInfos_en_US.xml</File>
+    <File md5="32EDE3F048F358F078E20AEBAF0DF81C" import="0">Main Folder/Ideologies/Reactionary/ARDL_REA_IconAtlas.xml</File>
+    <File md5="DE7E154B4145E6B9BB67CA273930F536" import="0">Main Folder/Ideologies/Reactionary/ARDL_REA_PolicyBranchTypes.xml</File>
+    <File md5="93DD1B0299F02252EDCD22481A19D8D7" import="0">Main Folder/Ideologies/Reactionary/IdeologyBuildings.xml</File>
+    <File md5="7D84434041D441185B2E0CBFC0D11533" import="0">Main Folder/PoliciesGrantBuildings/PGB_Tables.xml</File>
+    <File md5="EE3735B85974B1A9FEDC969D218DF777" import="0">Main Folder/PoliciesGrantBuildings/Policies grant Buildings.lua</File>
+    <File md5="4B09EFFA33DB8880891933936552CC2B" import="0">Main Folder/PoliciesGrantBuildings/Policy_PGB_FreeBuildingClassCapital_Table.lua</File>
+    <File md5="B445E90581DFA0EED6279B035749108E" import="0">Main Folder/PoliciesGrantBuildings/Policy_PGB_FreeBuildingClassCityState_Table.lua</File>
+    <File md5="25D0B93DDEC21FD03772EC51643F3801" import="0">Main Folder/PoliciesGrantBuildings/Policy_PGB_FreeBuildingClass_Table.lua</File>
+    <File md5="A87CECD2EB76B02F9FF4868C39F740FC" import="1">Main Folder/SocialPolicyPopup.lua</File>
+    <File md5="C65EFBE092667C198D7696B45DD47D83" import="1">Main Folder/SocialPolicyPopup.xml</File>
+    <File md5="6176D0168695FF07B58BA45EF306920C" import="0">Main Folder/Social_Policies/10_Security/Security0_OpenerAndFinisher.xml</File>
+    <File md5="53399E4A9BBD42706E85D8BCDF430515" import="0">Main Folder/Social_Policies/10_Security/Security1_PlannedDefenses.xml</File>
+    <File md5="272893E12B958BB6FCAD900E83595D15" import="0">Main Folder/Social_Policies/10_Security/Security2_NationalRediness.xml</File>
+    <File md5="B74E2E4575AECC6B3C1FC1E7C03ADD34" import="0">Main Folder/Social_Policies/10_Security/Security3_CityFestivals.xml</File>
+    <File md5="083E9B7FCDED469D13ED50F04CCB7DDA" import="0">Main Folder/Social_Policies/10_Security/Security4_NationalGraneries.xml</File>
+    <File md5="8523B5EFED3CCD2E29161D14F78A961A" import="0">Main Folder/Social_Policies/10_Security/Security5_HomelandDevelopment.xml</File>
+    <File md5="EAD1277E6D57F053FD30CFC0757BE066" import="0">Main Folder/Social_Policies/10_Security/Security_Tree.xml</File>
+    <File md5="B7402B88C1B889CBAA6207373EF7F227" import="0">Main Folder/Social_Policies/11_Authority/Armored_Trader.xml</File>
+    <File md5="8FD012C39A9F256E7A09F2C9F78960E0" import="0">Main Folder/Social_Policies/11_Authority/Authority Dreadnaught.xml</File>
+    <File md5="9D4FAAB30D5E488D111ED6D41C0EF06C" import="0">Main Folder/Social_Policies/11_Authority/Authority0_OpenerAndFinisher.xml</File>
+    <File md5="F11000EE22AE4CB14BDD90739D72D19E" import="0">Main Folder/Social_Policies/11_Authority/Authority1_.xml</File>
+    <File md5="F2DE5B0D4B1C1E56B68CC5303A6C75AE" import="0">Main Folder/Social_Policies/11_Authority/Authority2_.xml</File>
+    <File md5="AEE69834E9893E1D776245C3AECE4342" import="0">Main Folder/Social_Policies/11_Authority/Authority3_.xml</File>
+    <File md5="F168D547F4E7FAE343B656777C277572" import="0">Main Folder/Social_Policies/11_Authority/Authority4_.xml</File>
+    <File md5="CE6A4C4D1A1A510BDA02CBB0123A09D7" import="0">Main Folder/Social_Policies/11_Authority/Authority5_.xml</File>
+    <File md5="EA5A456B3703C8690AC33C8054F32EB0" import="1">Main Folder/Social_Policies/11_Authority/AuthorityDreadnaughtArt.sql</File>
+    <File md5="60BC93458AB65F54519A187EAF5E8968" import="0">Main Folder/Social_Policies/11_Authority/Authority_Tree.xml</File>
+    <File md5="F95BD9CE55A39DAB1FEE1FE559C8444B" import="0">Main Folder/Social_Policies/12_Diplomacy/Armored_Trader.xml</File>
+    <File md5="6EE517DA745A22407716E4BEE8CD4E71" import="0">Main Folder/Social_Policies/12_Diplomacy/Diplomacy0_OpenerAndFinisher.xml</File>
+    <File md5="F370009575DDE69F2BE476015E29ED49" import="0">Main Folder/Social_Policies/12_Diplomacy/Diplomacy1_.xml</File>
+    <File md5="964FDBF22F46EFF13770EDF35C8CFBCB" import="0">Main Folder/Social_Policies/12_Diplomacy/Diplomacy2_.xml</File>
+    <File md5="FC2E1CD1676B43610A97F53100A319B4" import="0">Main Folder/Social_Policies/12_Diplomacy/Diplomacy3_.xml</File>
+    <File md5="CC6A7CD3893F1A0893CC116376D9D5F9" import="0">Main Folder/Social_Policies/12_Diplomacy/Diplomacy4_.xml</File>
+    <File md5="13DE6717E912DBA3323D3C92DAAE2E19" import="0">Main Folder/Social_Policies/12_Diplomacy/Diplomacy5_.xml</File>
+    <File md5="A48B9E44ED5056EAC4E0316934AE1BEC" import="0">Main Folder/Social_Policies/12_Diplomacy/Diplomacy_Tree.xml</File>
+    <File md5="7E2A291CA6313140D25A2F291C89EE21" import="0">Main Folder/Social_Policies/1_Tradition/Tradition0_OpenerAndFinisher.xml</File>
+    <File md5="CD231A84608D539B09541113C1F98102" import="0">Main Folder/Social_Policies/1_Tradition/Tradition1_Oligarchy.xml</File>
+    <File md5="0E3531B9C61113FC54E28E2C674DAC91" import="0">Main Folder/Social_Policies/1_Tradition/Tradition2_Legalism.xml</File>
+    <File md5="74B6D700959CC5C46361A9CE96CA18DD" import="0">Main Folder/Social_Policies/1_Tradition/Tradition4_Monarchy.xml</File>
+    <File md5="30C2E41854F8AD344387718C0B24CD5B" import="0">Main Folder/Social_Policies/1_Tradition/Tradition5_Landed_Elite.xml</File>
+    <File md5="23DD6B23AFB4459038DE8E3CD1318721" import="0">Main Folder/Social_Policies/1_Tradition/Tradition_Landed_Elite.xml</File>
+    <File md5="753E04F5136B10C196D0FB050D1F4929" import="0">Main Folder/Social_Policies/1_Tradition/Tradition_SQL.sql</File>
+    <File md5="23096734DF7690E628C987515C4CE733" import="0">Main Folder/Social_Policies/1_Tradition/Tradition_Tree.xml</File>
+    <File md5="702E566AE2264D263DA4FE5147081D20" import="0">Main Folder/Social_Policies/2_Liberty/Liberty0_OpenerAndFinisher.xml</File>
+    <File md5="6A1E58DE620729BF547C6E9A370FDADE" import="0">Main Folder/Social_Policies/2_Liberty/Liberty1_Republic.xml</File>
+    <File md5="2751574F197FCFE08E1E0AFE50A776A3" import="0">Main Folder/Social_Policies/2_Liberty/Liberty2_Collective_Rule.xml</File>
+    <File md5="C6DB4C8B422F9C7FA2B8C62EC022A1C2" import="0">Main Folder/Social_Policies/2_Liberty/Liberty4_Representation.xml</File>
+    <File md5="6E53B0E7AF788FB591F903A4D7DAAB46" import="0">Main Folder/Social_Policies/2_Liberty/Liberty5_Meritocracy.xml</File>
+    <File md5="046A4D4A44E9AE4F72BED9514B480C2F" import="0">Main Folder/Social_Policies/3_Honor/Honor0_OpenerAndFinisher.xml</File>
+    <File md5="DF3D53F9D9633C4960DB23BE746E4D46" import="0">Main Folder/Social_Policies/3_Honor/Honor1_WarriorCode.xml</File>
+    <File md5="91A9981D9B6207A6C26CEFD64E2D182B" import="0">Main Folder/Social_Policies/3_Honor/Honor2_ProfessionalArmy.xml</File>
+    <File md5="32C1D9E5EA39B71F575D56A0A5B99909" import="0">Main Folder/Social_Policies/3_Honor/Honor3_MilitaryCaste.xml</File>
+    <File md5="77BE8527077DDD6117763561E66A29B7" import="0">Main Folder/Social_Policies/3_Honor/Honor4_MilitaryTradition.xml</File>
+    <File md5="08543C2B4DE862C7D618D89FB25D9637" import="0">Main Folder/Social_Policies/3_Honor/Honor5_Discipline.xml</File>
+    <File md5="21691FFBFF168BB8A44DC87BDA0F043D" import="0">Main Folder/Social_Policies/3_Honor/Honor_Tree.xml</File>
+    <File md5="C15DE185720E843C268ADA046C0FF094" import="0">Main Folder/Social_Policies/4_Piety/Ordained_Priesthood.lua</File>
+    <File md5="F5C004FE1E73F2521A6E957BDE1532BC" import="0">Main Folder/Social_Policies/4_Piety/Piety0_OpenerAndFinisher.xml</File>
+    <File md5="C27F754490F052B82C058E018DF9292B" import="0">Main Folder/Social_Policies/4_Piety/Piety1_OrganizedReligion.xml</File>
+    <File md5="C6CBBAFE7CCCBC7B5D9BC8C03EF6B300" import="0">Main Folder/Social_Policies/4_Piety/Piety2_MandateOfHeaven.xml</File>
+    <File md5="F14D6CBAD6C65550938FB8387F2E247D" import="0">Main Folder/Social_Policies/4_Piety/Piety3_ReligiousTolerance.xml</File>
+    <File md5="24C5C7DA272E5981F482C1C4C0713A1B" import="0">Main Folder/Social_Policies/4_Piety/Piety4_Reformation.xml</File>
+    <File md5="A74A606AEBBBEC2E48E5B29B1A28116F" import="0">Main Folder/Social_Policies/4_Piety/Piety5_Theocracy.xml</File>
+    <File md5="5F3AD46F68697C51AB2D980ECE477324" import="0">Main Folder/Social_Policies/4_Piety/PietyTables.sql</File>
+    <File md5="658D5F5FCA9B80ECA798E7547F37DFCC" import="0">Main Folder/Social_Policies/4_Piety/Piety_Tree.xml</File>
+    <File md5="04775CA75979ABCB6F45CD685BE237EA" import="0">Main Folder/Social_Policies/5_Patronage/Patronage0_OpenerAndFinisher.xml</File>
+    <File md5="B89BC3E006AE9140D2BA996E559A8F64" import="0">Main Folder/Social_Policies/5_Patronage/Patronage1_Philanthropy.xml</File>
+    <File md5="EF2480830AFB209ACC657ECE663CE9BA" import="0">Main Folder/Social_Policies/5_Patronage/Patronage2_Scholasticism.xml</File>
+    <File md5="C55C8D1E37AF1BCC44D1DC2955CB4EE7" import="0">Main Folder/Social_Policies/5_Patronage/Patronage3_MerchantConfederacy.xml</File>
+    <File md5="A7BBC070CAE6599A10FCC53FA4436580" import="0">Main Folder/Social_Policies/5_Patronage/Patronage4_Cultural_Diplomacy.xml</File>
+    <File md5="270E9D7CE61B5579529AC9B2F16C0FF1" import="0">Main Folder/Social_Policies/5_Patronage/Patronage5_Consulates.lua</File>
+    <File md5="C83802DBAC87E8643C683B6D8EA5026A" import="0">Main Folder/Social_Policies/5_Patronage/Patronage5_Consulates.xml</File>
+    <File md5="BAD83884E3234715B612BF38F49B6A54" import="0">Main Folder/Social_Policies/5_Patronage/Patronage5_NewConsulates.lua</File>
+    <File md5="B5D1D6BFAB74CF226950D632F5A0A35B" import="0">Main Folder/Social_Policies/5_Patronage/Patronage_SQL.sql</File>
+    <File md5="D591370F5DE593DCD41E46C572859EC2" import="0">Main Folder/Social_Policies/5_Patronage/Patronage_Tree.xml</File>
+    <File md5="F36F725AD06911DBA3BD34769ABA04C6" import="0">Main Folder/Social_Policies/6_Aesthetics/0 Aesthetics_Opener.xml</File>
+    <File md5="1D5A461DD0C25D865DFD3F2718E73069" import="0">Main Folder/Social_Policies/6_Aesthetics/Aesthetics0_OpenerAndFinisher.xml</File>
+    <File md5="B2989FB4AFE42173E46D51707FE2B7CD" import="0">Main Folder/Social_Policies/6_Aesthetics/Aesthetics1_FlourishingOfTheArts.xml</File>
+    <File md5="AF945429ACD468564BEADD7A377BAFED" import="0">Main Folder/Social_Policies/6_Aesthetics/Aesthetics2_CulturalCenters.xml</File>
+    <File md5="EE2FDA0144356EBE4BC3CDA334041F42" import="0">Main Folder/Social_Policies/6_Aesthetics/Aesthetics3_CulturalExchange.xml</File>
+    <File md5="2365F394670C1FA0D741B19A6000B2A8" import="0">Main Folder/Social_Policies/6_Aesthetics/Aesthetics4_ArtisticGenius.xml</File>
+    <File md5="29A9B70FA8CE3D2ABB257D5D0EC7298B" import="0">Main Folder/Social_Policies/6_Aesthetics/Aesthetics5_FineArts.xml</File>
+    <File md5="A9217606A23D67F242CC80B1AD581D86" import="0">Main Folder/Social_Policies/6_Aesthetics/Aesthetics_Tree.xml</File>
+    <File md5="13D592F3BCC06345EC580F1505A71040" import="0">Main Folder/Social_Policies/7_Commerce/Commerce0_OpenerAndFinisher.xml</File>
+    <File md5="94810355CAE0DBCA52362B48EDE478C7" import="0">Main Folder/Social_Policies/7_Commerce/Commerce1_MercenaryArmy.xml</File>
+    <File md5="64C05975F9AE8403503AA3E1106B20FA" import="0">Main Folder/Social_Policies/7_Commerce/Commerce2_SilkRoad.xml</File>
+    <File md5="BBA65FF3B04AD10CD1B8A7A601AA29E4" import="0">Main Folder/Social_Policies/7_Commerce/Commerce3_Mercantilism.xml</File>
+    <File md5="BAD83884E3234715B612BF38F49B6A54" import="0">Main Folder/Social_Policies/7_Commerce/Commerce4_Entrepreneurship.lua</File>
+    <File md5="C9A92FAC79039CDC2A337D04D85F9A9C" import="0">Main Folder/Social_Policies/7_Commerce/Commerce4_Entrepreneurship.xml</File>
+    <File md5="0582473531AA90169E9F9223E8C94E19" import="0">Main Folder/Social_Policies/7_Commerce/Commerce5_Protectionism.xml</File>
+    <File md5="92DBA062BD88B90479B138D391A5B90A" import="0">Main Folder/Social_Policies/7_Commerce/Commerce_SQL.sql</File>
+    <File md5="B5B6FC9CB9B0FDFFE4190C53D63E27F4" import="0">Main Folder/Social_Policies/7_Commerce/Commerce_Tree.xml</File>
+    <File md5="0BB4618920A3E316DCA6910290CB31E0" import="0">Main Folder/Social_Policies/7_Commerce/GalleonUnit.xml</File>
+    <File md5="70274184CC4D30869A1CC3C07612D836" import="0">Main Folder/Social_Policies/7_Commerce/MercenaryLegion.xml</File>
+    <File md5="F0E5FF2EECC723127E6C7ED296998B1F" import="0">Main Folder/Social_Policies/7_Commerce/MercenaryLegionArt.sql</File>
+    <File md5="699125B8D526380478CF71F837876A20" import="0">Main Folder/Social_Policies/7_Commerce/UnitsGalleonArt.sql</File>
+    <File md5="D5B382AE464A47F7D2C035D770A84BAE" import="0">Main Folder/Social_Policies/7_Commerce/UnitsGalleonArt.xml</File>
+    <File md5="58A72810CE79E65D902CC7FF5B959CE8" import="0">Main Folder/Social_Policies/8_Imperialism(Exploration)/ConquistaArt.sql</File>
+    <File md5="6500A02CAF84B3E9F0B40A62A68A8E71" import="0">Main Folder/Social_Policies/8_Imperialism(Exploration)/Exploration0_OpenerAndFinisher.xml</File>
+    <File md5="98800836111286A07DAA97049FB68041" import="0">Main Folder/Social_Policies/8_Imperialism(Exploration)/Exploration1_Colonialism.lua</File>
+    <File md5="10277385AB81A6F5BC69253D7D750466" import="0">Main Folder/Social_Policies/8_Imperialism(Exploration)/Exploration1_Colonialism.xml</File>
+    <File md5="95C42B8D8790BD58872860012EFE7D02" import="0">Main Folder/Social_Policies/8_Imperialism(Exploration)/Exploration2_MaritimeInfrastructure.xml</File>
+    <File md5="BBBFD2D1F89A2F81CE70675854340690" import="0">Main Folder/Social_Policies/8_Imperialism(Exploration)/Exploration3_NavalTradition.xml</File>
+    <File md5="932763EC4360EC3B346BF9E69B2963EB" import="0">Main Folder/Social_Policies/8_Imperialism(Exploration)/Exploration4_NaviationSchool.xml</File>
+    <File md5="09E02C86A0721B7E7FA4D8AD4FF6E982" import="0">Main Folder/Social_Policies/8_Imperialism(Exploration)/Exploration5_TreasureFleets.lua</File>
+    <File md5="3450F72B7DFB90F5F16D49C55C103B80" import="0">Main Folder/Social_Policies/8_Imperialism(Exploration)/Exploration5_TreasureFleets.xml</File>
+    <File md5="BCC0965ED0D676D947A16D1AE38644B7" import="0">Main Folder/Social_Policies/8_Imperialism(Exploration)/Exploration_SQL.sql</File>
+    <File md5="EAC5416CAF53D7C24A9253DA24E948C7" import="0">Main Folder/Social_Policies/8_Imperialism(Exploration)/Exploration_Tree.xml</File>
+    <File md5="05002701B1E628F2A2D588ADA298507B" import="0">Main Folder/Social_Policies/8_Imperialism(Exploration)/Exploration__Conquistador.xml</File>
+    <File md5="807D1569BF16192DD6568D5ECC295446" import="0">Main Folder/Social_Policies/9_Rationalism/Rationalism0_OpenerAndFinisher.xml</File>
+    <File md5="71BFC21CCF5BFED0BF1F96D9EB3A4572" import="0">Main Folder/Social_Policies/9_Rationalism/Rationalism1_Sovereignty.xml</File>
+    <File md5="F7C1AEB0B4F2EC1034F01FBA5DDDAE44" import="0">Main Folder/Social_Policies/9_Rationalism/Rationalism2_Secularism.xml</File>
+    <File md5="90821FA52DB9FE5BE98DBC01B917FBAA" import="0">Main Folder/Social_Policies/9_Rationalism/Rationalism3_FreeThought.xml</File>
+    <File md5="8A9B1B62A7B06BBE0E720A1A749558BE" import="0">Main Folder/Social_Policies/9_Rationalism/Rationalism4_ScientificRevolution.xml</File>
+    <File md5="885FFCECD5312561FEC513BA93240585" import="0">Main Folder/Social_Policies/9_Rationalism/Rationalism5_Humanism.xml</File>
+    <File md5="59F17CF38422CEF652298C890C8F2B04" import="0">Main Folder/Social_Policies/9_Rationalism/Rationalism_Tree.xml</File>
+    <File md5="1E30E1FFFA117F410AF2B517138EC088" import="0">Main Folder/UpdateBranchDefines.xml</File>
+    <File md5="84EA748D6F1B02A17C9DAD916E94A2FC" import="0">Slave.xml</File>
+    <File md5="F75B07FCD6457410C37E73626F5DA3BA" import="1">slaveflag.dds</File>
+    <File md5="17E1590845F3776D4E48705C9D63C27C" import="1">SlaveUprising.lua</File>
+    <File md5="A3AE912DECFBE796CFED6DB62DFB1A6C" import="1">sv_slave.dds</File>
+    <File md5="BF5E4F5D282F739FA1EEA711D813FB1F" import="1">Art/Atlases/Buildings/Enlightenment_Buildings_128.dds</File>
+    <File md5="743ADD07CCA2326513FEDF6998F554EF" import="1">Art/Atlases/Buildings/Enlightenment_Buildings_256.dds</File>
+    <File md5="69949283BAFBD5F7896C9588E850705A" import="1">Art/Atlases/Buildings/Enlightenment_Buildings_45.dds</File>
+    <File md5="38F16787B9ECF726F9B50A77499E1695" import="1">Art/Atlases/Buildings/Enlightenment_Buildings_64.dds</File>
+    <File md5="3BB50D8C82B56BD977AD3B3BADF441C6" import="1">Art/Atlases/Buildings/Enlightenment_Buildings_80.dds</File>
+    <File md5="8D32A99F9D6540F083A1B8B63B791373" import="1">Art/Atlases/Techs/EE_Flintlock_128.dds</File>
+    <File md5="EECA5D2376BF9D6820366B9522352D32" import="1">Art/Atlases/Techs/EE_Flintlock_214.dds</File>
+    <File md5="E02F8337C9B904CA5F8042C3A6F6EFDF" import="1">Art/Atlases/Techs/Enlightenment_Techs_128.dds</File>
+    <File md5="C21B4424322500605E5F54402C1EB33D" import="1">Art/Atlases/Techs/Enlightenment_Techs_214.dds</File>
+    <File md5="32C40EC5CAA71F8067A4B220A5D3ABEF" import="1">Art/Atlases/Techs/Enlightenment_Techs_256.dds</File>
+    <File md5="51690156A4A241BF658B57A96DB417E0" import="1">Art/Atlases/Techs/Enlightenment_Techs_45.dds</File>
+    <File md5="158084A05E6604D6F8FBAA94BBE6D8F5" import="1">Art/Atlases/Techs/Enlightenment_Techs_64.dds</File>
+    <File md5="6609DB90829F7411EF42834DAA3C31C5" import="1">Art/Atlases/Techs/Enlightenment_Techs_80.dds</File>
+    <File md5="FC73717BCE4036BD27A16EB1EBCA067D" import="1">Art/Atlases/Units/Enlightenment_Units_128.dds</File>
+    <File md5="2881564B179DE2F7E5618DF5B770D38C" import="1">Art/Atlases/Units/Enlightenment_Units_256.dds</File>
+    <File md5="BA8B12F6AEDF04DCF2A829DA8B2F5176" import="1">Art/Atlases/Units/Enlightenment_Units_45.dds</File>
+    <File md5="EAA3F0E0AAC8A626B2F1769969DCD3DE" import="1">Art/Atlases/Units/Enlightenment_Units_64.dds</File>
+    <File md5="A9CA566F3516B1F86C6C15118B64A568" import="1">Art/Atlases/Units/Enlightenment_Units_80.dds</File>
+    <File md5="63DBEA3C9A68ECE52947B3AFF733FF1C" import="1">Art/Atlases/Units/Unit Flags/Enlightenment_UnitFlags_32.dds</File>
+    <File md5="25AA5E4360A27D848F5DFA9BA0354F68" import="1">Art/Atlases/Units/Unit Flags/sv_Carrack.dds</File>
+    <File md5="3F735F37A78CCE3495B3B1B3A52980B2" import="1">Art/Atlases/Units/Unit Flags/sv_Cruiser.dds</File>
+    <File md5="F273B35C0DF6C3DDA0907973F966C4C0" import="1">Art/Atlases/Units/Unit Flags/sv_Cuirassier.dds</File>
+    <File md5="7EA37A2020BA282F76D3515862A9D4D8" import="1">Art/Atlases/Units/Unit Flags/sv_Explorer.dds</File>
+    <File md5="C509B6310155B4C133A288C453BB2345" import="1">Art/Atlases/Units/Unit Flags/sv_FieldGun.dds</File>
+    <File md5="321FE6BE3AC922A3F4512846AB45711B" import="1">Art/Atlases/Units/Unit Flags/sv_Galleon.dds</File>
+    <File md5="9626BDF4DFC2B0A9F97CC55325BA397C" import="1">Art/Atlases/Units/Unit Flags/sv_LineInfantry.dds</File>
+    <File md5="491F831F873CC3A793FB8F7F61BE8D9C" import="1">Art/Atlases/Units/Unit Flags/sv_ShipoftheLine.dds</File>
+    <File md5="14F42BFDF97CFCD443560FEDE2650C6F" import="1">Art/Atlases/Units/Unit Flags/sv_Skirmisher.dds</File>
+    <File md5="8805C748FF57C52322FC9E566BAFDE88" import="1">Art/Atlases/Units/Unit Flags/sv_Uhlan.dds</File>
+    <File md5="B20DE2D0E51368D396CA3F26A21617C5" import="1">Art/Atlases/Wonders/Enlightenment_Wonders_128.dds</File>
+    <File md5="8A74C56D776D108A5959339CC9E2D22F" import="1">Art/Atlases/Wonders/Enlightenment_Wonders_256.dds</File>
+    <File md5="5FE9E5B802E4CB161A4791F5686ECBDE" import="1">Art/Atlases/Wonders/Enlightenment_Wonders_32.dds</File>
+    <File md5="336C5F437C9443A7C59BCA82DD41701C" import="1">Art/Atlases/Wonders/Enlightenment_Wonders_45.dds</File>
+    <File md5="CA16ED38264316F1DDFE53DEA78215FA" import="1">Art/Atlases/Wonders/Enlightenment_Wonders_64.dds</File>
+    <File md5="A8BA84299A2EF793F17D179763E41137" import="1">Art/Atlases/Wonders/Enlightenment_Wonders_80.dds</File>
+    <File md5="811FD6256D6D4E2E361C155F0910EE8D" import="1">Art/Scenes/EE_Crystal_Palace_Splash.dds</File>
+    <File md5="870A1E50F9B3E68BDFFCBA4295F5A98A" import="1">Art/Scenes/EE_Kronborg_splash.dds</File>
+    <File md5="A8EA71293EC8D1CC0082D406A36286FA" import="1">Art/Scenes/EE_Torre_Splash.dds</File>
+    <File md5="4A12F73E98C455C93844055E5207DA8E" import="1">Art/Scenes/ERA_Enlightenment.dds</File>
+    <File md5="CEB20652DBD39BE798D7CBE354E2ABC7" import="1">Art/Scenes/EE_FasilGhebbi_Splash.dds</File>
+    <File md5="B87BF24F1742AF042384377AE3112F10" import="1">Art/Scenes/EE_Versailles_Splash.dds</File>
+    <File md5="F2C71619278BE0854D5C9AA0D4500F1F" import="1">Art/Scenes/EE_Smithsonian_splash.dds</File>
+    <File md5="3C787A26D55325CD91C5EC239B46DAE7" import="1">Art/Scenes/EE_Topkapi_splash.dds</File>
+    <File md5="127B9C1E76076CE2E3744B53128B1030" import="1">Art/Scenes/EE_Wat_Phra_Kaew_splash.dds</File>
+    <File md5="E91401F6D6BBB3F0B61D15D9BF24B0F8" import="1">Art/Unit Models/Armoured Cruiser/cruiser.fxsxml</File>
+    <File md5="B4A8CD84C118F5DE906677643FAA9589" import="1">Art/Unit Models/Armoured Cruiser/cruiser.gr2</File>
+    <File md5="7D7DE5645854D0B24F25187C895FD74E" import="1">Art/Unit Models/Armoured Cruiser/cruiser_DIFF.dds</File>
+    <File md5="DAA63ECCA22801C2D10ABE8C4803714B" import="1">Art/Unit Models/Armoured Cruiser/cruiser_SREF.dds</File>
+    <File md5="0D763CB1E8E2206B90FDBBA290B61CDC" import="1">Art/Unit Models/Armoured Cruiser/fx_triggers_cruiser.ftsxml</File>
+    <File md5="B9985906AF255F559D3E090537D2BC8D" import="1">Art/Unit Models/Carrack/carrack.fxsxml</File>
+    <File md5="0C88428D303A518CF9686C4849F61401" import="1">Art/Unit Models/Carrack/carrack.gr2</File>
+    <File md5="96B095DE275E74C651C065D39B32F558" import="1">Art/Unit Models/Carrack/Carrack_diff.dds</File>
+    <File md5="997802481AF18082ADECA48D2FBFAF93" import="1">Art/Unit Models/Carrack/Carrack_sref.dds</File>
+    <File md5="8A99EC624932EA978AC415A5EDA6B95B" import="1">Art/Unit Models/Cuirassier/freca1.blend</File>
+    <File md5="EC3036DCDFE38A9726C4C8CEFBFFD4BA" import="1">Art/Unit Models/Cuirassier/freca1.dds</File>
+    <File md5="E5BC65E0AD0B363C4A09BE2284C8A236" import="1">Art/Unit Models/Cuirassier/freca1.fxsxml</File>
+    <File md5="829FF0C918432A521E60706680FC77D5" import="1">Art/Unit Models/Cuirassier/freca1.gr2</File>
+    <File md5="431E6E3A865C5168E7B138F1703536B6" import="1">Art/Unit Models/Cuirassier/freca1_sref.dds</File>
+    <File md5="DB9D68A73ADE7CAF1F6AC4A8A377BE2C" import="0">Art/Unit Models/Enlightenment_ArtDefines.xml</File>
+    <File md5="480B2BC2DF69254A5F26102F62B460DD" import="1">Art/Unit Models/Explorer/conquistador_musketman.dds</File>
+    <File md5="163CDF867415B69FD0EAB1A1216A7171" import="1">Art/Unit Models/Explorer/conquistador_musketman_2.dds</File>
+    <File md5="279FC1F7C6615687E0368FF0A59A37CF" import="1">Art/Unit Models/Explorer/conquistador_musketman_3.dds</File>
+    <File md5="75303B1580E2345C41C513245A61AA9B" import="1">Art/Unit Models/Explorer/conquistador_musketman_gloss.dds</File>
+    <File md5="615B602250AD9F31C83E54401FAB425E" import="1">Art/Unit Models/Explorer/conquistador_musket_1.fxsxml</File>
+    <File md5="8607CAE5DE8BC741AE849DB5F1E4C9BE" import="1">Art/Unit Models/Explorer/conquistador_musket_1.gr2</File>
+    <File md5="DE3E68D7ECC88C45BA3DDE93769B13BE" import="1">Art/Unit Models/Explorer/conquistador_musket_2.fxsxml</File>
+    <File md5="A9F73A8EB3E133ECC88E2E98D54E53FA" import="1">Art/Unit Models/Explorer/conquistador_musket_2.gr2</File>
+    <File md5="2291E5B3992C4DD72FFD9AA5137040CC" import="1">Art/Unit Models/Explorer/conquistador_musket_3.fxsxml</File>
+    <File md5="8B2BB0700175C72889F6322CF65221F5" import="1">Art/Unit Models/Explorer/conquistador_musket_3.gr2</File>
+    <File md5="86601C5390F5E00A678F427508E43364" import="1">Art/Unit Models/Explorer/conquistador_musket_4.fxsxml</File>
+    <File md5="7AA7FA7158633FCB58A19B1E13B90C1D" import="1">Art/Unit Models/Explorer/conquistador_musket_4.gr2</File>
+    <File md5="4E619175C0B48768A94533CAC7D6396B" import="1">Art/Unit Models/Explorer/vet_conquistador_musketman.dds</File>
+    <File md5="03F466FBFA068FD4D33950CF16CF0C46" import="1">Art/Unit Models/Explorer/vet_conquistador_musketman_gloss.dds</File>
+    <File md5="241C29C8B726656AB37954C30F1BA6B5" import="1">Art/Unit Models/Field Gun/cannon_24pound_diff.dds</File>
+    <File md5="8D4A41DB021D942DCA1390B723FE608C" import="1">Art/Unit Models/Field Gun/cannon_24pound_sref.dds</File>
+    <File md5="8E6881CE22AED47000717E8CE9E89952" import="1">Art/Unit Models/Field Gun/GunCrew_diff.dds</File>
+    <File md5="6F18038FC5B71FADC231C9DA84C04D78" import="1">Art/Unit Models/Field Gun/GunCrew_sref.dds</File>
+    <File md5="E512CFB0D832CF1EAFA157A1828623B9" import="1">Art/Unit Models/Field Gun/NapoleonCannon.fxsxml</File>
+    <File md5="6DD3501F60795A8CE82B0E29B3EEF5B8" import="1">Art/Unit Models/Field Gun/NapoleonCannon.gr2</File>
+    <File md5="97FA4E37787448ECFCD7BCA605A6BB64" import="1">Art/Unit Models/Line Infantry/civ5_genmm1.fxsxml</File>
+    <File md5="80A6D50D4E1744365664F2AB5934FFB4" import="1">Art/Unit Models/Line Infantry/civ5_genmm1.gr2</File>
+    <File md5="F4C7D610351C73897BBA1E349ED4736A" import="1">Art/Unit Models/Line Infantry/genmm1.dds</File>
+    <File md5="A14D497A7F4311135C55C3ABAF5C919E" import="1">Art/Unit Models/Line Infantry/genmm1_sref.dds</File>
+    <File md5="F2F9FB35212A5944D17EEABCCC997FE2" import="1">Art/Unit Models/Ship of the Line/shipoftheline.fxsxml</File>
+    <File md5="70CBBFB6EE6A7321C7C1EF75A9404F91" import="1">Art/Unit Models/Ship of the Line/shipoftheline.gr2</File>
+    <File md5="05DA3D0442248AADAAA2CD3B3DF714A0" import="1">Art/Unit Models/Ship of the Line/shipoftheline_diff.dds</File>
+    <File md5="C873D61FFC562B40382953E76FD9CE25" import="1">Art/Unit Models/Ship of the Line/shipoftheline_dmg_diff.dds</File>
+    <File md5="6E79240DD7A9BE6AB018F48ED65456FB" import="1">Art/Unit Models/Ship of the Line/shipoftheline_sref.dds</File>
+    <File md5="05DA3D0442248AADAAA2CD3B3DF714A0" import="1">Art/Unit Models/Ship of the Line/u_english_shipoftheline_diff.dds</File>
+    <File md5="C873D61FFC562B40382953E76FD9CE25" import="1">Art/Unit Models/Ship of the Line/u_english_shipoftheline_dmg_diff.dds</File>
+    <File md5="6E79240DD7A9BE6AB018F48ED65456FB" import="1">Art/Unit Models/Ship of the Line/u_english_shipoftheline_sref.dds</File>
+    <File md5="622FD133E9BC01AE23B8C049A126E8B3" import="1">Art/Unit Models/Skirmisher/civ5_engmm1.fxsxml</File>
+    <File md5="DBB87A7D7EB7288E063383CE7359399B" import="1">Art/Unit Models/Skirmisher/civ5_engmm1.gr2</File>
+    <File md5="D6FD89034E3F5FA0C6B4827EDC4F77B5" import="1">Art/Unit Models/Skirmisher/engmm1.dds</File>
+    <File md5="2B919A6DD458B564CA1B9CF223BA2EBD" import="1">Art/Unit Models/Skirmisher/engmm1_sref.dds</File>
+    <File md5="D0C4BEB025D5A5ABB61E064DF03F9C0E" import="1">Art/Unit Models/Uhlan/gerlr1.blend</File>
+    <File md5="7AB2730CB0FE653F11961FEC01B3BFDE" import="1">Art/Unit Models/Uhlan/gerlr1.dds</File>
+    <File md5="E293930068E4151E47DFEEC55606C2FA" import="1">Art/Unit Models/Uhlan/gerlr1.fbx</File>
+    <File md5="2501B7E45C14B210CCD1549FF819D2BF" import="1">Art/Unit Models/Uhlan/gerlr1.fxsxml</File>
+    <File md5="76F2BD42FCBC78E4ED51005C4EF88029" import="1">Art/Unit Models/Uhlan/gerlr1.gr2</File>
+    <File md5="D1CCFC3064BBA4A6439F5F71403F79BF" import="1">Art/Unit Models/Uhlan/gerlr1_sref.dds</File>
+    <File md5="E5BC7416D290317C84802933B5E1E637" import="0">Credits.txt</File>
+    <File md5="4486E05E92C6A1829D1BD4FC8EAB80DE" import="1">Lua/CultureOverview.lua</File>
+    <File md5="BF85D174CA9D4F2EC2AD7E3FBB6C0D6D" import="1">Lua/CultureOverview.xml</File>
+    <File md5="0277DDAA4619E0EA3E56F0091BE6D31A" import="0">Lua/JFD_BuildingClassesNeededInCityOR.lua</File>
+    <File md5="3F824AC29B9D5351CEF574FCA5495FD7" import="0">Lua/JFD_FirstRate_Functions.lua</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/PlotIterators.lua</File>
+    <File md5="D3FEBA7201DD4A1754F13B76FCFEEBDB" import="0">Lua/Wonders.lua</File>
+    <File md5="B7AF42061B97C7E7832F2CBC8F0FDC00" import="1">Lua/NewEraPopup.lua</File>
+    <File md5="EAF5699CC23B26FA7BB6F120830538FD" import="1">Sounds/Quotes/Era/EnlightenmentEra01.mp3</File>
+    <File md5="520716AFC847FD910C0A2BF620696BE9" import="1">Sounds/Quotes/Era/EnlightenmentEra02.mp3</File>
+    <File md5="C81E2258DD1B82D1254907BC9125C959" import="1">Sounds/Quotes/Era/EnlightenmentEra03.mp3</File>
+    <File md5="7ADE235CB420219D59125D2C38900311" import="1">Sounds/Quotes/Techs/ArmourPlating.mp3</File>
+    <File md5="CFB1A04AB5931D3DED0814210F6125E2" import="1">Sounds/Quotes/Techs/Flintlock.mp3</File>
+    <File md5="2A2A5C081CA626FB42F8D4B625FCDDB2" import="1">Sounds/Quotes/Techs/Fortification.mp3</File>
+    <File md5="2AE2B47BDD21F14AB71E9DB3C30A0419" import="1">Sounds/Quotes/Techs/Humanism.mp3</File>
+    <File md5="B746814335433D240BF74B71F49E0100" import="1">Sounds/Quotes/Techs/Imperialism.mp3</File>
+    <File md5="01F172CE052EF394D4891EBF7CE14E45" import="1">Sounds/Quotes/Techs/Manufacturing.mp3</File>
+    <File md5="C7B89B241FADFFFD96477253BA5DDD25" import="1">Sounds/Quotes/Techs/NaturalHistory.mp3</File>
+    <File md5="2E8BA8B35A4B032E22E147CF1105881C" import="1">Sounds/Quotes/Techs/Romanticism.mp3</File>
+    <File md5="5F38AA2EE7D9C35F7B9ED91EC0DEDD0D" import="1">Sounds/Quotes/Techs/Sovereignty.mp3</File>
+    <File md5="BE3B1B4CFC5E7437B764D581BA217ECE" import="1">Sounds/Quotes/Wonders/CrystalPalaceAudio.mp3</File>
+    <File md5="42B99C3D5C5A75561328E9ED7E8F1E0D" import="1">Sounds/Quotes/Wonders/FasilGhebbiAudio.mp3</File>
+    <File md5="9CFFF3A585C8F8DCA92BA16211731B2B" import="1">Sounds/Quotes/Wonders/KronborgAudio.mp3</File>
+    <File md5="3EE98FC89313AD32E3D92614F1D4FCEB" import="1">Sounds/Quotes/Wonders/SmithsonianAudio.mp3</File>
+    <File md5="A5D9231AC301C805EC3D95304E5696F7" import="1">Sounds/Quotes/Wonders/TopkapiAudio.mp3</File>
+    <File md5="AB78BEEF1B4B8C65680C3C9C22614A56" import="1">Sounds/Quotes/Wonders/TorreDelOroAudio.mp3</File>
+    <File md5="0DA4AF9822143D7DC3153D4439ADEA6A" import="1">Sounds/Quotes/Wonders/VersaillesAudio.mp3</File>
+    <File md5="32D8E689D585853234BCAF477053E0BB" import="1">Sounds/Quotes/Wonders/WatPhraKaewAudio.mp3</File>
+    <File md5="726639F1F0C8F0D6DA9F6C2311A9F048" import="0">SQL/EECarrackDefines.sql</File>
+    <File md5="99CCAD9781392DDC4F521455E45DDCC7" import="0">SQL/EECruiserDefine.sql</File>
+    <File md5="29EF82FB907DB6B5F0C3F37FD33B4A6E" import="0">SQL/EECuirassierDefine.sql</File>
+    <File md5="2033175767DBA6F147F0674C9AC888AD" import="0">SQL/EEFieldGunDefine.sql</File>
+    <File md5="C6907476BFFD85FC5B68F79222A182E1" import="0">SQL/EEUnits.sql</File>
+    <File md5="E8FEEDE4B4AE5218CCFA8662A3620336" import="0">SQL/EEShipoftheLineDefine.sql</File>
+    <File md5="D23952E5461E5CA9C1A360193C93F789" import="0">SQL/Enlightenment_Wonders.sql</File>
+    <File md5="CF779F5EF8286F73BB31F775B5F2A5A9" import="0">SQL/EEExplorerDefine.sql</File>
+    <File md5="A6D3967FBBD4943F294AB24CEE195856" import="0">SQL/IDRemapper.sql</File>
+    <File md5="3C18B4C1A72209CBD894F173FCB1D26F" import="0">SQL/JFD_BuildingClassesNeededInCityOR.sql</File>
+    <File md5="BCF5DF41AE6B381FE0468713A2BFF25B" import="1">SQL/EELineInfantryDefine.sql</File>
+    <File md5="67C88FD8BB78FFB166D57F5BE398CC39" import="0">SQL/EESkirmisherDefine.sql</File>
+    <File md5="CA3595A1903BBF9EAB9FB4D27E1380AF" import="0">SQL/EEUhlanDefine.sql</File>
+    <File md5="8ACAACA13DD9D71377FAFA3DCD9E79EE" import="0">XML/Buildings/Enlightenment_BuildingClasses.xml</File>
+    <File md5="4554B04DE2239A7ECE1CCED6C911CB5A" import="0">XML/Buildings/Enlightenment_Buildings.xml</File>
+    <File md5="51DAA7B5076C78FDB64F1CABDEE33F13" import="0">XML/Buildings/Enlightenment_Wonders.xml</File>
+    <File md5="5243F43487BD1757205E59C64B80F574" import="0">XML/Civilizations/Enlightenment_Civilizations.xml</File>
+    <File md5="938CD7C6708B1B72D22961A39F7181A1" import="0">XML/GameInfo/Enlightenment_Eras.xml</File>
+    <File md5="02653534E5754C4E285F650F749EA5FE" import="0">XML/GameInfo/Enlightenment_IconTextureAtlases.xml</File>
+    <File md5="A359AD865AD5B950F9B9D0F8FDBFEE0D" import="0">XML/GameInfo/Enlightenment_Policies.xml</File>
+    <File md5="F96C15AD8F86453C77F9C173423A5DE9" import="0">XML/GameInfo/Enlightenment_WorldCongress.xml</File>
+    <File md5="870E29896407019486B9F865FA50B2B5" import="0">XML/Sounds/Enlightenment_Sounds.xml</File>
+    <File md5="8969BF54C102AFE24687A8FDAB4532FF" import="0">XML/Technologies/Enlightenment_Technologies.xml</File>
+    <File md5="C7EF3DCCDC6A1E86886050629A695F5B" import="0">XML/Technologies/Enlightenment_TechTreeUpdates.xml</File>
+    <File md5="F20CB892310B6F9CC9B5424B9A173D3B" import="0">XML/Terrain/Enlightenment_Improvements.xml</File>
+    <File md5="FA9ADA857C9168450E3497810A02629B" import="0">XML/Text/Enlightenment_Text.xml</File>
+    <File md5="91CB59F92D8FDC780CD56AA02AACACE0" import="0">XML/Text/Localisation/Enlightenment_Text_ru_RU.xml</File>
+    <File md5="C344FAD878548081E1312E3E75624BEB" import="0">XML/Text/Localisation/Enlightenment_Text_pl_PL.xml</File>
+    <File md5="610E66ADB45B1E8510A1B81F617FC517" import="0">XML/Text/Localisation/Enlightenment_Text_ko_KR.xml</File>
+    <File md5="965AD2DA88144A124C474EE4DC63BF62" import="0">XML/Text/Localisation/Enlightenment_Text_ja_JP.xml</File>
+    <File md5="0647A9A7290091F17E670F00C4F2AFD2" import="0">XML/Text/Localisation/Enlightenment_Text_it_IT.xml</File>
+    <File md5="B843D3B3C9B818240F4A59AC9DCD1757" import="0">XML/Text/Localisation/Enlightenment_Text_fr_FR.xml</File>
+    <File md5="340DEBEC0E221ACC515A4B6FD51FE0BA" import="0">XML/Text/Localisation/Enlightenment_Text_es_ES.xml</File>
+    <File md5="394C90869D45D0216F101414452690B7" import="0">XML/Text/Localisation/Enlightenment_Text_de_DE.xml</File>
+    <File md5="FD009B4C8FA5207BE621C4D2E3ED4D04" import="0">XML/Units/Enlightenment_UnitClasses.xml</File>
+    <File md5="B425CEA4726D1EB77CF3E5EC2F25CC53" import="0">XML/Units/Enlightenment_UnitPromotions.xml</File>
+    <File md5="51FF05824F41CDB4440DCAE21D9C4B6E" import="0">XML/Units/Enlightenment_Units.xml</File>
+    <File md5="451C05CF0A59ADF6D7DAC0DFB75486F6" import="0">XML/Units/Enlightenment_UnitUpdates.xml</File>
+    <File md5="32786EB2B34A47DFE63C70858750B89B" import="1">Art/JustGovBuilding128(2).dds</File>
+    <File md5="6914A2E7C694A0DECC773DFAB9721D4B" import="1">Art/JustGovBuilding256(2).dds</File>
+    <File md5="0E0A0B7244277BC53FE3CEFC3C44FD2F" import="1">Art/JustGovBuilding45(2).dds</File>
+    <File md5="5F76060F9AB951AAA97446F66D1FF396" import="1">Art/JustGovBuilding64(2).dds</File>
+    <File md5="06D92A1C330E4BCBFF6ED5ECEC720E22" import="0">XML/Buildings/ClericsCourt.xml</File>
+    <File md5="E0626473D7BA97743D2748F4DC85FB2D" import="0">XML/Buildings/CountyCourt.xml</File>
+    <File md5="F8596CDC3FBF3564D737CB9A4ED1FE59" import="0">XML/Buildings/Legislature.xml</File>
+    <File md5="1743E727BB1E36CDE6552A33FA7E7B0E" import="0">XML/Buildings/MagistrateOffice.xml</File>
+    <File md5="A10B906AE156DA23A8FA0F1D18A60123" import="0">XML/Buildings/MilitaryHQ.xml</File>
+    <File md5="E75C55F7F21F6F06B53DC5E811E32C43" import="0">XML/Buildings/NationalCongress.xml</File>
+    <File md5="04D877B5E750FA9206F0E1E3B05654B9" import="0">XML/Buildings/PeopleCouncil.xml</File>
+    <File md5="193E93A79DC2717ED6BB281371A113A8" import="0">XML/GamInfo/CIV5IconTextureAtlases.xml</File>
+    <File md5="472F68778BCC96AF7BEBF6C7749EF7C7" import="0">XML/GamInfo/CIV5Policies.xml</File>
+    <File md5="2F7C8849AC223CD3FB2A9EF30F18A6BD" import="1">Art/DeadEndIconAtlas128.dds</File>
+    <File md5="EE3929C327A95678A8BF742FAE95A5E5" import="1">Art/DeadEndIconAtlas256.dds</File>
+    <File md5="67F691CECEF458C564E9A2E5C42AC4B2" import="1">Art/DeadEndIconAtlas32.dds</File>
+    <File md5="EA6EF5CA256AF3BDA942E7D777710030" import="1">Art/DeadEndIconAtlas45.dds</File>
+    <File md5="E91E08CED87573C8A85862D68A2A6BB2" import="1">Art/DeadEndIconAtlas64.dds</File>
+    <File md5="4403F7C895DB80C5645FB4C7FB890BBF" import="1">Art/DeadEndIconAtlas80.dds</File>
+    <File md5="8ACDE8B42BC6D3F40F896E53D7E5CA89" import="1">Art/sv_pontoon_bridge.dds</File>
+    <File md5="534B18C77F6EEABF9A142342792E14FA" import="0">XML/DeadTechs.xml</File>
+    <File md5="0928C00E82C10EABE6E23B8B0D44B0BB" import="0">XML/DeadText.xml</File>
+    <File md5="27EFA57A16F8AD9434A0722C2B0E1C77" import="0">XML/IconAtlases.xml</File>
+    <File md5="ABE49D84D4C76435F188574C284EEED8" import="0">XML/Improvements/Motte.xml</File>
+    <File md5="FB493B20973ABAEA5568CE31084C5839" import="0">XML/Improvements/PontoonBridge.xml</File>
+    <File md5="4E050F2813BD4160D437FBA58E3E7CDF" import="0">XML/Improvements/Tipi.xml</File>
+    <File md5="0F386AD532AAC41360A9D95D1B6FCE40" import="0">XML/Units/LandAirShip.xml</File>
+    <File md5="6D2D0C6C100B211BEB01DF0EBAA41CF8" import="0">XML/Units/Handaxe.xml</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">ART/Common/black_16x16.dds</File>
+    <File md5="5706BF34E2C4E028663AE1AD53339227" import="1">ART/Common/black_4x4.dds</File>
+    <File md5="FE5F8A7D0D49AFE0B35E51EB488E1BD9" import="1">ART/Common/MercBG.dds</File>
+    <File md5="53C39378C977C6F304F6AD4C0C068F57" import="0">ART/Icons/ExoticUnitAtlas_Definitions.xml</File>
+    <File md5="8897B58B2284BE998273943A64F78BB3" import="1">ART/Icons/ExoticUnitAtlas032.dds</File>
+    <File md5="98972FB46D99D8B4907B427032F09B2D" import="1">ART/Icons/ExoticUnitAtlas045.dds</File>
+    <File md5="80ECC827DEC18CB5F7B021B42CDC7AEA" import="1">ART/Icons/ExoticUnitAtlas064.dds</File>
+    <File md5="8589DC599A1C9F59F1139706281B2B15" import="1">ART/Icons/ExoticUnitAtlas080.dds</File>
+    <File md5="9338C9FB235D47E5A6FCB46DCFC78992" import="1">ART/Icons/ExoticUnitAtlas128.dds</File>
+    <File md5="C4711A672D157A8CA82C895CF8B661DF" import="1">ART/Icons/ExoticUnitAtlas256.dds</File>
+    <File md5="3A50BED0BA8BA6B408D966055F657422" import="1">ART/Icons/ExoticUnitFlagAtlas032.dds</File>
+    <File md5="16F5734F585A190B23AA5E9800CC2A4D" import="1">ART/Icons/ExoticUnitPromotionAtlas032.dds</File>
+    <File md5="0C8FAFAB0FD4AD6A0483C1D0CB0E3E9C" import="1">ART/Icons/ExoticUnitPromotionAtlas045.dds</File>
+    <File md5="8058973B8588FA920CB8C4087808DDD0" import="1">ART/Icons/ExoticUnitPromotionAtlas064.dds</File>
+    <File md5="7198CF6527AF9E8C9E590F819F192132" import="1">ART/Icons/ExoticUnitPromotionAtlas256.dds</File>
+    <File md5="2697DB7AA68A313A72E0CBECC6E17044" import="1">XML/Units/Camels/01-Bowman/Art/SMAN_EU_Camel_Bowman.fxsxml</File>
+    <File md5="6C2C9B04AEEAE437172516807795EC52" import="1">XML/Units/Camels/01-Bowman/Art/SMAN_EU_Camel_Bowman.gr2</File>
+    <File md5="D0214AE769E41E5336F849B9BFCE2F4E" import="1">XML/Units/Camels/01-Bowman/Art/SMAN_EU_Camel_Bowman_diff.dds</File>
+    <File md5="E7E4788846C7003CC8766907C29F3949" import="1">XML/Units/Camels/01-Bowman/Art/SMAN_EU_Camel_Bowman_sref.dds</File>
+    <File md5="74056C635096A888B5EF6EDA2D735945" import="0">XML/Units/Camels/01-Bowman/CamelBowman.xml</File>
+    <File md5="9B7DC479A99EA8147C7FCAAF0577878F" import="0">XML/Units/Camels/01-Bowman/CamelBowmanArtDefines.sql</File>
+    <File md5="910DCC8C2BCB074721EA5235B926AFA4" import="1">XML/Units/Camels/02-RaidingParty/Art/SMAN_EU_CRP_Longswordsman.fxsxml</File>
+    <File md5="B1237C5C80E56D92DB5B23F313BFEE39" import="1">XML/Units/Camels/02-RaidingParty/Art/SMAN_EU_CRP_Longswordsman.gr2</File>
+    <File md5="A47D1508BF454859ADAB5C9BBF87EF7D" import="1">XML/Units/Camels/02-RaidingParty/Art/SMAN_EU_CRP_Longswordsman_diff.dds</File>
+    <File md5="A0B948605AF2B817B30C061D5530E799" import="1">XML/Units/Camels/02-RaidingParty/Art/SMAN_EU_CRP_Longswordsman_gloss.dds</File>
+    <File md5="5308367555DF3D51D24ECE5E972EEE60" import="1">XML/Units/Camels/02-RaidingParty/Art/SMAN_EU_CRP_Spearman.fxsxml</File>
+    <File md5="EE0CA2F984365C41055274E5BA8776F1" import="1">XML/Units/Camels/02-RaidingParty/Art/SMAN_EU_CRP_Spearman.gr2</File>
+    <File md5="4C10B2CD8E7A407B3813DAE718DE02F5" import="1">XML/Units/Camels/02-RaidingParty/Art/SMAN_EU_CRP_Spearman_diff.dds</File>
+    <File md5="BD5088741D8A9C45BF724EA5FD008324" import="1">XML/Units/Camels/02-RaidingParty/Art/SMAN_EU_CRP_Spearman_gloss.dds</File>
+    <File md5="3AF4DD2CF3708A7F035F786EF0CACB58" import="0">XML/Units/Camels/02-RaidingParty/CamelRaidingParty.xml</File>
+    <File md5="35A9CD760B4B01B8A26881BAD91465E1" import="0">XML/Units/Camels/02-RaidingParty/CamelRaidingPartyArtDefines.sql</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">XML/Units/Elephants/01-TamedMammoth/Art/no_gloss.dds</File>
+    <File md5="A819444B3BC3FBD022C4D8F344933528" import="1">XML/Units/Elephants/01-TamedMammoth/Art/SMAN_EU_CRP_Mammoth.ftsxml</File>
+    <File md5="A49395029B6AB105AFCFC3B83722A24E" import="1">XML/Units/Elephants/01-TamedMammoth/Art/SMAN_EU_CRP_Mammoth.fxsxml</File>
+    <File md5="27472D70390A3446F86215334D3B46BC" import="1">XML/Units/Elephants/01-TamedMammoth/Art/SMAN_EU_CRP_Mammoth.gr2</File>
+    <File md5="FE22568B3BE04F9342C45A48D24CA146" import="1">XML/Units/Elephants/01-TamedMammoth/Art/SMAN_EU_CRP_Mammoth_diff.dds</File>
+    <File md5="170380FB94994505BC1B08ADC606C984" import="1">XML/Units/Elephants/01-TamedMammoth/Art/SMAN_EU_CRP_Mammoth_Guide.fxsxml</File>
+    <File md5="3BE0E298BA238C8BAEE451FD5D6E0817" import="1">XML/Units/Elephants/01-TamedMammoth/Art/SMAN_EU_CRP_Mammoth_Guide.gr2</File>
+    <File md5="D37916B27DFAA967725A4088C7D0BE48" import="1">XML/Units/Elephants/01-TamedMammoth/Art/SMAN_EU_CRP_Mammoth_Guide_diff.dds</File>
+    <File md5="9FAAB34CD9A0B39AAEF51CCCF252D2ED" import="0">XML/Units/Elephants/01-TamedMammoth/TamedMammothArtDefines.sql</File>
+    <File md5="D3BEC7614EE84F4F0CDB39A3DEB93A5B" import="0">XML/Units/Elephants/01-TamedMammoth/TamedMammoth.xml</File>
+    <File md5="0D26193EAE3D81B0A0D56747514E5DBF" import="1">XML/Units/EquitesSagittarii/04-Corazzieri/Art/SMAN_EU_Confederate_Cav_diff.dds</File>
+    <File md5="5153CC917DEC990CDB4F911F01B34859" import="1">XML/Units/EquitesSagittarii/04-Corazzieri/Art/SMAN_EU_Confederate_Cav_sref.dds</File>
+    <File md5="F1E786122E1D8537653D9B1517579FA2" import="1">XML/Units/EquitesSagittarii/04-Corazzieri/Art/SMAN_EU_Corazzieri.fxsxml</File>
+    <File md5="43B7820BBE1450FD664C85054592AE9F" import="1">XML/Units/EquitesSagittarii/04-Corazzieri/Art/SMAN_EU_Corazzieri.gr2</File>
+    <File md5="A8009FEC37C92FB33C0C6B02503DB576" import="1">XML/Units/EquitesSagittarii/04-Corazzieri/Art/SMAN_EU_Cuirassier.dds</File>
+    <File md5="38B3EE337A174D4AB9235BA48DC77927" import="1">XML/Units/EquitesSagittarii/04-Corazzieri/Art/SMAN_EU_Cuirassier_gloss.dds</File>
+    <File md5="51D4FAAB21AC4EEC4AAFDCC945A91733" import="1">XML/Units/EquitesSagittarii/04-Corazzieri/Art/SMAN_EU_Musketeer_diff.dds</File>
+    <File md5="5F75B69AFD02477F0057234F5C649F7B" import="1">XML/Units/EquitesSagittarii/04-Corazzieri/Art/SMAN_EU_Musketeer_sref.dds</File>
+    <File md5="EB7FAB51DCE8E0623BED0677317ADB87" import="0">XML/Units/EquitesSagittarii/04-Corazzieri/Corazzieri.xml</File>
+    <File md5="4E8C102FD8FC87FFD04F43F1622A76BD" import="0">XML/Units/EquitesSagittarii/04-Corazzieri/CorazzieriArtDefines.sql</File>
+    <File md5="150538BFEE368244EDAE06971C31B65C" import="1">XML/Units/Mercenaries/1-Ancient/Barque/Art/SMAN_EU_Barque.fxsxml</File>
+    <File md5="2A937AA20D0B07E9586D16A20820DB98" import="1">XML/Units/Mercenaries/1-Ancient/Barque/Art/SMAN_EU_Barque.gr2</File>
+    <File md5="B456D229AD12DFFE844C36D312BA50F1" import="1">XML/Units/Mercenaries/1-Ancient/Barque/Art/SMAN_EU_Barque_diff.dds</File>
+    <File md5="773212A88FA99CD755CFCE20A3F494B9" import="1">XML/Units/Mercenaries/1-Ancient/Barque/Art/SMAN_EU_Barque_sref.dds</File>
+    <File md5="308E62C850814344D6AC847960D19053" import="0">XML/Units/Mercenaries/1-Ancient/Barque/Barque.xml</File>
+    <File md5="845F711A4CFEE73B9059535AB021CC27" import="0">XML/Units/Mercenaries/1-Ancient/Barque/BarqueArtDefines.xml</File>
+    <File md5="9EE2DC9B98B3CBAEB6F9AF2D9B78127D" import="1">XML/Units/Mercenaries/1-Ancient/Rabble/Art/SMAN_EU_Rabble.fxsxml</File>
+    <File md5="658C98DF36724011F9018AE44EB2E1C6" import="1">XML/Units/Mercenaries/1-Ancient/Rabble/Art/SMAN_EU_Rabble.gr2</File>
+    <File md5="321A7A3CFB1243C6DCC8CD4B2A9A41AB" import="1">XML/Units/Mercenaries/1-Ancient/Rabble/Art/SMAN_EU_Rabble_diff.dds</File>
+    <File md5="A7D8345AA5F95CF6B7CC5C7906AB022F" import="1">XML/Units/Mercenaries/1-Ancient/Rabble/Art/SMAN_EU_Rabble_sref.dds</File>
+    <File md5="379C247C54E8D2E47DB7EE34C56ED8D8" import="0">XML/Units/Mercenaries/1-Ancient/Rabble/Rabble.xml</File>
+    <File md5="6241C61CF6E3D0617A72CF5EF74447A9" import="0">XML/Units/Mercenaries/1-Ancient/Rabble/RabbleArtDefines.sql</File>
+    <File md5="DFD3A2D18000FCFBB062A29459FA65DB" import="1">XML/Units/Mercenaries/5-Industrial/Dreadnought/Art/SMAN_EU_Dreadnought.fxsxml</File>
+    <File md5="6404F1B37420392C43CF776EB6C289BA" import="1">XML/Units/Mercenaries/5-Industrial/Dreadnought/Art/SMAN_EU_Dreadnought.gr2</File>
+    <File md5="9493E253060010A5C78F2ADB8BE69AEA" import="1">XML/Units/Mercenaries/5-Industrial/Dreadnought/Art/SMAN_EU_Dreadnought_diff.dds</File>
+    <File md5="BC319C979FF0C8445FB3A50F26CB56DB" import="1">XML/Units/Mercenaries/5-Industrial/Dreadnought/Art/SMAN_EU_Dreadnought_sref.dds</File>
+    <File md5="DE937A41434BDB1A80539594CA10C492" import="0">XML/Units/Mercenaries/5-Industrial/Dreadnought/DreadnoughtArtDefines.sql</File>
+    <File md5="A557F112BB2960AB1782FCC2F8B3E8E0" import="0">XML/Units/Mercenaries/5-Industrial/Dreadnought/Dreadnought.xml</File>
+    <File md5="6E33E758B853E1114BB487111B8FA075" import="1">XML/Units/Mercenaries/8-Information/SoldiersOfFortune/Art/fx_triggers_SMAN_EU_SOF.ftsxml</File>
+    <File md5="212745C0D1059F32FAC334A46B790713" import="1">XML/Units/Mercenaries/8-Information/SoldiersOfFortune/Art/fx_triggers_SMAN_EU_SOF_mg.ftsxml</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">XML/Units/Mercenaries/8-Information/SoldiersOfFortune/Art/no_gloss.dds</File>
+    <File md5="064C55026C99D3171392ACA3E185B3AC" import="1">XML/Units/Mercenaries/8-Information/SoldiersOfFortune/Art/SMAN_EU_SOF.fxsxml</File>
+    <File md5="0F5D95539129D0C8E7A78C2A941605DC" import="1">XML/Units/Mercenaries/8-Information/SoldiersOfFortune/Art/SMAN_EU_SOF.gr2</File>
+    <File md5="DBE36EA26DF1E980876763F9C4EAF75E" import="1">XML/Units/Mercenaries/8-Information/SoldiersOfFortune/Art/SMAN_EU_SOF_diff.dds</File>
+    <File md5="90ADDA610B9DD423F21A31CB4FB1093E" import="1">XML/Units/Mercenaries/8-Information/SoldiersOfFortune/Art/SMAN_EU_SOF_MG.fxsxml</File>
+    <File md5="CCF84B64EDAC674164CB1B5335F2635A" import="1">XML/Units/Mercenaries/8-Information/SoldiersOfFortune/Art/SMAN_EU_SOF_MG.gr2</File>
+    <File md5="655DBEC48B3464C74D5400A326994CF0" import="0">XML/Units/Mercenaries/8-Information/SoldiersOfFortune/SOF.xml</File>
+    <File md5="7E11CC866B6D78077C9107A3F7209D61" import="0">XML/Units/Mercenaries/8-Information/SoldiersOfFortune/SOFArtDefines.xml</File>
+    <File md5="C0E73FA58372C7F1151E4A7F836474F6" import="1">XML/Units/Mercenaries/sv_land_mercenary.dds</File>
+    <File md5="1C8217D4EAE75FC86DAEB1F12EDA89C8" import="1">XML/Units/Mercenaries/sv_sea_mercenary.dds</File>
+    <File md5="283673F23AD5D6A1895D7899BF74FD42" import="0">XML/Units/UnitAdjustments.sql</File>
+    <File md5="4432D258031784DFF5F3C7CBB07EBEE9" import="0">XML/Units/UnitOverrides.sql</File>
+    <File md5="B477F423E008C0AB04A08D8358DE38C4" import="0">XML/Units/UnitPromotions.xml</File>
+    <File md5="88662A6E2120F06F923393745ADD7383" import="1">Art/Icons/SV_Swiss_Guard.dds</File>
+    <File md5="5DAC2EE843AFE9824B1760CB158953FE" import="1">Art/Icons/SwissGuardIcon128.dds</File>
+    <File md5="EE4CC57E411D5F8918B8C532BC22D63D" import="1">Art/Icons/SwissGuardIcon256.dds</File>
+    <File md5="E5D1063005487F78AC571B869552927B" import="1">Art/Icons/SwissGuardIcon45.dds</File>
+    <File md5="E1C4CDC0110004ECB126991B87E2A3C3" import="1">Art/Icons/SwissGuardIcon64.dds</File>
+    <File md5="133767B597BB62CB8278123E11C603EE" import="1">Art/Icons/SwissGuardIcon80.dds</File>
+    <File md5="A59390783544093E74233E38177A0DD2" import="1">Art/Units/civ5_fremm1.fxsxml</File>
+    <File md5="909F3F86A67F31A929BE201DA1AD7880" import="1">Art/Units/civ5_fremm1.gr2</File>
+    <File md5="D73145CAD93C5E32EDEE84A2FE2DAAE7" import="1">Art/Units/civ5_fremm2.fxsxml</File>
+    <File md5="2817A1A4DD239E2C44D122092B6FD065" import="1">Art/Units/civ5_fremm2.gr2</File>
+    <File md5="1B1F5E8511754BA94C258F316A21B773" import="1">Art/Units/civ5_fremm3.fxsxml</File>
+    <File md5="FFED8EF246545F34D3E001AAE21E6A51" import="1">Art/Units/civ5_fremm3.gr2</File>
+    <File md5="07AB022ACB8C10A944D1013B8DB75711" import="1">Art/Units/fremm1.dds</File>
+    <File md5="4947CFACB4573339EB47C815939C0440" import="1">Art/Units/fremm1_sref.dds</File>
+    <File md5="A10F66C43618A6D92F7EFAD9722452BE" import="1">Art/Units/fremm2.dds</File>
+    <File md5="21E44229997690777759B502D033504D" import="1">Art/Units/fremm2_sref.dds</File>
+    <File md5="0454EBE54DBF16C9E800EF569AE44D3E" import="1">Art/Units/fremm3.dds</File>
+    <File md5="DCA13F960F06B8C30D894DE6D2ED20A0" import="1">Art/Units/fremm3_sref.dds</File>
+    <File md5="19C3111B0EC675C1D971B7231815432B" import="0">Lua/MercenaryArmyExpanded.lua</File>
+    <File md5="B28B48C27FCB4FB9D95A963FA5666B75" import="0">XML/Promotions.xml</File>
+    <File md5="55F56CE11079B069284BB22BF645E647" import="0">XML/Text.xml</File>
+    <File md5="A1DC5E7FF26CC1ADB686A920E1C773A7" import="0">XML/UnitArtDefines.xml</File>
+    <File md5="4F016C85FE0CAE85C668069C019EAC6C" import="0">XML/UnitClasses.xml</File>
+    <File md5="D010EE101254D54D1A469B774FC62243" import="0">XML/UnitIconAtlases.xml</File>
+    <File md5="D0B79F9C91254C8D5FB4F21900D6D30B" import="0">XML/Units.xml</File>
+    <File md5="9ACC0F4AA8D581A12582183C65897A21" import="1">art/black_dragon.dds</File>
+    <File md5="439C54E73FA58BA31A901FFF75D8D744" import="1">art/black_dragon.fxsxml</File>
+    <File md5="A1B51B53E917CB554572A5C4CC2CBBBD" import="1">art/black_dragon.gr2</File>
+    <File md5="FCF20E996AEFCEAFFBB1C45F8F685A08" import="1">art/blue_dragon.fxsxml</File>
+    <File md5="066A2EE7BF9317DD02188C2C5D991E1A" import="1">art/blue_dragon.gr2</File>
+    <File md5="888780BEF20F7D029F6EED7A3EB7A1D8" import="1">art/fire_dragon.gr2</File>
+    <File md5="7507EF33C09FEA0D0E7DC0D2A3E07C84" import="1">art/dragon_dead_anim.gr2</File>
+    <File md5="D554A06999CD6823A4DE99CF15A43D66" import="1">art/dragon_die_anim.gr2</File>
+    <File md5="4E0C9AAA506595C04DB49CE5B0B7A52C" import="1">art/dragon_fidget_anim.gr2</File>
+    <File md5="6177AAF368E00656A7CA5EE2FDB5BF1C" import="1">art/dragon_fly_anim.gr2</File>
+    <File md5="4D7AF5FA82559C552C054B469CAE4736" import="1">art/dragon_hurt_anim.gr2</File>
+    <File md5="818A41D7D08AA2CF90304DDCE8CDA2B8" import="1">art/dragon_idle_anim.gr2</File>
+    <File md5="C84BBFF6654084E7F43766AEDE37A52D" import="1">art/dragon_landing_anim.gr2</File>
+    <File md5="5D7986C944F49AE5FCF1F23391CAB662" import="1">art/firedragon.dds</File>
+    <File md5="8B6A044C475A84D12EBDBAB0FCA0B471" import="1">art/fire_dragon.ftsxml</File>
+    <File md5="3C92F295CBA88C000B54CF9407DDD6B0" import="1">art/golden_dragon.dds</File>
+    <File md5="111EA1105B28F740C86120B468DDCBA8" import="1">art/golden_dragon.fxsxml</File>
+    <File md5="AD8DDB345B371FD9D9373F4C2A00486B" import="1">art/golden_dragon.gr2</File>
+    <File md5="DADF206BDF9309D44F58D01882FD5AC7" import="1">art/golden_dragon_sref.dds</File>
+    <File md5="B6CC72B8DF9ABAEFCF1A60ED5DB57C71" import="1">art/green_dragon.dds</File>
+    <File md5="F6960B1F6E505C67475116F31B1CB96F" import="1">art/green_dragon.fxsxml</File>
+    <File md5="30375FBDC3DE561C4DCF0D8ECC112E1A" import="1">art/green_dragon.gr2</File>
+    <File md5="03ED3AE77DE9F6BDD3118FF366837172" import="1">art/plasma_dragon.ftsxml</File>
+    <File md5="C64B5699D43B5E1FE74F43C19790A489" import="1">art/sapphiredragon.dds</File>
+    <File md5="1EEC4638E499F1855A4E7EACF67C60D5" import="1">art/fire_dragon.fxsxml</File>
+    <File md5="EFE30F85E20DD260EC0B44E44A92BF49" import="1">art/dragon_fight_anim.gr2</File>
+    <File md5="5B591B78F3A155A33A88AEC881173E62" import="1">sound/AttackDragonVoxA-000.wav</File>
+    <File md5="446A3E02DC897F13085C1A9726379083" import="1">sound/AttackDragonVoxA-001.wav</File>
+    <File md5="0B9833F618EE1653CEF2579C9B4B2FE5" import="1">sound/DeathFireLizardVoxA-000.wav</File>
+    <File md5="667AD34F2FAD477A4B4A627619C60D98" import="1">sound/DeathFireLizardVoxA-001.wav</File>
+    <File md5="245AFDA89A6B0FC426055D422FE5474D" import="1">sound/DeathFireLizardVoxA-002.wav</File>
+    <File md5="40130727B4470E5102E5A4560A6D56D4" import="1">sound/DragonFlyA-000.wav</File>
+    <File md5="E1938D4810E20CB3AD44E0F5998664AA" import="1">sound/RunChrgFireLizardVoxT1-000.wav</File>
+    <File md5="2A237BC8D9203FD20DBEBA2DE52451FA" import="1">sound/RunChrgFireLizardVoxT2-000.wav</File>
+    <File md5="17A963795B301748D42F02AF9CEE7487" import="0">xml/UnitSound.xml</File>
+    <File md5="02CC3F17D5F633FFE5FA5720AAF50D1B" import="0">xml/TestUnit.xml</File>
+    <File md5="489BF961E9F57DC9D2483D07D1BA1D8C" import="0">xml/TestUnitArt.xml</File>
+    <File md5="54DD058CD3EC739825F3186955E8BB74" import="1">CivilopediaScreen.lua</File>
+    <File md5="2496D78964F8A6CD9C175407E556BD33" import="1">CreateAnimals.lua</File>
+    <File md5="651D506F6819A62F3963372CD338D7A4" import="0">DefinesUpdate.xml</File>
+    <File md5="9EDF65E10BB690C411679631771B111D" import="0">Units/Colossal_Dragon.sql</File>
+    <File md5="9318029B6A1CFC8CAC489A96A3BFA310" import="1">Units/Colossal_Drake/colossal_drake.dds</File>
+    <File md5="9B95D15966C3FAE65DBEAC1FADD98B32" import="1">Units/Colossal_Drake/colossal_drake.fxsxml</File>
+    <File md5="A82036E8D9EC23D634F53C1557476A9E" import="1">Units/Colossal_Drake/colossal_drake.gr2</File>
+    <File md5="9E30B4EBDFDBE0DF8998AE2AAE8B09D4" import="1">Units/Colossal_Drake/colossal_drake_die1.gr2</File>
+    <File md5="2526569A6625D5CDA3D7CC09F05DD281" import="1">Units/Colossal_Drake/colossal_drake_fidget1.gr2</File>
+    <File md5="9130F555F24A2D9FAFBC3739D48FAC07" import="1">Units/Colossal_Drake/colossal_drake_fort1.gr2</File>
+    <File md5="55ED7197662BD023C9D0DEDAE10711D9" import="1">Units/Colossal_Drake/colossal_drake_fort_idle1.gr2</File>
+    <File md5="E0BC6E5452DA346A551CEE3F3F0A11D0" import="1">Units/Colossal_Drake/colossal_drake_hurt1.gr2</File>
+    <File md5="B9E09AE884408629B6EADC4E9CC0D8F7" import="1">Units/Colossal_Drake/colossal_drake_idle.gr2</File>
+    <File md5="5AF127D8C5CA80241B2F399A072B6B53" import="1">Units/Colossal_Drake/colossal_drake_run.gr2</File>
+    <File md5="08C01F230141780C1EC48FB69A0B8BB6" import="1">Units/Colossal_Drake/colossal_drake_strike1.gr2</File>
+    <File md5="D426B03FD78688F77B59B63CF8A20083" import="1">Units/Colossal_Drake/colossal_drake_strike2.gr2</File>
+    <File md5="61583216E2AD23EAB68DD781CC927F72" import="0">Units/Dragons.sql</File>
+    <File md5="C51038E000370112E5D5A9DCF3961D47" import="0">Units/DragonsWolves.xml</File>
+    <File md5="5973EEFC5243AF57D2C7BC86AA23440B" import="1">Units/DragonUnitAtlas128.dds</File>
+    <File md5="E7F4B6B842C1DDF8717489CB5FC1373B" import="1">Units/DragonUnitAtlas256.dds</File>
+    <File md5="D8DA58764823BD78F5C204A53AAEDED4" import="1">Units/DragonUnitAtlas32.dds</File>
+    <File md5="69056E7E9122A474C23F57E6A55537D7" import="1">Units/DragonUnitAtlas45.dds</File>
+    <File md5="F4DB11EB25FF1AF6F9DACF2135CA4AFE" import="1">Units/DragonUnitAtlas64.dds</File>
+    <File md5="8C4AB398B673E2D765DC0E80E4FFDBAB" import="1">Units/DragonUnitAtlas80.dds</File>
+    <File md5="670A2B118EF54B8CD9DD1E859F4A39E6" import="1">Units/DragonUnitFlagAtlas32.dds</File>
+    <File md5="676B65ED783EB3CC05AEAE628832465E" import="0">Units/DragonUnitIcons.xml</File>
+    <File md5="50736880F0754F8B6DED580BFDBB56ED" import="1">Units/Dragons/storm_drake.fxsxml</File>
+    <File md5="75FF0EEE443D319F7A294F26056AFE3B" import="1">Units/Dragons/storm_drake.gr2</File>
+    <File md5="9E30B4EBDFDBE0DF8998AE2AAE8B09D4" import="1">Units/Dragons/storm_drake_die1.gr2</File>
+    <File md5="2526569A6625D5CDA3D7CC09F05DD281" import="1">Units/Dragons/storm_drake_fidget1.gr2</File>
+    <File md5="9130F555F24A2D9FAFBC3739D48FAC07" import="1">Units/Dragons/storm_drake_fort1.gr2</File>
+    <File md5="55ED7197662BD023C9D0DEDAE10711D9" import="1">Units/Dragons/storm_drake_fort_idle1.gr2</File>
+    <File md5="E0BC6E5452DA346A551CEE3F3F0A11D0" import="1">Units/Dragons/storm_drake_hurt1.gr2</File>
+    <File md5="B9E09AE884408629B6EADC4E9CC0D8F7" import="1">Units/Dragons/storm_drake_idle.gr2</File>
+    <File md5="5AF127D8C5CA80241B2F399A072B6B53" import="1">Units/Dragons/storm_drake_run.gr2</File>
+    <File md5="08C01F230141780C1EC48FB69A0B8BB6" import="1">Units/Dragons/storm_drake_strike1.gr2</File>
+    <File md5="D426B03FD78688F77B59B63CF8A20083" import="1">Units/Dragons/storm_drake_strike2.gr2</File>
+    <File md5="9318029B6A1CFC8CAC489A96A3BFA310" import="1">Units/Dragons/WhiteDrake.dds</File>
+    <File md5="84A76917EDE68613771E52DD45B1873D" import="0">Units/UnitsUpdate.sql</File>
+    <File md5="71FE6AE51E95FE470D606A2285CEEEB8" import="0">Units/UnitsUpdate.xml</File>
+    <File md5="7E4884197D016ED466D936BA6B71464D" import="0">Units/Wolf.sql</File>
+    <File md5="34B3E451DCBBA86F7ED263247E1D206A" import="1">Units/Wolf/wolf.dds</File>
+    <File md5="E79404A419C5CBD41CB4E8BC6AEB8DA7" import="1">Units/Wolf/wolf.fxsxml</File>
+    <File md5="D737A52F2DBDAB803B93CF77F353A194" import="1">Units/Wolf/Wolf.gr2</File>
+    <File md5="CDC47E46664E763BAC4645E550FEF534" import="1">Units/Wolf/wolf_md_diea.gr2</File>
+    <File md5="49AD53D553AA64A5990B1023B6F2D2E2" import="1">Units/Wolf/wolf_md_diea_fade.gr2</File>
+    <File md5="3C35DFD8B414440F067C672772AE2DD0" import="1">Units/Wolf/wolf_md_fidget.gr2</File>
+    <File md5="C463B57674F919828F4743A1451CA342" import="1">Units/Wolf/wolf_md_fortifya.gr2</File>
+    <File md5="5D2D72E7D64C3C48253868220681D912" import="1">Units/Wolf/wolf_md_fortifya_idle.gr2</File>
+    <File md5="6D6A5FE2C4DFCF9BE2BD606CDE50893C" import="1">Units/Wolf/wolf_md_heal.gr2</File>
+    <File md5="26B094727B5F65AA61E27F42FE50892D" import="1">Units/Wolf/wolf_md_hurta.gr2</File>
+    <File md5="A1CDD2282BA33ED5BAFBAADE12F4BF3C" import="1">Units/Wolf/wolf_md_hurtb.gr2</File>
+    <File md5="057C7DA4AF98FA96F56B6B444D85EFC5" import="1">Units/Wolf/wolf_md_idle.gr2</File>
+    <File md5="D920EF1AAEDCC79B5ABAC0D0B8FAF3A8" import="1">Units/Wolf/wolf_md_run.gr2</File>
+    <File md5="B3362E5E85E4F37EBF71DEE159290EC9" import="1">Units/Wolf/wolf_md_strikea.gr2</File>
+    <File md5="C5AB879E9407B2784D80FA603EC28B5E" import="1">Units/Wolf/wolf_md_strikeb.gr2</File>
+    <File md5="0CBC6FF138EE42E9F50268550F046C83" import="1">Units/WolvesUnitAtlas128.dds</File>
+    <File md5="39EC451D8E8731AB3871E4436647AE0F" import="1">Units/WolvesUnitAtlas256.dds</File>
+    <File md5="C2B349515FCD2BEF64185F529B6A2EF3" import="1">Units/WolvesUnitAtlas32.dds</File>
+    <File md5="41D2F83730D3F739F4B0FD0E0D721797" import="1">Units/WolvesUnitAtlas45.dds</File>
+    <File md5="361B494B3D83008A053AA9667A99F7EE" import="1">Units/WolvesUnitAtlas64.dds</File>
+    <File md5="ACAF082CF058FB66042284BD336E79FB" import="1">Units/WolvesUnitAtlas80.dds</File>
+    <File md5="670A2B118EF54B8CD9DD1E859F4A39E6" import="1">Units/WolvesUnitFlagAtlas32.dds</File>
+    <File md5="9544B80B82D7FD2445BFA5337A660F0C" import="1">Assets/Atlas/KY_IconAtlas128.dds</File>
+    <File md5="1211C89A5D9A651EC252EB4DCD1D73F4" import="1">Assets/Atlas/KY_IconAtlas16.dds</File>
+    <File md5="8DAFB0D5B7DE3E1D8A9B0D7B35939F82" import="1">Assets/Atlas/KY_IconAtlas24.dds</File>
+    <File md5="DD0352F77A288D70D623BD842A5BF86F" import="1">Assets/Atlas/KY_IconAtlas256.dds</File>
+    <File md5="3F19AAF2D4756C97E64AC4B544BAA852" import="1">Assets/Atlas/KY_IconAtlas32.dds</File>
+    <File md5="3956F08E513A3015D5DAEC07C2F569F4" import="1">Assets/Atlas/KY_IconAtlas45.dds</File>
+    <File md5="09BA7C711524466647488D07B3276F48" import="1">Assets/Atlas/KY_IconAtlas48.dds</File>
+    <File md5="85C7EE5EAB3BA4FF0362C149CB200422" import="1">Assets/Atlas/KY_IconAtlas64.dds</File>
+    <File md5="36FC8B54F06529D7A1F2B8BB6A137F81" import="1">Assets/Atlas/KY_IconAtlas80.dds</File>
+    <File md5="85D18332EC2AA85BA350E26420522463" import="1">Assets/KY_DOM.dds</File>
+    <File md5="BA090B75084226050BCC9B087BCE7708" import="1">Assets/SV_KY_scout.dds</File>
+    <File md5="5706BF34E2C4E028663AE1AD53339227" import="1">Assets/Unit/black_4x4.dds</File>
+    <File md5="592152F6263EBD3D02964BE7D9BE212A" import="1">Assets/Unit/u_canadian_voyageur.dds</File>
+    <File md5="D76EE027F98D5FC0E93E4293D9460317" import="1">Assets/Unit/u_canadian_voyageur.fxsxml</File>
+    <File md5="14386331CFB7972C74ADECD51A8AE54F" import="1">Assets/Unit/u_canadian_voyageur.gr2</File>
+    <File md5="6CD6A0DB374B2A198DA011FB869611D4" import="0">Code/KY_IconAtlas.xml</File>
+    <File md5="23447E97573FE1FF3520237A2286AEC7" import="0">Code/KY_Units.xml</File>
+    <File md5="2B8361E436407AE8709F869A342BA35A" import="0">Code/KY_Unit_Defines.sql</File>
+    <File md5="C70B6C5928E33220E6E5B5EEBD719093" import="1">Art/tbm128.dds</File>
+    <File md5="1D6BE832F82B0E62E0D135854DD4B5D1" import="1">Art/tbm256.dds</File>
+    <File md5="0E5B9DB1DB9D1A33DD5892C0DD32ADE9" import="1">Art/tbm45.dds</File>
+    <File md5="888B3EA4D4FEEF6C47B8C6B81C4DC161" import="1">Art/tbm64.dds</File>
+    <File md5="93F6F8E69C2ECD15127995F5C67CB586" import="1">Art/tbm80.dds</File>
+    <File md5="D88BD520A438249F16CDAA6A71BEBEAA" import="1">Art/TunnelBuild45.dds</File>
+    <File md5="5773F72EEF43AE2EDA00B76E6BFABA54" import="1">Art/TunnelBuild64.dds</File>
+    <File md5="C13E2CD3EE48A409EFA4B65B69F193EE" import="0">XML/Tunnel.xml</File>
+    <File md5="AFF71B64A17F762DEF49EE635C412DDB" import="0">XML/IconTextureAtlas.xml</File>
+    <File md5="208CE1FC80EB22766CA654240BBAAE29" import="0">Lua/tunnel.lua</File>
+    <File md5="44E71EB840CC253874FCDD44E22E0351" import="1">ResourceBuildings/ART/FishHerb_045.dds</File>
+    <File md5="4D9D6996FE1D9D0BDA87E21C5770A46F" import="1">ResourceBuildings/ART/FishHerb_064.dds</File>
+    <File md5="40A0E89FDE4910A9AC4D6DF031243F72" import="1">ResourceBuildings/ART/FishHerb_128.dds</File>
+    <File md5="99849C1E7E1D78D83967CCEFF82DB988" import="1">ResourceBuildings/ART/FishHerb_256.dds</File>
+    <File md5="02063F28595543CF2DC1D292D0F57A0E" import="1">ResourceBuildings/ART/ResBuildings_045.dds</File>
+    <File md5="184EF042919DB70E6C66FBD471B6C607" import="1">ResourceBuildings/ART/ResBuildings_064.dds</File>
+    <File md5="52D156DBECBD44DA7D0C10896229C153" import="1">ResourceBuildings/ART/ResBuildings_128.dds</File>
+    <File md5="AF914C105BFABDA10CEC74F3F2F7A92A" import="1">ResourceBuildings/ART/ResBuildings_256.dds</File>
+    <File md5="F9F81E636C523435705B948F768A2578" import="1">Art/IkeaIcons128.dds</File>
+    <File md5="0DA430EC6889E01BEFA4F7FFFF940DCA" import="1">Art/IkeaIcons256.dds</File>
+    <File md5="376ACE7BFA2DC722EFF4F35D4CA56E6D" import="1">Art/IkeaIcons45.dds</File>
+    <File md5="E0A417EE9BD5DF74517616807F22FD11" import="1">Art/IkeaIcons64.dds</File>
+    <File md5="3720886E717D55DF34AA1219629FF701" import="1">Art/IkeaIcons80.dds</File>
+    <File md5="65FA9B4A413027545058FF0B2A261FA0" import="0">XML/Ikea.xml</File>
+    <File md5="F269CA443B5B3FE50FA638CF17EF1948" import="0">XML/IkeaIconAtlas.xml</File>
+    <File md5="4E654812437D55FB1B0BE2672E4647CD" import="1">Predefines/05 - Workable Mountains/LUA/WorkableMountains.lua</File>
+    <File md5="40E8A77256A35991F556806157CCD470" import="1">Predefines/05 - Workable Mountains/Text/Workable_Mountains_en_US.xml</File>
+    <File md5="9713057C83179157AF3925602B0B29CF" import="1">Predefines/05 - Workable Mountains/Text/Workable_Mountains_ru_RU.xml</File>
+    <File md5="DF89744E7A2705C7148FA39300894008" import="1">Predefines/05 - Workable Mountains/XML/WorkableMountains.xml</File>
+    <File md5="BB52FCAB339FBFABEABA78959EDD41E8" import="0">Venice/4UC_VENICE.sql</File>
+    <File md5="7CA76A51A2F1D287F4912D73F52A2F35" import="1">Venice/5dogepalace128.dds</File>
+    <File md5="2E9D075DABEDA9ABD157F20F55AAB4D2" import="1">Venice/5dogepalace256.dds</File>
+    <File md5="B8F4863C55E5C54C0F5C79F9D41B1452" import="1">Venice/5dogepalace45.dds</File>
+    <File md5="97DF3770C6CC34A246141DA31FAB4E3F" import="1">Venice/5dogepalace64.dds</File>
+    <File md5="C99A16688A94AC9502269BCBBF4ED29D" import="0">Venice/DogePalace.xml</File>
+    <File md5="2FB26C2D06E491276EDFF4FAE16B7834" import="0">Korea2/3Grandpalace.xml</File>
+    <File md5="86FDD47DE4010959BAC49E280B408B3D" import="1">Korea2/3grandpalace128.dds</File>
+    <File md5="1A4E70A2A2BBBE0541A0BFD043D18CCD" import="1">Korea2/3grandpalace256.dds</File>
+    <File md5="9E0FB05072D70F70E92FC3001363DCF8" import="1">Korea2/3grandpalace45.dds</File>
+    <File md5="C786B426680296C869A5CDFDF42E0413" import="1">Korea2/3grandpalace64.dds</File>
+    <File md5="31FFD909E60F45057F7E94F49BEEC378" import="0">Korea2/4UC_KOREA.sql</File>
+    <File md5="A01865136E1FAEB681B514C4F9EC2B30" import="1">Art/Taktsang_128.dds</File>
+    <File md5="1B86CD2DD983A82EFB0700D010D8DD87" import="1">Art/Taktsang_256.dds</File>
+    <File md5="CB54C355088B0F98559B80D23B40F72B" import="1">Art/Taktsang_45.dds</File>
+    <File md5="E2B043D270F4C6EBCDEAD6E1EE809963" import="1">Art/Taktsang_64.dds</File>
+    <File md5="BDFDAAA2C83F56714454C7095A14A198" import="1">Art/Taktsang_80.dds</File>
+    <File md5="62E77C5CCDB9A5E5FA109C6BD4045BD8" import="1">Art/Taktsang_splash.dds</File>
+    <File md5="968A7AC555D49875BDE0DDA87234A97F" import="0">XML/Buildings/Taktsang_BuildingClasses.xml</File>
+    <File md5="486883B04BABE38E9BA491ACAAF63332" import="0">XML/Buildings/Taktsang_Buildings.xml</File>
+    <File md5="C95F4EF5D80D18506C171289287DCD0E" import="0">XML/Civilizations/Taktsang_Civilizations.xml</File>
+    <File md5="40C4175E8A88B8A53077E74D97B2C652" import="0">XML/GameInfo/Taktsang_IconTextureAtlases.xml</File>
+    <File md5="179F08B3C330488D855488CAFEB49FAC" import="0">XML/Text/Taktsang_text_en_US.xml</File>
+    <File md5="60AABB579A7B2FC360EE65D72A442E30" import="0">Updates/EventsAndDecision_Support.sql</File>
+    <File md5="46FA7850DC500208C7DBA9D9960A1AA7" import="1">ART/AquariumIconAtlas128.dds</File>
+    <File md5="6B5E8FAFA1A4F36AE8CF873B09D10D98" import="1">ART/AquariumIconAtlas256.dds</File>
+    <File md5="7D34A41073C5482C348EAA48A442304F" import="1">ART/AquariumIconAtlas45.dds</File>
+    <File md5="2684686F7AAE6FC3159D50B70AD8E190" import="1">ART/AquariumIconAtlas64.dds</File>
+    <File md5="B171665CF1A6D9CC669B2BFAC46B84BC" import="1">ART/AquariumIconAtlas80.dds</File>
+    <File md5="87A9FA45054DD482D7C9E7B4EEEA81A4" import="0">XML/Buildings/Aquarium_Buildings.xml</File>
+    <File md5="D5FAAB6BC6DA68DE5A7857FA9C10CC2D" import="0">XML/Buildings/Aquarium_IconTextureAtlases.xml</File>
+    <File md5="EB92D841CFD5C531B40A4411648861BF" import="1">Art/Graphics/FireKeeper/firekeeper.fxsxml</File>
+    <File md5="F5A066CB49AAD2A6EE21690921D2F66E" import="1">Art/Graphics/FireKeeper/firekeeper.gr2</File>
+    <File md5="E13E5FFF5D07F7DE466B80D5806C7D65" import="1">Art/Graphics/FireKeeper/firekeeper_diff.dds</File>
+    <File md5="400967127ABDD55BE3ACDF3C3F40C173" import="1">Art/Icons/OnondagaAlpha128.dds</File>
+    <File md5="129EBE003B5E2918843430A6B095CC40" import="1">Art/Icons/OnondagaAlpha24.dds</File>
+    <File md5="492D58D2092154ADA02C26ED36197FEB" import="1">Art/Icons/OnondagaAlpha256.dds</File>
+    <File md5="D7FC98E6728BF617908203E95A10B283" import="1">Art/Icons/OnondagaAlpha32.dds</File>
+    <File md5="FE90E7608043A4EE0EAAF76763BC62CF" import="1">Art/Icons/OnondagaAlpha48.dds</File>
+    <File md5="DA8329B016DA2BB4B4D003F6C1253C23" import="1">Art/Icons/OnondagaAlpha64.dds</File>
+    <File md5="9CDACF4C3C8A0F1F5E482F57C0625A6E" import="1">Art/Icons/OnondagaAtlas128.dds</File>
+    <File md5="F098C236BC5EF6C0286D9F3BCBC7225F" import="1">Art/Icons/OnondagaAtlas256.dds</File>
+    <File md5="0A3D8EF66B5E2F4ACD1B034D6EB64773" import="1">Art/Icons/OnondagaAtlas32.dds</File>
+    <File md5="73240ECA2A8DDD65F1E10401651757F3" import="1">Art/Icons/OnondagaAtlas45.dds</File>
+    <File md5="5F501CFA089592E91D094C3AC5CB69F8" import="1">Art/Icons/OnondagaAtlas64.dds</File>
+    <File md5="3EE39B18A3876398A2127C9EA6EDC219" import="1">Art/Icons/OnondagaAtlas80.dds</File>
+    <File md5="BFA04C8B9B96149103BBABCCBF3EDCE2" import="1">Art/Icons/OnondagaUnit32.dds</File>
+    <File md5="433D976FE0221FEFB3D5A23C73A0A31C" import="1">Art/Icons/OnondagaUnitSV.dds</File>
+    <File md5="1E99405F5C331C2258EEE5E68B4CC4D0" import="0">Core/OnondagaTadodaho_ArtDefines.sql</File>
+    <File md5="58497EC3569868E2682A14CC5738B908" import="0">Core/OnondagaTadodaho_GameDefines.sql</File>
+    <File md5="5A8E0772349F7BE37608A45E832A9408" import="0">Core/OnondagaTadodaho_GameText.xml</File>
+    <File md5="02D7192EE9C4BD1C03D7A3CF8A7A1FB3" import="0">XML/Terrain/Benin Improvements Mod.xml</File>
+    <File md5="A3284910F4E7124174A4C2EE88305CD3" import="0">Art/Improvement/Benin Iya Mod.sql</File>
+    <File md5="A2904EA551762E5F7CC23F1D3157FC44" import="1">Art/Improvement/iya.fxsxml</File>
+    <File md5="DA7043A540E4B3319257BB0D98B16004" import="1">Art/Improvement/iya.gr2</File>
+    <File md5="BC4393D47E73582CC397805CDD6EF125" import="1">Art/Improvement/iya_diff.dds</File>
+    <File md5="73FD56FBA7581B9C0BCD8526EC5B2ED0" import="1">Art/Improvement/iya_hb.fxsxml</File>
+    <File md5="2F384401A70882279FD67C96F8B02C55" import="1">Art/Improvement/iya_hb.gr2</File>
+    <File md5="E61A40BF580F6143392B661A5A0D7339" import="1">Art/Improvement/iya_pl.fxsxml</File>
+    <File md5="9F8BCE8070DD658D61543E683EAF27B0" import="1">Art/Improvement/iya_pl.gr2</File>
+    <File md5="E3C50EC39217E17F2975E8AF1A033F1B" import="1">Art/Improvement/iya_pl_diff.dds</File>
+    <File md5="9FB14EE5C5332007FD5B44F3576D5038" import="1">Art/Benin Atlas Mod/sv_Iya.dds</File>
+    <File md5="CF045D95215018C460492DBEEFDC912D" import="0">XML/Art/Benin Atlas Mod.xml</File>
+    <File md5="E9D6A73CA5757E7D6952F60803759682" import="1">Art/Benin Atlas Mod/BeninAtlas214.dds</File>
+    <File md5="052D92A0C14284FCC57C7D77AB750AED" import="1">Art/Benin Atlas Mod/BeninAtlas256.dds</File>
+    <File md5="A51D84398F1799AB437DFD128FD8CB87" import="1">Art/Benin Atlas Mod/BeninAtlas32.dds</File>
+    <File md5="6ACC211693F931647B04BCCD2CA7E43E" import="1">Art/Benin Atlas Mod/BeninAtlas45.dds</File>
+    <File md5="D00445CEC2A096EE7209D26674BCB2D1" import="1">Art/Benin Atlas Mod/BeninAtlas64.dds</File>
+    <File md5="ADDC90C9C6EBA27B23C93D2443B79CF8" import="1">Art/Benin Atlas Mod/BeninAtlas80.dds</File>
+    <File md5="4FCCD07D0328AC0A283E8614814B7FA7" import="1">Art/Benin Atlas Mod/BeninUnitAlphaAtlas.dds</File>
+    <File md5="C34CBE551568D2FCB9B0FBF15F36AC97" import="1">Art/Benin Atlas Mod/Benin_Build_45.dds</File>
+    <File md5="0788EB31D5928E60D955C2DC59233EF9" import="1">Art/Benin Atlas Mod/Benin_Build_64.dds</File>
+    <File md5="0693D1C04CEF2D4F21C162B7BE9AD761" import="0">XML/Terrain/Garamantes Terrain Overlap.xml</File>
+    <File md5="3E6B37784F2C5ED8E75CC334471F7714" import="0">XML/Text/Ancient Libya Game Text Mod.xml</File>
+    <File md5="A7F1D807CCC6EE7D2FC22D409D272D7C" import="0">SQL/Garamantes Units and Improvements.sql</File>
+    <File md5="50A7C58C7238CD896F132B3653DEA5E2" import="0">SQL/Garamantes Game Info.sql</File>
+    <File md5="111B9CFB306E27C332A623D561350953" import="1">LUA/Garamantes Scripts.lua</File>
+    <File md5="50E0357B8A61D93838CC165D47721C25" import="0">LUA/Garamantes Check.lua</File>
+    <File md5="4D5397BD59287A487F62EC20D861B2A1" import="1">Art/Improvement/meso-american_city_diff.dds</File>
+    <File md5="E7E1EB2A3B2A7567C8DC15C27B478ABB" import="1">Art/Improvement/sv_Fogaaras.dds</File>
+    <File md5="5507313D3CB873E98258B6819AD73E8B" import="1">Art/Improvement/Tomatekh_Foggaras.gr2</File>
+    <File md5="A5440DB0F52106321882CB094856D9CE" import="1">Art/Improvement/Tomatekh_Foggaras.sql</File>
+    <File md5="4B0C1C1C4713B5B654FC146D877F70BE" import="1">Art/Improvement/Tomatekh_Foggaras_B.fxsxml</File>
+    <File md5="CD31CA1016A6661AC070D69EE7620D5F" import="1">Art/Improvement/Tomatekh_Foggaras_diff.dds</File>
+    <File md5="A10667D71163CBB414EE895C52B2C535" import="1">Art/Improvement/Tomatekh_Foggaras_diff_U.dds</File>
+    <File md5="BEA37DFFCAC5F7EA49F67339E7ECAF25" import="1">Art/Improvement/Tomatekh_Foggaras_h.dds</File>
+    <File md5="AB074F1E0EA0B9D05EE5F173C934CF46" import="1">Art/Improvement/Tomatekh_Foggaras_HB.fxsxml</File>
+    <File md5="1EFD4E20CF1C926C8329A4716C7D8970" import="1">Art/Improvement/Tomatekh_Foggaras_PL.fxsxml</File>
+    <File md5="BF9687747854B18A1C313FEFA9EA4D28" import="1">Art/Improvement/Tomatekh_Foggaras_PL.gr2</File>
+    <File md5="A974D627353B6BFCB38D4E4EB25B79B8" import="1">Art/Improvement/Tomatekh_Foggaras_sref.dds</File>
+    <File md5="23EA13AB4463AB203FF874C59B01DA57" import="1">Art/Improvement/Tomatekh_Foggaras_U.gr2</File>
+    <File md5="2E2DEB81CEF831D8F94CB1F8AD2DD4BC" import="1">Art/Atlas/AncientLibyaAtlas128.dds</File>
+    <File md5="E06B634B6FFEBCB73F5490844A00A4EA" import="1">Art/Atlas/AncientLibyaAtlas214.dds</File>
+    <File md5="44AFF78E26DF4C476295DC2AF520CA56" import="1">Art/Atlas/AncientLibyaAtlas256.dds</File>
+    <File md5="BAAA1EF81FE3B94C6D4CCC4C6F6B33C2" import="1">Art/Atlas/AncientLibyaAtlas32.dds</File>
+    <File md5="38A5099CB34031C47D7EBE581F313A03" import="1">Art/Atlas/AncientLibyaAtlas45.dds</File>
+    <File md5="DBF894B5207E49FC5C088F9DCC6E71DA" import="1">Art/Atlas/AncientLibyaAtlas64.dds</File>
+    <File md5="CD215944076E194EF8D75C2847E0612A" import="1">Art/Atlas/AncientLibyaAtlas80.dds</File>
+    <File md5="02B8669B623F9C2F26175D1F5B1148AB" import="1">Art/Build/Garama_Build_45.dds</File>
+    <File md5="19DB8E486ECCD2F02FE22E5C5E377220" import="1">Art/Build/Garama_Build_64.dds</File>
+    <File md5="A0E270EC3173058F1DD0D889C0D82660" import="1">Art/Build/Garama_Gold_Build_45.dds</File>
+    <File md5="9FE623E800441A5A25216DBD2883AC49" import="1">Art/Build/Garama_Gold_Build_64.dds</File>
+    <File md5="F00A208D2FFC3D219026BA2F153C8E30" import="1">Art/Alpha Atlas/AncientLibyaAlphaAtlas128.dds</File>
+    <File md5="D553D794B7241253785D5B3274B1317B" import="1">Art/Alpha Atlas/AncientLibyaAlphaAtlas16.dds</File>
+    <File md5="3FC16EA4E09EF6324EB7DDADE39251DF" import="1">Art/Alpha Atlas/AncientLibyaAlphaAtlas24.dds</File>
+    <File md5="DA07CB2F35B36D39B6F1C454B8822B60" import="1">Art/Alpha Atlas/AncientLibyaAlphaAtlas32.dds</File>
+    <File md5="11F62DEEDFF1F2600285692C0F144370" import="1">Art/Alpha Atlas/AncientLibyaAlphaAtlas48.dds</File>
+    <File md5="5A475DFFA16C87A72138808DBE897BCD" import="1">Art/Alpha Atlas/AncientLibyaAlphaAtlas64.dds</File>
+    <File md5="AEA41316BCC3B8C54B5644E0CDD04172" import="1">Art/Alpha Atlas/AncientLibyaUnitAlphaAtlas.dds</File>
+    <File md5="8E5AE0F928E321742DFDA9824698BECF" import="1">Art/Alpha Atlas/sv_Ancient_Libya.dds</File>
+    <File md5="3A5CAFC821CF26CEE1F4509967E53E89" import="1">SQL/Garamantes Skins.sql</File>
+    <File md5="07E23065DB9B024EB74A6FFE37D83051" import="1">Art/Alpha/ChampaAlphaAtlas128.dds</File>
+    <File md5="6D52C74825F5EAA1A2BDAAA4B64A60C2" import="1">Art/Alpha/ChampaAlphaAtlas16.dds</File>
+    <File md5="6C41555E3594923FDE035F3A669B20E1" import="1">Art/Alpha/ChampaAlphaAtlas24.dds</File>
+    <File md5="F1325AF33A3DB94DED8DEA2B29E9F409" import="1">Art/Alpha/ChampaAlphaAtlas32.dds</File>
+    <File md5="0A5F60F95EEC44927BAED7CBE23C97AB" import="1">Art/Alpha/ChampaAlphaAtlas48.dds</File>
+    <File md5="048CDAC31F71C94B8A0E7C76183D9D8E" import="1">Art/Alpha/ChampaAlphaAtlas64.dds</File>
+    <File md5="40A1742C5203CAF0E49070B44A5B0EED" import="1">Art/Atlas/ChampaModAtlas128.dds</File>
+    <File md5="1A2A34AADF293FC696AF6EBA440112B8" import="1">Art/Atlas/ChampaModAtlas214.dds</File>
+    <File md5="1E634C06033AC03AA92CC357BE481927" import="1">Art/Atlas/ChampaModAtlas256.dds</File>
+    <File md5="19F2D937F41BE8AC27C5862EA1F6068D" import="1">Art/Atlas/ChampaModAtlas32.dds</File>
+    <File md5="764F21DBB3190CFFC1BE1D793A46CAE2" import="1">Art/Atlas/ChampaModAtlas45.dds</File>
+    <File md5="38E8CDDAE103A31C44FCB945CF061D98" import="1">Art/Atlas/ChampaModAtlas64.dds</File>
+    <File md5="4AD9CD36DBB1137245004E24DACD8551" import="1">Art/Atlas/ChampaModAtlas80.dds</File>
+    <File md5="DA2E540CAE15A90273E95CD3451A2334" import="1">Art/Improvement/champawell.fxsxml</File>
+    <File md5="27DE4008BDCD796F28A838465AD4B7DD" import="1">Art/Improvement/champawell.gr2</File>
+    <File md5="A0A18FD2547D73B1CEA15F3FC67D4EAD" import="1">Art/Improvement/champawell_hb.fxsxml</File>
+    <File md5="047C0BA31C42997EF7C87193560D70FC" import="1">Art/Improvement/champawell_hb.gr2</File>
+    <File md5="9835C6AC869C3C5FAA242BCBBD38CB12" import="1">Art/Improvement/champawell_pl.fxsxml</File>
+    <File md5="E69A31CE87558DB5F381460FB8916B44" import="1">Art/Improvement/champawell_pl.gr2</File>
+    <File md5="2D559919593FC8742794A5F377C08F85" import="1">Art/Improvement/chamwell_diff.dds</File>
+    <File md5="D32591A9077F7A9184726455247CC54A" import="1">Art/Improvement/chamwell_pl_diff.dds</File>
+    <File md5="542C3484A217BEF902BED0C0F3C2B4D6" import="1">Art/Improvement/sv_Square_Well.dds</File>
+    <File md5="3140059929710B7161C143F9D832FECC" import="1">Art/Improvement/Champa_Build_45.dds</File>
+    <File md5="E7FAA5A7AF999889F87D9CD33882F6E0" import="1">Art/Improvement/Champa_Build_64.dds</File>
+    <File md5="542E13B84D070066420E652E229AE8AD" import="1">Art/Improvement/Champa_Gold_Build_45.dds</File>
+    <File md5="535EEBE4EDD264CB2EE04D5DFE40CC86" import="1">Art/Improvement/Champa_Gold_Build_64.dds</File>
+    <File md5="8A9ABD5A791C7C623CA2393D6B6BA6F8" import="1">SQL/ChampaWellDefine.sql</File>
+    <File md5="511E1B50956EF9EDDC085BB646FDA5EA" import="0">XML/Art/Champa Atlas Mod.xml</File>
+    <File md5="A129CE81E15733C9532141AA93241F88" import="0">XML/Art/Champa Strategic View Mod.xml</File>
+    <File md5="AF10C6B5C9DD75B01264E79A89460160" import="0">XML/Text/Champa Mod Text.xml</File>
+    <File md5="835DD2C2E529ED57A698130230D602FB" import="0">XML/Terrain/Champa Improvements Mod.xml</File>
+    <File md5="D1981EBA374F5AF2FF24A5391320C384" import="1">Art/PoBinosaurDoMMod.dds</File>
+    <File md5="6879A5C45C117746C26DE3A8F53357E9" import="1">Art/ChampaMapMod.dds</File>
+    <File md5="33D540FFD4D73B45DE39C3DDE58D4296" import="1">Art/Atlases/MC_Brazil_128.dds</File>
+    <File md5="DA264020F5FB13E67424E94021D146FD" import="1">Art/Atlases/MC_Brazil_24.dds</File>
+    <File md5="37A130655758AFA82DC0A412BECF382D" import="1">Art/Atlases/MC_Brazil_256.dds</File>
+    <File md5="574A1C19166FB0DFA0197A3E86473EDE" import="1">Art/Atlases/MC_Brazil_32.dds</File>
+    <File md5="7448C57D6033B2ECCC0549FA31CEEC2D" import="1">Art/Atlases/MC_Brazil_45.dds</File>
+    <File md5="CD30CFBA2E00CB660F924F2ED961BAFD" import="1">Art/Atlases/MC_Brazil_48.dds</File>
+    <File md5="2E4AF444C007F48BC8B75A865240A5F9" import="1">Art/Atlases/MC_Brazil_64.dds</File>
+    <File md5="ECD675C6F975938368728D2177F51B6E" import="1">Art/Atlases/MC_Brazil_80.dds</File>
+    <File md5="5B0AC02CD463A93D284B40BE9A64689F" import="0">Core/Text/MC_Brazil_Text.xml</File>
+    <File md5="F8BC70D3012B6416D6C35F9712277D60" import="0">Core/GameInfo/MC_Brazil_IconTextureAtlases.sql</File>
+    <File md5="52E727A10E2EB2CB4311E2A98C71EA9E" import="0">XML/GameInfo/Resource_IconAtlases.xml</File>
+    <File md5="F714B21FEDF759A0744643E3CB15EE9B" import="1">Art/Resource_Atlas_128.dds</File>
+    <File md5="69BFDAB51CD8EB2D6F92864B40BC4BD4" import="1">Art/Resource_Atlas_256.dds</File>
+    <File md5="5BAE8241E01D9C4D084AFE54C14360FC" import="1">Art/Resource_Atlas_45.dds</File>
+    <File md5="7432C15A195657035F099D8AE6A76419" import="1">Art/Resource_Atlas_64.dds</File>
+    <File md5="DFF52D3F820D464E258E1D37D8134F6C" import="1">Art/Resource_Atlas_80.dds</File>
+    <File md5="44446CCD564531E4F0A549032DB9648F" import="1">Art/JadwigaAlpha_64.dds</File>
+    <File md5="921A0BD40343E3169EA8D69FA82BCEB2" import="1">Art/JadwigaAtlas_128.dds</File>
+    <File md5="4AE4B71FFD76D289465D81A25B00FE76" import="1">Art/JadwigaAtlas_256.dds</File>
+    <File md5="13461C49B6D4D4AEF6F7D3CD5CDD4740" import="1">Art/JadwigaAtlas_32.dds</File>
+    <File md5="D2F3734D0A58FA6C3DC59EF705A5A17D" import="1">Art/JadwigaAtlas_45.dds</File>
+    <File md5="C13EA315035899804EF54A1291D812F5" import="1">Art/JadwigaAtlas_64.dds</File>
+    <File md5="7E2B3825648FECB950850C59F63AD16F" import="1">Art/JadwigaAtlas_80.dds</File>
+    <File md5="97D871E7DE9294C8A23C6295193385AA" import="0">Core/ArtDefs.sql</File>
+    <File md5="50D5589DD1250E15EA3A2EB557222B02" import="0">Core/GameDefs.sql</File>
+    <File md5="5160B46A9E0D2E91785C3E842F593448" import="0">Core/GameText.xml</File>
+    <File md5="9F46CBDCE8B3A845F22EC999DD0364CB" import="1">Art/Atlas/XiaAtlas128.dds</File>
+    <File md5="6D6B2685A862C066847560B599FE5425" import="1">Art/Atlas/XiaAtlas214.dds</File>
+    <File md5="862A89D39F4E73E5F5BFD981BF4AC5D9" import="1">Art/Atlas/XiaAtlas256.dds</File>
+    <File md5="D5E7CB44CF6BA41F315F2996CA3183D6" import="1">Art/Atlas/XiaAtlas32.dds</File>
+    <File md5="C104619FCDC52451A2E828441797E00E" import="1">Art/Atlas/XiaAtlas45.dds</File>
+    <File md5="98115D3AF44DDA9C41FF77B778BEF911" import="1">Art/Atlas/XiaAtlas64.dds</File>
+    <File md5="6DDC1469CAAC147A20F3AF36EB282440" import="1">Art/Atlas/XiaAtlas80.dds</File>
+    <File md5="C43BB47D04620FB40C7B5B56AFCD5ED8" import="1">Art/Units/Action/XiaShangSacrifice45.dds</File>
+    <File md5="3EE4E4E4C0FFD8D852FD69D6374BB3AD" import="1">Art/Units/Action/XiaShangSacrifice64.dds</File>
+    <File md5="D3D60376A65D6744B3AFBABF998A83FB" import="1">Art/Units/Action/XiaShangSacrificeGold45.dds</File>
+    <File md5="505E6CD1A8FB15C1E9007942C78F99C7" import="1">Art/Units/Action/XiaShangSacrificeGold64.dds</File>
+    <File md5="FE2ABB3656F32B54058BCBA9E885765D" import="1">Art/Units/Alpha/sv_Xia_Chariot.dds</File>
+    <File md5="65C0F7BCDE496B6B583E5375421E9B4B" import="1">Art/Units/Alpha/sv_Xia_Chariot_GG.dds</File>
+    <File md5="94D86AB89DF799E25A0FAAFD85EAC932" import="1">Art/Units/Alpha/XiaChariotAlpha.dds</File>
+    <File md5="5A580836015F9C850AB35F55E2B6E160" import="1">Art/Units/Cargo/WarJunk.fxsxml</File>
+    <File md5="9055CFE68543E265F5F097FD57516888" import="1">Art/Units/Cargo/WarJunk.gr2</File>
+    <File md5="3DDD2A5C7896AA05B89E7E97D7C2A94C" import="1">Art/Units/Cargo/WarJunk.png</File>
+    <File md5="7038C2D91B8CFDBE084AE650311D0165" import="1">Art/Units/Cargo/WarJunk_diff.dds</File>
+    <File md5="A0259BA1FB1B544F89BBD5A07BE8B90F" import="1">Art/Units/Cargo/WarJunk_sref.dds</File>
+    <File md5="DEEA02500C25799E7FB67CDBF28930B5" import="1">Art/Units/Model/XiaChariot.fxsxml</File>
+    <File md5="DDA5F78A2AE1753C0AE52D23B0691D67" import="1">Art/Units/Model/XiaChariot.gr2</File>
+    <File md5="175766E5FE30E47D87A9624BEA0C8388" import="1">Art/Units/Model/XiaChariot_diff.dds</File>
+    <File md5="7D8A463648C0D6DFCE0BA85D66848F16" import="1">Art/Units/Promotion/XiaPromotion256.dds</File>
+    <File md5="FE507460CA3EDF2446AA4FA1700AB683" import="1">Art/Units/Promotion/XiaPromotion32.dds</File>
+    <File md5="BC6CAE8ABDC9480C58F053CF1699AAE0" import="1">Art/Units/Promotion/XiaPromotion45.dds</File>
+    <File md5="2712CF73C2F4DB27C5AB156013AC52ED" import="1">Art/Units/Promotion/XiaPromotion64.dds</File>
+    <File md5="2C60720519EE0EE78B6C284F765AAAFF" import="0">XML/Art/Xia Mod Atlas.xml</File>
+    <File md5="0458089642627DA80886D4DB49E493BF" import="0">XML/Art/Xia Unit SQL.sql</File>
+    <File md5="8061E9D71203903F7C601207D5802A50" import="0">XML/Text/Xia Mod Text.xml</File>
+    <File md5="713CA3A633F4C0B0DF5F6B2C353E982E" import="0">XML/Units/Xia Mod Promotions.xml</File>
+    <File md5="96C6ED8966D451D175A33673DAA13D44" import="0">XML/Units/Xia Mod Units.xml</File>
+    <File md5="A07E04EC9A44AC7D0D99560E347C3575" import="0">Core/ArtDefines.sql</File>
+    <File md5="903D8A4F6CE0C27C423D967B909213C6" import="1">Art/Itzcoatlas128.dds</File>
+    <File md5="63461B9C255E8C6E8B830F700DE18C68" import="1">Art/Itzcoatlas256.dds</File>
+    <File md5="F1B6DBF78EE2E9D24621673CED72AE3B" import="1">Art/Itzcoatlas32.dds</File>
+    <File md5="917CB6CDD84D63E81DBC3EB09F60D7A4" import="1">Art/Itzcoatlas45.dds</File>
+    <File md5="DA7054ECEF771B64ACCC53AF6526DD47" import="1">Art/Itzcoatlas64.dds</File>
+    <File md5="F8FE15B2C6A0B81AA02BCD1439EAE25D" import="1">Art/Itzcoatlas80.dds</File>
+    <File md5="D7E2A4ED8CB9A79A2C6E57BE315D013D" import="0">Core/ItzcoatlText.xml</File>
+    <File md5="B11C0F5C5D0924289C99514754E1FA2A" import="1">Art/mod_atlas_128.dds</File>
+    <File md5="FD9EACA036DE8C827DB52447D9B14BA2" import="1">Art/mod_atlas_256.dds</File>
+    <File md5="ADECE01C468BF9235A0D295D66B61E9A" import="1">Art/mod_atlas_45.dds</File>
+    <File md5="CCB866401508521EBC4F40372BAB5615" import="1">Art/mod_atlas_64.dds</File>
+    <File md5="57239471DDB567132724E9B827D2D9E1" import="1">Art/mod_atlas_80.dds</File>
+    <File md5="0792ABC886A3CB8008797A6DA9EE1817" import="0">XML/ModIconAtlas.xml</File>
+    <File md5="28C34F980BFAD041C33492A0147947E8" import="1">Art/DDS/sv_xingar_yir.dds</File>
+    <File md5="F35C184FC36BC8CC048DD9139B43FCD8" import="1">Art/DDS/White_Huns_Atlas128.dds</File>
+    <File md5="9709E5E4C46E74CA450CB9817EBE35D2" import="1">Art/DDS/White_Huns_Atlas24.dds</File>
+    <File md5="5145081986FBF7A93E9013237499FE2A" import="1">Art/DDS/White_Huns_Atlas256.dds</File>
+    <File md5="64C910700CC767CC2DF69A42F25EC857" import="1">Art/DDS/White_Huns_Atlas32.dds</File>
+    <File md5="B2F6110BFF13E5C3949E7A8A94D2F787" import="1">Art/DDS/White_Huns_Atlas45.dds</File>
+    <File md5="CE84B970C4C762BC42B23AF21BAAD843" import="1">Art/DDS/White_Huns_Atlas64.dds</File>
+    <File md5="4AFD2C8F074CFC575DD9E3FF577BD37C" import="1">Art/DDS/White_Huns_Atlas80.dds</File>
+    <File md5="0702425239FC6563151485E19F943A6A" import="1">Art/DDS/uu_xingar_yir_flag.dds</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">Art/Graphics/no_gloss.dds</File>
+    <File md5="1E657A0988310993C03B10864E653C13" import="1">Art/Graphics/Swordsman_India_v2.dds</File>
+    <File md5="479C4C01C8E9DA1CCFB3C49CC9A8BA61" import="1">Art/Graphics/Swordsman_India_v2.fxsxml</File>
+    <File md5="330858BD03ECDEF39B2E88DD029456FC" import="1">Art/Graphics/Swordsman_India_v2.gr2</File>
+    <File md5="7DEA9512C2D3630B0E03FD81F71E854E" import="1">Art/Graphics/Swordsman_India_v2_2.dds</File>
+    <File md5="2910A1C0519D29CEAE1E257E294E6AB6" import="1">Art/Graphics/Swordsman_India_v2_gloss.dds</File>
+    <File md5="FCA1BA7FDA1724CEA6F0CEA98AF56A8D" import="1">Art/Graphics/Swordsman_India_v2_gloss_2.dds</File>
+    <File md5="D4BE302B2C664425FF3DBE840C557E9E" import="0">Core/WhiteHunsText.xml</File>
+    <File md5="A01D473F3D652039E310E55D89A18CBC" import="0">Core/WhiteHunsDefines.sql</File>
+    <File md5="C30ABE3EDA224229B56EB185CBA817A9" import="1">Art/uboat32.dds</File>
+    <File md5="DB3D1E6992414EBEEAA27A8F5C9C8001" import="1">Art/UBoat/U-Boat_Type_VII.blend</File>
+    <File md5="E08958BF3F5E24EFC74AFB24CCB9662E" import="1">Art/UBoat/U-Boat_Type_VII.dds</File>
+    <File md5="414D43262F63B5ACA8A62FA1BAD67994" import="1">Art/UBoat/U-Boat_Type_VII.fxsxml</File>
+    <File md5="7C5BE4B7EFE2DB505D9B733B1868A8C2" import="1">Art/UBoat/U-Boat_Type_VII.gr2</File>
+    <File md5="985DAE7A5C4D14F84350CC3BF560BA76" import="1">Art/UBoat/U-Boat_Type_VII.jpg</File>
+    <File md5="6A4AA57666D9CEE792D469018705322E" import="1">Art/UBoat/U-Boat_Type_VII_gloss.dds</File>
+    <File md5="9DD6F0DAD94D309AD48D532BEB3E5547" import="1">Art/uboat_sv.dds</File>
+    <File md5="714CE5516968411B0C846C588526F043" import="1">Art/Icons_GermanEmpire128.dds</File>
+    <File md5="670B18D040177B6992E28DC26C2C7D56" import="1">Art/Icons_GermanEmpire256.dds</File>
+    <File md5="D5DE828FBCA90CBD0A7FEBD7C3DF6724" import="1">Art/Icons_GermanEmpire32.dds</File>
+    <File md5="5FA3ED8561214B5597019FF09D401CE8" import="1">Art/Icons_GermanEmpire45.dds</File>
+    <File md5="F809122DD8296A884C805F0845031981" import="1">Art/Icons_GermanEmpire64.dds</File>
+    <File md5="944D9B3B4D39F030964CB9889C1618DC" import="1">Art/Icons_GermanEmpire80.dds</File>
+    <File md5="EFF6EAD8579B31B332209FD300938B14" import="0">Code/ArtDef_UBoat.xml</File>
+    <File md5="7D298AA749897505EF03FB90CEC2EA61" import="0">Code/Lua_Germany.xml</File>
+    <File md5="A3798FE79E939E3EE84F4BFB94ADD3C5" import="0">Code/Lua_Germany.lua</File>
+    <File md5="B62247360AC1B019A0FF8E1E1E16365B" import="0">Code/Units_Germany.xml</File>
+    <File md5="B11FAD8DA6371EEF02F1B15D97766564" import="0">Code/GameText.xml</File>
+    <File md5="493E8C7B554C6D90CF9B3043EBBD7764" import="0">Code/Icons_Germany.xml</File>
+    <File md5="1E8A55491EBBB03F16680D8D1459F3A0" import="1">Art/Atlases/MC_Inca_128.dds</File>
+    <File md5="9C1C9A61380119986E3BA73540B86536" import="1">Art/Atlases/MC_Inca_24.dds</File>
+    <File md5="01EE8A4DC993878894BD52DBDE5F3299" import="1">Art/Atlases/MC_Inca_256.dds</File>
+    <File md5="6671302FF4EE6CB5CBC04368FA9C2266" import="1">Art/Atlases/MC_Inca_32.dds</File>
+    <File md5="467E9D6EA237C04FAAF13FEC9BE99919" import="1">Art/Atlases/MC_Inca_45.dds</File>
+    <File md5="D780DE24AA71A3C152C3DAA86ED509CF" import="1">Art/Atlases/MC_Inca_48.dds</File>
+    <File md5="36BD42334C8AF7D566A54AE4F0F0ADAC" import="1">Art/Atlases/MC_Inca_64.dds</File>
+    <File md5="B3B0FE8377AED8F5444DEEED30F12C53" import="1">Art/Atlases/MC_Inca_80.dds</File>
+    <File md5="2209D09ECA36F3B5142FFB4B539E0F84" import="1">Art/Models/Chaska Chuqui/Warrior_Inca.blend</File>
+    <File md5="CD78C16F785923B8561EA74C9FD552CB" import="1">Art/Models/Chaska Chuqui/Warrior_Inca.dds</File>
+    <File md5="456A60FD54643937C37437BAC409EFC6" import="1">Art/Models/Chaska Chuqui/Warrior_Inca.fxsxml</File>
+    <File md5="D7990EB722A878453C514728FDFD2C60" import="1">Art/Models/Chaska Chuqui/Warrior_Inca.gr2</File>
+    <File md5="A19ACC049A55BA071F900EB66814CE41" import="1">Art/Models/Chaska Chuqui/Warrior_Inca.jpg</File>
+    <File md5="1C9AC6109609B5F385CC22E8CC8F6E20" import="1">Art/Models/Chaska Chuqui/Warrior_Inca_gloss.dds</File>
+    <File md5="C7D4D5E4B3277A092777C49A27B241A5" import="1">Art/Models/MC_ChaskaChuquiUnitFlag_32.dds</File>
+    <File md5="8E885ABC957DF3EE7E2088A51F7D6A65" import="1">Art/Models/sv_ChaskaChuqui.dds</File>
+    <File md5="34B484C3A7373D0B67A25F51C83B425E" import="0">Core/Art/MC_ChaskaChuquiArtDef.sql</File>
+    <File md5="8534A6601369D4C33042CB18B1CAE9EB" import="0">Core/GameInfo/MC_Inca_IconTextureAtlases.sql</File>
+    <File md5="AAF46F6D990CDF01FCDD0CF459CDB9A6" import="0">Core/Text/MC_Inca_Text.xml</File>
+    <File md5="C9B069C343C08D7E4C2AA451B4F4E04F" import="0">Core/Units/MC_Inca_Units.sql</File>
+    <File md5="FF5312F220EE6545C5A3C0F41DB33484" import="0">Core/Units/MC_Inca_UnitPromotions.sql</File>
+    <File md5="480B2BC2DF69254A5F26102F62B460DD" import="1">Art/Graphics/Cosmographer/conquistador_musketman.dds</File>
+    <File md5="163CDF867415B69FD0EAB1A1216A7171" import="1">Art/Graphics/Cosmographer/conquistador_musketman_2.dds</File>
+    <File md5="279FC1F7C6615687E0368FF0A59A37CF" import="1">Art/Graphics/Cosmographer/conquistador_musketman_3.dds</File>
+    <File md5="75303B1580E2345C41C513245A61AA9B" import="1">Art/Graphics/Cosmographer/conquistador_musketman_gloss.dds</File>
+    <File md5="615B602250AD9F31C83E54401FAB425E" import="1">Art/Graphics/Cosmographer/conquistador_musket_1.fxsxml</File>
+    <File md5="8607CAE5DE8BC741AE849DB5F1E4C9BE" import="1">Art/Graphics/Cosmographer/conquistador_musket_1.gr2</File>
+    <File md5="DE3E68D7ECC88C45BA3DDE93769B13BE" import="1">Art/Graphics/Cosmographer/conquistador_musket_2.fxsxml</File>
+    <File md5="A9F73A8EB3E133ECC88E2E98D54E53FA" import="1">Art/Graphics/Cosmographer/conquistador_musket_2.gr2</File>
+    <File md5="2291E5B3992C4DD72FFD9AA5137040CC" import="1">Art/Graphics/Cosmographer/conquistador_musket_3.fxsxml</File>
+    <File md5="8B2BB0700175C72889F6322CF65221F5" import="1">Art/Graphics/Cosmographer/conquistador_musket_3.gr2</File>
+    <File md5="86601C5390F5E00A678F427508E43364" import="1">Art/Graphics/Cosmographer/conquistador_musket_4.fxsxml</File>
+    <File md5="7AA7FA7158633FCB58A19B1E13B90C1D" import="1">Art/Graphics/Cosmographer/conquistador_musket_4.gr2</File>
+    <File md5="741289E6953D9F2902011B0E0FE3B646" import="1">Art/Graphics/Cosmographer/sv_Cosmographer.dds</File>
+    <File md5="61C522C8FBC35657B6EBC7A9045F82EB" import="1">Art/Icons/JFD_PortugalManuelI_IconAtlas_128.dds</File>
+    <File md5="79AA124E9936A685CF7DF7A45C1EFDA2" import="1">Art/Icons/JFD_PortugalManuelI_IconAtlas_256.dds</File>
+    <File md5="69A6A60F44892EA266FC5AEF1C732C2C" import="1">Art/Icons/JFD_PortugalManuelI_IconAtlas_32.dds</File>
+    <File md5="E758722BBDA886A40C633DB914CA0355" import="1">Art/Icons/JFD_PortugalManuelI_IconAtlas_45.dds</File>
+    <File md5="7B2449C9EB4C5DB5D89A43C746B542F2" import="1">Art/Icons/JFD_PortugalManuelI_IconAtlas_64.dds</File>
+    <File md5="96243000A4C3665AEDCE2115CD0ABA1C" import="1">Art/Icons/JFD_PortugalManuelI_IconAtlas_80.dds</File>
+    <File md5="A2684697B1F79095CE9F94B0E8B2E62D" import="1">Art/Icons/JFD_PortugalManuelI_UnitFlagAtlas_32.dds</File>
+    <File md5="C4228DA0C4A0D8ED90B7F4549EE7707B" import="0">Core/PortugalManuelI_ArtDefines.sql</File>
+    <File md5="786AB9C9CBECF2C7EFFC4DED6652A343" import="0">Core/PortugalManuelI_GameDefines.sql</File>
+    <File md5="EC534C0234B8AA9F90BEA58580301CC6" import="0">Core/PortugalManuelI_GameText.xml</File>
+    <File md5="16FAF155A8F6CD5B76DA9DA9E0E32B7A" import="0">Lua/JFD_Civs_PortugalManuelI_Functions.lua</File>
+    <File md5="5244308719C5B41D37E35BCE6F354D41" import="1">Lua/Utilities/PlotIterators.lua</File>
+    <File md5="04216F17CAE3D270FAA22B5934A93BB5" import="1">Art/IranAtlas128.dds</File>
+    <File md5="CC9DE56148C6C07A69E9E5DFAC119315" import="1">Art/IranAtlas256.dds</File>
+    <File md5="DAC23799C97937F22B676A0365296DEB" import="1">Art/IranAtlas32.dds</File>
+    <File md5="B7339278967873E11CF553E6C30C9D7A" import="1">Art/IranAtlas45.dds</File>
+    <File md5="A4C243A141F0A9592D3CF0AEF9DA4863" import="1">Art/IranAtlas64.dds</File>
+    <File md5="E04FE73EC4A7F2CB5CA9627EEB8F2E1C" import="1">Art/IranAtlas80.dds</File>
+    <File md5="A8B638BCA69B33DA2E53330DE79D9E1B" import="0">Core/ART.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Atlas/4UC_IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Atlas/5UC_IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/PoliciesGrantBuildings/PGB_Tables.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Art/ARDLCombined_IconAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Buildings/ARDLPolicy_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/UpdateBranchDefines.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/1_Tradition/Tradition_Tree.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/1_Tradition/Tradition_SQL.sql</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/1_Tradition/Tradition0_OpenerAndFinisher.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/1_Tradition/Tradition1_Oligarchy.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/1_Tradition/Tradition2_Legalism.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/1_Tradition/Tradition4_Monarchy.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/1_Tradition/Tradition5_Landed_Elite.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/2_Liberty/Liberty0_OpenerAndFinisher.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/2_Liberty/Liberty1_Republic.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/2_Liberty/Liberty2_Collective_Rule.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/2_Liberty/Liberty4_Representation.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/2_Liberty/Liberty5_Meritocracy.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/3_Honor/Honor_Tree.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/3_Honor/Honor0_OpenerAndFinisher.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/3_Honor/Honor1_WarriorCode.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/3_Honor/Honor2_ProfessionalArmy.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/3_Honor/Honor3_MilitaryCaste.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/3_Honor/Honor4_MilitaryTradition.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/3_Honor/Honor5_Discipline.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/4_Piety/Piety_Tree.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/4_Piety/Piety0_OpenerAndFinisher.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/4_Piety/Piety1_OrganizedReligion.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/4_Piety/Piety2_MandateOfHeaven.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/4_Piety/Piety3_ReligiousTolerance.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/4_Piety/Piety4_Reformation.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/4_Piety/Piety5_Theocracy.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/4_Piety/PietyTables.sql</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/5_Patronage/Patronage_SQL.sql</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/5_Patronage/Patronage_Tree.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/5_Patronage/Patronage0_OpenerAndFinisher.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/5_Patronage/Patronage1_Philanthropy.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/5_Patronage/Patronage2_Scholasticism.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/5_Patronage/Patronage3_MerchantConfederacy.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/5_Patronage/Patronage4_Cultural_Diplomacy.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/5_Patronage/Patronage5_Consulates.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/6_Aesthetics/Aesthetics_Tree.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/6_Aesthetics/Aesthetics0_OpenerAndFinisher.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/6_Aesthetics/Aesthetics1_FlourishingOfTheArts.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/6_Aesthetics/Aesthetics2_CulturalCenters.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/6_Aesthetics/Aesthetics3_CulturalExchange.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/6_Aesthetics/Aesthetics4_ArtisticGenius.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/6_Aesthetics/Aesthetics5_FineArts.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/7_Commerce/Commerce_SQL.sql</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/7_Commerce/Commerce_Tree.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/7_Commerce/Commerce0_OpenerAndFinisher.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/7_Commerce/Commerce1_MercenaryArmy.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/7_Commerce/Commerce2_SilkRoad.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/7_Commerce/Commerce3_Mercantilism.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/7_Commerce/Commerce4_Entrepreneurship.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/7_Commerce/Commerce5_Protectionism.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/8_Imperialism(Exploration)/ConquistaArt.sql</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/8_Imperialism(Exploration)/Exploration__Conquistador.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/8_Imperialism(Exploration)/Exploration_SQL.sql</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/8_Imperialism(Exploration)/Exploration_Tree.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/8_Imperialism(Exploration)/Exploration0_OpenerAndFinisher.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/8_Imperialism(Exploration)/Exploration1_Colonialism.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/8_Imperialism(Exploration)/Exploration2_MaritimeInfrastructure.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/8_Imperialism(Exploration)/Exploration3_NavalTradition.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/8_Imperialism(Exploration)/Exploration4_NaviationSchool.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/8_Imperialism(Exploration)/Exploration5_TreasureFleets.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/9_Rationalism/Rationalism_Tree.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/9_Rationalism/Rationalism0_OpenerAndFinisher.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/9_Rationalism/Rationalism1_Sovereignty.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/9_Rationalism/Rationalism2_Secularism.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/9_Rationalism/Rationalism3_FreeThought.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/9_Rationalism/Rationalism4_ScientificRevolution.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/9_Rationalism/Rationalism5_Humanism.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/10_Security/Security_Tree.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/10_Security/Security0_OpenerAndFinisher.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/10_Security/Security1_PlannedDefenses.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/10_Security/Security2_NationalRediness.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/10_Security/Security3_CityFestivals.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/10_Security/Security4_NationalGraneries.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/10_Security/Security5_HomelandDevelopment.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/11_Authority/Authority_Tree.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/11_Authority/Authority0_OpenerAndFinisher.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/11_Authority/Authority1_.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/11_Authority/Authority2_.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/11_Authority/Authority3_.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/11_Authority/Authority4_.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/11_Authority/Authority5_.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/12_Diplomacy/Diplomacy_Tree.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/12_Diplomacy/Diplomacy0_OpenerAndFinisher.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/12_Diplomacy/Diplomacy1_.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/12_Diplomacy/Diplomacy2_.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/12_Diplomacy/Diplomacy3_.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/12_Diplomacy/Diplomacy4_.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/12_Diplomacy/Diplomacy5_.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Buildings/Wonder_Update.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Buildings/ARDLPolicy_WondersUN.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Buildings/ARDLPolicy_WondersIVANFORT.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Buildings/ARDLPolicy_WondersLEPZIG.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Reactionary/ARDL_REA_PolicyBranchTypes.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Reactionary/ARDL_REA_IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Reactionary/ARDL_REA_GameTextInfos_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Reactionary/ARDL_REA_Dialogs.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Reactionary/ARDL_REA_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Reactionary/1 Ancien_Regime.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Reactionary/1 Civil_Liberties.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Reactionary/1 Divine_Right.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Reactionary/1 Legion of Honor.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Reactionary/1 Matternich_Reforms.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Reactionary/1 Monarchal_Restoration.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Reactionary/1 Royal_Navy.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Reactionary/1 Thermidorian.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Reactionary/2 Elective_Monarchy.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Reactionary/2 Parliamentary_Reforms.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Reactionary/2 Statesmanship.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Reactionary/2 Universal_Education.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Reactionary/3 Commonwealth_of_Nations.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Reactionary/3 Enlightened Absolutism.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Reactionary/3 We_Shall_Never_Surrender.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Autocracy/1 Combined_Arms.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Autocracy/1 Conscription.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Autocracy/1 Hero_Of_People.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Autocracy/1 Industrial_Espionage.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Autocracy/1 Military_Industrial_Complex.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Autocracy/1 Military_Parades.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Autocracy/1 Secret_Police.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Autocracy/2 Educated_Officers.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Autocracy/2 Imperial_Legacy.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Autocracy/2 Infiltration_Tactics.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Autocracy/2 Martial_Law.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Autocracy/2 Militarism.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Autocracy/2 Nationalism.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Autocracy/3 Cult_Of_Personality.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Autocracy/3 Expeditionary_Force.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Autocracy/3 Protectorate.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Freedom/1 Avant_Garde.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Freedom/1 CIA.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Freedom/1 CivilSociety.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Freedom/1 CreativeExpression.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Freedom/1 Gilded Age.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Freedom/1 Liberalism 2.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Freedom/1 Open_Society.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Freedom/1 Visionary.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Freedom/2 Arsenal_of_Democracy.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Freedom/2 Civil_Rights.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Freedom/2 Free_Speech.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Freedom/2 Urbanization.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Freedom/2 New_Deal.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Freedom/2 Urbanization.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Freedom/2 VolunteerArmy.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Freedom/3 A_New_Order.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Freedom/3 Aerospace_Engineering.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Freedom/3 Land_Of_Prosperity.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Freedom/PoliciesChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Freedom/ExtraTourismGreatWorkWonder.sql</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Freedom/1 Avante_Garde.sql</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Order/1 Communism.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Order/1 Great_Leap_Forward.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Order/1 Monument_To_Party.sql</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Order/1 Monument_To_Party.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Order/1 Public_Works.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Order/1 Rural_Resettlement.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Order/1 State_Monopoly.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Order/1 World_Revolution.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Order/2 Air_Superiority.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Order/2 Birthplace_Revolution.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Order/2 Environmental_Research.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Order/2 Mechanized_Warfare.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Order/2 Proletariate_Solidarity.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Order/2 Propaganda.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Order/3 National_Space_Agency.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Order/3 Nuclear_Program.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Ideologies/Order/3 Utopian_Socialism.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Buildings/Palisade_WeaponsDepot_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/11_Authority/Authority Dreadnaught.xml</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/11_Authority/AuthorityDreadnaughtArt.sql</UpdateDatabase>
+      <UpdateDatabase>Main Folder/Social_Policies/7_Commerce/GalleonUnit.xml</UpdateDatabase>
+      <UpdateUserData>Main Folder/Social_Policies/7_Commerce/MercenaryLegion.xml</UpdateUserData>
+      <UpdateDatabase>Main Folder/Social_Policies/7_Commerce/MercenaryLegionArt.sql</UpdateDatabase>
+      <UpdateDatabase>Slave.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/EECarrackDefines.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/EECruiserDefine.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/EECuirassierDefine.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/EEExplorerDefine.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/EEFieldGunDefine.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/EELineInfantryDefine.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/EEShipoftheLineDefine.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/EESkirmisherDefine.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/EEUhlanDefine.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/EEUnits.sql</UpdateDatabase>
+      <UpdateDatabase>Art/Unit Models/Enlightenment_ArtDefines.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Enlightenment_Eras.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Enlightenment_WorldCongress.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/IDRemapper.sql</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Enlightenment_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Technologies/Enlightenment_TechTreeUpdates.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Technologies/Enlightenment_Technologies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Enlightenment_UnitClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Enlightenment_UnitUpdates.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Enlightenment_Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Enlightenment_UnitPromotions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Enlightenment_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Enlightenment_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Enlightenment_Wonders.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Enlightenment_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/Enlightenment_Wonders.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Enlightenment_Text.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/Enlightenment_Improvements.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Sounds/Enlightenment_Sounds.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Enlightenment_Policies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Localisation/Enlightenment_Text_de_DE.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Localisation/Enlightenment_Text_es_ES.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Localisation/Enlightenment_Text_fr_FR.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Localisation/Enlightenment_Text_it_IT.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Localisation/Enlightenment_Text_ja_JP.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Localisation/Enlightenment_Text_ko_KR.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Localisation/Enlightenment_Text_pl_PL.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Localisation/Enlightenment_Text_ru_RU.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GamInfo/CIV5Policies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/NationalCongress.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/PeopleCouncil.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/MilitaryHQ.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Legislature.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/ClericsCourt.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/CountyCourt.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/MagistrateOffice.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GamInfo/CIV5IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/DeadTechs.xml</UpdateDatabase>
+      <UpdateDatabase>XML/DeadText.xml</UpdateDatabase>
+      <UpdateDatabase>XML/IconAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Improvements/Motte.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Improvements/PontoonBridge.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Improvements/Tipi.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Handaxe.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/LandAirShip.xml</UpdateDatabase>
+      <UpdateDatabase>ART/Icons/ExoticUnitAtlas_Definitions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/UnitAdjustments.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/UnitPromotions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Camels/01-Bowman/CamelBowman.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Camels/01-Bowman/CamelBowmanArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Camels/02-RaidingParty/CamelRaidingParty.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Camels/02-RaidingParty/CamelRaidingPartyArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Elephants/01-TamedMammoth/TamedMammoth.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Elephants/01-TamedMammoth/TamedMammothArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/EquitesSagittarii/04-Corazzieri/Corazzieri.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/EquitesSagittarii/04-Corazzieri/CorazzieriArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercenaries/1-Ancient/Barque/Barque.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercenaries/1-Ancient/Barque/BarqueArtDefines.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercenaries/1-Ancient/Rabble/Rabble.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercenaries/1-Ancient/Rabble/RabbleArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercenaries/5-Industrial/Dreadnought/Dreadnought.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercenaries/5-Industrial/Dreadnought/DreadnoughtArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercenaries/8-Information/SoldiersOfFortune/SOF.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercenaries/8-Information/SoldiersOfFortune/SOFArtDefines.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/UnitOverrides.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Text.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Promotions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitArtDefines.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitIconAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units.xml</UpdateDatabase>
+      <UpdateDatabase>xml/TestUnit.xml</UpdateDatabase>
+      <UpdateDatabase>xml/TestUnitArt.xml</UpdateDatabase>
+      <UpdateDatabase>xml/UnitSound.xml</UpdateDatabase>
+      <UpdateDatabase>DefinesUpdate.xml</UpdateDatabase>
+      <UpdateDatabase>Units/UnitsUpdate.sql</UpdateDatabase>
+      <UpdateDatabase>Units/UnitsUpdate.xml</UpdateDatabase>
+      <UpdateDatabase>Units/DragonUnitIcons.xml</UpdateDatabase>
+      <UpdateDatabase>Units/Colossal_Dragon.sql</UpdateDatabase>
+      <UpdateDatabase>Units/Dragons.sql</UpdateDatabase>
+      <UpdateDatabase>Units/Wolf.sql</UpdateDatabase>
+      <UpdateDatabase>Units/DragonsWolves.xml</UpdateDatabase>
+      <UpdateDatabase>Code/KY_Units.xml</UpdateDatabase>
+      <UpdateDatabase>Code/KY_IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Code/KY_Unit_Defines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Tunnel.xml</UpdateDatabase>
+      <UpdateDatabase>XML/IconTextureAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Database/Reforestation.sql</UpdateDatabase>
+      <UpdateDatabase>Localization/Reforest_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>Localization/Reforest_de_DE.xml</UpdateDatabase>
+      <UpdateDatabase>Localization/Reforest_fr_FR.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ikea.xml</UpdateDatabase>
+      <UpdateDatabase>XML/IkeaIconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Predefines/05 - Workable Mountains/XML/WorkableMountains.xml</UpdateDatabase>
+      <UpdateDatabase>Predefines/05 - Workable Mountains/Text/Workable_Mountains_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>Predefines/05 - Workable Mountains/Text/Workable_Mountains_ru_RU.xml</UpdateDatabase>
+      <UpdateDatabase>Venice/DogePalace.xml</UpdateDatabase>
+      <UpdateDatabase>Venice/4UC_VENICE.sql</UpdateDatabase>
+      <UpdateDatabase>Korea2/3Grandpalace.xml</UpdateDatabase>
+      <UpdateDatabase>Korea2/4UC_KOREA.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Taktsang_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Taktsang_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Taktsang_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Taktsang_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Taktsang_text_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>Updates/EventsAndDecision_Support.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Aquarium_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Aquarium_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>Core/OnondagaTadodaho_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/OnondagaTadodaho_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/OnondagaTadodaho_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Art/Improvement/Benin Iya Mod.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/Benin Improvements Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Art/Benin Atlas Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Ancient Libya Game Text Mod.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/Garamantes Units and Improvements.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/Garamantes Terrain Overlap.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/Garamantes Game Info.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/Garamantes Skins.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Art/Champa Strategic View Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Art/Champa Atlas Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Champa Mod Text.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/Champa Improvements Mod.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/ChampaWellDefine.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GameInfo/MC_Brazil_IconTextureAtlases.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Text/MC_Brazil_Text.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Resource_IconAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameDefs.sql</UpdateDatabase>
+      <UpdateDatabase>Core/ArtDefs.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Art/Xia Mod Atlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Art/Xia Unit SQL.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Xia Mod Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Xia Mod Promotions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Xia Mod Text.xml</UpdateDatabase>
+      <UpdateDatabase>Core/ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/ItzcoatlText.xml</UpdateDatabase>
+      <UpdateDatabase>XML/ModIconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Core/WhiteHunsText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/WhiteHunsDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Code/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Code/Icons_Germany.xml</UpdateDatabase>
+      <UpdateDatabase>Code/Units_Germany.xml</UpdateDatabase>
+      <UpdateDatabase>Code/ArtDef_UBoat.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Art/MC_ChaskaChuquiArtDef.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GameInfo/MC_Inca_IconTextureAtlases.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Text/MC_Inca_Text.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Units/MC_Inca_UnitPromotions.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Units/MC_Inca_Units.sql</UpdateDatabase>
+      <UpdateDatabase>Core/PortugalManuelI_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/PortugalManuelI_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/PortugalManuelI_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/ART.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Main Folder/Social_Policies/7_Commerce/Commerce4_Entrepreneurship.xml">
+      <Name>Commerce Entrepreneurship</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Main Folder/Social_Policies/5_Patronage/Patronage5_Consulates.xml">
+      <Name>Patronage Consulates</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Main Folder/Social_Policies/8_Imperialism(Exploration)/Exploration1_Colonialism.xml">
+      <Name>Exploration Colonialism</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Main Folder/Social_Policies/8_Imperialism(Exploration)/Exploration5_TreasureFleets.lua">
+      <Name>Exploration Treasure Fleets</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Main Folder/PoliciesGrantBuildings/Policy_PGB_FreeBuildingClass_Table.lua">
+      <Name>PBC</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Main Folder/PoliciesGrantBuildings/Policy_PGB_FreeBuildingClassCapital_Table.lua">
+      <Name>PCB Cap</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Main Folder/PoliciesGrantBuildings/Policy_PGB_FreeBuildingClassCityState_Table.lua">
+      <Name>PCB CityState</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Main Folder/PoliciesGrantBuildings/Policies grant Buildings.lua">
+      <Name>PCB1</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Main Folder/Ideologies/Freedom/1 Liberalism.lua">
+      <Name>LIBERALISM</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Main Folder/Ideologies/Autocracy/2 Educated_Officers.lua">
+      <Name>MECHANIZED WARFARE</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Main Folder/Ideologies/Freedom/FreedomTreatyOrganization.lua">
+      <Name>FREEDOMTREATYORGANIZAITON</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Main Folder/Ideologies/Order/2 Air_Superiority.lua">
+      <Name>ORDER AIR SUPERIORITY</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Main Folder/Ideologies/Order/2 Mechanized_Warfare.lua">
+      <Name>ORDER MECHANIZED WARFARE</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Main Folder/Ideologies/Order/3 Nuclear_Program.lua">
+      <Name>ORDER NUCLEAR PROGRAM</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="SlaveUprising.lua">
+      <Name>Uprising</Name>
+      <Description>Slave uprisings</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/MercenaryArmyExpanded.lua">
+      <Name>MercenaryArmyExpanded</Name>
+      <Description>Adds custom lua functions</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/tunnel.lua">
+      <Name>tunnel</Name>
+      <Description>tunnel</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Predefines/05 - Workable Mountains/LUA/WorkableMountains.lua">
+      <Name>Workable Mountains</Name>
+      <Description>Workable Mountains</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="LUA/Garamantes Check.lua">
+      <Name>Libya Trait</Name>
+      <Description>Libya Trait</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Code/Lua_Germany.lua">
+      <Name>Wilhelm II Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_Civs_PortugalManuelI_Functions.lua">
+      <Name>JFD_Civs_PortugalManuelI_Functions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

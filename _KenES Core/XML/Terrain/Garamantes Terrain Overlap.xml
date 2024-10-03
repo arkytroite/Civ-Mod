@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh -->
+<GameData>
+	<Features>
+		<InsertOrAbort>
+			<Type>FEATURE_ANCIENT_LIBYAN_MOD_FOSSIL_WATER</Type>
+			<Description>TXT_KEY_FEATURE_ANCIENT_LIBYAN_MOD_FOSSIL_WATER</Description>
+			<Civilopedia>TXT_KEY_FEATURE_ANCIENT_LIBYAN_MOD_FOSSIL_WATER_TEXT</Civilopedia>
+			<Help>TXT_KEY_FEATURE_ANCIENT_LIBYAN_MOD_FOSSIL_WATER_HELP</Help>
+			<ArtDefineTag>ART_DEF_FEATURE_FLOOD_PLAINS</ArtDefineTag>
+			<Movement>1</Movement>
+			<AddsFreshWater>true</AddsFreshWater>
+			<YieldNotAdditive>true</YieldNotAdditive>
+			<WorldSoundscapeAudioScript>ASSS_AMBIENCE_JUNGLE</WorldSoundscapeAudioScript>
+			<EffectTypeTag>WATER</EffectTypeTag>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>ANCIENT_LIBYA_ATLAS</IconAtlas>
+		</InsertOrAbort>
+		<Update>
+			<Where Type="FEATURE_OASIS"/>
+			<Set>
+				<Help>TXT_KEY_FEATURE_ANCIENT_LIBYAN_MOD_OASIS_HELP</Help>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="FEATURE_LAKE_VICTORIA"/>
+			<Set>
+				<Help>TXT_KEY_FEATURE_ANCIENT_LIBYAN_MOD_OASIS_HELP</Help>
+			</Set>
+		</Update>
+	</Features>
+	<Feature_HillsYieldChanges>
+		<Delete FeatureType="FEATURE_ANCIENT_LIBYAN_MOD_FOSSIL_WATER"/>
+		<Replace>
+			<FeatureType>FEATURE_ANCIENT_LIBYAN_MOD_FOSSIL_WATER</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Replace>
+	</Feature_HillsYieldChanges>
+</GameData>

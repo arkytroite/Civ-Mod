@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/17/2013 9:18:42 AM -->
+<GameData>
+	<Language_en_US>
+		<!--===============================================================-->
+		<!--===== Buildings ===============================================-->
+		<!--===============================================================-->
+		<!--Cloth Mill-->
+		<Row Tag="TXT_KEY_BUILDING_EE_CLOTH_MILL">
+			<Text>Cloth Mill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_CLOTH_MILL_HELP">
+			<Text>Each source of [ICON_RES_COTTON] Cotton, [ICON_RES_SHEEP] Sheep and [ICON_RES_SILK] Silk worked by this City produces +2 [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_CLOTH_MILL_STRATEGY">
+			<Text>The Cloth Mill is an Enlightenment-era building which increases the production yield of the city, as well as the gold output of nearby sources of [ICON_RES_COTTON] Cotton, [ICON_RES_SHEEP] Sheep and [ICON_RES_SILK] Silk.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_CLOTH_MILL_PEDIA">
+			<Text>A cloth mill is an early mechanized workshop for the production of yarn and cloth that set the stage for the development of factories during the Industrial Revolution. Initially cloth mills were dependent upon fast-moving streams and rivers to drive their water wheels, but in time they would rely upon steam to turn their machinery. The first cloth mills were developed in northern England in 1740s, but soon spread the American colonies and beyond.</Text>
+		</Row>
+		<!--Smithsonian Institute-->
+		<Row Tag="TXT_KEY_BUILDING_EE_SMITHSONIAN">
+			<Text>Smithsonian Institute</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_SMITHSONIAN_HELP">
+			<Text>Contains 2 slots for a Great Work of Art. Receive a free Academy in the city where the wonder is built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_SMITHSONIAN_QUOTE">
+			<Text>[NEWLINE]"The best prophet of the future is the past."[NEWLINE] - Lord George Gordon Byron[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EE_SMITHSONIAN_THEMING_BONUS_HELP">
+			<Text>To maximize your bonus, make sure all Great Works are Artifacts and are all from different civilizations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_EE_SMITHSONIAN">
+			<Text>The Nation's Attic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_SMITHSONIAN_PEDIA">
+			<Text>Established in 1846 "for the increase and diffusion of knowledge," the Smithsonian Institute is a group of museums and research centers administered by the United States government. Originally organized as the "United States National Museum," that name ceased to exist as an administrative entity in 1967 in favour of the current name, which refers to the British scientist James Smithson, the money of whom served as the basis for the establishment of the institution. Colloquially referred to as "the Nation's Attic" for its eclectic holdings of some 137 million items, the Institute's Washington, D.C. nucleus of nineteen museums, nine research centers, and a zoo — many of them historical or architectural landmarks of their own right — is the largest such complex in the world. Additional facilities are located across the United States and her former holdings, with such establishments being found in Arizona and New York City (among others in American territory) and as far afield as Panama. In addition to this, 168 other museums across the world are Smithsonian affiliates.</Text>
+		</Row>
+		<!--===============================================================-->
+		<!--========== Units ==============================================-->
+		<!--===============================================================-->
+		<!--Explorer-->
+		<Row Tag="TXT_KEY_UNIT_EE_EXPLORER">
+			<Text>Explorer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_EXPLORER_HELP">
+			<Text>Recon unit. Can see further and has additional movement while embarked.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_EXPLORER_PEDIA">
+			<Text>Throughout history there are those whose thirst for adventure led them from the safe confines of civilized lands. These explorers, frequently funded by government stipends, would then journey into the unknown, charting their progress all the way. These expeditions, and the maps they helped create, became blueprints for the conquest and domestication of the once uncharted regions of the world.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_EXPLORER_STRATEGY">
+			<Text>An upgrade to the Scout.  The Explorer has even more movement and strength, although is still quite weak.  The Explorer excels at sea exploration, as it is able to move further while embarked.  Use it to finish meeting all the other Civilizations, or scout out locations for overseas colonies.</Text>
+		</Row>
+		<!--Field Gun-->
+		<Row Tag="TXT_KEY_UNIT_EE_FIELD_GUN">
+			<Text>Field Gun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_FIELD_GUN_HELP">
+			<Text>France's replacement for the Cannon. It can use terrain defensive bonuses.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_FIELD_GUN_PEDIA">
+			<Text>A field gun is a piece of light artillery that can be easily moved around the battlefield. By the beginning of the Second World War, the term 'field gun' had come to mean any long-range artillery piece that fired at a low angle. However, because of the demand for artillery which could fire at both long-range and a high angle during the later stages of World War II, field guns became largely supplanted by howitzers, and today the term sees no widespread application.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_FIELD_GUN_STRATEGY">
+			<Text>The Field Gun is the French artillery unit.  While its range remains the same as the Cannon, from which it upgrades, it is much stronger.  Like other siege units, it cannot see very far and must be protected.  It also must expend movement to set up – but Field Guns are essential to Enlightenment conquests.</Text>
+		</Row>
+		<!--Line Infantry-->
+		<Row Tag="TXT_KEY_UNIT_EE_LINE_INFANTRY">
+			<Text>Line Infantry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_LINE_INFANTRY_HELP">
+			<Text>The Netherlands' unqiue Musketman. Starts with the Shock promotion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_LINE_INFANTRY_PEDIA">
+			<Text>With the massive proliferation of guns from the middle of the 17th century, the battlefield became dominated by linear tactics, according to which infantry were arranged into long thin lines and fired volleys. A line consisted of 2, 3, or 4 ranks of soldiers. The relatively short range at which smooth bore muskets could accurately hit a target, added to the slow reload, meant that massed formation firing was essential for maximizing enemy casualties. The line was considered the fundamental battle formation as it allowed for the largest deployment of firepower. In the years following the Napoleonic Wars, line infantry continued to be deployed as the main battle force, while light infantry provided fire support and covered the movement of units. With the invention of new weaponry, the concept of line infantry began to wane; men walking in formation line-abreast became far too easy a target. The growing accuracy and rate of fire of rifles, together with the invention of the gatling gun and machine gun, meant that close order line infantry would suffer huge losses before being able to close with their foe. With the turn of the 20th Century, this slowly led to infantry increasingly adopting skirmisher style light infantry tactics in battle, while retaining line infantry drills for training.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_LINE_INFANTRY_STRATEGY">
+			<Text>The Netherlands' unique Musketman. Their shock promotion gives them an advantage on open terrain and a head start at higher promotions.</Text>
+		</Row>
+		<!--Surveyor-->
+		<Row Tag="TXT_KEY_UNIT_EE_SURVEYOR">
+			<Text>Surveyor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_SURVEYOR_HELP">
+			<Text>Late game scouting unit which can enter enemy territory and cover land quickly.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_SURVEYOR_PEDIA">
+			<Text>As the Industrial Revolution powered forward, exploration of the world took on a much more scientific slant.  The purpose of exploration changed from the Renaissance ideal of bringing back treasure and trade routes, to a desire to understand the world and its flora and fauna.  This served a practical purpose as well – a more urbanized and mechanized society required formal planning of spaces, in order to more efficiently build infrastructure and settlements.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_SURVEYOR_STRATEGY">
+			<Text>The Surveyor is a recon unit that upgrades from the Explorer.  It is stronger and faster still than the Explorer, although it is vulnerable alone.  The Surveyor may enter rival territory without an Open Borders agreement.</Text>
+		</Row>
+		<!--===============================================================-->
+		<!--========== Unit Promotions ====================================-->
+		<!--===============================================================-->
+		<Row Tag="TXT_KEY_PROMOTION_EE_EXPLORER">
+			<Text>Explorer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EE_EXPLORER_HELP">
+			<Text>+1 Movement and sight radius while embarked.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

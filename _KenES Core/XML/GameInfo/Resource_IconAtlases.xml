@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/16/2014 8:29:41 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>BW_ATLAS_RESOURCE</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>Resource_Atlas_256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_RESOURCE</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>Resource_Atlas_128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_RESOURCE</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>Resource_Atlas_80.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_RESOURCE</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>Resource_Atlas_64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_RESOURCE</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>Resource_Atlas_45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

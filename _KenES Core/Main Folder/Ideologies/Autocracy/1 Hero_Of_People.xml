@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/10/2013 12:16:18 PM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Set Level="1"
+				 PolicyBranchType="POLICY_BRANCH_AUTOCRACY"/>
+			<Where Type="POLICY_FUTURISM" />
+		</Update>
+	</Policies>
+	<Policy_ImprovementCultureChanges>
+		<Row>
+			<PolicyType>POLICY_THIRD_ALTERNATIVE</PolicyType>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<CultureChange>3</CultureChange>
+		</Row>
+	</Policy_ImprovementCultureChanges>
+
+	<Policy_Flavors>
+		<Delete PolicyType="POLICY_FUTURISM" />
+		<Row>
+			<PolicyType>POLICY_FUTURISM</PolicyType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>11</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FUTURISM</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>11</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FUTURISM</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>11</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_FUTURISM" />
+			<Set Text="Master Race" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_FUTURISM_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Master Race[ENDCOLOR][NEWLINE]Gain Slaves whenever you capture a city. [NEWLINE]Slave Rebellions no longer occur." />
+		</Update>
+	</Language_en_US>
+
+	<Language_RU_RU>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_FUTURISM" />
+			<Set Text="Герои войны" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_FUTURISM_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Герои войны[ENDCOLOR][NEWLINE][ICON_BULLET]Скорость появления великих полководцев и великих флотоводцев на 50% быстрее.[NEWLINE][ICON_BULLET]Дает +250 [ICON_TOURISM] туризма для всех известных цивилизаций, когда появляется великий полководец или великий флотоводец.[NEWLINE][ICON_BULLET]+6 [ICON_CULTURE] культуры от цитаделей." />
+		</Update>
+	</Language_RU_RU>
+
+	<Language_ES_ES>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_FUTURISM" />
+			<Set Text="Héroe del pueblo" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_FUTURISM_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Héroe del pueblo[ENDCOLOR][NEWLINE][ICON_BULLET]Los Grandes Generales y Almirantes se generan un 50% más rápido.[NEWLINE][ICON_BULLET]Obtención de +250 de [ICON_TOURISM] Turismo con todas las civilizaciones conocidas al generar un Gran General o Almirante.[NEWLINE][ICON_BULLET]+6 de [ICON_CULTURE] Cultura por Ciudadelas." />
+		</Update>
+	</Language_ES_ES>
+</GameData>

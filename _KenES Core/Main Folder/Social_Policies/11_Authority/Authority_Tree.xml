@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/7/2022 11:11:35 PM -->
+<GameData>
+
+
+		<Language_en_US>
+
+			<Row Tag="TXT_KEY_POLICY_BRANCH_ARDL_AUTHORITY_TITLE">
+				<Text>AUTHORITY</Text>
+			</Row>
+
+			<Row Tag="TXT_KEY_POLICY_BRANCH_AUTHORITY_CAP">
+				<Text>AUTHORITY</Text>
+			</Row>
+
+			<Row Tag="TXT_KEY_ARDL_AUTHORITY_TITLE">
+				<Text>AUTHORITY</Text>
+			</Row>
+
+			<Row Tag="TXT_KEY_BRANCH_ARDL_AUTHORITY">
+				<Text>AUTHORITY</Text>
+			</Row>
+			
+			<!--
+		
+		<Row Tag="ARDLPLACHOLDER">
+			<Text>ARDLPLACEHOLDER</Text>
+		</Row>
+		-->
+		</Language_en_US>
+		
+		<PolicyBranchTypes>
+
+			<Row>
+				<ID>11</ID>
+				<Type>POLICY_BRANCH_ARDL_AUTHORITY</Type>
+				<Description>TXT_KEY_BRANCH_ARDL_AUTHORITY</Description>
+				<Help>TXT_KEY_POLICY_BRANCH_ARDL_AUTHORITY_HELP</Help>
+				<Title>TXT_KEY_ARDL_AUTHORITY_TITLE</Title>
+				<EraPrereq>ERA_INDUSTRIAL</EraPrereq>
+				<FreePolicy>POLICY_ARDL_AUTHORITY</FreePolicy>
+				<FreeFinishingPolicy>POLICY_ARDL_AUTHORITY_FINISHER</FreeFinishingPolicy>
+			</Row>
+		
+		</PolicyBranchTypes>
+
+
+
+		<!-- New AUTHORITY Tree
+	
+					    1			  
+	  					|
+				   ___	|  ___
+					|		|
+					2		3		
+					|		|				
+				    3	    4			
+					|		|
+					    \/
+					    5
+						
+	-->
+
+		<Policy_PrereqPolicies>
+			
+			<Row>
+				<PolicyType>POLICY_ARDL_AUTH03</PolicyType>
+				<PrereqPolicy>POLICY_ARDL_AUTH01</PrereqPolicy>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_AUTH03</PolicyType>
+				<PrereqPolicy>POLICY_ARDL_AUTH02</PrereqPolicy>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_AUTH04</PolicyType>
+				<PrereqPolicy>POLICY_ARDL_AUTH01</PrereqPolicy>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_AUTH04</PolicyType>
+				<PrereqPolicy>POLICY_ARDL_AUTH02</PrereqPolicy>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_AUTH05</PolicyType>
+				<PrereqPolicy>POLICY_ARDL_AUTH04</PrereqPolicy>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_AUTH05</PolicyType>
+				<PrereqPolicy>POLICY_ARDL_AUTH03</PrereqPolicy>
+			</Row>
+			
+		</Policy_PrereqPolicies>
+
+		<Policy_Flavors>
+			
+			<Row>
+				<PolicyType>POLICY_ARDL_AUTHORITY</PolicyType>
+				<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+				<Flavor>6</Flavor>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_AUTHORITY</PolicyType>
+				<FlavorType>FLAVOR_DEFENSE</FlavorType>
+				<Flavor>6</Flavor>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_AUTHORITY</PolicyType>
+				<FlavorType>FLAVOR_OFFENSE</FlavorType>
+				<Flavor>6</Flavor>
+			</Row>
+			
+			<Row>
+				<PolicyType>POLICY_ARDL_AUTH01</PolicyType>
+				<FlavorType>FLAVOR_GOLD</FlavorType>
+				<Flavor>15</Flavor>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_AUTH01</PolicyType>
+				<FlavorType>FLAVOR_DEFENSE</FlavorType>
+				<Flavor>6</Flavor>
+			</Row>
+			
+			<Row>
+				<PolicyType>POLICY_ARDL_AUTH02</PolicyType>
+				<FlavorType>FLAVOR_OFFENSE</FlavorType>
+				<Flavor>6</Flavor>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_AUTH02</PolicyType>
+				<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+				<Flavor>10</Flavor>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_AUTH02</PolicyType>
+				<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+				<Flavor>8</Flavor>
+			</Row>
+			
+
+			<Row>
+				<PolicyType>POLICY_ARDL_AUTH03</PolicyType>
+				<FlavorType>FLAVOR_NAVAL</FlavorType>
+				<Flavor>8</Flavor>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_AUTH03</PolicyType>
+				<FlavorType>FLAVOR_MOBILE</FlavorType>
+				<Flavor>8</Flavor>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_AUTH03</PolicyType>
+				<FlavorType>FLAVOR_MOBILE</FlavorType>
+				<Flavor>8</Flavor>
+			</Row>
+			
+			<Row>
+				<PolicyType>POLICY_ARDL_AUTH04</PolicyType>
+				<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+				<Flavor>6</Flavor>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_AUTH04</PolicyType>
+				<FlavorType>FLAVOR_CULTURE</FlavorType>
+				<Flavor>6</Flavor>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_AUTH04</PolicyType>
+				<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+				<Flavor>6</Flavor>
+			</Row>
+
+			<Row>
+				<PolicyType>POLICY_ARDL_AUTH05</PolicyType>
+				<FlavorType>FLAVOR_CULTURE</FlavorType>
+				<Flavor>6</Flavor>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_AUTH05</PolicyType>
+				<FlavorType>FLAVOR_OFFENSE</FlavorType>
+				<Flavor>6</Flavor>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_AUTH05</PolicyType>
+				<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+				<Flavor>6</Flavor>
+			</Row>
+			
+
+		</Policy_Flavors>
+		
+
+
+		<!--
+	<PolicyBranch_Disables>
+		
+		<Row>
+			<PolicyBranchType>POLICY_BRANCH_ARDL_AUTHORITY</PolicyBranchType>
+			<PolicyBranchDisable>POLICY_BRANCH_COMMERCE</PolicyBranchDisable>
+		</Row>
+		<Row>
+			<PolicyBranchType>POLICY_BRANCH_ARDL_AUTHORITY</PolicyBranchType>
+			<PolicyBranchDisable>POLICY_BRANCH_FREEDOM</PolicyBranchDisable>
+		</Row>
+	</PolicyBranch_Disables>
+		-->
+
+
+  
+</GameData>

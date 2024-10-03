@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/05/2022 11:28:46 PM -->
+<GameData>
+
+	<!-- Branch tooltip -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_ARDL_SECURITY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Security[ENDCOLOR] is best for [ICON_STRENGTH] Defensive, [ICON_FOOD] Growth, and [ICON_CULTURE] Culture focused civilizations. Who wish to stay out of world affairs, increasing the strength of the empire based on the defenses it contains.[NEWLINE][NEWLINE]Adopting Security will give +1 [ICON_HAPPINESS_1] Happiness and +3 [ICON_FOOD] Food per City. Inceases city [ICON_STRENGTH] Strength by +15%.[NEWLINE]Unlocks building the wonder [COLOR_GREEN]Ivangorod Fortress[ENDCOLOR].[NEWLINE]Unlocks building [COLOR_GREEN]City Bulwarks[ENDCOLOR]. [NEWLINE][NEWLINE]Adopting all Policies in the Security tree will grant -25% [ICON_HAPPINESS_1] Happiness required to start a [ICON_GOLDEN_AGE] Golden Age and a 25 turn [ICON_GOLDEN_AGE] Golden Age for your empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_ARDL_SECURITY">
+			<Text>[COLOR_POSITIVE_TEXT]Security[ENDCOLOR] is best for [ICON_STRENGTH] Defensive, [ICON_FOOD] Growth, and [ICON_CULTURE] Culture focused civilizations. Who wish to stay out of world affairs, increasing the strength of the empire based on the defenses it contains.[NEWLINE][NEWLINE]Adopting Security will give +1 [ICON_HAPPINESS_1] Happiness and +3 [ICON_FOOD] Food per City. Inceases city [ICON_STRENGTH] Strength by +15%.[NEWLINE]Unlocks building the wonder [COLOR_GREEN]Ivangorod Fortress[ENDCOLOR].[NEWLINE]Unlocks building [COLOR_GREEN]City Bulwarks[ENDCOLOR]. [NEWLINE][NEWLINE]Adopting all Policies in the Security tree will grant -25% [ICON_HAPPINESS_1] Happiness required to start a [ICON_GOLDEN_AGE] Golden Age and a 25 turn [ICON_GOLDEN_AGE] Golden Age for your empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARDL_SECURITY_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Security[ENDCOLOR] is best for [ICON_STRENGTH] Defensive, [ICON_FOOD] Growth, and [ICON_CULTURE] Culture focused civilizations. Who wish to stay out of world affairs, increasing the strength of the empire based on the defenses it contains.[NEWLINE][NEWLINE]Adopting Security will give +1 [ICON_HAPPINESS_1] Happiness and +3 [ICON_FOOD] Food per City. Inceases city [ICON_STRENGTH] Strength by +15%.[NEWLINE]Unlocks building the wonder [COLOR_GREEN]Ivangorod Fortress[ENDCOLOR].[NEWLINE]Unlocks building [COLOR_GREEN]City Bulwarks[ENDCOLOR]. [NEWLINE][NEWLINE]Adopting all Policies in the Security tree will grant -25% [ICON_HAPPINESS_1] Happiness required to start a [ICON_GOLDEN_AGE] Golden Age and a 25 turn [ICON_GOLDEN_AGE] Golden Age for your empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ARDL_SECURITY_FINISHER">
+			<Text>[COLOR_POSITIVE_TEXT]Security[ENDCOLOR] Adopting all Policies in the Security tree will grant -25% [ICON_HAPPINESS_1] Happiness required to start a [ICON_GOLDEN_AGE] Golden Age and a 25 turn [ICON_GOLDEN_AGE] Golden Age for your empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARDL_SECURITY_TITLE">
+			<Text>SECURITY</Text>
+		</Row>
+		
+	</Language_en_US>
+
+	
+	
+	<!-- OPENER -->
+	<Policies>
+		<Row>
+			<Type>POLICY_ARDL_SECURITY</Type>
+			<Description>TXT_KEY_POLICY_BRANCH_ORDER</Description>
+			<PortraitIndex>30</PortraitIndex>
+			<Civilopedia>TXT_KEY_ARDL_SECURITY_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_BRANCH_ARDL_SECURITY_HELP</Help>
+			<CityStrengthMod>15</CityStrengthMod>
+			<ExtraHappinessPerCity>1</ExtraHappinessPerCity>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+	<!-- FINISHER -->
+		<Row>
+			<Type>POLICY_ARDL_SECURITY_FINISHER</Type>
+			<Description>TXT_KEY_POLICY_ARDL_SECURITY_FINISHER</Description>
+			<GoldenAgeDurationMod>25</GoldenAgeDurationMod>
+			<GoldenAgeTurns>25</GoldenAgeTurns>
+		</Row>
+	</Policies>
+
+	<Policy_BuildingClassYieldModifiers>
+		
+	</Policy_BuildingClassYieldModifiers>
+
+	<Policy_CityYieldChanges>
+		<Row>
+			<PolicyType>POLICY_ARDL_SECURITY</PolicyType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Policy_CityYieldChanges>
+	
+	
+</GameData>

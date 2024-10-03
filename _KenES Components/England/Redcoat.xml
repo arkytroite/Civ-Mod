@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/27/2010 4:15:53 AM -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_RIFLEMAN</Class>
+			<Type>UNIT_REDCOAT</Type>
+			<PrereqTech>TECH_RIFLING</PrereqTech>
+			<Combat>34</Combat>
+			<Cost>225</Cost>
+			<FaithCost>450</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_REDCOAT</Description>
+			<Civilopedia>TXT_KEY_CIV5_REDCOAT_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_REDCOAT_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_REDCOAT</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<ObsoleteTech>TECH_REPLACEABLE_PARTS</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_GREAT_WAR_INFANTRY</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>5</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_REDCOAT</UnitArtInfo>
+			<UnitFlagAtlas>REDCOAT_FLAG</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>ICON_REDCOAT</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Units>
+	
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_REDCOAT</UnitType>
+			<PromotionType>PROMOTION_FOREIGN_LANDS</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_REDCOAT</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_REDCOAT</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_REDCOAT</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_REDCOAT</UnitType>
+			<UnitClassType>UNITCLASS_GREAT_WAR_INFANTRY</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_REDCOAT</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_REDCOAT</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Unit_Flavors>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_REDCOAT">
+			<Text>Redcoat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_REDCOAT_TEXT">
+			<Text>Redcoat was the historical term for soliders in the British army, which wore distinct red uniforms. Originally a term of insult orchestrated by the French to suggest the brutality of the British army, it became a term of endearment and the uniform remains apart of the ceremonial guard today, despite the British army having moved toward scarlet uniforms in the 1870s.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_REDCOAT_STRATEGY">
+			<Text>The Redcoat is an English replacement for the Rifleman. It gains a combat bonus when fighting in foreign territory, making it great for war into exotic lands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_REDCOAT">
+			<Text>+20% Combat Strength in Foreign Territory.</Text>
+		</Row>
+	</Language_en_US>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+			<UnitType>UNIT_REDCOAT</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+	<ArtDefine_StrategicView>
+		<Replace>
+			<StrategicViewType>ART_DEF_UNIT_REDCOAT</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>Redcoat_Flag.dds</Asset>
+		</Replace>
+	</ArtDefine_StrategicView>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>ICON_REDCOAT</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>Redcoat_256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ICON_REDCOAT</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>Redcoat_128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ICON_REDCOAT</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>Redcoat_080.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ICON_REDCOAT</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>Redcoat_064.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ICON_REDCOAT</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>Redcoat_045.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>REDCOAT_FLAG</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>Redcoat_Flag.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+	<UnitGameplay2DScripts>
+		<Row UnitType="UNIT_REDCOAT">
+			<SelectionSound>AS2D_SELECT_MUSKETMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MUSKETMAN</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+</GameData>

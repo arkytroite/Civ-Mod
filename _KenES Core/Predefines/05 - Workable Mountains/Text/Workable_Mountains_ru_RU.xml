@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/9/2017 11:47:16 AM -->
+<GameData>
+	<Language_ru_RU>
+		<!-- Горы -->
+		<Row Tag="TXT_KEY_FEATURE_MOUNTAIN_YIELD">
+			<Text>[COLOR_IMPROVEMENT]Гора[ENDCOLOR]|[COLOR_IMPROVEMENT]горы[ENDCOLOR]|[COLOR_IMPROVEMENT]горе[ENDCOLOR]|[COLOR_IMPROVEMENT]гору[ENDCOLOR]|[COLOR_IMPROVEMENT]горой[ENDCOLOR]|[COLOR_IMPROVEMENT]горе[ENDCOLOR]</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_MOUNTAIN_YIELD_PEDIA">
+			<Text>
+				[COLOR_POS]ОСОБЕННОСТИ:[ENDCOLOR]
+				[NEWLINE][ICON_BULLET]Модификатор движения: [COLOR_NEG]непроходимо[ENDCOLOR]
+				[NEWLINE][ICON_BULLET]Модификатор защиты: [COLOR_MID]0%[ENDCOLOR]
+				[NEWLINE][COLOR_POS]ПРОИЗВОДИТЕЛЬНОСТЬ:[ENDCOLOR]
+				[NEWLINE][ICON_BULLET][COLOR_POS]+1[ENDCOLOR] [ICON_CULTURE] от [COLOR_WONDER_LIT]дворца[ENDCOLOR]
+				[NEWLINE][COLOR_POS]ИНФОРМАЦИЯ:[ENDCOLOR]
+				[NEWLINE][ICON_BULLET]Ледник непроходим для всех, кроме [COLOR_UNIT]авиации[ENDCOLOR] и [COLOR_UNIT]подводных лодок[ENDCOLOR]. Для [ICON_TOWN] городов он бесполезен.
+				[NEWLINE][NEWLINE]
+				Горы — сильно расчленённые части суши, значительно, на 500 метров и более, приподнятые над прилегающими равнинами. От равнин горы отделены либо напрямую подножием склона, либо предгорьями. Горы могут быть линейно вытянутыми или дугообразными с параллельным, решётчатым, радиальным, перистым, кулисным или ветвистым рисунком расчленения. Различают высокогорья, среднегорья и низкогорья.[NEWLINE][NEWLINE]
+				Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % — Европы, 22 % — Южной Америки, 17 % — Австралии и 3 % — Африки. В целом 24 % земной поверхности приходится на горы. 10 % всех людей живёт на территории гор. В горах берёт своё начало большинство рек Земли.
+			</Text>
+		</Row>
+		<!-- Каменная мастерская -->
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_STONE_WORKS_HELP" />
+			<Set>
+				<Text>
+					Эта постройка [COLOR_XHAPP]увеличивает [ICON_HAPPINESS_1] настроение[ENDCOLOR] в [ICON_TOWN] городе и [ICON_PRODUCTION] [COLOR_XPROD]производство[ENDCOLOR] как в городе, так и на подконтрольных ему клетках с [ICON_RES_STONE] [COLOR_RES_BONUS]камнем[ENDCOLOR], [ICON_RES_MARBLE] [COLOR_RES_LUXRY]мрамором[ENDCOLOR] или в [COLOR_IMPROVEMENT]горах[ENDCOLOR]. При этом каменную мастерскую нельзя построить на [COLOR_IMPROVEMENT]равнине[ENDCOLOR] и для ее возведения в пределах города должна быть построена хотя бы одна [COLOR_IMPROVEMENT]каменоломня[ENDCOLOR] на клетках с [ICON_RES_STONE] [COLOR_RES_BONUS]камнем[ENDCOLOR] или [ICON_RES_MARBLE] [COLOR_RES_LUXRY]мрамором[ENDCOLOR].
+				</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_STONE_WORKS_STRATEGY" />
+			<Set>
+				<Text>
+					[ICON_BULLET]+1 к [ICON_HAPPINESS_1] настроению
+					[NEWLINE][ICON_BULLET]+1 к [ICON_PRODUCTION] производству
+					[NEWLINE][ICON_BULLET]+1 к [ICON_PRODUCTION] производству на обрабатываемых клетках с [ICON_RES_STONE] [COLOR_RES_BONUS]камнем[ENDCOLOR] или [ICON_RES_MARBLE] [COLOR_RES_LUXRY]мрамором[ENDCOLOR]
+					[NEWLINE][ICON_BULLET]+2 к [ICON_PRODUCTION] производству от [COLOR_IMPROVEMENT]гор[ENDCOLOR]
+					[NEWLINE][ICON_BULLET]Необходимые условия: город не должен располагаться на [COLOR_IMPROVEMENT]равнине[ENDCOLOR]
+					[NEWLINE][ICON_BULLET]Необходимые ресурсы: улучшенные клетки с [ICON_RES_STONE] [COLOR_RES_BONUS]камнем[ENDCOLOR] или [ICON_RES_MARBLE] [COLOR_RES_LUXRY]мрамором[ENDCOLOR]
+					[NEWLINE][ICON_BULLET]Доступно [COLOR_CYAN]всем[ENDCOLOR]
+				</Text>
+			</Set>
+		</Update>
+		<!-- Акведук -->
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_AQUEDUCT_HELP" />
+			<Set>
+				<Text>
+					Эта постройка сберегает [COLOR_XFOOD]40% [ICON_FOOD] продовольствия[ENDCOLOR] при появлении нового [ICON_CITIZEN] горожанина и немного [COLOR_XFOOD]ускоряет производство [ICON_FOOD] еды[ENDCOLOR], а так же даёт [COLOR_XFOOD]дополнительную [ICON_FOOD] пищу[ENDCOLOR] от каждой клетки с [COLOR_IMPROVEMENT]горой[ENDCOLOR] в радиусе [ICON_TOWN] города. Стройте акведуки в тех городах, чей рост вы хотите ускорить.
+				</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_AQUEDUCT_STRATEGY" />
+			<Set>
+				<Text>
+					[ICON_BULLET]+2 к [ICON_FOOD] пище
+					[NEWLINE][ICON_BULLET]+1 к [ICON_FOOD] пище от [COLOR_IMPROVEMENT]гор[ENDCOLOR]
+					[NEWLINE][ICON_BULLET]Сберегает 40% [ICON_FOOD] пищи при появлении нового [ICON_CITIZEN] горожанина
+					[NEWLINE][ICON_BULLET]Доступно [COLOR_CYAN]всем[ENDCOLOR]
+				</Text>
+			</Set>
+		</Update>
+		<!-- Обсерватория -->
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_OBSERVATORY_HELP" />
+			<Set>
+				<Text>
+					Эту постройку можно создать только в [ICON_TOWN] городе, расположенном рядом с [COLOR_IMPROVEMENT]горой[ENDCOLOR]. Обсерватория [COLOR_XTECH]значительно ускоряет [ICON_RESEARCH] научные исследования[ENDCOLOR] города. Кроме того, каждая [COLOR_IMPROVEMENT]гора[ENDCOLOR], обрабатываемая [ICON_TOWN] городом, будет давать [COLOR_XTECH]дополнительную [ICON_RESEARCH] науку[ENDCOLOR].
+				</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_OBSERVATORY_STRATEGY" />
+			<Set>
+				<Text>
+					[ICON_BULLET]+50% к городской [ICON_RESEARCH] науке
+					[NEWLINE][ICON_BULLET]+1 к [ICON_RESEARCH] науке от [COLOR_IMPROVEMENT]гор[ENDCOLOR]
+					[NEWLINE][ICON_BULLET]Не требует [ICON_INVEST] расходов на содержание
+					[NEWLINE][ICON_BULLET]Необходимые условия: [COLOR_IMPROVEMENT]гора[ENDCOLOR] в радиусе 2 клеток от города
+					[NEWLINE][ICON_BULLET]Доступно [COLOR_CYAN]всем[ENDCOLOR]
+				</Text>
+			</Set>
+		</Update>
+		<!-- Радиовышка -->
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_BROADCAST_TOWER_HELP" />
+			<Set>
+				<Text>
+					Постройка позднего этапа игры, которая на треть [COLOR_XCULT]ускоряет рост городской [ICON_CULTURE] культуры[ENDCOLOR] и даёт [COLOR_XCULT]дополнительную [ICON_CULTURE] культуру[ENDCOLOR] от каждой [COLOR_IMPROVEMENT]горы[ENDCOLOR], обрабатываемой [ICON_TOWN] городом.
+				</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_BROADCAST_TOWER_STRATEGY" />
+			<Set>
+				<Text>
+					[ICON_BULLET]+1 к [ICON_CULTURE] культуре
+					[NEWLINE][ICON_BULLET]+33% к городской [ICON_CULTURE] культуре
+					[NEWLINE][ICON_BULLET]+1 к [ICON_CULTURE] культуре от [COLOR_IMPROVEMENT]гор[ENDCOLOR]
+					[NEWLINE][ICON_BULLET]Необходимые постройки: [COLOR_BUILDING]музей[ENDCOLOR]
+					[NEWLINE][ICON_BULLET]Доступно [COLOR_CYAN]всем[ENDCOLOR]
+				</Text>
+			</Set>
+		</Update>
+		<!-- Дворец -->
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_PALACE_HELP" />
+			<Set>
+				<Text>
+					Дворец - это здание, в котором расположено ваше правительство. На ранней стадии игры он обеспечивает значительный [COLOR_XCULT]рост [ICON_CULTURE] культуры[ENDCOLOR], [ICON_GOLD] [COLOR_XGOLD]золота[ENDCOLOR], [ICON_RESEARCH] [COLOR_XTECH]науки[ENDCOLOR] и [ICON_PRODUCTION] [COLOR_XPROD]производства[ENDCOLOR] для вашей [ICON_CAPITAL] столицы. К тому же дворец позволяет [COLOR_XCULT]получать [ICON_CULTURE] очки культуры[ENDCOLOR] от близлежащих [COLOR_IMPROVEMENT]гор[ENDCOLOR]. Это сердце торговой системы всей вашей империи. Если вашу [ICON_CAPITAL] столицу захватит враг, то дворец автоматически будет построен в другом городе. И всё-таки захватчиков следует избегать: вы не сможете достичь [COLOR_RED]территориальной победы[ENDCOLOR], пока не вернёте себе бывшую [ICON_CAPITAL] столицу. Защищайте дворец!
+				</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_PALACE_STRATEGY" />
+			<Set>
+				<Text>
+					[ICON_BULLET]Свидетельствует о том, что город является [ICON_CAPITAL] столицей
+					[NEWLINE][ICON_BULLET]+2.5 к [ICON_STRENGTH] обороноспособности города
+					[NEWLINE][ICON_BULLET]+3 к [ICON_GOLD] золоту
+					[NEWLINE][ICON_BULLET]Дополнительное [ICON_GOLD] золото от каждой [ICON_CONNECTED] дороги, ведущей из [ICON_CAPITAL] столицы к другим городам страны
+					[NEWLINE][ICON_BULLET]+3 к [ICON_PRODUCTION] производству
+					[NEWLINE][ICON_BULLET]+3 к [ICON_RESEARCH] науке
+					[NEWLINE][ICON_BULLET]+1 к [ICON_CULTURE] культуре
+					[NEWLINE][ICON_BULLET]+1 к [ICON_CULTURE] культуре от обрабатываемых городом [COLOR_IMPROVEMENT]гор[ENDCOLOR]
+					[NEWLINE][ICON_BULLET]1 ячейка [ICON_GREAT_WORK] шедевра живописи или [ICON_RES_ARTIFACTS] артефакта
+					[NEWLINE][ICON_BULLET]Доступно [COLOR_CYAN]всем[ENDCOLOR]
+				</Text>
+			</Set>
+		</Update>
+		<!-- Мачу-Пикчу -->
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_MACHU_PICHU_HELP" />
+			<Set>
+				<Text>
+					Значительно [COLOR_XGOLD]увеличивает городской [ICON_INVEST] доход[ENDCOLOR] и [ICON_GOLD] [COLOR_XGOLD]прибыльность[ENDCOLOR] [ICON_INTERNATIONAL_TRADE] торговых путей. [COLOR_XRELG]Даёт немного [ICON_PEACE] веры[ENDCOLOR] от рядом лежащих [COLOR_IMPROVEMENT]гор[ENDCOLOR] и ускоряет появление [ICON_GREAT_MERCHANT] Великого торговца. Город должен быть построен в пределах 2 клеток от горы, находящейся на вашей территории.
+				</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_MACHU_PICHU_STRATEGY" />
+			<Set>
+				<Text>
+					[ICON_BULLET]+5 к [ICON_GOLD] золоту
+					[NEWLINE][ICON_BULLET]+25% к [ICON_GOLD] золоту от всех [ICON_INTERNATIONAL_TRADE] торговых путей
+					[NEWLINE][ICON_BULLET]+2 к [ICON_PEACE] вере от обрабатываемых городом [COLOR_IMPROVEMENT]гор[ENDCOLOR]
+					[NEWLINE][ICON_BULLET]+1 к появлению [ICON_GREAT_MERCHANT] Великого торговца
+					[NEWLINE][ICON_BULLET]Необходимые условия: [COLOR_IMPROVEMENT]гора[ENDCOLOR] в радиусе 2 клеток от города
+					[NEWLINE][ICON_BULLET]Доступно [COLOR_CYAN]всем[ENDCOLOR]
+				</Text>
+			</Set>
+		</Update>
+		<!-- Такцанг-лакханг -->
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_TAKTSANG_HELP" />
+			<Set>
+				<Text>
+					[COLOR_XRELG]Увеличивает [ICON_PEACE] веру[ENDCOLOR] и ускоряет появление [ICON_GREAT_ENGINEER] Великого инженера. [COLOR_XRELG]Даёт немного [ICON_PEACE] веры[ENDCOLOR] и [COLOR_XCULT][ICON_CULTURE] культуры[ENDCOLOR] от рядом лежащих [COLOR_IMPROVEMENT]гор[ENDCOLOR]. В городе бесплатно появится [COLOR_BUILDING]монастырь[ENDCOLOR].
+				</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_TAKTSANG_STRATEGY" />
+			<Set>
+				<Text>
+					[ICON_BULLET]+5 к [ICON_FAITH] вере
+					[NEWLINE][ICON_BULLET]+1 к [ICON_PEACE] вере от обрабатываемых городом [COLOR_IMPROVEMENT]гор[ENDCOLOR]
+					[NEWLINE][ICON_BULLET]+1 к [ICON_CULTURE] культуре от обрабатываемых городом [COLOR_IMPROVEMENT]гор[ENDCOLOR]
+					[NEWLINE][ICON_BULLET]+1 к появлению [ICON_GREAT_ENGINEER] Великого инженера
+					[NEWLINE][ICON_BULLET]Необходимые условия: [COLOR_IMPROVEMENT]гора[ENDCOLOR] в радиусе 2 клеток от города
+					[NEWLINE][ICON_BULLET]Доступно [COLOR_CYAN]всем[ENDCOLOR]
+				</Text>
+			</Set>
+		</Update>
+	</Language_ru_RU>
+</GameData>

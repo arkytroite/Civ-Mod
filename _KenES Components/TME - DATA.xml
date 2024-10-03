@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/15/2013 6:36:38 PM -->
+<GameData>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>MOAI_CUS_ICON</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>marae_portrait256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MOAI_CUS_ICON</Atlas>
+			<IconSize>214</IconSize>
+			<Filename>marae_portrait212.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MOAI_CUS_ICON</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>marae_portrait128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MOAI_CUS_ICON</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>marae_portrait80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MOAI_CUS_ICON</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>marae_portrait64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MOAI_CUS_ICON</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>marae_portrait44.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_MARA</Type>
+			<BuildingClass>BUILDINGCLASS_AMPHITHEATER</BuildingClass>
+			<Cost>100</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_DRAMA</PrereqTech>
+			<Description>TXT_KEY_BUILDING_MARA_DESC</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MARA_TEXT</Civilopedia>
+			<Help>TXT_KEY_BUILDING_MARA_STRATEGY</Help>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<Happiness>1</Happiness>
+			<HurryCostModifier>25</HurryCostModifier>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<IconAtlas>MOAI_CUS_ICON</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_MARA</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MARA</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_POLYNESIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<BuildingType>BUILDING_MARA</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Building_YieldChanges>
+
+		<Row>
+			<BuildingType>BUILDING_MARA</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MARA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+	</Building_YieldChanges>
+
+	<Language_en_US>
+
+		<Row Tag="TXT_KEY_BUILDING_MARA_DESC">
+			<Text>Marae</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MARA_TEXT">
+			<Text>A marae is a communal or sacred place that serves religious and social purposes in Polynesian societies. The word also means "cleared, free of weeds, trees, etc." It generally consists of an area of cleared land roughly rectangular (the marae itself), bordered with stones or wooden posts (called au in Tahitian and Cook Islands Māori) perhaps with terraces (paepae) which were traditionally used for ceremonia. [NEWLINE][NEWLINE]Like in pre-European times, marae continue to be the location of many ceremonial events, including birthdays, weddings, and anniversaries.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_MARA_STRATEGY">
+			<Text>The Marae increases the [ICON_PEACE] Faith, [ICON_CULTURE] culture and [ICON_HAPPINESS_1] Happiness of a city. It can be built much earlier and more cheaply than a normal constabulary, at Civil Service.</Text>
+		</Row>
+			
+	</Language_en_US>
+
+</GameData>

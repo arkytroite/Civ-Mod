@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/7/2022 11:15:13 PM -->
+<GameData>
+  <!-- RESTRAINT -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_ARDL_AUTH04">
+			<Text>Recon and Restraint</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ARDL_AUTH04_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Recon and Restraint[ENDCOLOR][NEWLINE]Garrisoned units in cities produce +3 [ICON_CULTURE] and +1 Happiness [ICON_HAPPINESS_1].[NEWLINE] Recon units gain [COLOR_POSITIVE_TEXT]+60XP[ENDCOLOR] when created.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ARDL_AUTH04_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Recon and Restraint[ENDCOLOR][NEWLINE]Garrisoned units in cities produce +3 [ICON_CULTURE] and +1 Happiness [ICON_HAPPINESS_1].[NEWLINE] Recon units gain [COLOR_POSITIVE_TEXT]+60XP[ENDCOLOR] when created.</Text>
+		</Row>
+	</Language_en_US>
+
+
+
+	<!-- OPENER -->
+	<Policies>
+		<Row>
+			<Type>POLICY_ARDL_AUTH04</Type>
+			<Description>TXT_KEY_POLICY_ARDL_AUTH04</Description>
+			<Civilopedia>TXT_KEY_POLICY_ARDL_AUTH04_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_ARDL_AUTH04_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_ARDL_AUTHORITY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>4</GridX>
+			<GridY>2</GridY>
+			<PortraitIndex>3</PortraitIndex>
+			<CulturePerGarrisonedUnit>2</CulturePerGarrisonedUnit>
+			<HappinessPerGarrisonedUnit>1</HappinessPerGarrisonedUnit>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+	</Policies>
+
+	<Policy_UnitCombatFreeExperiences>
+
+		<Row>
+			<PolicyType>POLICY_ARDL_AUTH04</PolicyType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<FreeExperience>60</FreeExperience>
+		</Row>
+		
+	</Policy_UnitCombatFreeExperiences>
+	
+</GameData>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/9/2015 11:33:25 PM -->
+<GameData>
+
+	<!-- Branch tooltip -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_ARDL_PLANNED_DEFENSES">
+			<Text>Multitier Defenses</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ARDL_PLANNED_DEFENSES_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Multitiered Defenses[ENDCOLOR][NEWLINE]Cities gain +25% [ICON_STRENGTH] Strength and if garrisoned gain +100% [ICON_RANGE_STRENGTH] Ranged Combat Strength.[NEWLINE] Castles produce +3 [ICON_CULTURE].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ARDL_PLANNED_DEFENSES_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Multitiered Defenses[ENDCOLOR][NEWLINE]Cities gain +25% [ICON_STRENGTH] Strength and if garrisoned gain +100% [ICON_RANGE_STRENGTH] Ranged Combat Strength.[NEWLINE] Castles produce +3 [ICON_CULTURE].</Text>
+		</Row>
+	</Language_en_US>
+
+
+
+	<!-- OPENER -->
+	<Policies>
+		<Row>
+			<Type>POLICY_ARDL_PLANNED_DEFENSES</Type>
+			<Description>TXT_KEY_POLICY_ARDL_PLANNED_DEFENSES</Description>
+			<Civilopedia>TXT_KEY_POLICY_ARDL_PLANNED_DEFENSES_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_ARDL_PLANNED_DEFENSES_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_ARDL_SECURITY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<CityStrengthMod>25</CityStrengthMod>
+			<GarrisonedCityRangeStrikeModifier>100</GarrisonedCityRangeStrikeModifier>
+			<GridX>3</GridX>
+			<GridY>1</GridY>
+			<PortraitIndex>31</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+	</Policies>
+
+	<Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_ARDL_PLANNED_DEFENSES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		
+	</Policy_BuildingClassYieldChanges>
+	
+	
+
+</GameData>

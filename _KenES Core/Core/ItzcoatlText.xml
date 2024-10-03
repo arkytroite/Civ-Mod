@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 08/23/20 4:32:08 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_UC_CALMECAC">
+			<Text>Calmecac</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UC_CALMECAC_HELP">
+			<Text>Replaces University. +10 XP for all land units. +5% [ICON_GREAT_PEOPLE] Great Person Generation in this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UC_CALMECAC_STRATEGY">
+			<Text>The Calmecac replaces the University for Montezuma's Aztec Empire, and it will both strengthen his armies and lead to the flourishing of many [ICON_GREAT_PEOPLE] Great People.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_CALMECAC_TEXT">
+			<Text>The Calmecac was a school for the sons of Aztec nobility in the Late Postclassic period of Mesoamerican history, where they would receive rigorous religious and military training. The calmecac tied together the military, political and sacred hierarchies of the community. The two main primary sources for information on the calmecac and telpochcalli are in Bernardino de Sahagún's Florentine Codex of the General History of the Things of New Spain (Books III, VI, and VIII) and part 3 of the Codex Mendoza. Although the calmecac has been characterized as for elites only, Sahagun's account says that at times commoners, macehualtin were assigned to the calmecac as well and trained for the priesthood. The Telpochcalli was where mostly commoners and some noble youths received military training, but would have been precluded from the higher ranks of power. Codex Mendoza's account of the calmecac emphasizes the possibilities of upward mobility for young commoner men, (macehualtin), educated in the telpochcalli. The placement of noble youth in the telpochcalli might have been by lesser wives' or concubines' sons or younger sons, perhaps of commoner status so that the boys did not have to compete with noble youths in the calmecac. Codex Mendoza's account largely ignores class distinctions between the two institutions.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

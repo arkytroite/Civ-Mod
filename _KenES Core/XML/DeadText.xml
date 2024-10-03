@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/24/2021 11:24:19 AM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TECH_DE_TIPI_TITLE">
+			<Text>Nomadism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DE_TIPI">
+			<Text>Nomadism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DE_TIPI_DESC">
+			<Text>The advent of a advanced nomadic lifestyle, far beyond mere hunter-gather, but rather pastoral and peripatetic lifestyles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DE_TIPI_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Tipis[ENDCOLOR], which produce faith and food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DE_TIPI_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"I give thee flight without wings" -- Allegedly a Bedouin Proverb[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_DE_HAND_TITLE">
+			<Text>Axe-Throwing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DE_HAND">
+			<Text>Axe-Throwing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DE_HAND_DESC">
+			<Text>With improvements in the crafting of weapons, the axe, already a formidable melee weapon, has had its ranged potential realised.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DE_HAND_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Hand-axemen[ENDCOLOR], a classical-era military unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DE_HAND_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"...dreamed up cruelties even barbarians would flinch at" -- Andromache, The Women of Troy[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_DE_MOTTE_TITLE">
+			<Text>Fortification</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DE_MOTTE">
+			<Text>Fortification</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DE_MOTTE_DESC">
+			<Text>The construction of fortifications has lead to the development of alternative methods of construction and new architectures.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DE_MOTTE_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Motte-and-Bailey Castle[ENDCOLOR], a fortification providing only a 25% defensive bonus, but it also deals 10 damage to adjacent enemy units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DE_MOTTE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Life yields only to be conqueror." - William the Conqueror[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_DE_BRIDGE_TITLE">
+			<Text>Pontoon Bridges</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DE_BRIDGE">
+			<Text>Pontoon Bridges</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DE_BRIDGE_DESC">
+			<Text>With improvements in engineering and construction, long bridges over water can be made through the use of pontoons.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DE_BRIDGE_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Pontoon Bridges[ENDCOLOR] over water to connect land tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DE_BRIDGE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"The love of glory is like the bridge that Satan built across Chaos to pass from Hell to Paradise" -- Napoleon[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_DE_LANDSHIP_TITLE">
+			<Text>Coal Machinery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DE_LANDSHIP">
+			<Text>Coal Machinery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DE_LANDSHIP_DESC">
+			<Text>With the advent of the use of coal for steel and power, basic steam machinery can be built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DE_LANDSHIP_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Airships[ENDCOLOR], a hovering military unit, and [COLOR_POSITIVE_TEXT]Land Ironclads[ENDCOLOR], an early industrial tank.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DE_LANDSHIP_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Oh, the humanity!" -- Herbert Morrison[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_TUNNELS_TITLE">
+			<Text>Tunneling</Text>
+		</Row>
+		<Row Tag="TXT_TUNNELS_LANDSHIP">
+			<Text>Tunneling</Text>
+		</Row>
+		<Row Tag="TXT_TUNNELS_DESC">
+			<Text>Cutting a hole through stone is a conceptually simple but logistically difficult enterprise. An understanding of load bearing architecture, explosives, and boring machines.</Text>
+		</Row>
+		<Row Tag="TXT_TUNNELS_HELP">
+			<Text>Tunneling allows you to build a unit capable of building railroads through mountains.</Text>
+		</Row>
+		<Row Tag="TXT_TUNNELS_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"The shortest distance between any two points is a line." -Archimedes[NEWLINE][TAB]</Text>
+		</Row>
+
+
+		<Row Tag="TXT_TREE_TITLE">
+			<Text>Forestry</Text>
+		</Row>
+		<Row Tag="TXT_TREE_LANDSHIP">
+			<Text>Forestry</Text>
+		</Row>
+		<Row Tag="TXT_TREE_DESC">
+			<Text>Afforestation, the practice of planting trees where there were none, can be used to improve the climate of an area by preventing toilsoil erosion, serving as wind barriers or habitats, and by creating a source of lumber. This, along with Reforestation, is a main defense against climate change.</Text>
+		</Row>
+		<Row Tag="TXT_TREE_HELP">
+			<Text>Forestry allows you to plant trees anywhere except deserts or snow.</Text>
+		</Row>
+		<Row Tag="TXT_TREE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Someone is sitting in the shade today because someone planted a tree a long time ago." -Warren Buffett[NEWLINE][TAB]</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 27-Jun-14 04:04:34 -->
+	<GameData>
+		
+		<!-- Removes the Netherlands' grassland start bias -->
+
+		<Civilization_Start_Region_Priority>
+			<Delete CivilizationType="CIVILIZATION_NETHERLANDS" />
+		</Civilization_Start_Region_Priority>
+		
+		<!-- Adds a coastal start bias for the Netherlands -->
+
+		<Civilization_Start_Along_Ocean>
+			<Row>
+				<CivilizationType>CIVILIZATION_NETHERLANDS</CivilizationType>
+				<StartAlongOcean>true</StartAlongOcean>
+			</Row>
+		</Civilization_Start_Along_Ocean>
+  
+	</GameData>

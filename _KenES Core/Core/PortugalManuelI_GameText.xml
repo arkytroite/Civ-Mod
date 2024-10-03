@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/16/2014 11:54:41 PM -->
+<GameData>
+	<Language_en_US>
+		<!--UNIQUE 2-->
+		<Row Tag="TXT_KEY_UNIT_JFD_COSMOGRAPHER">
+			<Text>Cosmographer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_COSMOGRAPHER_HELP">
+			<Text>Unique Great Scientist replacement for Portugal that excels at exploring the seas. Can be used to found new cities, granting bonus [ICON_RESEARCH] Science in the process. The amount of [ICON_RESEARCH] Science received increases with the city's distance from the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_COSMOGRAPHER_STRATEGY">
+			<Text>The Cosmographer is Portugal's unique replacement for the Great Scientist. Cosmographers are best suited for exploration over the standard Great Scientist, possessing a bonus to its [ICON_MOVES] Movement when Embarked. It can be used to establish new cities, granting a burst of [ICON_RESEARCH] Science based upon the distance the city is from the [ICON_CAPITAL] Capital as well as your [ICON_RESEARCH] Science Per Turn at the time. Unlike the Great Scientist, however, Cosmographers cannot be normally expended for [ICON_RESEARCH] Science - although it can still be expended to build the Academy Tile Improvement. Send Cosmographers far across the seas to reap as much science as you can, but be sure to send a military escort with them as they remain vulnerable to attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_COSMOGRAPHER_TEXT">
+			<Text>The successive expeditions and experience of Portugal's pilots led to a fairly rapid evolution of Portuguese nautical science, creating an elite of astronomers, navigators, mathematicians and cartographers, among them stood Pedro Nunes with studies on how to determine the latitudes by the stars and Joao de Castro. The knowledge of wind patterns and currents – the trade winds and the oceanic gyres in the Atlantic, and the determination of latitude led to the discovery of the best ocean route back from Africa: crossing the Central Atlantic to the latitude of the Azores, using the permanent favorable winds and currents that spin clockwise in the Northern Hemisphere because of atmospheric circulation and the effect of Coriolis, facilitating the way to Lisbon and thus enabling the Portuguese venturing increasingly farther from shore, the maneuver that became known as "Volta do mar".</Text>
+		</Row>
+		<!--Promotions-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_COSMOGRAPHER">
+			<Text>Age of Discovery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_COSMOGRAPHER_HELP">
+			<Text>Can be used to found new cities, granting bonus [ICON_RESEARCH] Science in the process. The amount of [ICON_RESEARCH] Science received increases with the city's distance from the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<!--Unique Names-->
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_COSMOGRAPHER_01">
+			<Text>Pedro Nunes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_COSMOGRAPHER_02">
+			<Text>Joao Baptista Lavanha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_COSMOGRAPHER_03">
+			<Text>Joao Teixeira Albernaz I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_COSMOGRAPHER_04">
+			<Text>Fernao Vaz Dourado</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_COSMOGRAPHER_05">
+			<Text>Manuel Godinho de Eredia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_COSMOGRAPHER_06">
+			<Text>Manuel de Mesquita Perestrelo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_COSMOGRAPHER_07">
+			<Text>Andre Pereira dos Reis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_COSMOGRAPHER_08">
+			<Text>Luiz Jorge de Barbuda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_COSMOGRAPHER_09">
+			<Text>Lopo Homem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_COSMOGRAPHER_10">
+			<Text>Diogo Homem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_COSMOGRAPHER_11">
+			<Text>Jorge Reinel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_COSMOGRAPHER_12">
+			<Text>Pedro Reinel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_COSMOGRAPHER_13">
+			<Text>Diogo Ribeiro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_COSMOGRAPHER_14">
+			<Text>Pedro Teixeira Albernaz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_COSMOGRAPHER_15">
+			<Text>Luis Teixeira</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_COSMOGRAPHER_16">
+			<Text>Bartolomeu Velho</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_COSMOGRAPHER_17">
+			<Text>Martin de Ayamonte</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

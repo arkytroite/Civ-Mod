@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/6/2013 1:15:40 AM -->
+<GameData>
+	<UnitGameplay2DScripts>
+		<Row UnitType="UNIT_MBFGALLOWGLASS">
+			<SelectionSound>AS2D_SELECT_LONGSWORDSMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_LONGSWORDSMAN</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+	
+	<Units>
+		<Row>
+			<Class>UNITCLASS_LONGSWORDSMAN</Class>
+			<Type>UNIT_MBFGALLOWGLASS</Type>
+			<PrereqTech>TECH_STEEL</PrereqTech>
+			<Combat>23</Combat>
+			<Cost>120</Cost>
+			<FaithCost>240</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_MBFGALLOWGLASS</Description>
+			<Civilopedia>TXT_KEY_UNIT_MBFGALLOWGLASS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_MBFGALLOWGLASS_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_MBFGALLOWGLASS_HELP</Help>
+			<ExtraMaintenanceCost>-1</ExtraMaintenanceCost>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_MUSKETMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>25</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>3</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_MBFGALLOWGLASS</UnitArtInfo>
+			<UnitFlagAtlas>ART_FLAG_MBFGALLOWGLASS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>MBFGALLOWGLASS_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Units>
+	
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_MBFGALLOWGLASS</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MBFGALLOWGLASS</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_MBFGALLOWGLASS</UnitType>
+			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_MBFGALLOWGLASS</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MBFGALLOWGLASS</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_ResourceQuantityRequirements>
+	<Row>
+		<UnitType>UNIT_MBFGALLOWGLASS</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+	</Row>
+	</Unit_ResourceQuantityRequirements>
+	
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_CELTS</CivilizationType>
+			<UnitClassType>UNITCLASS_LONGSWORDSMAN</UnitClassType>
+			<UnitType>UNIT_MBFGALLOWGLASS</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_MBFGALLOWGLASS</UnitType>
+			<PromotionType>PROMOTION_GAELIC_DEFENDER</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_MBFGALLOWGLASS">
+			<Text>Gallowglass</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MBFGALLOWGLASS_HELP">
+			<Text>Strong Medieval Era front-line unit. Only the Celts may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MBFGALLOWGLASS_STRATEGY">
+			<Text>The Gallowglass is a Celtic unique unit. Unlike the Longswordsman it replaces, the Gallowglass is stronger and receives a combat boost when defending.[NEWLINE][NEWLINE]Requires 1 [ICON_RES_IRON] Iron.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MBFGALLOWGLASS_TEXT">
+			<Text>The gallowglasses were a class of elite mercenary warriors who were principally members of the Norse-Gaelic clans of Scotland between the mid 13th century and late 16th century. The gallowglasses were attractive as a heavily armoured, trained aristocratic infantry to be relied upon as a strong defence for holding a position, unlike most Irish foot soldiers, who were lower class and less well armoured than the typical Irish noble who fought as cavalry. In time there came to be many native Irish gallowglasses as the term came to mean a type of warrior rather than an ethnic designation.[NEWLINE][NEWLINE]They were a significant part of Irish infantry before the advent of gunpowder, and depended upon seasonal service with Irish chieftains. A military leader would often choose a gallowglass to serve as his personal aide and bodyguard because, as a foreigner, the gallowglass would be less subject to local feuds and influences.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GAELIC_DEFENDER">
+			<Text>Gaelic Defender</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GAELIC_DEFENDER_HELP">
+			<Text>+33 [ICON_STRENGTH] Combat Strength when defending.</Text>
+		</Row>
+	</Language_en_US>
+
+	<UnitPromotions>
+	<Row>
+		<Type>PROMOTION_GAELIC_DEFENDER</Type>
+		<Description>TXT_KEY_PROMOTION_GAELIC_DEFENDER</Description>
+		<Help>TXT_KEY_PROMOTION_GAELIC_DEFENDER_HELP</Help>
+		<Sound>AS2D_IF_LEVELUP</Sound>
+		<OrderPriority>2</OrderPriority>
+		<DefenseMod>33</DefenseMod>
+		<PortraitIndex>14</PortraitIndex>
+		<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+		<PediaType>PEDIA_MELEE</PediaType>
+		<PediaEntry>TXT_KEY_PROMOTION_GAELIC_DEFENDER</PediaEntry>
+	</Row>
+		</UnitPromotions>
+	
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>MBFGALLOWGLASS_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>MBFgallowglass256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MBFGALLOWGLASS_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>MBFgallowglass128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MBFGALLOWGLASS_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>MBFgallowglass80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MBFGALLOWGLASS_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>MBFgallowglass64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MBFGALLOWGLASS_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>MBFgallowglass45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+			
+		<Row>
+			<Atlas>ART_FLAG_MBFGALLOWGLASS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>gallowglassicon.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		</IconTextureAtlases>
+	<ArtDefine_StrategicView>
+		<Replace>
+			<StrategicViewType>ART_DEF_UNIT_MBFGALLOWGLASS</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>gallowglassicon.dds</Asset>
+		</Replace>
+	</ArtDefine_StrategicView>
+
+
+
+</GameData>

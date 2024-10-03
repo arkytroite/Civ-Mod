@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/24/2017 6:22:51 PM -->
+<GameData>
+	<Colors>
+	<!-- ЦВЕТА -->
+		<!-- Хорошо ! -->
+		<Row>
+			<Type>COLOR_POS</Type>
+            <Red>0.5</Red>
+            <Green>1</Green>
+            <Blue>0.1</Blue>
+		</Row>
+		<!-- Плохо ! -->
+		<Row>
+			<Type>COLOR_NEG</Type>
+            <Red>1</Red>
+            <Green>0.3</Green>
+            <Blue>0.3</Blue>
+		</Row>
+		<!-- Нормально ! -->
+		<Row>
+			<Type>COLOR_MID</Type>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>0</Blue>
+		</Row>
+		<!-- Целевые ресурсы !!! -->
+		<Row>
+			<Type>COLOR_RES_BONUS</Type>
+            <Red>0.545</Red>
+            <Green>0.412</Green>
+            <Blue>0.412</Blue>
+		</Row>
+		<!-- Стратегические ресурсы !!! -->
+		<Row>
+			<Type>COLOR_RES_STRTG</Type>
+            <Red>1</Red>
+            <Green>0.31</Green>
+            <Blue>0</Blue>
+		</Row>
+		<!-- Ресурсы роскоши !!! -->
+		<Row>
+			<Type>COLOR_RES_LUXRY</Type>
+            <Red>0.976</Red>
+            <Green>0.518</Green>
+            <Blue>0.898</Blue>
+		</Row>
+		<!-- Постройки !!! -->
+		<Row>
+			<Type>COLOR_BUILDING</Type>
+            <Red>0.933</Red>
+            <Green>0.51</Green>
+            <Blue>0.384</Blue>
+		</Row>
+		<!-- Малые чудеса света !!!-->
+		<Row>
+			<Type>COLOR_WONDER_LIT</Type>
+            <Red>0.804</Red>
+            <Green>0.196</Green>
+            <Blue>0.471</Blue>
+		</Row>
+		<!-- Чудеса света ! -->
+		<Row>
+			<Type>COLOR_WONDER_BIG</Type>
+            <Red>0</Red>
+            <Green>0.9</Green>
+            <Blue>0.9</Blue>
+		</Row>
+		<!-- Чудеса природы ! -->
+		<Row>
+			<Type>COLOR_WONDER_NAT</Type>
+            <Red>0.5</Red>
+            <Green>1</Green>
+            <Blue>0.5</Blue>
+		</Row>
+		<!-- Улучшения ! -->
+		<Row>
+			<Type>COLOR_IMPROVEMENT</Type>
+            <Red>0.133</Red>
+            <Green>0.545</Green>
+            <Blue>0.133</Blue>
+		</Row>
+		<!-- Юниты !!! -->
+		<Row>
+			<Type>COLOR_UNIT</Type>
+            <Red>0.804</Red>
+            <Green>0.804</Green>
+            <Blue>0</Blue>
+		</Row>
+		<!-- Замена ! -->
+		<Row>
+			<Type>COLOR_SUB</Type>
+			<Red>0.65</Red>
+			<Green>0.65</Green>
+			<Blue>0.65</Blue>
+		</Row>
+		<!-- Общественный институт -->
+		<Row>
+			<Type>COLOR_POLICIES</Type>
+            <Red>0.6</Red>
+            <Green>0.196</Green>
+            <Blue>0.8</Blue>
+		</Row>
+		<!-- Технологии и эпохи !-->
+		<Row>
+			<Type>COLOR_TECH</Type>
+            <Red>0.25</Red>
+            <Green>0.6</Green>
+            <Blue>0.97</Blue>
+		</Row>
+		<!-- Настроение !!! -->
+		<Row>
+			<Type>COLOR_XHAPP</Type>
+            <Red>0.87</Red>
+            <Green>0.78</Green>
+            <Blue>0.01</Blue>
+		</Row>
+		<!-- Золото !!! -->
+		<Row>
+			<Type>COLOR_XGOLD</Type>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>0.37</Blue>
+		</Row>
+		<!-- Пища !!! -->
+		<Row>
+			<Type>COLOR_XFOOD</Type>
+            <Red>0.678</Red>
+            <Green>1</Green>
+            <Blue>0.184</Blue>
+		</Row>
+		<!-- Производство !!! -->
+		<Row>
+			<Type>COLOR_XPROD</Type>
+            <Red>0.97</Red>
+            <Green>0.56</Green>
+            <Blue>0</Blue>
+		</Row>
+		<!-- Религия !!! -->
+		<Row>
+			<Type>COLOR_XRELG</Type>
+            <Red>0.49</Red>
+            <Green>0.976</Green>
+            <Blue>1</Blue>
+		</Row>
+		<!-- Наука !!! -->
+		<Row>
+			<Type>COLOR_XTECH</Type>
+            <Red>0.27</Red>
+            <Green>0.77</Green>
+            <Blue>0.89</Blue>
+		</Row>
+		<!-- Культура !!! -->
+		<Row>
+			<Type>COLOR_XCULT</Type>
+            <Red>0.89</Red>
+            <Green>0.28</Green>
+            <Blue>0.82</Blue>
+		</Row>
+		<!-- Уникальные свойства лидеров !!! -->
+		<Row>
+			<Type>COLOR_TREAT</Type>
+            <Red>0</Red>
+            <Green>1</Green>
+            <Blue>1</Blue>
+            <Alpha>0.6</Alpha>
+		</Row>
+		<!-- Лидеры !!! -->
+		<Row>
+			<Type>COLOR_LEADER</Type>
+            <Red>0.98</Red>
+            <Green>0.855</Green>
+            <Blue>0.866</Blue>
+            <Alpha>1</Alpha>
+		</Row>
+		<!-- Белый !!! -->
+		<Row>
+			<Type>COLOR_CS</Type>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>1</Blue>
+            <Alpha>1</Alpha>
+		</Row>
+		<!-- Резолюции !!! -->
+		<Row>
+			<Type>COLOR_CONGRESS</Type>
+            <Red>0.804</Red>
+            <Green>0.361</Green>
+            <Blue>0.361</Blue>
+		</Row> 
+		<!-- Silver !!! -->
+		<Row>
+			<Type>COLOR_SILVER</Type>
+            <Red>0.69</Red>
+            <Green>0.769</Green>
+            <Blue>0.871</Blue>
+		</Row> 
+		<!-- Great people !!! -->
+		<Row>
+			<Type>COLOR_GREAT</Type>
+            <Red>0.518</Red>
+            <Green>0.439</Green>
+            <Blue>1</Blue>
+		</Row> 
+		<!-- TOMATO !!! -->
+		<Row>
+			<Type>COLOR_TOMATO</Type>
+            <Red>1</Red>
+            <Green>0.388</Green>
+            <Blue>0.278</Blue>
+		</Row> 
+	</Colors>
+</GameData>

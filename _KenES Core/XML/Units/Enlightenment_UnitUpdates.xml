@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/27/2015 4:08:28 PM -->
+<GameData>
+	<Units>
+		<!--Upgrade to Explorer-->
+		<Update>
+			<Where Type="UNIT_SCOUT"/>
+			<Set ObsoleteTech="TECH_GUNPOWDER"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SHOSHONE_PATHFINDER"/>
+			<Set ObsoleteTech="TECH_GUNPOWDER"/>
+		</Update>
+		<Update>
+			<Where Class="UNITCLASS_LANCER"/>
+			<Set ObsoleteTech="TECH_MILITARY_SCIENCE"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SCOUT"/>
+			<Set GoodyHutUpgradeUnitClass="UNITCLASS_SMAN_EU_TAMED_MAMMOTH"/>
+
+		</Update>
+	</Units>
+	<Unit_ClassUpgrades>
+		<!--Upgrade to Explorer-->
+		<Row>
+			<UnitType>UNIT_SCOUT</UnitType>
+			<UnitClassType>UNITCLASS_EE_EXPLORER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
+			<UnitClassType>UNITCLASS_EE_EXPLORER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_TAMED_MAMMOTH</UnitType>
+			<UnitClassType>UNITCLASS_EE_EXPLORER</UnitClassType>
+		</Row>
+		<Update>
+			<Where UnitClassType="UNITCLASS_ANTI_TANK_GUN"/>
+			<Set UnitClassType="UNITCLASS_CAVALRY"/>
+		</Update>
+	</Unit_ClassUpgrades>
+</GameData>

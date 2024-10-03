@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/25/2017 11:57:29 AM -->
+<GameData>
+	<IconFontTextures>
+		<Row>
+			<IconFontTexture>ICON_FONT_TEXTURE_NEW_ICONS</IconFontTexture>
+			<IconFontTextureFile>NewIcons</IconFontTextureFile>
+		</Row>
+	</IconFontTextures>
+
+	<IconFontMapping>
+		<Row>
+			<IconName>ICON_EXPERIENCE</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_NEW_ICONS</IconFontTexture>
+			<IconMapping>1</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_HEALTH</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_NEW_ICONS</IconFontTexture>
+			<IconMapping>2</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_TOWN</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_NEW_ICONS</IconFontTexture>
+			<IconMapping>3</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_WONDER</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_NEW_ICONS</IconFontTexture>
+			<IconMapping>4</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_ATTACKRANGE</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_NEW_ICONS</IconFontTexture>
+			<IconMapping>5</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_VIEWRANGE</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_NEW_ICONS</IconFontTexture>
+			<IconMapping>6</IconMapping>
+		</Row>
+	</IconFontMapping>
+</GameData>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/2/2015 9:37:04 PM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Set CulturePerCity="1">
+			<Where Type="POLICY_LIBERTY" />
+		</Update>
+		<Update>
+			<Set	BuildingProductionModifier="10" />
+			<Where Type="POLICY_LIBERTY_FINISHER" />
+		</Update>
+		
+	</Policies>
+	<!-- Finisher now also provides +50% Production towards National Wonders and +10% Production towards all buildings. -->
+	<Policy_BuildingClassProductionModifiers>
+
+		<!-- *** NATIONAL WONDERS *** -->
+		<!-- Circus Maximus -->
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CIRCUS_MAXIMUS</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<!-- East India Company -->
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_TREASURY</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<!-- Grand Temple -->
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<!-- Hermitage -->
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HERMITAGE</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<!-- Heroic Epic -->
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HEROIC_EPIC</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<!-- Ironworks -->
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_IRONWORKS</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<!-- National College -->
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_COLLEGE</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<!-- National Epic -->
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_EPIC</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<!-- National Intelligence Agency -->
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_INTELLIGENCE_AGENCY</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<!-- National Visitor Center -->
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_TOURIST_CENTER</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<!-- Oxford University -->
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_OXFORD_UNIVERSITY</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+
+	</Policy_BuildingClassProductionModifiers>
+
+	<Policy_BuildingClassHappiness>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CIRCUS_MAXIMUS</BuildingClassType>
+			<Happiness>5</Happiness>
+		</Row>
+	</Policy_BuildingClassHappiness>
+	
+	<!-- Localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_BRANCH_LIBERTY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_BRANCH_LIBERTY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Liberty[ENDCOLOR] is best for civilizations which desire rapid expansion.[NEWLINE][NEWLINE]Adopting Liberty will provide 1 [ICON_CULTURE] Culture per city.[NEWLINE][NEWLINE]Adopting all policies in the Liberty tree will grant a free Great Person of your choice near the [ICON_CAPITAL] Capital.[NEWLINE] +50% [ICON_PRODUCTION] Production towards National Wonders, and +10% [ICON_PRODUCTION] Production towards all buildings.[NEWLINE]+5 [ICON_HAPPINESS_1] Happiness from Circus Maximus.</Text>
+		</Row>
+	</Language_en_US>
+	
+
+</GameData>

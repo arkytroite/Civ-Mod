@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/6/2015 9:41:06 PM -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_HORSEMAN</Class>
+			<Type>UNIT_ROME_EQUITES</Type>
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+			<Combat>12</Combat>
+			<Cost>75</Cost>
+			<FaithCost>150</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>4</Moves>
+			<HurryCostModifier>20</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_ROME_EQUITES</Description>
+			<Civilopedia>TXT_KEY_UNIT_ROME_EQUITES_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_ROME_EQUITES_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_ROME_EQUITES_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_CHIVALRY</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_KNIGHT</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_ROME_EQUITES</UnitArtInfo>
+			<UnitFlagAtlas>ROME_EQUITES_FLAG</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>ROME_EQUITES_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<MoveRate>QUADRUPED</MoveRate>
+		</Row>
+	</Units>
+
+	<Unit_ClassUpgrades>
+	<Row>
+		<UnitType>UNIT_ROME_EQUITES</UnitType>
+		<UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
+	</Row>
+	</Unit_ClassUpgrades>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_ROME_EQUITES</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROME_EQUITES</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_ROME_EQUITES</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROME_EQUITES</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROME_EQUITES</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Unit_Flavors>
+	
+	<Unit_ResourceQuantityRequirements>
+	<Row>
+		<UnitType>UNIT_ROME_EQUITES</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+	</Row>
+		</Unit_ResourceQuantityRequirements>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_ROME_EQUITES</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROME_EQUITES</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROME_EQUITES</UnitType>
+			<PromotionType>PROMOTION_CITY_PENALTY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROME_EQUITES</UnitType>
+			<PromotionType>PROMOTION_SHOCK_1</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_ROME_EQUITES">
+			<Text>Eques</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ROME_EQUITES_TEXT">
+			<Text>
+				Equites were Roman horsemen or knights. The name is derived from the Latin for horse, equus.  A member of the equestrian order was known as an eques (plural: equites). [NEWLINE][NEWLINE]Cavalry, although never replacing infantry as the mainstay of the Roman army, could provide useful cover on the flanks of armies, could be used as a shock tactic to cause disruption to enemy infantry formations, and could pursue an enemy during the confusion of retreat. Consequently, many an ancient battle was won or lost depending on the performance of mounted soldiers.  Cavalry also became especially useful in the later Roman period when it became necessary to patrol increasingly contentious border states.[NEWLINE][NEWLINE]Notwithstanding the disastrous defeat of Marcus Licinius Crassus at the hands of the skilled Parthian cavalry at Carrhae in 53 BCE, cavalry continued to play an important military role as part of Julius Caesar's army in the Gallic wars. Caesar recruited riders from wherever he could, even Gallic tribes. He also improved weapons by adopting lances with points at each end and had cavalry employ larger shields. As the empire grew and more and more skilled horsemen were incorporated into the Roman military machine, the standard of Roman cavalry improved and became one of the reasons why Rome's enemies avoided full-scale set-piece battles.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ROME_EQUITES_STRATEGY">
+			<Text>The Eques is a Roman unique unit. It has a Promotion that give it an advantage in open terrain, unlike the Horseman it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ROME_EQUITES_HELP">
+			<Text>Fast and powerful Classical Era mounted unit. Only Rome may build it.</Text>
+		</Row>
+	</Language_en_US>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+			<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
+			<UnitType>UNIT_ROME_EQUITES</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>ROME_EQUITES_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>romeHORSE256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ROME_EQUITES_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>romeHORSE128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ROME_EQUITES_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>romeHORSE80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ROME_EQUITES_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>romeHORSE64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ROME_EQUITES_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>romeHORSE45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ROME_EQUITES_FLAG</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>IconEquit32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+	<ArtDefine_StrategicView>
+		<Replace>
+			<StrategicViewType>ART_DEF_UNIT_ROME_EQUITES</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>IconEquitSV.dds</Asset>
+		</Replace>
+	</ArtDefine_StrategicView>
+
+	<UnitGameplay2DScripts>
+		<Row UnitType="UNIT_ROME_EQUITES">
+			<SelectionSound>AS2D_SELECT_HORSEMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_HORSEMAN</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+</GameData>

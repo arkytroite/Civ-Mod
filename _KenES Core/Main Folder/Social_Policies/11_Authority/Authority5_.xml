@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/7/2022 11:15:27 PM -->
+<GameData>
+  <!-- LEAGUE OF NATIONS -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_ARDL_AUTH05">
+			<Text>Triple Ante</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ARDL_AUTH05_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Triple Ante[ENDCOLOR][NEWLINE] Cities gain +3 [ICON_PRODUCTION] production each.[NEWLINE] +15% [ICON_PRODUCTION] production when building Gun, Armor, and Artillery units.[NEWLINE] Resting influence [ICON_INFLUENCE] with city states is inceased by +35.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ARDL_AUTH05_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Triple Ante[ENDCOLOR][NEWLINE] Cities gain +3 [ICON_PRODUCTION] production each.[NEWLINE] +15% [ICON_PRODUCTION] production when building Gun, Armor, and Artillery units.[NEWLINE] Resting influence [ICON_INFLUENCE] with city states is inceased by +35.</Text>
+		</Row>
+	</Language_en_US>
+
+
+
+	<!-- OPENER -->
+	<Policies>
+		<Row>
+			<Type>POLICY_ARDL_AUTH05</Type>
+			<Description>TXT_KEY_POLICY_ARDL_AUTH05</Description>
+			<Civilopedia>TXT_KEY_POLICY_ARDL_AUTH05_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_ARDL_AUTH05_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_ARDL_AUTHORITY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>3</GridX>
+			<GridY>3</GridY>
+			<MinorFriendshipMinimum>35</MinorFriendshipMinimum>
+			<PortraitIndex>5</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+	</Policies>
+
+	<Policy_UnitCombatProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_ARDL_AUTH05</PolicyType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<ProductionModifier>15</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ARDL_AUTH05</PolicyType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<ProductionModifier>15</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ARDL_AUTH05</PolicyType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+			<ProductionModifier>15</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ARDL_AUTH05</PolicyType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+			<ProductionModifier>15</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ARDL_AUTH05</PolicyType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<ProductionModifier>15</ProductionModifier>
+		</Row>
+	</Policy_UnitCombatProductionModifiers>
+	
+	
+</GameData>

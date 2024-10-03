@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/7/2022 11:12:03 PM -->
+<GameData>
+	<!-- Branch tooltip -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_ARDL_AUTHORITY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Authority[ENDCOLOR] is for [COLOR_NEGATIVE_TEXT]Militaristic[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Naval[ENDCOLOR] civilizations. Provides [ICON_STRENGTH] Combat and [ICON_PRODUCTION] Production bonuses for units to help with world policing [ICON_INTERNATIONAL_TRADE], conquest [ICON_VICTORY_DOMINATION], or getting back at your bullies [ICON_SILVER_FIST].[NEWLINE][NEWLINE]Adopting Authority grants all new units [COLOR_POSITIVE_TEXT]+15XP[ENDCOLOR] upon creation and all cities gain +5% [ICON_PRODUCTION] Production when building military units. [NEWLINE]Unlocks building [COLOR_GREEN]The National Industrial Complex[ENDCOLOR] in 2 cities.[NEWLINE][NEWLINE]Adopting all Policies in the Authority tree will grant +15% [ICON_PRODUCTION] production to building all military units.+2 [ICON_PRODUCTION] production and +2 [ICON_GOLD] gold to Manufactories.[NEWLINE]Spawns a special type of great admiral with combat strength and unique starting promotions - [COLOR_POSITIVE_TEXT]The Dreadnaught Admiral[ENDCOLOR] - a near invincible behemoth that is only weak to airplane fighters.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_ARDL_AUTHORITY">
+			<Text>[COLOR_POSITIVE_TEXT]Authority[ENDCOLOR] is for [COLOR_NEGATIVE_TEXT]Militaristic[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Naval[ENDCOLOR] civilizations. Provides [ICON_STRENGTH] Combat and [ICON_PRODUCTION] Production bonuses for units to help with world policing [ICON_INTERNATIONAL_TRADE], conquest [ICON_VICTORY_DOMINATION], or getting back at your bullies [ICON_SILVER_FIST].[NEWLINE][NEWLINE]Adopting Authority grants all new units [COLOR_POSITIVE_TEXT]+15XP[ENDCOLOR] upon creation and all cities gain +5% [ICON_PRODUCTION] Production when building military units. [NEWLINE]Unlocks building the wonder [COLOR_GREEN]Battle of Nations Monument[ENDCOLOR].[NEWLINE]Unlocks building [COLOR_GREEN]The National Industrial Complex[ENDCOLOR] in 2 cities.[NEWLINE][NEWLINE]Adopting all Policies in the Authority tree will grant +15% [ICON_PRODUCTION] production to building all military units. +2 [ICON_PRODUCTION] production and +2 [ICON_GOLD] gold to Manufactories.[NEWLINE]Spawns a special type of great admiral with combat strength and unique starting promotions - [COLOR_POSITIVE_TEXT]The Dreadnaught Admiral[ENDCOLOR] - a near invincible behemoth that is only weak to airplane fighters.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARDL_AUTHORITY_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Authority[ENDCOLOR] is for [COLOR_NEGATIVE_TEXT]Militaristic[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Naval[ENDCOLOR] civilizations. Provides [ICON_STRENGTH] Combat and [ICON_PRODUCTION] Production bonuses for units to help with world policing [ICON_INTERNATIONAL_TRADE], conquest [ICON_VICTORY_DOMINATION], or getting back at your bullies [ICON_SILVER_FIST].[NEWLINE][NEWLINE]Adopting Authority grants all new units [COLOR_POSITIVE_TEXT]+15XP[ENDCOLOR] upon creation and all cities gain +5% [ICON_PRODUCTION] Production when building military units. [NEWLINE]Unlocks building the wonder [COLOR_GREEN]Battle of Nations Monument[ENDCOLOR].[NEWLINE]Unlocks building [COLOR_GREEN]The National Industrial Complex[ENDCOLOR] in 2 cities.[NEWLINE][NEWLINE]Adopting all Policies in the Authority tree will grant +15% [ICON_PRODUCTION] production to building all military units. +2 [ICON_PRODUCTION] production and +2 [ICON_GOLD] gold to Manufactories.[NEWLINE]Spawns a special type of great admiral with combat strength and unique starting promotions - [COLOR_POSITIVE_TEXT]The Dreadnaught Admiral[ENDCOLOR] - a near invincible behemoth that is only weak to airplane fighters.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ARDL_AUTHORITY_FINISHER">
+			<Text>[COLOR_POSITIVE_TEXT]Authority[ENDCOLOR] Adopting all Policies in the Authority tree will grant +15% [ICON_PRODUCTION] production to building all military units. +2 [ICON_PRODUCTION] production and +2 [ICON_GOLD] gold to Manufactories.[NEWLINE]Spawns a special type of great admiral with combat strength and unique starting promotions - [COLOR_POSITIVE_TEXT]The Dreadnaught Admiral[ENDCOLOR] - a near invincible behemoth that is only weak to airplane fighters.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARDL_AUTHORITY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Authority Opener[ENDCOLOR]</Text>
+		</Row>
+	</Language_en_US>
+
+
+
+	<!-- OPENER -->
+	<Policies>
+		<Row>
+			<Type>POLICY_ARDL_AUTHORITY</Type>
+			<Description>TXT_KEY_POLICY_BRANCH_ARDL_AUTHORITY</Description>
+			<PortraitIndex>30</PortraitIndex>
+			<Civilopedia>TXT_KEY_ARDL_AUTHORITY_TEXT</Civilopedia>
+			<Help>TXT_KEY_ARDL_AUTHORITY_HELP</Help>
+			<MilitaryProductionModifier>5</MilitaryProductionModifier>
+			<FreeExperience>15</FreeExperience>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<!-- FINISHER -->
+		<Row>
+			<Type>POLICY_ARDL_AUTHORITY_FINISHER</Type>
+			<Description>TXT_KEY_POLICY_ARDL_AUTHORITY_FINISHER</Description>
+			<MilitaryProductionModifier>15</MilitaryProductionModifier>
+			<IncludesOneShotFreeUnits>1</IncludesOneShotFreeUnits>
+			<!--
+			<GoldenAgeTurns>25</GoldenAgeTurns>
+			-->
+		</Row>
+	</Policies>
+
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_ARDL_AUTHORITY_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ARDL_AUTHORITY_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+
+	<Policy_CityYieldChanges>
+		<Row>
+			<PolicyType>POLICY_ARDL_AUTHORITY_FINISHER</PolicyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Policy_CityYieldChanges>
+		
+	<Policy_FreeUnitClasses>
+		<!--
+		<Row>
+			<PolicyType>POLICY_ARDL_AUTHORITY_FINISHER</PolicyType>
+			<UnitClassType>UNITCLASS_BATTLESHIP</UnitClassType>
+			<Count>1</Count>
+		</Row>
+		
+		<Row>
+			<PolicyType>POLICY_ARDL_AUTHORITY_FINISHER</PolicyType>
+			<UnitClassType>UNITCLASS_CARAVEL</UnitClassType>
+			<Count>3</Count>
+		</Row>
+		-->
+		<Row>
+			<PolicyType>POLICY_ARDL_AUTHORITY_FINISHER</PolicyType>
+			<UnitClassType>UNITCLASS_AUTHORITY_ADMIRAL</UnitClassType>
+			<Count>1</Count>
+		</Row>
+	</Policy_FreeUnitClasses>
+	
+</GameData>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/13/2016 3:17:38 AM -->
+<GameData>
+	
+	<!-- Now provides +50% hammers to lighthouse, harbor, seaport -->
+	<Policy_BuildingClassProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_MARITIME_INFRASTRUCTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+	</Policy_BuildingClassProductionModifiers>
+	<Policy_BuildingClassProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_MARITIME_INFRASTRUCTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+	</Policy_BuildingClassProductionModifiers>
+	<Policy_BuildingClassProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_MARITIME_INFRASTRUCTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+	</Policy_BuildingClassProductionModifiers>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE_HELP" />
+		<Row Tag="TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Maritime Infrastructure[ENDCOLOR][NEWLINE]+3 [ICON_PRODUCTION] Production in all coastal Cities. +50% [ICON_PRODUCTION] Production towards Lighthouse, Harbor, and Seaport.</Text>
+		</Row>
+	</Language_en_US>
+	
+
+</GameData>

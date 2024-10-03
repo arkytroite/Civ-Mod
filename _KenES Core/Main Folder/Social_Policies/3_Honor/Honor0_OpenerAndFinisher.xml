@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/9/2015 11:28:46 PM -->
+<GameData>
+
+	<!-- Branch tooltip -->
+	<Language_en_US>
+		
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_HONOR_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Honor[ENDCOLOR] improves the effectiveness of militaristic civilizations in a variety of ways.[NEWLINE][NEWLINE]Adopting Honor gives a +33% combat bonus VS Barbarians. Gain [ICON_CULTURE] Culture for the empire for each enemy unit killed.[NEWLINE] +1 [ICON_PRODUCTION] Production in every City.[NEWLINE]Unlocks building the [COLOR_YELLOW]Statue of Zeus[ENDCOLOR].[NEWLINE][NEWLINE]Adopting all policies in the Honor tree will grant -20% unit maintenance and -33% [ICON_HAPPINESS_4] Unhappiness from Puppeted Cities.[NEWLINE]It also allows you to capture Slave units whenever you clear out a barbarian encampment.[NEWLINE] Great Generals can be purchased with [ICON_PEACE] Faith starting in the Industrial Era." />
+		</Update>
+	
+		
+	</Language_en_US>
+
+	
+
+	<!-- HONOR OPENER -->
+	<Policies>
+		<Update>
+			<Set CultureFromKills="50" CultureFromBarbarianKills="50" />
+			<Where Type="POLICY_HONOR" />
+		</Update>
+	</Policies>
+
+	<Policy_CityYieldChanges>
+		<Row>
+			<PolicyType>POLICY_HONOR</PolicyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_CityYieldChanges>
+
+	<!-- HONOR FINISHER -->
+	<Policies>
+		<Update>
+			<Set CityCountUnhappinessMod="-25" GoldFromKills="0" UnitGoldMaintenanceMod="-20" OccupiedPopulationUnhappinessMod="-33"/>
+			<Where Type="POLICY_HONOR_FINISHER" />
+		</Update>
+	</Policies>
+</GameData>

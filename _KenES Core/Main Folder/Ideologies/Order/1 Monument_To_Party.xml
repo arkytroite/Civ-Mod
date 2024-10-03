@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/9/2013 6:38:27 PM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Set Level="1"
+				 PolicyBranchType="POLICY_BRANCH_ORDER"
+				 Description="TXT_KEY_POLICY_MONUMENT_TO_PARTY"
+				 Help="TXT_KEY_POLICY_MONUMENT_TO_PARTY_HELP" />
+			<Where Type="POLICY_UNIVERSAL_HEALTHCARE_O" />
+		</Update>
+	</Policies>
+	<Policy_BuildingClassHappiness>
+		<Delete PolicyType="POLICY_UNIVERSAL_HEALTHCARE_O" />
+	</Policy_BuildingClassHappiness>
+	<!-- +2 Hap and +2 Cul done via SQL -->
+
+	<Policy_Flavors>
+		<Delete PolicyType="POLICY_UNIVERSAL_HEALTHCARE_O" />
+		<Row>
+			<PolicyType>POLICY_UNIVERSAL_HEALTHCARE_O</PolicyType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>11</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UNIVERSAL_HEALTHCARE_O</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>11</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UNIVERSAL_HEALTHCARE_O</PolicyType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>11</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_MONUMENT_TO_PARTY">
+			<Text>Poverty Elimination</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MONUMENT_TO_PARTY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Poverty Elimination[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_HAPPINESS_1] Happiness and +2 [ICON_CULTURE] Culture from every National Wonder.</Text>
+		</Row>
+	</Language_en_US>
+
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_POLICY_MONUMENT_TO_PARTY">
+			<Text>Монументы партии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MONUMENT_TO_PARTY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Монументы партии[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_HAPPINESS_1] счастья и +2 [ICON_CULTURE] культуры за каждое Национальное Чудо.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_ES_ES>
+		<Row Tag="TXT_KEY_POLICY_MONUMENT_TO_PARTY">
+			<Text>Liderazgo del Partido</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MONUMENT_TO_PARTY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Liderazgo del Partido[ENDCOLOR][NEWLINE][ICON_BULLET]+2 de [ICON_HAPPINESS_1] Felicidad y +2 de [ICON_CULTURE] Cultura por cada Maravilla Nacional.</Text>
+		</Row>
+	</Language_ES_ES>
+</GameData>

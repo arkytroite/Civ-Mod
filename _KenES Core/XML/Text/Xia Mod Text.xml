@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh-->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SHANG_CHARIOT_MOD">
+			<Text>Tuo Ma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SHANG_CHARIOT_MOD_HELP">
+			<Text>Mobile command Unit. The Tou Ma increases the damage units within 2 tiles deal to cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SHANG_CHARIOT_MOD_STRATEGY">
+			<Text>The Tou Ma is slower and much weaker than the Charior Archer it replaces, but its Mobile Command ability makes it very useful for sieges. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SHANG_CHARIOT_MOD_TEXT">
+			<Text>Traditional sources attribute the invention of the chariot to the Xia Dynasty minister Xi Zhong, and say they were used at the Battle of Gan in the 21st century BC. However, archeological evidence shows that small scale use of the chariot began around 1200 BC in the late Shang Dynasty primarily as mobile command vehicles.[NEWLINE][NEWLINE]Because horses provided crucial motive power, the ma or "horse officer" seems to have been entrusted with proportionately greatly authority. To the extent that chariots formed a core component of the army, the tuo ma ("chief ma") appears to have controlled contingents of the standing army; assumed a command role on the battlefield, being deputed on campaigns to attack enemy states; been entrusted with defensive responsibilities that extended to the ruler; and also directed the royal hunt on occasion.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_PROMOTION_SHANG_CHARIOT">
+			<Text>Mobile Command</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XIA_CHARIOT_DESC">
+			<Text>Units within 2 tiles deal extra damage to cities and this unit takes significantly reduced damage from ranged attacks.</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_EUPANEL_CITY_SAPPED" />
+			<Set Text="In Range of Siege Support" />
+		</Update>
+	</Language_en_US>	
+</GameData>

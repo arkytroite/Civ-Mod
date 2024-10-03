@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Revised by Lord A. July 2018 -->
+<GameData>
+	<Table name="Building_CultureChangePerPop">
+		<Column name="BuildingType" type="text" reference="Buildings(Type)"/>
+		<Column name="Culture" type="integer"/>
+		<Column name="Pop" type="integer"/>
+	</Table>
+	
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_TCS_PATENT_OFFICE</Type>
+			<DefaultBuilding>BUILDING_TCS_PATENT_OFFICE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TCS_PATENT_OFFICE</Description>
+		</Row>
+		
+		<Row>
+			<Type>BUILDINGCLASS_ARDL_CITYBULWARKS</Type>
+			<DefaultBuilding>BUILDING_ARDL_CITYBULWARKS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ARDL_CITYBULWARKS</Description>
+		</Row>
+		
+		<Row>
+			<Type>BUILDINGCLASS_ARDL_INTERNATIONALSCHOOLS</Type>
+			<DefaultBuilding>BUILDING_ARDL_INTERNATIONALSCHOOLS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ARDL_INTERNATIONALSCHOOLS</Description>
+		</Row>
+		
+		<Row>
+			<Type>BUILDINGCLASS_ARDL_NATIONAL_WARTIME_INDUSTRIES</Type>
+			<DefaultBuilding>BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES</Description>
+		
+			<MaxPlayerInstances>2</MaxPlayerInstances>
+			
+		</Row>
+		
+	</BuildingClasses>
+	<Buildings>
+		
+		<Row>
+			<Type>BUILDING_TCS_PATENT_OFFICE</Type>
+			<BuildingClass>BUILDINGCLASS_TCS_PATENT_OFFICE</BuildingClass>
+			<Cost>300</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_DYNAMITE</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_RATIONALISM</PolicyBranchType>
+			<Description>TXT_KEY_BUILDING_TCS_PATENT_OFFICE</Description>
+			<Help>TXT_KEY_BUILDING_TCS_PATENT_OFFICE_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>ARDLBUILDINGS_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>40</PortraitIndex>
+		</Row>
+	
+		<Row>
+			<Type>BUILDING_ARDL_CITYBULWARKS</Type>
+			<BuildingClass>BUILDINGCLASS_ARDL_CITYBULWARKS</BuildingClass>
+			<Cost>120</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_ARDL_SECURITY</PolicyBranchType>
+			<Description>TXT_KEY_BUILDING_ARDL_CITYBULWARKS</Description>
+			<Help>TXT_KEY_BUILDING_ARDL_CITYBULWARKS_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<Defense>800</Defense>
+			<ExtraCityHitPoints>80</ExtraCityHitPoints>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>ENLIGHTENMENT_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+		</Row>
+		
+		<Row>
+			<Type>BUILDING_ARDL_INTERNATIONALSCHOOLS</Type>
+			<BuildingClass>BUILDINGCLASS_ARDL_INTERNATIONALSCHOOLS</BuildingClass>
+			<Cost>300</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_PENICILIN</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_ARDL_DIPLOMACY</PolicyBranchType>
+			<Description>TXT_KEY_BUILDING_ARDL_INTERNATIONALSCHOOLS</Description>
+			<Help>TXT_KEY_BUILDING_ARDL_INTERNATIONALSCHOOLS_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<GreatPeopleRateModifier>15</GreatPeopleRateModifier>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>ARDLBUILDINGS_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>47</PortraitIndex>
+		</Row>
+	
+		<Row>
+			<Type>BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES</Type>
+			<BuildingClass>BUILDINGCLASS_ARDL_NATIONAL_WARTIME_INDUSTRIES</BuildingClass>
+			<Cost>300</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_ARDL_AUTHORITY</PolicyBranchType>
+			<Description>TXT_KEY_BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES</Description>
+			<Help>TXT_KEY_BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>ARDLBUILDINGS_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>46</PortraitIndex>
+		</Row>
+		
+	</Buildings>
+
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_ARDL_CITYBULWARKS</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_TCS_PATENT_OFFICE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	
+		<Row>
+			<BuildingType>BUILDING_ARDL_CITYBULWARKS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		
+	</Building_YieldChanges>
+	<Building_YieldChangesPerPop>
+		<Row>
+			<BuildingType>BUILDING_TCS_PATENT_OFFICE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>20</Yield>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_ARDL_CITYBULWARKS</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>20</Yield>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_ARDL_INTERNATIONALSCHOOLS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>20</Yield>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>20</Yield>
+		</Row>
+		
+	</Building_YieldChangesPerPop>
+	<!--
+	-->
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES</BuildingType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES</BuildingType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES</BuildingType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		
+	</Building_ResourceYieldChanges>
+	<Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_ARDL_CITYBULWARKS</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>15</Experience>
+		</Row>
+	
+	</Building_DomainFreeExperiences>
+	<Building_Flavors>
+		<!-- Patent Office-->
+		<Row>
+			<BuildingType>BUILDING_TCS_PATENT_OFFICE</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_PATENT_OFFICE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<!-- City Bulwarks -->
+		<Row>
+			<BuildingType>BUILDING_ARDL_CITYBULWARKS</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARDL_CITYBULWARKS</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARDL_CITYBULWARKS</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		
+		<!-- International Schools -->
+		<Row>
+			<BuildingType>BUILDING_ARDL_INTERNATIONALSCHOOLS</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARDL_INTERNATIONALSCHOOLS</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		
+		<!-- National Wartime Industries  -->
+		<Row>
+			<BuildingType>BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		
+
+	</Building_Flavors>
+	
+	<Language_en_US>
+		<!-- Description Tags -->
+		<Row Tag="TXT_KEY_BUILDING_TCS_PATENT_OFFICE">
+			<Text>Patent Office</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_BUILDING_ARDL_CITYBULWARKS">
+			<Text>City Bulwarks</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_BUILDING_ARDL_INTERNATIONALSCHOOLS">
+			<Text>International Schools</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES">
+			<Text>National Industrial Complex</Text>
+		</Row>
+		
+		
+
+		<!-- Help Tags -->
+		<Row Tag="TXT_KEY_BUILDING_TCS_PATENT_OFFICE_HELP">
+			<Text>+5 [ICON_SCIENCE] Science. +1 [ICON_GOLD] Gold for every 5 Citizens.[NEWLINE][NEWLINE]Requires Rationalism.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_BUILDING_ARDL_CITYBULWARKS_HELP">
+			<Text>+100 city hitpoints and +10 [ICON_STRENGTH] city strength. +20xp for land units trained in the city. +1 [ICON_FOOD] Food for every 5 Citizens in this city.[NEWLINE][NEWLINE]Requires Security.</Text>
+		</Row>
+	
+		<Row Tag="TXT_KEY_BUILDING_ARDL_INTERNATIONALSCHOOLS_HELP">
+			<Text>+15% [ICON_GREAT_PEOPLE] Great People Points in this city. +1 [ICON_CULTURE] Culture for every 5 Citizens in this city.[NEWLINE][NEWLINE]Requires Statecraft.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES_HELP">
+			<Text>+5 [ICON_PRODUCTION] Production. +3 [ICON_PRODUCTION] Production from all strategic resources in this city. +1 [ICON_PRODUCTION] Production for every 5 Citizens in this city.[NEWLINE][NEWLINE]Requires Authority.</Text>
+		</Row>
+		
+	</Language_en_US>
+	
+</GameData>

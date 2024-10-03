@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_POLICY_AUTOCRACY_HEADING"/>
+			<Set Text="Fascism"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_POLICY_FREEDOM_HEADING"/>
+			<Set Text="Liberalism"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_POLICY_ORDER_HEADING"/>
+			<Set Text="Communism"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SOCIALPOLICY_AUTOCRACY_HEADING3_BODY"/>
+			<Set Text="This branch is well suited for those wishing nothing more than to crush their foes under the weight of their iron-plated boots. It is ideal for players who seek a Domination Victory. Fascism reduces the Unit Maintenance fee by 33%, allowing the civ to field an even larger army at the same cost.  This policy unlocks upon entering the Industrial Era, and cannot be active at the same time as Liberalism or Communism."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SOCIALPOLICY_AUTOCRACY_HEADING3_TITLE"/>
+			<Set Text="Fascism"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SOCIALPOLICY_FREEDOM_HEADING3_BODY"/>
+			<Set Text="Liberalism provides bonuses for Culture and Specialist production. Liberalism becomes available upon entering the Renaissance Era, and cannot be active at the same time as Fascism or Communism."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SOCIALPOLICY_FREEDOM_HEADING3_TITLE"/>
+			<Set Text="Liberalism"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SOCIALPOLICY_ORDER_HEADING3_BODY"/>
+			<Set Text="Players interested in creating massive, sprawling civs should turn to Communism, as the strength of the empire is determined by the total number of cities it contains. Communism becomes available for exploration upon entering the Industrial Era, and cannot be active at the same time as Liberalism or Fascism."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SOCIALPOLICY_ORDER_HEADING3_TITLE"/>
+			<Set Text="Communism"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_FREEDOM"/>
+			<Set Text="Liberalism"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_ORDER"/>
+			<Set Text="Communism"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY"/>
+			<Set Text="Fascism"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_FREEDOM_CAP"/>
+			<Set Text="LIBERALISM"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_ORDER_CAP"/>
+			<Set Text="COMMUNISM"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY_CAP"/>
+			<Set Text="FASCISM"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_FREEDOM_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Liberalism[ENDCOLOR] is best for small, focused empires. In particular, it provides bonuses for [ICON_GREAT_PEOPLE] Great People and Specialists.[NEWLINE][NEWLINE]Upon adopting Liberalism, the rate at which [ICON_GREAT_PEOPLE] Great People are born is increased by 25%.[NEWLINE][NEWLINE]Adopting all Policies in the Liberalism tree will increase the base yield from Great Tile Improvements by 100% and length of [ICON_GOLDEN_AGE] Golden Ages increased by 50%.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Fascism or Communism.[ENDCOLOR]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_ORDER_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Communism[ENDCOLOR] is best for large, sprawling empires, increasing the strength of the empire based on the number of Cities it contains.[NEWLINE][NEWLINE]Adopting Communism will increase [ICON_HAPPINESS_1] Happiness by +1 per City.[NEWLINE][NEWLINE]Adopting all Policies in the Communism tree will grant +1 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science, [ICON_GOLD] Gold, and [ICON_CULTURE] Culture per city.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Liberalism or Fascism.[ENDCOLOR]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Fascism[ENDCOLOR] is for militaristic civilizations, dreaming of world conquest.[NEWLINE][NEWLINE]Adopting Fascism reduces Unit [ICON_GOLD] Gold Maintenance costs by 33%, allowing an empire to field a larger military.[NEWLINE][NEWLINE]Adopting all Policies in the Fascism tree will grant a 20% attack bonus to all Military Units for 30 turns.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Liberalism or Communism.[ENDCOLOR]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_FREEDOM_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Liberalism[ENDCOLOR] is best for small, focused empires. In particular, it provides bonuses for [ICON_GREAT_PEOPLE] Great People and Specialists.[NEWLINE][NEWLINE]Upon adopting Liberalism, the rate at which [ICON_GREAT_PEOPLE] Great People are born is increased by 25%.[NEWLINE][NEWLINE]Adopting all Policies in the Liberalism tree will increase the base yield from Great Tile Improvements by 100% and length of [ICON_GOLDEN_AGE] Golden Ages increased by 50%.[NEWLINE][NEWLINE]May purchase Great Artists with [ICON_PEACE] Faith.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Fascism or Communism.[ENDCOLOR]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_ORDER_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Communism[ENDCOLOR] is best for large, sprawling empires, increasing the strength of the empire based on the number of Cities it contains.[NEWLINE][NEWLINE]Adopting Communism will increase [ICON_HAPPINESS_1] Happiness by +1 per City.[NEWLINE][NEWLINE]Adopting all Policies in the Communism tree will grant +2 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science, [ICON_GOLD] Gold, and [ICON_CULTURE] Culture per city.[NEWLINE][NEWLINE]May purchase Great Engineers with [ICON_PEACE] Faith.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Liberalism or Fascism.[ENDCOLOR]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Fascism[ENDCOLOR] is for militaristic civilizations, dreaming of world conquest.[NEWLINE][NEWLINE]Adopting Fascism reduces Unit [ICON_GOLD] Gold Maintenance costs by 33%, allowing an empire to field a larger military. Receive 10 [ICON_CULTURE] Culture as plunder for each point of [ICON_CULTURE] Culture produced in the captured city.[NEWLINE][NEWLINE]Adopting all Policies in the Fascism tree will grant a 25% attack bonus to all Military Units for 50 turns.[NEWLINE][NEWLINE]May purchase Great Generals and Great Admirals with [ICON_PEACE] Faith.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Liberalism or Communism.[ENDCOLOR]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_FREEDOM_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Liberalism[ENDCOLOR] is best for small, focused empires. In particular, it provides bonuses for [ICON_GREAT_PEOPLE] Great People and Specialists.[NEWLINE][NEWLINE]Upon adopting Liberalism, the rate at which [ICON_GREAT_PEOPLE] Great People are born is increased by 25%.[NEWLINE][NEWLINE]Adopting all Policies in the Liberalism tree will increase the base yield from Great Tile Improvements by 100% and length of [ICON_GOLDEN_AGE] Golden Ages increased by 50%.[NEWLINE][NEWLINE]May purchase Great Artists with [ICON_PEACE] Faith.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Fascism or Communism.[ENDCOLOR]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_ORDER_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Communism[ENDCOLOR] is best for large, sprawling empires, increasing the strength of the empire based on the number of Cities it contains.[NEWLINE][NEWLINE]Adopting Communism will increase [ICON_HAPPINESS_1] Happiness by +1 per City.[NEWLINE][NEWLINE]Adopting all Policies in the Communism tree will grant +2 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science, [ICON_GOLD] Gold, and [ICON_CULTURE] Culture per city.[NEWLINE][NEWLINE]May purchase Great Engineers with [ICON_PEACE] Faith.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Liberalism or Fascism.[ENDCOLOR]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Fascism[ENDCOLOR] is for militaristic civilizations, dreaming of world conquest.[NEWLINE][NEWLINE]Adopting Fascism reduces Unit [ICON_GOLD] Gold Maintenance costs by 33%, allowing an empire to field a larger military. Receive 10 [ICON_CULTURE] Culture as plunder for each point of [ICON_CULTURE] Culture produced in the captured city.[NEWLINE][NEWLINE]Adopting all Policies in the Fascism tree will grant a 25% attack bonus to all Military Units for 50 turns.[NEWLINE][NEWLINE]May purchase Great Generals and Great Admirals with [ICON_PEACE] Faith.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Liberalism or Communism.[ENDCOLOR]"/>
+		</Update>
+		<!-- Texts for Policies -->
+		<Row Tag="TXT_KEY_POLICY_BRANCH_REACTIONARY">
+			<Text>Reactionism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_REACTIONARY_CAP">
+			<Text>Reactionism</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_POLICY_BRANCH_REACTIONARY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Reactionism[ENDCOLOR] is best for well rounded civilizations that balance traditional and progressive ideas. It provides bonuses to Militaries, Specialists, and Diplomacy.[NEWLINE][NEWLINE]Adopting Réactionnaire provides +1 [ICON_HAPPINESS_1] Happiness for each 10 followers of your majour religion.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Freedom, Order or Autocracy.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REACTIONARY_TITLE">
+			<Text>{1_PlayerName:textkey} the Emperor of {2_CivName:textkey}</Text>
+		</Row>
+		
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_FREEDOM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Freedom[ENDCOLOR] is best for small, focused empires. In particular, it provides bonuses for [ICON_GREAT_PEOPLE] Great People and Specialists.[NEWLINE][NEWLINE]Upon adopting Freedom, the rate at which [ICON_GREAT_PEOPLE] Great People are born is increased by 25%.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Autocracy,  Order or Reactionarie.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_ORDER_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Order[ENDCOLOR] is best for large, sprawling empires, increasing the strength of the empire based on the number of Cities it contains.[NEWLINE][NEWLINE]Adopting Order will increase [ICON_HAPPINESS_1] Happiness by +1 per City.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Freedom, Autocracy or Reactionarie.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Autocracy[ENDCOLOR] is for militaristic civilizations, dreaming of world conquest.[NEWLINE][NEWLINE]Adopting Autocracy reduces Unit [ICON_GOLD] Gold Maintenance costs by 33%, allowing an empire to field a larger military. Receive 10 [ICON_CULTURE] Culture as plunder for each point of [ICON_CULTURE] Culture produced in the captured city.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Freedom, Order or Reactionarie.[ENDCOLOR]</Text>
+		</Replace>
+
+		
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_R_HELP">
+			<Text>+2 [ICON_HAPPINESS_1] for every National Wonder.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_POLICY_DIVINE_RIGHT">
+			<Text>Divine Right</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_DIVINE_RIGHT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Divine Right[ENDCOLOR][NEWLINE]+8 [ICON_HAPPINESS_1] happiness from the Palace, +4 [ICON_CULTURE] culture from academies and holy sites.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_POLICY_JULY_MONARCHY">
+			<Text>Restoration of the Monarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JULY_MONARCHY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Restoration of the Monarchy[ENDCOLOR][NEWLINE] +15% [ICON_CULTURE] culture from universites. +25% Combat bonus for all Mounted, Armor, and Gun units when fighting other Mounted, Armor, and Gun units.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_POLICY_ARDLSTATEMANSHIP">
+			<Text>Statesmanship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ARDLSTATEMANSHIP_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Statesmanship[ENDCOLOR][NEWLINE]Spies have double the chance to capture an enemy spy attempting to steal a technology. +2 [ICON_INFLUENCE] Influence per turn (at Standard speed) with City-States you have a trade route with. +20% [ICON_GOLD] Gold from Banks.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_POLICY_THERMIDORIAN">
+			<Text>Thermidorian Reaction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_THERMIDORIAN_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Thermidorian Reaction[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] happiness and +2 [ICON_CULTURE] culture from conservatories, police stations, temples, shines, and monuments.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_POLICY_CIVIL_LIBERTIES">
+			<Text>Civil Liberties</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_CIVIL_LIBERTIES_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Civil Liberties[ENDCOLOR][NEWLINE]-10% [ICON_CULTURE] Culture costs of future Social Policies. Great person generation is inceased by +15%.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_POLICY_ANCIENREGIME">
+			<Text>Ancien Régime</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ANCIENREGIME_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Ancien Régime[ENDCOLOR][NEWLINE]+1 [ICON_FOOD] food and +1 [ICON_PRODUCTION] Production from farms, plantations, and pastures.[NEWLINE]+3 [ICON_PRODUCTION]Production and [ICON_GOLD] Gold from Castles.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_POLICY_LEGION_HONOR">
+			<Text>Legions of Honour</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_LEGION_HONOR_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Legions of Honour[ENDCOLOR][NEWLINE]Wounded Military Units inflict 25% more damage than normal and new units receive +25 XP</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_POLICY_ROYAL_NAVY">
+			<Text>Royal Navy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ROYAL_NAVY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Royal Navy[ENDCOLOR][NEWLINE]+15% [ICON_STRENGTH] combat strength for all naval units and +4 [ICON_PRODUCTION] production in all coastal cities.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_POLICY_MATTERNICHS_REFORMS">
+			<Text>Metternich's Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MATTERNICHS_REFORMS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Metternich's Reforms[ENDCOLOR][NEWLINE]+25% strategic resources in your own territory. Gain +10  [ICON_RES_IRON] Iron,  [ICON_RES_HORSE]Horses, and  [ICON_RES_COAL]Coal.[NEWLINE]+5 [ICON_RESEARCH] Science from the Workshop and Factory buildings.[NEWLINE]+1 [ICON_PRODUCTION] Production from mines, pastures, and quarries.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_POLICY_ELECTIVE_MONARCHY">
+			<Text>Elective Monarchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ELECTIVE_MONARCHY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Elective Monarchy[ENDCOLOR][NEWLINE]+1 [ICON_CULTURE] culture from specialists and +10 [ICON_RESEARCH] Science, [ICON_GOLD] Gold, and [ICON_CULTURE] Culture from the capital.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_POLICY_PARMIAMENTARY_REFORMS">
+			<Text>Parliamentary Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_PARMIAMENTARY_REFORMS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Parliamentary Reforms[ENDCOLOR][NEWLINE]-50% [ICON_HAPPINESS_4] Unhappiness from Specialists. +3 [ICON_RESEARCH] Science from Academies, +3 [ICON_GOLD] gold from Customs Houses,and +3 [ICON_PEACE] Faith from Holy Sites.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_EDUCATION">
+			<Text>Universal Education</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_EDUCATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Universal Education[ENDCOLOR][NEWLINE]Specialists consume only half the normal amount of [ICON_FOOD] Food, and provide +1 [ICON_RESEARCH] Science.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_POLICY_ENLIGHTENED_ABSOLUTISM">
+			<Text>Enlightened Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ENLIGHTENED_ABSOLUTISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Enlightened Absolutism[ENDCOLOR][NEWLINE]Everything for the people, nothing by the people.[NEWLINE][ICON_BULLET]Golden Age length inceased by +25%.[NEWLINE][ICON_BULLET]Unit Maintenance reduced by 25%.[NEWLINE][ICON_BULLET]Tourism from shared ideology, religion, and when fighting a common foe inceased by 33%.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_POLICY_COMMONWEALTHNATIONS">
+			<Text>Commonwealth of Nations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_COMMONWEALTHNATIONS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Commonwealth of Nations[ENDCOLOR][NEWLINE][ICON_BULLET]+1 Delegate in World Congress.[NEWLINE][ICON_BULLET]+1 [ICON_INTERNATIONAL_TRADE] Trade Route.[NEWLINE][ICON_BULLET]+5 [ICON_GOLD] gold from trade routes with civilizations that share an ideology with you.[NEWLINE][ICON_BULLET]+50% [ICON_TOURISM] Tourism modifier to civilizations that have less [ICON_HAPPINESS_1] Happiness.[NEWLINE][ICON_BULLET]+50% [ICON_TOURISM] tourism from the palace.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_POLICY_WESHALLNEVERSURRENDER">
+			<Text>We Shall Never Surrender!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_WESHALLNEVERSURRENDER_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]We Shall Never Surrender![ENDCOLOR][NEWLINE]We shall go on to the end. We shall fight in France, we shall fight on the seas and oceans, we shall fight with growing confidence and growing strength in the air, we shall defend our island, whatever the cost may be. We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender![NEWLINE][ICON_BULLET]Combat [ICON_STRENGTH] strength of cities inceased by 50%.[NEWLINE][ICON_BULLET] [ICON_STRENGTH] Defensive strength of all land units increased 50%.[NEWLINE][ICON_BULLET]Grants +10 Oil [ICON_RES_OIL] and Aluminum [ICON_RES_ALUMINUM].</Text>
+		</Row>
+		
+		<!-- Texts for Civilopedia -->
+		<Row Tag="TXT_KEY_POLICY_DIVINE_RIGHT_TEXT">
+			<Text>To be edited</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JULY_MONARCHY_TEXT">
+			<Text>To be edited</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ARDLSTATEMANSHIP_TEXT">
+			<Text>To be edited</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_THERMIDORIAN_TEXT">
+			<Text>To be edited</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_CIVIL_LIBERTIES_TEXT">
+			<Text>To be edited</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ANCIENREGIME_TEXT">
+			<Text>To be edited</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_LEGION_HONOR_TEXT">
+			<Text>To be edited</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ROYAL_NAVY_TEXT">
+			<Text>To be edited</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MATTERNICHS_REFORMS_TEXT">
+			<Text>To be edited</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ELECTIVE_MONARCHY_TEXT">
+			<Text>To be edited</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_PARMIAMENTARY_REFORMS_TEXT">
+			<Text>To be edited</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_EDUCATION_TEXT">
+			<Text>To be edited</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ENLIGHTENED_ABSOLUTISM_TEXT">
+			<Text>To be edited</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_COMMONWEALTHNATIONS_TEXT">
+			<Text>To be edited</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_WESHALLNEVERSURRENDER_TEXT">
+			<Text>To be edited</Text>
+		</Row>
+		
+		
+		<!-- Buildings -->
+		<Row Tag="TXT_KEY_BUILDING_ARDL_BUCKINGHAM">
+			<Text>Buckingham Palace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_ARDL_BUCKINGHAM_DESC">
+			<Text>To be edited</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_ARDL_BUCKINGHAM_HELP">
+			<Text>Requires Réactionnaire. +15% [ICON_GREAT_PEOPLE] Great People generation rate in your civilization. 1 Free Social Policy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_ARDL_BUCKINGHAM_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"We are not interested in the possibilities of defeat; they do not exist."[NEWLINE]- "Queen Victoria"[NEWLINE][TAB]</Text>
+		</Row>
+		
+		
+		
+		
+		<!-- Leader Dialogs -->
+		<Row Tag="TXT_KEY_GENERIC_CIVIL_RESISTANCE_ON_AI_BY_REACTIONARIE_1">
+			<Text>The reason most people fail instead of succeed is they trade what they want most for what they want at the moment.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_CIVIL_RESISTANCE_ON_HUMAN_BY_REACTIONARIE_1">
+			<Text>Since it has pleased Providence to place me in this station, I shall do my utmost to fulfil my duty towards my country; I am very young and perhaps in many, though not in all things, inexperienced, but I am sure that very few have more real good will and more real desire to do what is fit and right than I have.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SWITCHED_TO_REACTIONARIE_1">
+			<Text>Great events make me quiet and calm; it is only trifles that irritate my nerves.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Pouakai -->
+<GameData>
+	<Language_en_US>
+		<!--=============================================================-->
+		<!-- Unique Unit 1 - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<Row Tag="TXT_KEY_UNIT_MC_INCAN_CHASKA_CHUQUI">
+			<Text>Macana Hatun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_INCAN_CHASKA_CHUQUI_HELP">
+			<Text>Incan replacement for the Longswordsman. +1 [ICON_MOVES] Movement, and does not require [RES_IRON] iron.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_INCAN_CHASKA_CHUQUI_STRATEGY">
+			<Text>The Macana Hatun is a mid-game unit unique to the Incans, which excels at expanding your empire. High mobility allows them to more easily flank their foes and a lack of strategic resource requirement allows them to be fielded in large number..</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_INCAN_CHASKA_CHUQUI_PEDIA">
+			<Text>The battlefields of the Andes were a ruthless place, especially at the hands of a rapidly expanding kingdom of Cusco. Weapons developed in this area quickly developed unique attributes to maximise their lethal effectiveness. The Macana were maces constructed from copper. The most populare construction of which was the Chaska Chuqui, or star spears. Their sharpened flanges were rugged enough to both cause slashes and break bones. [NEWLINE][NEWLINE]Military units were filled under mit'a, a form of mandatory military service that served as one of the primary methods of taxation in the Incan Empire along with mink'a communal work service and a tributary system. Hatun Runas, or drafted men, served under the command of a Kuraka, a military commander chosen from their ethnic group.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_CHASKA_CHUQUI">
+			<Text>Men of the Earth-Shaker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_CHASKA_CHUQUI_HELP">
+			<Text>Coastal cities conquered by this unit are automatically connected to the Capital</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Unique Unit 2 - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<Row Tag="TXT_KEY_UNIT_MC_INCAN_YAMPU_RUNANCHA">
+			<Text>Yampu Runancha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_INCAN_YAMPU_RUNANCHA_HELP">
+			<Text>Unique Incan Great Admiral. Land units within two tiles receive the Amphibious promotion. When expended, all embarked units within two tiles are healed and have their movement restored. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_INCAN_YAMPU_RUNANCHA_STRATEGY">
+			<Text>The Yampu Runancha is a Great Person unique to the Inca which specialises in supporting embarked armies. Unlike the Great Admiral, which it replaces, the Yampu Runancha gives land units within two tiles the Amphibious promotion, making them better at naval assaults. When expended, the Yampu Runancha also heals embarked units within two tiles and restores their movement, allowing embarked armies to persist longer against enemy forces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_INCAN_YAMPU_RUNANCHA_PEDIA">
+			<Text>For fishing, trade, construction, transport and military purposes, the Inca built seagoing vessels called balsas by weaving together totora reeds. The largest of these vessels were 20 to 30 meters long, making them comparable in length to the Spanish caravel . This method of constructing ships from woven reeds is an ancient Peruvian tradition which long predates the Inca. Although there are depictions of such vessels in Moche pottery dating back to 100 AD, the pinnacle of Incan shipbuilding came during the reign of Tupac Yupanqui. Under Yupanqui, the Inca are said to have built a fleet of oceangoing vessels, which Yupanqui himself led on a 10-month long expedition into the Pacific. The fleet reportedly visited islands Yupanqui called Nina Chumpi ("fire belt") and Hawa Chumpi ("outer belt", also spelled Avachumpi, Hahua chumpi). The voyage is mentioned in the History of the Incas by Pedro Sarmiento de Gamboa in 1572.</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Unique Ability  - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<Row Tag="TXT_KEY_TRAIT_MC_MITIMAES_BEYOND_THE_MOUNTAINS_SHORT">
+			<Text>Mitimaes Beyond the Mountains</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_MC_MITIMAES_BEYOND_THE_MOUNTAINS">
+			<Text>Discovering City-States grants [ICON_GOLD] Gold and [ICON_GREAT_PEOPLE] Great Admiral Points, based on their distance from your [ICON_CAPITAL] Capital. Conquered Cities receive extra [ICON_PRODUCTION] Production and [ICON_CULTURE] Culture based on their distance from your [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MC_INCAN_UA">
+			<Text>MC: Incan UA Production and Culture</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Mod Support - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<!--Unique Cultural Influence-->
+		<Row Tag="TXT_KEY_GENERIC_MC_INCA_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now carving their mountains and building totora rafts! I worry the rest of the world will also succumb to the influence of your culture.</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Misc Civ Text - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<!--Denonyms-->
+		<Row Tag="TXT_KEY_MC_INCA">
+			<Text>The Inca</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_MC_INCA_DESC">
+			<Text>Incan Empire</Text>
+		</Row>
+		<!--<Row Tag="TXT_KEY_MC_INCA_SHORT_DESC">
+			<Text>Inca</Text>
+		</Row>-->
+		<Row Tag="TXT_KEY_MC_INCA_ADJECTIVE">
+			<Text>Incan</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Dawn of Man - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<Row Tag="TXT_KEY_DAWN_OF_MAN_MC_INCA_TEXT">
+			<Text>Blessings of Inti upon you, oh Tupac Yupanqui! You are the leader of the Inca people, a great and powerful empire stretching across the backbone of South America. Although you were still young, your father - the Earth Shaker - deemed you worthy to lead the armies of your people to greatness. You took this task with pride, and expanded the control of your empire to the far corners of the Andes. But this did not satisfy you, and you sought to expand your reach beyond the waves themselves - bravely setting off toward the setting sun in search of new lands to rule.[NEWLINE][NEWLINE]Sapa Inca! Your enemies close in once more, rising from the lands below to challenge your rule over the highlands. The Inca look to you to restore their rightful place at the forefront. Will you heed their call, and return from beyond the waves to lead once more? Will you vanquish your foes and expand your reach to all beneath the heavens? Will you build a civilization that can stand the test of time?</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Diplomacy Lines - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<Row Tag="TXT_KEY_LEADER_MC_TUPAC_YUPANQUI_FIRSTGREETING_1">
+			<Text>I am Tupac Yupanqui, Sapa Inca of the Inca. Welcome to my empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TUPAC_YUPANQUI_FIRSTGREETING_2">
+			<Text>Welcome to the mighty Incan Empire, foreigner. Have you adjusted to the altitude?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TUPAC_YUPANQUI_DEFEATED_1">
+			<Text>How has this happened? Someone has betrayed me!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TUPAC_YUPANQUI_ATTACKED_1">
+			<Text>You dare attack me?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TUPAC_YUPANQUI_DOW_1">
+			<Text>Resistance is futile! You cannot hope to stand against the mighty Incan empire. I suggest you surrender before it is too late.</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Spy Names - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<Row Tag="TXT_KEY_SPY_NAME_MC_INCA_0">
+			<Text>Inti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_INCA_1">
+			<Text>Viracocha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_INCA_2">
+			<Text>Supay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_INCA_3">
+			<Text>Mama Quilla</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_INCA_4">
+			<Text>Kon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_INCA_5">
+			<Text>Pachamama</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_INCA_6">
+			<Text>Kon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_INCA_7">
+			<Text>Mama Qucha</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_INCA_8">
+			<Text>Ekeko</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_INCA_9">
+			<Text>Pacha Kamaq</Text>
+		</Row>
+		<!--=============================================================-->
+		<!-- Civilopedias  - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<!--Civilisation Pedia-->
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_INCA_TITLE">
+			<Text>Incan Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_INCA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_INCA_TEXT_1">
+			<Text>The largest Pre-Columbian empire in the Americas, the Incan Empire stretched from Peru to Chile along the Andes Mountains. This grand empire had humble beginnings in one small kingdom, but grew to dominate the whole of "civilized" South America. While the empire only lasted for one brief century, it did much to unify the people and culture of the different tribes living on the mountain tops. Despite the Inca's near and complete annihilation, many artifacts and physical structures still stand, such as the famed Machu Picchu, a testament of the power once wielded by the Incan kings. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_INCA_HEADING_2">
+			<Text>Climate and Terrain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_INCA_TEXT_2">
+			<Text>The empire was centered along the Andean mountain ranges, and encompassed areas which include parts of present-day Argentina, Ecuador, Peru, Chile, Bolivia, and Colombia. The climate and geography were mountainous, but early on the Incas perfected the art of terrace farming and easily lived among the ridges. Fertile valleys nestled between the mountain peaks gave the Incas plenty of spaces to live and grow. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_INCA_HEADING_3">
+			<Text>Early History: The Kingdom of Cusco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_INCA_TEXT_3">
+			<Text>Before it was a mighty empire, the Incas hailed from the small Kingdom of Cusco, situated in western Peru. Under the leadership of Pachacuti, the ninth Sapa Inca, Cusco embarked upon a campaign to subjugate the surrounding tribes under one banner. Using both military conquests and peaceful assimilations, Pachacuti and his son Tupac laid the foundation for the Tahuantinsuyu Empire. The appellation was a literal naming of the empire, signifying its creation from four separate provinces - Chinchasuyu in the northwest, Antisuyu in the northeast, Contisuyu to the southwest, and Collasuyu to the southeast.[NEWLINE][NEWLINE]Pachacuti set up a new system of government in order to keep his acquisitions in order. Children of the ruling families were made to relocate to Cusco (the capital) and learn from the Incas directly, becoming indoctrinated into their culture and way of life. Once they were older, the children were returned to their original provinces in the empire, helping to spread the Incan culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_INCA_HEADING_4">
+			<Text>Continued Expansion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_INCA_TEXT_4">
+			<Text>After Pachacuti's death in 1471, his son Tupac Inca Yupanqui began new conquests in the north. At this point in time, the Incas only had one main rival left along the western shores, the Chimor tribe. Tupac quickly dispatched them and added their holdings to the growing empire.[NEWLINE][NEWLINE]Tupac's son Huayna Capac later added a few additional pieces of present-day Ecuador to the empire, but his southern expansion was halted at the Battle of the Maule. There the Mapuche tribes stopped the Incas in their tracks. This wasn't a complete loss for the Incas since most of the land in this area of the empire was predominately desert wasteland, and the majority of the population remained in the Andes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_INCA_HEADING_5">
+			<Text>The White Man Cometh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_INCA_TEXT_5">
+			<Text>In 1526, the Inca's domination of the land began its downward spiral. Spanish conquistador Francisco Pizarro reached the Incan territory as he explored south from Panama, and immediately petitioned the crown for permission to invade - he believed fervently that the land was ripe with treasure.[NEWLINE][NEWLINE]He returned with a small force in 1532 to find the empire ready for the taking. Huayna's two sons, Huascar and Atahualpa, were engaged in a civil war over control of the territories, and the introduction of smallpox had wreaked considerable havoc among its populace. Pizarro's force (168 men, 1 cannon, and 27 horses) were no match for the Inca in numbers, but their superior technology and military tactics saw them through in the end.[NEWLINE][NEWLINE]Pizarro's first battle, the Battle of Puná, occurred later that year near present-day Guayaquil, Ecuador, which he handily won. One of his men, Hernando de Soto, was sent further inland to explore as Pizarro founded a new city in the area, Piura. De Soto encountered the triumphant Atahualpa and returned to Pizarro with an invitation to meet. The Spaniards demanded that the Incas accept Charles I of Spain as their emperor and convert immediately to Christianity. Perhaps due to a language barrier or poor communication skills in general, Atahualpa didn't fully grasp the exact message of the meeting and sent further communications demanding more explanation. Frustrated and annoyed, instead of finding a better translator the Spanish attacked Atahualpa's camp and took the leader as hostage.[NEWLINE][NEWLINE]The Incan King offered Pizarro a massive amount of gold and silver for his release, which he promptly accepted. Pizarro however didn't keep his end of the bargain and refused to release Atahualpa to the Incas. During this time, Huascar was assassinated and Pizarro used this to his advantage - claiming that Atahualpa was behind the dirty deed. At a shady trial run by the Spanish, Atahualpa was sentenced to death in August 1533.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_INCA_HEADING_6">
+			<Text>The End of an Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_INCA_TEXT_6">
+			<Text>With both Atahualpa and Huascar out of the picture, the Spanish placed their younger brother Manco in charge, who dutifully cooperated with them for the time being. Manco, once secure in his own power base, attempted to take back his empire with the capture of Cusco in 1536, but he was no match for the Spanish invaders. He and his court fled to the mountains of Peru, where they continued to rule for the next 36 years. However, in 1572 the last Incan stronghold fell, and Manco's son and current king, Tupac Amaru was executed.[NEWLINE][NEWLINE]All the Incan royalty dead, the new Spanish rulers brutally oppressed the native people and attempted to strip them of their culture, religion, and traditions. Each Incan family was required to send a family member to work in the Spanish gold and silver mines, and replace them immediately upon the worker's death, which happened roughly every one to two years due to poor working conditions. Smallpox continued to spread rapidly through the remains of the empire, claiming somewhere between 60% and 90% of the population. Typhus, influenza, diphtheria, and measles did the rest - by 1618 almost all traces of the Incan culture were lost. All that is left now of their once glorious civilization is a smattering of scattered tribes and stone outcroppings, relics of a distant past.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_INCA_FACTOID_HEADING">
+			<Text>Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_INCA_FACTOID_TEXT ">
+			<Text>The Inca used a system of knotted and dyed strings to store accounting information.[NEWLINE][NEWLINE]The Incas believed the coca plant was both sacred and magical, and its leaves were used in numerous religious rituals.[NEWLINE][NEWLINE]The highest permanent Incan settlement found so far is located at roughly 17,400 ft above sea level.</Text>
+		</Row>
+		<!--Leader Civilopedia-->
+		<Row Tag="TXT_KEY_LEADER_MC_TUPAC_YUPANQUI_DESC">
+			<Text>Tupac Yupanqui</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TUPAC_YUPANQUI_LIVED">
+			<Text>c. 1441 - c. 1493</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TUPAC_YUPANQUI_NAME">
+			<Text>Tupac Yupanqui</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TUPAC_YUPANQUI_SUBTITLE">
+			<Text>Emperor of the Inca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TUPAC_YUPANQUI_TITLES_1">
+			<Text>Sapa Inca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TUPAC_YUPANQUI_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TUPAC_YUPANQUI_TEXT_1">
+			<Text>Tupac Inca Yupanqui, translated as "noble Inca accountant," was the tenth Sapa Inca of the Inca Empire, fifth of the Hanan dynasty. His father was Pachacuti, and his son was Huayna Capac. He belonged to the Qhapaq panaca, one of the clans of Inca nobles. His wife was his older sister, Mama Ocllo.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TUPAC_YUPANQUI_HEADING_2">
+			<Text>Early Life and Conquests</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TUPAC_YUPANQUI_TEXT_2">
+			<Text>His father appointed him to head the Inca army in 1463. He extended the realm northward along the Andes through modern Ecuador, and developed a special fondness for the city of Quito, which he rebuilt with architects from Cuzco. During this time his father Pachacuti reorganized the kingdom of Cuzco into the Tahuantinsuyu, the "four provinces." Tupac Inca led extensive military conquests to extend the Inca empire across much of Southern America.[NEWLINE][NEWLINE]About 1471, Pachacuti Inca Yupanqui abdicated in favour of his son Topa Inca Yupanqui, thereby ensuring the peaceful succession to the throne. Topa Inca Yupanqui was a great conqueror who was to bring most of the Central Andes region under Inca rule. Yet his first military campaign as emperor, an invasion of the tropical rain forest near the Tono River, was not particularly successful. The Inca were always fascinated with the rain forest and its products but never got used to military operations in this type of environment. This campaign did, however, establish trade relations with the area and secured a contingent of archers in return for a few bronze tools. The Emperor soon abandoned the campaign because of a revolt that had broken out in the Titicaca Basin. The rebellion was led by the Colla and Lupaca and was fanned by the rumour that Topa Inca Yupanqui had been killed during his expedition into the jungle. [NEWLINE][NEWLINE]The Colla’s mountaintop forts around Pucará fell one by one as the Inca attacked them. After subduing the Colla, the Inca moved against the Lupaca, who had retreated to the southwest corner of the Titicaca Basin, where they had allied themselves with another Aymara-speaking group, the Pacasa. The Inca armies were again victorious, and the revolt was ended. Topa Inca Yupanqui then turned southward, conquering all of highland Bolivia, northern Chile, and most of northwestern Argentina. He set the boundary markers of the Inca empire at the Maule River in central Chile. [NEWLINE][NEWLINE]At this point, the southern coast of Peru still had not been incorporated into the Inca state. The area, however, was now surrounded by the Inca on three sides, and in about 1476 Topa Inca Yupanqui launched a campaign against this region. Each valley, beginning with those in the south, was attacked separately. Most valleys submitted peacefully or put up only minimal resistance; the inhabitants of the Cañete Valley, however, put up a stubborn fight; and it took the Inca nearly three years to subdue them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TUPAC_YUPANQUI_HEADING_3">
+			<Text>Later Years and Voyage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TUPAC_YUPANQUI_TEXT_3">
+			<Text>During the remainder of his reign, Topa Inca Yupanqui concerned himself with the administration of the empire. He spent much of his time traveling throughout his territories, making assignments of land and establishing local administrations. He introduced a system of classifying the adult male population into units of 100, 500, 1,000, 5,000, and 10,000, which formed a basis for labour assignments and military conscription. He also instituted a system of tribute in which each province provided Chosen Women (Aqllakuna) to serve as temple maidens in state shrines or to become the brides of soldiers who had distinguished themselves in combat. Topa Inca Yupanqui is also credited with leading a roughly 10-month-long voyage of exploration into the Pacific around 1480, reportedly visiting islands he called Nina Chumpi (fire belt) and Hawa Chumpi (outer belt) also spelled Avachumpi, Hahua chumpi). [NEWLINE][NEWLINE]Tupac Inca died about 1493 in Chincheros, leaving two legitimate sons, and 90 illegitimate sons and daughters. Chuqui Ocllo, one of the wives of Tupac Yupanqui, convinced him that his son Capac Huari would succeed him, however Tupac Inca changed his mind and decided on his son Titu Cusi Hualpa (who would later become emperor Huayna Capac). This provoked anger in Chuqui Ocllo and she poisoned Tupac Inca. They were both killed soon after Tupac Inca's death, generating a succession crisis that ultimately ended with his chosen heir’s victory.</Text>
+		</Row>
+		<!--<Row Tag="TXT_KEY_LEADER_MC_TUPAC_YUPANQUI_FACTOID_HEADING">
+			<Text>Tupac Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TUPAC_YUPANQUI_FACTOID_TEXT">
+			<Text>He's not dead</Text>
+		</Row>-->
+		<!--City List-->
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_CUSCO">
+			<Text>Cusco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_QUITO">
+			<Text>Quito</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_CHAN_CHAN">
+			<Text>Chan Chan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_MACHU">
+			<Text>Machu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_OLLANTAYTAMBO">
+			<Text>Ollantaytambo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_VILCASHUAMAN">
+			<Text>Vilcashuamán</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_TIWANAKU">
+			<Text>Tiwanaku</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_CHOQUEQUIRAO">
+			<Text>Choquequirao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_CORIHUAYRACHINA">
+			<Text>Corihuayrachina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_TUMEBAMBA">
+			<Text>Tumebamba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_VILCABAMBA">
+			<Text>Vilcabamba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_VITCOS">
+			<Text>Vitcos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_HUANUCO_PAMPA">
+			<Text>Huánuco Pampa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_INGAPIRCA">
+			<Text>Ingapirca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_PUKA_TAMPU">
+			<Text>Puka Tampu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_USNU">
+			<Text>Usnu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_KASHAMARKA">
+			<Text>Kashamarka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_PISAC">
+			<Text>Písac</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_CHUPACHOS">
+			<Text>Chupachos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_SHAUSHA">
+			<Text>Shausha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_HUARI">
+			<Text>Huari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_HUANCABAMBA">
+			<Text>Huancabamba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_ANDAHUAYLAS">
+			<Text>Andahuaylas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_PACHACAMAC">
+			<Text>Pachacamac</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_LLAQTAPATA">
+			<Text>Llaqtapata</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_HATUN_CANAR">
+			<Text>Hatun Canar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_INTI_WATANA">
+			<Text>Inti Watana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_PILLUCHU">
+			<Text>Pilluchu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_CHUCUITO">
+			<Text>Chucuito</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_PUKARA">
+			<Text>Pukara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_QALLA_QASA">
+			<Text>Qalla Q'asa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_AUACHUMBI">
+			<Text>Auachumbi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_INCA_NINACHUMBI">
+			<Text>Ninachumbi</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

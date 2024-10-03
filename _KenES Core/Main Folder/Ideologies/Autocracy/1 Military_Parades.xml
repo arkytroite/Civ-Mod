@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/10/2013 12:16:35 PM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Set CityStateUnitFrequencyModifier="0"
+				 Level="1"
+				 PolicyBranchType="POLICY_BRANCH_AUTOCRACY"
+				 CulturePerGarrisonedUnit="4"
+				 UnitUpgradeCostMod="-25" />
+			<Where Type="POLICY_UNITED_FRONT" />
+		</Update>
+	</Policies>
+
+	<Policy_Flavors>
+		<Delete PolicyType="POLICY_UNITED_FRONT" />
+		<Row>
+			<PolicyType>POLICY_UNITED_FRONT</PolicyType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UNITED_FRONT</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UNITED_FRONT</PolicyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UNITED_FRONT</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_UNITED_FRONT" />
+			<Set Text="Mandatory Service" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_UNITED_FRONT_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Mandatory Service[ENDCOLOR][NEWLINE][ICON_BULLET]+4 [ICON_CULTURE] Culture in cities with a garrison.[NEWLINE][ICON_BULLET]-25% [ICON_GOLD] Gold costs for upgrading Military Units." />
+		</Update>
+	</Language_en_US>
+
+	<Language_RU_RU>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_UNITED_FRONT" />
+			<Set Text="Военные парады" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_UNITED_FRONT_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Военные парады[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_CULTURE] культуры в городах с гарнизонами.[NEWLINE][ICON_BULLET]-25% [ICON_GOLD] стоимость модернизации юнитов." />
+		</Update>
+	</Language_RU_RU>
+
+	<Language_ES_ES>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_UNITED_FRONT" />
+			<Set Text="Desfiles militares" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_UNITED_FRONT_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Desfiles militares[ENDCOLOR][NEWLINE][ICON_BULLET]+2 de [ICON_CULTURE] Cultura en ciudades con guarnición.[NEWLINE][ICON_BULLET]-25% al coste de [ICON_GOLD] Oro para modernizar unidades militares." />
+		</Update>
+	</Language_ES_ES>
+</GameData>

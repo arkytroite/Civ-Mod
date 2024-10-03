@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/9/2015 11:44:21 PM -->
+<GameData>
+
+	<!-- MILITARY TRADITION -->
+	<Policies>
+		<Update>
+			<Set ExpModifier="0" UnitUpgradeCostMod="-25" />
+			<Where Type="POLICY_MILITARY_TRADITION" />
+		</Update>
+	</Policies>
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_MILITARY_TRADITION</PolicyType>
+			<ImprovementType>IMPROVEMENT_FORT</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MILITARY_TRADITION</PolicyType>
+			<ImprovementType>IMPROVEMENT_FORT</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MILITARY_TRADITION</PolicyType>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MILITARY_TRADITION</PolicyType>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+	
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_MILITARY_TRADITION_HELP" />
+		<Row Tag="TXT_KEY_POLICY_MILITARY_TRADITION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Military Tradition[ENDCOLOR][NEWLINE]Gold cost of upgrading Military Units reduced by 25%.[NEWLINE]Forts provide +1 [ICON_PRODUCTION] Production and +1 [ICON_CULTURE] Culture.[NEWLINE]Citadels provide +3 [ICON_CULTURE] Culture and [ICON_GOLD] Gold.</Text>
+		</Row>
+	</Language_en_US>
+	
+
+</GameData>

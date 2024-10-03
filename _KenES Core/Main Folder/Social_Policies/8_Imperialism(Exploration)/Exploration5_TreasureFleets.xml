@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/6/2015 4:51:27 PM -->
+<GameData>
+<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_TREASURE_FLEETS_HELP" />
+		<Row Tag="TXT_KEY_POLICY_TREASURE_FLEETS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Treasure Fleets[ENDCOLOR][NEWLINE]+4 [ICON_GOLD] Gold from Sea Trade Routes.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

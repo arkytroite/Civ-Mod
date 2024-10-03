@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 26-Jun-14 12:36:42 -->
+
+	<GameData>
+	
+		<!-- Edits the Polder improvement so that it is traversable and water-based, and requires 3 adjacent land tiles -->
+		
+		<Improvements>
+			<Update>
+				<Where Type="IMPROVEMENT_POLDER" />
+				<Set Water="true" AllowsWalkWater="true" RequiresXAdjacentLand="3" RequiresFeature="false" />
+			</Update>
+		</Improvements>
+		
+		<!-- Deletes the production gained by Polders at Economics tech, but adds a +2 culture yield at Steam Power tech -->
+
+		<Improvement_TechYieldChanges>
+			<Delete ImprovementType="IMPROVEMENT_POLDER" YieldType="YIELD_PRODUCTION" />
+			<Row>
+				<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
+				<TechType>TECH_STEAM_POWER</TechType>
+				<YieldType>YIELD_CULTURE</YieldType>
+				<Yield>2</Yield>
+			</Row>
+		</Improvement_TechYieldChanges>
+		
+		<!-- Disallows Polders to be built on marshes and flood plains -->
+		
+		<Improvement_ValidFeatures>
+			<Delete ImprovementType="IMPROVEMENT_POLDER" />
+		</Improvement_ValidFeatures>
+		
+		<!-- Adds coast as a valid location for Polders, this includes lakes as lakes are a feature of coast -->
+
+		<Improvement_ValidTerrains>
+			<Row>
+			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+			</Row>
+		</Improvement_ValidTerrains>
+		
+		<!-- Edits the base food yield of the Polder from 3 to 2 food-->
+
+		<Improvement_Yields>
+			<Update>
+				<Where ImprovementType="IMPROVEMENT_POLDER" YieldType="YIELD_FOOD" />
+				<Set Yield="2" />
+			</Update>
+		</Improvement_Yields>
+
+		<Unit_Builds>
+			<Row>
+				<UnitType>UNIT_WORKBOAT</UnitType>
+				<BuildType>BUILD_POLDER</BuildType>
+			</Row>
+		</Unit_Builds>
+	
+</GameData>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/28/2012 12:24:02 AM -->
+<GameData>
+	<Language_en_US>
+		<!--German Assembly Plant-->
+		<Row Tag="TXT_KEY_BUILDING_FA_ASSEMBLYPLANT">
+			<Text>Assembly Plant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FA_ASSEMBLYPLANT_HELP">
+			<Text>
+				+2 [ICON_PRODUCTION] Production on [ICON_RES_COAL] Coal, [ICON_RES_OIL] Oil and [ICON_RES_ALUMINUM] Aluminum. Requires 1 [ICON_RES_COAL] Coal.
+				[NEWLINE]Russian replacement for the [COLOR_POSITIVE_TEXT]Factory[ENDCOLOR].
+			</Text>
+		</Row>
+
+	</Language_en_US>
+	
+	<!--DB CLEANUP-->
+	<DeleteMissingReferences table="Units" column="Type"/>
+	<DeleteMissingReferences table="Buildings" column="Type"/>
+	<DeleteMissingReferences table="Improvements" column="Type"/>
+	<DeleteMissingReferences table="Builds" column="Type"/>
+</GameData>

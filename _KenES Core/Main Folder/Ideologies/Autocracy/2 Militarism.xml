@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/10/2013 1:40:41 PM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Set Level="2"
+				 PolicyBranchType="POLICY_BRANCH_AUTOCRACY"
+				 StrategicResourceMod="150"
+				 FreeExperience="15" />
+			<Where Type="POLICY_MILITARISM" />
+		</Update>
+	</Policies>
+
+	<Policy_Flavors>
+		<Delete PolicyType="POLICY_MILITARISM" />
+		<Row>
+			<PolicyType>POLICY_MILITARISM</PolicyType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>22</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MILITARISM</PolicyType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>22</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MILITARISM_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Military Industrial Complex[ENDCOLOR][NEWLINE][ICON_BULLET]+50% strategic resources in your own territory.[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] Happiness from Armories and Military Academies.[NEWLINE][ICON_BULLET]New Military Units start with +15 Experience." />
+		</Update>
+	</Language_en_US>
+
+	<Language_RU_RU>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MILITARISM_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Милитаризм[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] счастья от оружейных и военных академий.[NEWLINE][ICON_BULLET]+15 опыта для новых военных юнитов." />
+		</Update>
+	</Language_RU_RU>
+
+	<Language_ES_ES>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MILITARISM_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Militarismo[ENDCOLOR][NEWLINE][ICON_BULLET]+1 de [ICON_HAPPINESS_1] Felicidad por Polvorines y Academias Militares.[NEWLINE][ICON_BULLET]Las nuevas unidades militares se crean con +15 de Experiencia." />
+		</Update>
+	</Language_ES_ES>
+</GameData>

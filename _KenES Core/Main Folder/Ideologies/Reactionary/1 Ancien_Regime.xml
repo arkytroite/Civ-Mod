@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/11/2013 9:36:27 AM -->
+<GameData>
+	<Policies>
+		<Row>
+			<Type>POLICY_ANCIENREGIME</Type>
+			<Description>TXT_KEY_POLICY_ANCIENREGIME</Description>
+			<Civilopedia>TXT_KEY_POLICY_ANCIENREGIME_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_ANCIENREGIME_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_REACTIONARY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<Level>1</Level>
+			<PortraitIndex>44</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+	</Policies>
+	
+	<Policy_BuildingClassHappiness>
+	
+	</Policy_BuildingClassHappiness>
+
+
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_ANCIENREGIME</PolicyType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ANCIENREGIME</PolicyType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		
+		<Row>
+			<PolicyType>POLICY_ANCIENREGIME</PolicyType>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ANCIENREGIME</PolicyType>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ANCIENREGIME</PolicyType>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ANCIENREGIME</PolicyType>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		
+
+
+	</Policy_ImprovementYieldChanges>
+
+
+	<Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_ANCIENREGIME</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ANCIENREGIME</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CASLTE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+
+	</Policy_BuildingClassYieldChanges>
+
+
+	<Policy_Flavors>
+		<Row>
+			<PolicyType>POLICY_ANCIENREGIME</PolicyType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ANCIENREGIME</PolicyType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ANCIENREGIME</PolicyType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+
+</GameData>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/2/2012 5:38:30 PM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Set HappinessToScience="10" />
+			<Where Type="POLICY_SOVEREIGNTY" />
+		</Update>
+	</Policies>
+	
+	<Policy_BuildingClassYieldChanges>
+		<Delete PolicyType="POLICY_SOVEREIGNTY" />
+	</Policy_BuildingClassYieldChanges>
+
+	<Policy_BuildingClassYieldModifiers>
+		<Delete PolicyType="POLICY_SOVEREIGNTY" />
+	</Policy_BuildingClassYieldModifiers>
+
+	
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_SOVEREIGNTY_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Dare to know[ENDCOLOR][NEWLINE][ICON_BULLET]+10% [ICON_RESEARCH] Science while civilization is happy." />
+		</Update>
+	</Language_en_US>
+	
+</GameData>
+
+

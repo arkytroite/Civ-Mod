@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/11/2013 9:36:27 AM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Set MilitaryProductionModifier="15"
+				 MilitaryUnitGiftExtraInfluence="20"
+				 Level="2"
+				 PolicyBranchType="POLICY_BRANCH_FREEDOM"
+				 MinorGoldFriendshipMod="25"
+				 />
+			<Where Type="POLICY_ARSENAL_DEMOCRACY" />
+		</Update>
+	</Policies>
+
+
+	<Policy_Flavors>
+		<Delete PolicyType="POLICY_ARSENAL_DEMOCRACY" />
+		<Row>
+			<PolicyType>POLICY_ARSENAL_DEMOCRACY</PolicyType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>33</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ARSENAL_DEMOCRACY</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>11</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY" />
+			<Set Text="Arsenal of Democracy" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Arsenal of Democracy[ENDCOLOR][NEWLINE]+25% [ICON_INFLUENCE] Influence from [ICON_GOLD] Gold gifts to City-States.[NEWLINE]+15% [ICON_PRODUCTION] production when building military units.[NEWLINE]+20 [ICON_INFLUENCE] Influence for each military unit gifted to City-States." />
+		</Update>
+	</Language_en_US>
+
+
+</GameData>

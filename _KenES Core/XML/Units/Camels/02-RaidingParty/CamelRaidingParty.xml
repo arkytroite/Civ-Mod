@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/02/17 11:25:43 AM -->
+<GameData>
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SCOUT</Class>
+			<Type>UNIT_SMAN_EU_CAMEL_RAIDING_PARTY</Type>
+			<Combat>6</Combat>
+			<Cost>25</Cost>
+			<FaithCost>90</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<BaseSightRange>2</BaseSightRange>
+			<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
+			<CombatClass>UNITCOMBAT_EXPLORE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_SCOUT</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SMAN_EU_CAMEL_RAIDING_PARTY</Description>
+			<Help>TXT_KEY_UNIT_SMAN_EU_CAMEL_RAIDING_PARTY_HELP</Help>
+			<Strategy>TXT_KEY_UNIT_SMAN_EU_CAMEL_RAIDING_PARTY_STRATEGY</Strategy>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<HurryCostModifier>25</HurryCostModifier>
+			<AdvancedStartCost>25</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_EU_CAMEL_RAIDING_PARTY</UnitArtInfo>
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			<MoveRate>QUADRUPED</MoveRate>
+		</Row>
+	</Units>
+	
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_CAMEL_RAIDING_PARTY</UnitType>
+			<PromotionType>PROMOTION_SMAN_SANDSTORM_PROMOTION</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_CAMEL_RAIDING_PARTY</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_CAMEL_RAIDING_PARTY</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_CAMEL_RAIDING_PARTY</UnitType>
+			<FlavorType>FLAVOR_EXPLORE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_CAMEL_RAIDING_PARTY</UnitType>
+			<UnitClassType>UNITCLASS_EE_EXPLORER</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_CAMEL_RAIDING_PARTY</UnitType>
+			<SelectionSound>AS2D_SELECT_CAMEL_ARCHER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CAMEL_ARCHER</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SMAN_EU_CAMEL_RAIDING_PARTY">
+			<Text>Trailblazer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_EU_CAMEL_RAIDING_PARTY_HELP">
+			<Text>Morocco's unique replacement for the Scout. It gains extra movement and strength in deserts, as well as the ability to pillage without expending its turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_EU_CAMEL_RAIDING_PARTY_STRATEGY">
+			<Text>In the Desert, the Trailblazer can keep pace with mounted units and is equal in combat to a Warrior. This allows them to be used as an exploratory force in peace time and a defense force in times of war. Place them in Kasbahs to defend your land, or use them to invade promising deserts. These benefits are passed on when it upgrades into an Explorer.</Text>
+		</Row>
+	</Language_en_US>	
+	
+</GameData>

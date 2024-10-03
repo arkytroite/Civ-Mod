@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/9/2015 11:44:21 PM -->
+<GameData>
+
+	<!-- Branch tooltip -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_ARDL_NATIONALGRANIERIES">
+			<Text>National Granieries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ARDL_NATIONALGRANIERIES_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]National Granieries[ENDCOLOR][NEWLINE]Cities grow [ICON_FOOD] 15% faster and gain +15% [ICON_FOOD] from Granieries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ARDL_NATIONALGRANIERIES_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]National Granieries[ENDCOLOR][NEWLINE]Cities grow [ICON_FOOD] 15% faster and gain +15% [ICON_FOOD] from Granieries</Text>
+		</Row>
+	</Language_en_US>
+
+
+
+	<!-- OPENER -->
+	<Policies>
+		<Row>
+			<Type>POLICY_ARDL_NATIONALGRANIERIES</Type>
+			<Description>TXT_KEY_POLICY_ARDL_NATIONALGRANIERIES</Description>
+			<Civilopedia>TXT_KEY_POLICY_ARDL_NATIONALGRANIERIES_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_ARDL_NATIONALGRANIERIES_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_ARDL_SECURITY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>5</GridX>
+			<GridY>3</GridY>
+			<CityGrowthMod>15</CityGrowthMod>
+			<PortraitIndex>33</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+	</Policies>
+
+	<Policy_BuildingClassYieldModifiers>
+		<Row>
+			<PolicyType>POLICY_ARDL_HOMELANDDEVELOPEMENT</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldMod>15</YieldMod>
+		</Row>
+	</Policy_BuildingClassYieldModifiers>
+	
+
+</GameData>

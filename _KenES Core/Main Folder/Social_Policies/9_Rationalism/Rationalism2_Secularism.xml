@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/2/2019 5:25:15 PM -->
+<GameData>
+	<Policy_SpecialistExtraYields>
+		<Delete PolicyType="POLICY_SECULARISM" />
+		<Row>
+			<PolicyType>POLICY_SECULARISM</PolicyType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_SpecialistExtraYields>
+
+	<Policy_CityYieldChanges>
+		<Row>
+			<PolicyType>POLICY_SECULARISM</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SECULARISM</PolicyType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SECULARISM</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Policy_CityYieldChanges>
+	
+ 
+  <!-- 
+  <Policy_SpecialistExtraYields>
+		<Delete PolicyType="POLICY_SECULARISM" />
+	</Policy_SpecialistExtraYields>
+  
+  -->
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_SECULARISM_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Secularism[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_RESEARCH] Science from every specialist.[NEWLINE][ICON_BULLET]+2 [ICON_RESEARCH] Science, [ICON_CULTURE] Culture, and [ICON_GOLD] Gold from every city." />
+		</Update>
+	</Language_en_US>
+  <!-- Enter your Game Data here. -->
+  
+</GameData>

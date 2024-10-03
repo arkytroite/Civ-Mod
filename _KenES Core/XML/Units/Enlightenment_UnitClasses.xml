@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Pouakai -->
+<GameData>
+	<UnitClasses>
+		<!--<Row>
+			<Type>UNITCLASS_NATURALIST</Type>
+			<Description>TXT_KEY_UNIT_NATURALIST</Description>
+			<DefaultUnit>UNIT_NATURALIST</DefaultUnit>
+		</Row>-->
+		<Row>
+			<Type>UNITCLASS_EE_EXPLORER</Type>
+			<Description>TXT_KEY_UNIT_EE_EXPLORER</Description>
+			<DefaultUnit>UNIT_EE_EXPLORER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_EE_SURVEYOR</Type>
+			<Description>TXT_KEY_UNIT_EE_SURVEYOR</Description>
+			<DefaultUnit>UNIT_EE_SURVEYOR</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_EE_RECON</Type>
+			<Description>TXT_KEY_UNIT_EE_RECON</Description>
+			<DefaultUnit>UNIT_EE_RECON</DefaultUnit>
+		</Row>
+	</UnitClasses>
+        <Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANCE</CivilizationType>
+			<UnitClassType>UNITCLASS_CANNON</UnitClassType>
+			<UnitType>UNIT_EE_FIELD_GUN</UnitType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MOROCCO</CivilizationType>
+			<UnitClassType>UNITCLASS_SCOUT</UnitClassType>
+			<UnitType>UNIT_SMAN_EU_CAMEL_RAIDING_PARTY</UnitType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NETHERLANDS</CivilizationType>
+			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+			<UnitType>UNIT_EE_LINE_INFANTRY</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+</GameData>

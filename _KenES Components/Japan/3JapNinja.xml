@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/6/2013 1:15:40 AM -->
+<GameData>
+	<UnitGameplay2DScripts>
+		<Row UnitType="UNIT_JAPNINJA">
+			<SelectionSound>AS2D_SELECT_CROSSBOWMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CROSSBOWMAN</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+	
+	<Units>
+		<Row>
+			<Class>UNITCLASS_EE_EXPLORER</Class>
+			<Type>UNIT_JAPNINJA</Type>
+			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
+			<Combat>11</Combat>
+			<Cost>100</Cost>
+			<FaithCost>200</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_JAPNINJA</Description>
+			<Civilopedia>TXT_KEY_UNIT_JAPNINJA_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_JAPNINJA_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_JAPNINJA_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_JAPNINJA</UnitArtInfo>
+			<UnitFlagAtlas>ART_FLAG_JAPNINJA</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>JAPNINJA_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>			
+		</Row>
+	</Units>
+	
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_JAPNINJA</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPNINJA</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPNINJA</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_JAPNINJA</UnitType>
+			<UnitClassType>UNITCLASS_EE_SURVEYOR</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_JAPNINJA</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPNINJA</UnitType>
+			<PromotionType>PROMOTION_INVISIBLE_ELVEN_RANGER</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPNINJA</UnitType>
+			<PromotionType>PROMOTION_ATTACK_BONUS</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_INVISIBLE_ELVEN_RANGER</Type>
+			<Description>TXT_KEY_PROMOTION_INVISIBLE_ELVEN_RANGER</Description>
+			<Help>TXT_KEY_PROMOTION_INVISIBLE_ELVEN_RANGER_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<Invisible>INVISIBLE_SUBMARINE</Invisible>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_INVISIBLE_ELVEN_RANGER</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_JAPNINJA</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPNINJA</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<UnitClassType>UNITCLASS_CROSSBOWMAN</UnitClassType>
+			<UnitType>UNIT_JAPNINJA</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_JAPNINJA">
+			<Text>Ninja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JAPNINJA_HELP">
+			<Text>A Japanese Explorer who is invisible to non-adjacent enemy units and gets a bonus on attacking. They are weaker than the Explorer they replace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INVISIBLE_ELVEN_RANGER">
+			<Text>Shinobi Arts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INVISIBLE_ELVEN_RANGER_HELP">
+			<Text>Hidden from all non-adjacent units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JAPNINJA_STRATEGY">
+			<Text>The Ninja is a Japanese unique Explorer with increased combat effectiveness when attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JAPNINJA_TEXT">
+			<Text>
+				A ninja (or shinobi) was a covert agent or mercenary in feudal Japan. The functions of the ninja included espionage, sabotage, infiltration, and assassination, and open combat in certain situations. Their covert methods of waging war contrasted the ninja with the samurai, who observed strict rules about honor and combat. Historical accounts of the ninja are scarce, as it is believed that the ninja were mostly recruited from the lower class, and therefore little literary interest was taken in them. Instead, war epics focus mainly on the aristocratic samurai, whose deeds were apparently more appealing to the audience. [NEWLINE][NEWLINE]Following the unification of Japan under the Tokugawa shogunate (17th century), the ninja faded into obscurity. By the time of the Meiji Restoration (1868), the tradition of the shinobi had become a topic of popular imagination and mystery in Japan. Ninja figured prominently in folklore and legend, and as a result it is often difficult to separate historical fact from myth. Some legendary abilities purported to be in the province of ninja training include invisibility, walking on water, and control over the natural elements.</Text>
+		</Row>
+	</Language_en_US>
+	
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>JAPNINJA_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>japninja256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>JAPNINJA_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>japninja128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>JAPNINJA_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>japninja80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>JAPNINJA_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>japninja64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>JAPNINJA_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>japninja45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+			
+		<Row>
+			<Atlas>ART_FLAG_JAPNINJA</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>japninja32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		</IconTextureAtlases>
+	<ArtDefine_StrategicView>
+		<Replace>
+			<StrategicViewType>ART_DEF_UNIT_JAPNINJA</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>japninja32.dds</Asset>
+		</Replace>
+	</ArtDefine_StrategicView>
+
+
+
+</GameData>

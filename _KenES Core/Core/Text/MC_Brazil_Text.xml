@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Pouakai -->
+<GameData>
+	<Language_en_US>
+		<!--=============================================================-->
+		<!-- Unique Building - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--=============================================================-->
+		<Row Tag="TXT_KEY_BUILDING_MC_BRAZILIAN_SIDERURGICA">
+			<Text>Foundry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MC_BRAZILIAN_SIDERURGICA_HELP">
+			<Text>Replaces the Factory. Increases the length of  [ICON_GOLDEN_AGE] Golden Ages for each one in your empire and provides +1 [ICON_GOLD] for each Iron worked by the city. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MC_BRAZILIAN_SIDERURGICA_STRATEGY">
+			<Text>The Foundry is a powerful late game industrial building unique to Brazil. Unlike the Factory, which it replaces, the Factory also increases the duration of [ICON_GOLDEN_AGE] Golden Ages. This can counteract their reduction in frequency playing as a wide civilization with many cities, but is still useful to less populous tall civilizations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MC_BRAZILIAN_SIDERURGICA_PEDIA">
+			<Text>During his presidencies, Getulio Vargas sought to bring Brazil to the modern age through the creation of a new national industry. The chosen import substitution method required the development of base industry, with metallurgy serving as one of its primary branches. The process was facilitated by the creation of several state-owned companies, such as the Companhia Siderúrgica Nacional. Brazil is today among the world's largest exporters of iron ore and steel.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

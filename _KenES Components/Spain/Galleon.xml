@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/27/2010 4:15:53 AM -->
+<GameData>
+	<UnitGameplay2DScripts>
+		<Row UnitType="UNIT_SPANISHGALLEON">
+			<SelectionSound>AS2D_SELECT_CARAVEL</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CARAVEL</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_CARAVEL</Class>
+			<Type>UNIT_SPANISHGALLEON</Type>
+			<PrereqTech>TECH_ASTRONOMY</PrereqTech>
+			<Combat>23</Combat>
+			<Cost>120</Cost>
+			<Moves>4</Moves>
+			<HurryCostModifier>30</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_EXPLORE_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SPANISHGALLEON</Description>
+			<Civilopedia>TXT_KEY_UNIT_SPANISHGALLEON_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SPANISHGALLEON_STRATEGY</Strategy>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>
+			<ObsoleteTech>TECH_STEAM_POWER</ObsoleteTech>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_MOD_GALLEON</UnitArtInfo>
+			<UnitFlagAtlas>UNITS_GALLEON_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>ICON_SPANISHGALLEON</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			
+			<MoveRate>BOAT</MoveRate>
+		</Row>
+	</Units>
+	
+	<Unit_FreePromotions>
+
+		<Row>
+			<UnitType>UNIT_SPANISHGALLEON</UnitType>
+			<PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SPANISHGALLEON</UnitType>
+			<PromotionType>PROMOTION_WITHDRAW_BEFORE_MELEE</PromotionType>
+		</Row>
+		
+	</Unit_FreePromotions>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SPANISHGALLEON</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SPANISHGALLEON</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SPANISHGALLEON</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SPANISHGALLEON</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_SPANISHGALLEON</UnitType>
+			<UnitClassType>UNITCLASS_IRONCLAD</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+	<Unit_Flavors>
+			<Row>
+				<UnitType>UNIT_SPANISHGALLEON</UnitType>
+				<FlavorType>FLAVOR_NAVAL</FlavorType>
+				<Flavor>5</Flavor>
+			</Row>
+			<Row>
+				<UnitType>UNIT_SPANISHGALLEON</UnitType>
+				<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+				<Flavor>9</Flavor>
+			</Row>
+	</Unit_Flavors>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SPANISHGALLEON">
+			<Text>Galleon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SPANISHGALLEON_TEXT">
+			<Text>The principal warships of the opposing English and Spanish fleets in the 1588 confrontation of the Spanish Armada were galleons, with the capacious Spanish galleons, designed primarily as transports, showing great endurance in the battles and in the great storms on the voyage home.[NEWLINE][NEWLINE]As New World trade continued to increase in the early 1550s, Spain struggled to find ships that not only could carry large quantities of cargo and sail well, but also could defend against attacks. The galleon, perfected during this period, soon became the standard ship used in the Spanish Treasure Fleet, a convoy system. The convoys were general purpose cargo fleets used for transporting a wide variety of items, including agricultural goods, lumber, various metal resources, luxuries, silver, gold, gems, pearls, spices, sugar, tobacco, silk, and other exotic goods from the Spanish Empire in the Americas to Spain. Passengers and goods such as textiles, books and tools were transported in the opposite direction.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SPANISHGALLEON_STRATEGY">
+			<Text>Fast and sturdy Renaissance Era naval melee unit that may enter deep ocean. Can see farther than Caravel it replaces. Only Spain may build it.</Text>
+		</Row>
+	</Language_en_US>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_SPAIN</CivilizationType>
+			<UnitClassType>UNITCLASS_CARAVEL</UnitClassType>
+			<UnitType>UNIT_SPANISHGALLEON</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+	<ArtDefine_StrategicView>
+		<Replace>
+			<StrategicViewType>ART_DEF_UNIT_MOD_GALLEON</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>IconGalleonSV.dds</Asset>
+		</Replace>
+	</ArtDefine_StrategicView>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>ICON_SPANISHGALLEON</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>galleon256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ICON_SPANISHGALLEON</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>galleon128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ICON_SPANISHGALLEON</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>galleon80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ICON_SPANISHGALLEON</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>galleon64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ICON_SPANISHGALLEON</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>galleon45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UNITS_GALLEON_FLAG_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>IconGalleon32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+	<ArtDefine_UnitInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MOD_GALLEON</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>TwoBigGuns</Formation>
+		</Row>
+	</ArtDefine_UnitInfos>
+
+	<ArtDefine_UnitInfoMemberInfos>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_MOD_GALLEON</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_MOD_GALLEON</UnitMemberInfoType>
+			<NumMembers>1</NumMembers>
+		</Row>
+	</ArtDefine_UnitInfoMemberInfos>
+
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_MOD_GALLEON</Type>
+			<Scale>0.14</Scale>
+			<Domain>Sea</Domain>
+			<Model>Assets/Units/Galleon/Galleon.fxsxml</Model>
+			<MaterialTypeTag>WOOD</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>WOODLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MOD_GALLEON</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady AttackSurfaceToAir</EnableActions>
+			<DisableActions></DisableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLeftRightAttack>1</HasLeftRightAttack>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+			<HasIndependentWeaponFacing>1</HasIndependentWeaponFacing>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MOD_GALLEON</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>10</VisKillStrengthMin>
+			<VisKillStrengthMax>20</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_CANNON_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION6POUND</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+
+</GameData>

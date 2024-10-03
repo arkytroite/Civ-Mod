@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh-->
+<GameData>
+	<Language_en_US>
+		<!-- -->
+		<Row Tag="TXT_KEY_IMPROVEMENT_GARAMANTES_FOGGORA">
+			<Text>Qanat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_GARAMANTES_FOGGORA_HELP">
+			<Text>The Qanat provides [ICON_FOOD] Food on desert hill tiles without access to fresh water. It also creates a source of Fresh Water, irrigating adjacent tiles. Due to the skilled labor required, it cannot be build by Slaves.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_GARAMANTES_FOGGORA_TEXT">
+			<Text>The Qanat increases the [ICON_FOOD] Food output of desert hill tiles and creates a source of Fresh Water (increasing the [ICON_FOOD] Food output of adjacent Farms after Civil Service is researched). Qanats may only be built on desert hill tiles without access to fresh water and are destroyed when pillaged.[NEWLINE][NEWLINE]The Arabians constructed a network of underground tunnels and shafts to mine fossil water from under the limestone layer of the desert sand. These underground foggara were built as early as the sixth century BC with bricked and cemented galleries and vertical cleaning shafts at regular intervals. They were constructed by skilled laborers who were paid well for their expertise, typically passing the position down to their suns.[NEWLINE][NEWLINE]A staggering total of as much as 20,000 kilometers of south-north qanats may have existed supporting a stable population of up to 10,000 people.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_BUILD_GARAMA_FOGGORA">
+			<Text>Construct a [LINK=IMPROVEMENT_CHAMPA_MOD_WELL]Qanat[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_GARAMA_FOGGORA_HELP">
+			<Text>The Qanat provides [ICON_FOOD] Food on desert hill tiles. It also creates a source of Fresh Water, irrigating adjacent tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_GARAMA_FOGGORA_REC">
+			<Text>The Qanat provides [ICON_FOOD] Food on desert hill tiles. It also creates a source of Fresh Water, irrigating adjacent tiles.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_FEATURE_ANCIENT_LIBYAN_MOD_FOSSIL_WATER_HELP">
+			<Text>Provides Fresh Water to all adjacent Tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_ANCIENT_LIBYAN_MOD_OASIS_HELP">
+			<Text>Provides Fresh Water to all adjacent Tiles.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_FEATURE_ANCIENT_LIBYAN_MOD_FOSSIL_WATER">
+			<Text>Aquifer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_ANCIENT_LIBYAN_MOD_FOSSIL_WATER_TEXT">
+			<Text>An aquifer is an underground layer of water-bearing permeable rock or unconsolidated materials (gravel, sand, or silt) which acts as a reservoir for groundwater. Aquifers are filled with water from rain or melted snow that drains into the ground until it reaches a layers of less permeable rock. Wells drilled into aquifers provide water for drinking, agriculture, and industrial uses. However, aquifers can dry up if drained faster than they can naturally refill from precipitation.[NEWLINE][NEWLINE]Fossil Water is groundwater that has remained sealed in an aquifer for a long period of time. Water can rest underground in aquifers for thousands or even millions of years. When changes in the surrounding geology seal the aquifer off from further replenishment, the water becomes trapped within and is known as fossil water. Fossil water is, by definition, a non-renewable resource. Whereas most aquifers are naturally replenished by infiltration of water from precipitation, fossil aquifers are those that get little or no recharge.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_ANCIENT_LIBYAN_MOD_FOSSIL_WATER_MOD">
+			<Text>Fossil Water</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_ANCIENT_LIBYAN_MOD_FOSSIL_WATER_MOD_TEXT">
+			<Text>Fossil Water is groundwater that has remained sealed in an aquifer for a long period of time. Water can rest underground in aquifers for thousands or even millions of years. When changes in the surrounding geology seal the aquifer off from further replenishment, the water becomes trapped within and is known as fossil water.[NEWLINE][NEWLINE]Fossil water is, by definition, a non-renewable resource. Whereas most aquifers are naturally replenished by infiltration of water from precipitation, fossil aquifers are those that get little or no recharge. The extraction of water from such non-replenishing groundwater reserves (known as low safe-yield reserves) is known in hydrology as water mining.[NEWLINE][NEWLINE]The Nubian Sandstone Aquifer System is among the most notable of fossil water reserves. Fossil aquifers also exist in the Sahara, the Kalahari, and the Ogallala underlying the US Great Plains. A further potential store of ancient water is Lake Vostok, a subglacial lake in Antarctica.</Text>
+		</Row>
+	</Language_en_US>	
+</GameData>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/9/2015 11:46:09 PM -->
+<GameData>
+
+	<!-- Branch tooltip -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_ARDL_NATIONAL_REDINESS">
+			<Text>National Readiness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ARDL_NATIONAL_REDINESS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]National Readiness[ENDCOLOR][NEWLINE]Slows spies [ICON_SPY] stealing tech from you by 50% and inceases your chance to catch spies [ICON_SPY] by 50%. [NEWLINE]Recon, Archery, Gun, Mounted, Naval Melee, and Naval Ranged units gain [COLOR_POSITIVE_TEXT]+25XP[ENDCOLOR] when created.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ARDL_NATIONAL_REDINESS_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]National Readiness[ENDCOLOR][NEWLINE]Slows spies [ICON_SPY] stealing tech from you by 50% and inceases your chance to catch spies [ICON_SPY] by 50%. [NEWLINE]Recon, Archery, Gun, Mounted, Naval Melee, and Naval Ranged units gain [COLOR_POSITIVE_TEXT]+25XP[ENDCOLOR] when created.</Text>
+		</Row>
+	</Language_en_US>
+
+
+
+	<!-- OPENER -->
+	
+	<Policies>
+		<Row>
+			<Type>POLICY_ARDL_NATIONAL_REDINESS</Type>
+			<Description>TXT_KEY_POLICY_ARDL_NATIONAL_REDINESS</Description>
+			<Civilopedia>TXT_KEY_POLICY_ARDL_NATIONAL_REDINESS_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_ARDL_NATIONAL_REDINESS_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_ARDL_SECURITY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<StealTechSlowerModifier>50</StealTechSlowerModifier>
+			<CatchSpiesModifier>50</CatchSpiesModifier>
+			<GridX>3</GridX>
+			<GridY>2</GridY>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+	</Policies>
+
+	<Policy_UnitCombatFreeExperiences>
+		<Row>
+			<PolicyType>POLICY_ARDL_NATIONAL_REDINESS</PolicyType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<FreeExperience>25</FreeExperience>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ARDL_NATIONAL_REDINESS</PolicyType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<FreeExperience>25</FreeExperience>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ARDL_NATIONAL_REDINESS</PolicyType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<FreeExperience>25</FreeExperience>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ARDL_NATIONAL_REDINESS</PolicyType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<FreeExperience>25</FreeExperience>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ARDL_NATIONAL_REDINESS</PolicyType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+			<FreeExperience>25</FreeExperience>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ARDL_NATIONAL_REDINESS</PolicyType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+			<FreeExperience>25</FreeExperience>
+		</Row>
+		
+	</Policy_UnitCombatFreeExperiences>
+
+	<!--
+	<Policy_UnitCombatProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_ARDL_NATIONAL_REDINESS_ACT</PolicyType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ARDL_NATIONAL_REDINESS_ACT</PolicyType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+		
+	</Policy_UnitCombatProductionModifiers>
+	-->
+	<!--
+	<Policy_FreePromotions>
+		<Row>
+			<PolicyType>POLICY_ARDL_NATIONAL_REDINESS_ACT</PolicyType>
+			<PromotionType>PROMOTION_ADJACENT_BONUS</PromotionType>
+		</Row>
+	</Policy_FreePromotions>
+	-->
+
+
+</GameData>

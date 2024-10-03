@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh-->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CHAMPA_MOD_WELL">
+			<Text>Tigris Well</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_CHAMPA_MOD_WELL_HELP">
+			<Text>A Tigris Well provides [ICON_FOOD] Food on freshwater. They cannot be placed adjacent to one another.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_CHAMPA_MOD_WELL_TEXT">
+			<Text>Between the fertile banks of the Tigris and Euphrates rivers lied a stretch of arid land receiveing very little rainfall. The Babylonians created a complex irrigation system in order to stretch was fresh water they had. [NEWLINE][NEWLINE]Silt deposits on the flood plains meant that the more arid farmland was almost invariably at lower elevation than the water rich land. By concentrating the water into slightly elevated water basins, enough could be collected to substantially increase the amount of farmable land. [NEWLINE][NEWLINE]To raise the water a shaduf was employed, a device said to be invented by Sargon of Akkad himself. These devices are essentially pulley systems with a waterproof container on one end of a long curved pole that is manipulated from the other side of a fulcrum. They are cheap to make and highly efficient. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CHAMPA_MOD_WELL">
+			<Text>Construct a [LINK=IMPROVEMENT_CHAMPA_MOD_WELL]Tigris Well[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CHAMPA_MOD_WELL_HELP">
+			<Text>A Tigris Well provides [ICON_FOOD] Food on freshwater. They cannot be placed adjacent to one another.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CHAMPA_MOD_WELL_REC">
+			<Text>A Tigris Well provides [ICON_FOOD] Food on freshwater. They cannot be placed adjacent to one another.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

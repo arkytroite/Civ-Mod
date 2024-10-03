@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/7/2022 11:11:35 PM -->
+<GameData>
+
+
+		<Language_en_US>
+
+			<Row Tag="TXT_KEY_POLICY_BRANCH_ARDL_DIPLOMACY_TITLE">
+				<Text>STATECRAFT</Text>
+			</Row>
+			
+			<Row Tag="TXT_KEY_POLICY_BRANCH_DIPLOMACY_CAP">
+				<Text>STATECRAFT</Text>
+			</Row>
+
+			<Row Tag="TXT_KEY_BRANCH_ARDL_DIPLOMACY">
+				<Text>STATECRAFT</Text>
+			</Row>
+
+			<Row Tag="TXT_KEY_ARDL_DIPLOMACY_TITLE">
+				<Text>STATECRAFT</Text>
+			</Row>
+
+			
+			<!--
+		<Row Tag="ARDLPLACHOLDER">
+			<Text>ARDLPLACEHOLDER</Text>
+		</Row>
+		-->
+		</Language_en_US>
+		
+		<PolicyBranchTypes>
+
+			<Row>
+				<ID>9</ID>
+				<Type>POLICY_BRANCH_ARDL_DIPLOMACY</Type>
+				<Description>TXT_KEY_BRANCH_ARDL_DIPLOMACY</Description>
+				<Help>TXT_KEY_POLICY_BRANCH_ARDL_DIPLOMACY_HELP</Help>
+				<Title>TXT_KEY_ARDL_DIPLOMACY_TITLE</Title>
+				<EraPrereq>ERA_INDUSTRIAL</EraPrereq>
+				<FreePolicy>POLICY_ARDL_DIPLOMACY</FreePolicy>
+				<FreeFinishingPolicy>POLICY_ARDL_DIPLOMACY_FINISHER</FreeFinishingPolicy>
+			</Row>
+		
+		</PolicyBranchTypes>
+
+
+
+		<!-- New DIPLOMACY Tree
+	
+					    1			  
+	  					|
+				   ___	|  ___
+					|		|
+					2		3		
+					|		|				
+				    3	    4			
+					|		|
+					    \/
+					    5
+						
+	-->
+
+		<Policy_PrereqPolicies>
+			
+			<Row>
+				<PolicyType>POLICY_ARDL_DIPLO03</PolicyType>
+				<PrereqPolicy>POLICY_ARDL_DIPLO01</PrereqPolicy>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_DIPLO04</PolicyType>
+				<PrereqPolicy>POLICY_ARDL_DIPLO02</PrereqPolicy>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_DIPLO05</PolicyType>
+				<PrereqPolicy>POLICY_ARDL_DIPLO04</PrereqPolicy>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_DIPLO05</PolicyType>
+				<PrereqPolicy>POLICY_ARDL_DIPLO03</PrereqPolicy>
+			</Row>
+			
+			
+		</Policy_PrereqPolicies>
+
+		<Policy_Flavors>
+			<Row>
+				<PolicyType>POLICY_ARDL_DIPLOMACY</PolicyType>
+				<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+				<Flavor>6</Flavor>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_DIPLOMACY</PolicyType>
+				<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+				<Flavor>6</Flavor>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_DIPLOMACY</PolicyType>
+				<FlavorType>FLAVOR_OFFENSE</FlavorType>
+				<Flavor>6</Flavor>
+			</Row>
+
+			<Row>
+				<PolicyType>POLICY_ARDL_DIPLO01</PolicyType>
+				<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+				<Flavor>15</Flavor>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_DIPLO01</PolicyType>
+				<FlavorType>FLAVOR_DEFENSE</FlavorType>
+				<Flavor>6</Flavor>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_DIPLO01</PolicyType>
+				<FlavorType>FLAVOR_GOLD</FlavorType>
+				<Flavor>6</Flavor>
+			</Row>
+
+			<Row>
+				<PolicyType>POLICY_ARDL_DIPLO02</PolicyType>
+				<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+				<Flavor>6</Flavor>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_DIPLO02</PolicyType>
+				<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+				<Flavor>10</Flavor>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_DIPLO02</PolicyType>
+				<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+				<Flavor>8</Flavor>
+			</Row>
+
+
+			<Row>
+				<PolicyType>POLICY_ARDL_DIPLO03</PolicyType>
+				<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+				<Flavor>8</Flavor>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_DIPLO03</PolicyType>
+				<FlavorType>FLAVOR_MOBILE</FlavorType>
+				<Flavor>8</Flavor>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_DIPLO03</PolicyType>
+				<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+				<Flavor>8</Flavor>
+			</Row>
+
+			<Row>
+				<PolicyType>POLICY_ARDL_DIPLO04</PolicyType>
+				<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+				<Flavor>6</Flavor>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_DIPLO04</PolicyType>
+				<FlavorType>FLAVOR_DEFENSE</FlavorType>
+				<Flavor>6</Flavor>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_DIPLO04</PolicyType>
+				<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+				<Flavor>6</Flavor>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_DIPLO04</PolicyType>
+				<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+				<Flavor>6</Flavor>
+			</Row>
+
+			<Row>
+				<PolicyType>POLICY_ARDL_DIPLO05</PolicyType>
+				<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+				<Flavor>15</Flavor>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_ARDL_DIPLO05</PolicyType>
+				<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+				<Flavor>6</Flavor>
+			</Row>
+
+
+		</Policy_Flavors>
+		
+
+
+		<!--
+	<PolicyBranch_Disables>
+		
+		<Row>
+			<PolicyBranchType>POLICY_BRANCH_ARDL_DIPLOMACY</PolicyBranchType>
+			<PolicyBranchDisable>POLICY_BRANCH_COMMERCE</PolicyBranchDisable>
+		</Row>
+		<Row>
+			<PolicyBranchType>POLICY_BRANCH_ARDL_DIPLOMACY</PolicyBranchType>
+			<PolicyBranchDisable>POLICY_BRANCH_FREEDOM</PolicyBranchDisable>
+		</Row>
+	</PolicyBranch_Disables>
+		-->
+
+
+  
+</GameData>

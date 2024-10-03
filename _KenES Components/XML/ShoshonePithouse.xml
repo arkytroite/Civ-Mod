@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<!-- Adds the new Pit-house -->
+	<Buildings>
+		<Row>
+			<Type>BUILDING_PIT_HOUSE</Type>
+			<BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
+			<FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
+			<Cost>60</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_POTTERY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_PIT_HOUSE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_PIT_HOUSE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_PIT_HOUSE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_PIT_HOUSE_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes>
+			<IconAtlas>PIT_HOUSE_ICON</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_PIT_HOUSE</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PIT_HOUSE</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PIT_HOUSE</BuildingType>
+			<ResourceType>RESOURCE_BISON</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PIT_HOUSE</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_PIT_HOUSE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PIT_HOUSE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_PIT_HOUSE</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PIT_HOUSE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PIT_HOUSE</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PIT_HOUSE</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PIT_HOUSE</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PIT_HOUSE</BuildingType>
+			<FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PIT_HOUSE</BuildingType>
+			<FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_SHOSHONE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+			<BuildingType>BUILDING_PIT_HOUSE</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+
+	<!-- Gives the Pathfinder the Comanche's promotion -->
+	<UnitPromotions>
+		<Update>
+			<Where Type="PROMOTION_MOON_STRIKER" />
+			<Set PortraitIndex="3" IconAtlas="EXPANSION2_PROMOTION_ATLAS" />
+		</Update>
+	</UnitPromotions>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
+			<PromotionType>PROMOTION_MOON_STRIKER</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+
+	<!-- Adds new text -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_PIT_HOUSE">
+			<Text>Pit-house</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PIT_HOUSE_HELP">
+			<Text>Each source of [ICON_RES_WHEAT] Wheat, [ICON_RES_BANANA] Bananas, [ICON_RES_DEER] Deer, and [ICON_RES_BISON] Bison worked by this City produce +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]Allows [ICON_FOOD] Food to be moved from this city along trade routes inside your civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PIT_HOUSE_STRATEGY">
+			<Text>The Pit-house is the Shoshone unique building, replacing the Granary. It increases the city's [ICON_FOOD] Food intake and [ICON_CULTURE] Culture output, speeding up the city's growth in both population and area.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_PIT_HOUSE_TEXT">
+			<Text>
+				A pit-house is a primitive dwelling dug into the ground and roofed over. Besides providing shelter from extremes of weather, these structures may also be used to store food and for cultural activities like the telling of stories, dancing, singing and celebrations. Pit-houses are found in numerous cultures around the world, including the people of the American Southwest, such as the ancestral Pueblo, the ancient Fremont and Mogollon cultures.[NEWLINE][NEWLINE]In the nineteenth century, it was believed that most prehistoric peoples lived in pit-houses although it has since been proven that many of the features thought of as houses were in fact food storage pits or served another purpose.
+			</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_SHOSHONE_PATHFINDER" />
+			<Set Text="Excellent at exploring and fearsome in combat, this Shoshone Unique Unit replaces the Scout. It possesses promotions that allow it to move more quickly and to choose the benefit when uncovering an ancient ruin." />
+		</Update>
+	</Language_en_US>
+
+</GameData>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_DRAGONS</Type>
+			<Description>TXT_KEY_UNIT_DRAGONS</Description>
+			<DefaultUnit/>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_DRAGONS</Class>
+			<Type>UNIT_DRAGONS</Type>
+			<PrereqTech>TECH_FUTURE_TECH</PrereqTech>
+			<ObsoleteTech>TECH_AGRICULTURE</ObsoleteTech>
+			<Animal>1</Animal>
+			<Combat>9</Combat>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_DRAGONS</Description>
+			<Help>TXT_KEY_UNIT_DRAGONS_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_DRAGONS</UnitArtInfo>
+			<UnitFlagAtlas>DRAGON_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>DRAGON_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<MoveRate>HEAVY_BIPED</MoveRate>
+		</Row>
+	</Units>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_DRAGONS">
+			<Text>Dragons</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DRAGONS_HELP">
+			<Text>Roaming dragons from the ancient times.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/26/2016 6:37:57 PM -->
+<GameData>
+		<IconTextureAtlases>
+			<Row>
+				<Atlas>IkeaIcons</Atlas>
+				<IconSize>256</IconSize>
+				<Filename>IkeaIcons256.dds</Filename>
+				<IconsPerRow>8</IconsPerRow>
+				<IconsPerColumn>8</IconsPerColumn>
+			</Row>
+			<Row>
+				<Atlas>IkeaIcons</Atlas>
+				<IconSize>128</IconSize>
+				<Filename>IkeaIcons128.dds</Filename>
+				<IconsPerRow>8</IconsPerRow>
+				<IconsPerColumn>8</IconsPerColumn>
+			</Row>
+			<Row>
+				<Atlas>IkeaIcons</Atlas>
+				<IconSize>80</IconSize>
+				<Filename>IkeaIcons80.dds</Filename>
+				<IconsPerRow>8</IconsPerRow>
+				<IconsPerColumn>8</IconsPerColumn>
+			</Row>
+			<Row>
+				<Atlas>IkeaIcons</Atlas>
+				<IconSize>64</IconSize>
+				<Filename>IkeaIcons64.dds</Filename>
+				<IconsPerRow>8</IconsPerRow>
+				<IconsPerColumn>8</IconsPerColumn>
+			</Row>
+			<Row>
+				<Atlas>IkeaIcons</Atlas>
+				<IconSize>45</IconSize>
+				<Filename>IkeaIcons45.dds</Filename>
+				<IconsPerRow>8</IconsPerRow>
+				<IconsPerColumn>8</IconsPerColumn>
+			</Row>
+		</IconTextureAtlases>
+</GameData>

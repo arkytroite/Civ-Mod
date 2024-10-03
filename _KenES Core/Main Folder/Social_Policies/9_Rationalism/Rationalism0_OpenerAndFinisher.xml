@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/12/2015 4:16:04 AM -->
+<GameData>
+
+	<!-- Branch Tooltip -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP" />
+		<Row Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Rationalism[ENDCOLOR] improves the ability to use and generate [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Adopting Rationalism allows you to earn Great Scientists 25% faster.[NEWLINE]Unlocks building the [COLOR_CYAN]Porcelain Tower[ENDCOLOR].[NEWLINE]Unlocks building [COLOR_CYAN]Patent Offices[ENDCOLOR] with the Industrialization technology.[NEWLINE][NEWLINE]Adopting all Policies in the Rationalism tree will grant a Free Technology</Text>
+		</Row>
+	</Language_en_US>
+	
+
+
+	<!-- RATIONALISM OPENER -->
+	<Policies>
+		<Update>
+			<Set HappinessToScience="0" GreatScientistRateModifier="25" />
+			<Where Type="POLICY_RATIONALISM" />
+		</Update>
+	</Policies>	
+
+</GameData>

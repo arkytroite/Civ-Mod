@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/9/2015 11:46:09 PM -->
+<GameData>
+
+	<!-- PROFESSIONAL ARMY -->
+	<Policies>
+		<Update>
+			<Set UnitUpgradeCostMod="0" ExpModifier="50"/>
+			<Where Type="POLICY_PROFESSIONAL_ARMY" />
+		</Update>
+	</Policies>
+	<Policy_BuildingClassProductionModifiers>
+		<Update>
+			<Set ProductionModifier="100" />
+			<Where PolicyType="POLICY_PROFESSIONAL_ARMY" />
+		</Update>
+		<Row>
+			<PolicyType>POLICY_PROFESSIONAL_ARMY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+	</Policy_BuildingClassProductionModifiers>
+	
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Professional Army[ENDCOLOR][NEWLINE]Military Units gain 50% more Experience from combat. [NEWLINE]Barracks, Armories, Military Academies, and Military Bases are built twice as fast.</Text>
+		</Row>
+	</Language_en_US>
+	
+
+</GameData>

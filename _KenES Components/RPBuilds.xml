@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 26-Jun-14 12:34:46 -->
+
+	<GameData>
+	
+		<!-- Edits the Polder build action so that it may be built while embarked, and changes the required technology from Guilds to Machinery -->
+		
+		<Builds>
+			<Update>
+				<Where Type="BUILD_POLDER" />
+				<Set Kill= "true" Water="true" CanBeEmbarked="true" PrereqTech="TECH_MACHINERY" EntityEvent="ENTITY_EVENT_BUILD" />
+			</Update>
+		</Builds>
+
+	</GameData>

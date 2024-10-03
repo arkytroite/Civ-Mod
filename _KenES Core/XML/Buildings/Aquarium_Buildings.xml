@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_AQUARIUM</Type>
+			<BuildingClass>BUILDINGCLASS_THEATRE</BuildingClass>
+			<Cost>100</Cost>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
+			<Help>TXT_KEY_BUILDING_AQUARIUM_HELP</Help>
+			<Description>TXT_KEY_BUILDING_AQUARIUM</Description>
+			<Civilopedia>TXT_KEY_BUILDING_AQUARIUM_DESC</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_AQUARIUM_STRATEGY</Strategy>
+			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<Happiness>2</Happiness>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_AQUARIUM</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_POLYNESIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
+			<BuildingType>BUILDING_AQUARIUM</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Building_SeaPlotYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_AQUARIUM</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_SeaPlotYieldChanges>
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_AQUARIUM</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AQUARIUM</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_AQUARIUM</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AQUARIUM</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>36</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AQUARIUM</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>36</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_AQUARIUM">
+			<Text>Aquarium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AQUARIUM_HELP">
+			<Text>Polynesia's unique zoo. It provides +1 [ICON_CULTURE] for coast tiles and +1 more for those with [ICON_RES_FISH] fish or [ICON_RES_CRAB] crab in addition to the usual benefits of a zoo. Unlike the zoo it replaces, it can be built without first constructing a Collesseum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AQUARIUM_STRATEGY">
+			<Text>Polynesia's unique zoo. It provides +1 [ICON_CULTURE] for coast tiles and +1 more for those with [ICON_RES_FISH] fish or [ICON_RES_CRAB] crab in addition to the usual benefits of a zoo. Unlike the zoo it replaces, it can be built without first constructing a Collesseum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AQUARIUM_DESC">
+			<Text>An aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
