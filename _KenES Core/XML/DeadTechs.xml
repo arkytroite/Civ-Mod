@@ -58,20 +58,6 @@
 			<PortraitIndex>4</PortraitIndex>
 			<IconAtlas>CIV_COLOR_ATLAS_DE_1</IconAtlas>
 		</Row>
-		<Row>
-			<Type>TECH_TUNNELS</Type>
-			<Cost>1250</Cost>
-			<Description>TXT_TUNNELS_TITLE</Description>
-			<Civilopedia>TXT_TUNNELS_LANDSHIP_DESC</Civilopedia>
-			<Help>TXT_TUNNELS_HELP</Help>
-			<Era>ERA_INDUSTRIAL</Era>
-			<Trade>true</Trade>
-			<GridX>12</GridX>
-			<GridY>8</GridY>
-			<Quote>TXT_TUNNELS_QUOTE</Quote>
-			<PortraitIndex>37</PortraitIndex>
-			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
-		</Row>
 	</Technologies>
 	<Technology_PrereqTechs>
 		<Row>
@@ -93,10 +79,6 @@
 		<Row>
 			<TechType>TECH_DE_LANDSHIP</TechType>
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_TUNNELS</TechType>
-			<PrereqTech>TECH_RAILROAD</PrereqTech>
 		</Row>
 	</Technology_PrereqTechs>
 	<Technology_Flavors>
@@ -123,11 +105,6 @@
 		<Row>
 			<TechType>TECH_DE_LANDSHIP</TechType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>1</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_TUNNELS</TechType>
-			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
 			<Flavor>1</Flavor>
 		</Row>
 	</Technology_Flavors>
