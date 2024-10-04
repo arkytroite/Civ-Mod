@@ -172,3 +172,10 @@ Adds new technologies that give new benefits, but don't progress the tech tree o
 ## New Generic Buildings
 * Cloth Mill: Provides gold for textile resources.
 * National Congress: A new National Wonder that gives +3 Happiness and a Free Social Policy
+### Workable Mountains
+Mountains can be worked as tiles, though weak ones. Various buildings give +1 to various yeilds, up from the mountains native nothing.
+* Palace: Production
+* Aqueduct: Food
+* Stone Works: Production
+* Broadcast Tower: Culture
+* Machu Pichu: Faith x2
