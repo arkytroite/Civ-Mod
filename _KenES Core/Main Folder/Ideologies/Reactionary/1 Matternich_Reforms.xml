@@ -76,27 +76,6 @@
 			<YieldChange>5</YieldChange>
 		</Row>
 	</Policy_BuildingClassYieldChanges>
-
-	<Policy_ImprovementYieldChanges>
-		<Row>
-			<PolicyType>POLICY_MATTERNICHS_REFORMS</PolicyType>
-			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_MATTERNICHS_REFORMS</PolicyType>
-			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_MATTERNICHS_REFORMS</PolicyType>
-			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-	</Policy_ImprovementYieldChanges>
 			
 	<Policy_Flavors>
 		<Row>

@@ -10,14 +10,6 @@
 		</Update>
 	</Policies>
 
-	<Policy_BuildingClassYieldModifiers>
-		<Row>
-			<PolicyType>POLICY_URBANIZATION</PolicyType>
-			<BuildingClassType>BUILDINGCLASS_GARDEN</BuildingClassType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<YieldMod>25</YieldMod>
-		</Row>
-	</Policy_BuildingClassYieldModifiers>
 	<Policy_BuildingClassHappiness>
 		<Delete PolicyType="POLICY_URBANIZATION" />
 		<Row>
@@ -33,6 +25,11 @@
 		<Row>
 			<PolicyType>POLICY_URBANIZATION</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_HOTEL</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GARDEN</BuildingClassType>
 			<Happiness>1</Happiness>
 		</Row>
 	</Policy_BuildingClassHappiness>
@@ -63,7 +60,7 @@
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_URBANIZATION_HELP" />
-			<Set Text="[COLOR_POSITIVE_TEXT]Urbanization[ENDCOLOR][NEWLINE]-25% [ICON_GOLD] Gold costs to purchase buildings in cities.[NEWLINE]+25% [ICON_GOLD] Gold from Gardens.[NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from Factories, Public Schools, and Hotels." />
+			<Set Text="[COLOR_POSITIVE_TEXT]Urbanization[ENDCOLOR][NEWLINE]-25% [ICON_GOLD] Gold costs to purchase buildings in cities.[NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from Factories, Public Schools, Gardens, and Hotels." />
 		</Update>
 	</Language_en_US>
 

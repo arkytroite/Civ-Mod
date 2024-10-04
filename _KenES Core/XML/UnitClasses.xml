@@ -7,5 +7,10 @@
 			<Description>TXT_KEY_UNIT_SWISS_GUARD</Description>
 			<DefaultUnit>UNIT_SWISS_GUARD</DefaultUnit>
 		</Row>
+		<Row>
+			<Type>UNITCLASS_LEGION_F</Type>
+			<Description>TXT_KEY_UNIT_FORIEGNLEGION</Description>
+			<DefaultUnit>UNIT_LEGION_F</DefaultUnit>
+		</Row>
 	</UnitClasses>
 </GameData>

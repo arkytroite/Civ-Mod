@@ -5,7 +5,7 @@
 	<!-- Branch tooltip -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_POLICY_ARDL_HOMELANDDEVELOPEMENT">
-			<Text>Homeland Developement</Text>
+			<Text>Homeland and Hearth</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_ARDL_HOMELANDDEVELOPEMENT_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Homeland and Hearth[ENDCOLOR][NEWLINE]Grants a free Great Person.[NEWLINE]+2 [ICON_HAPPINESS_1] Happiness per City.[NEWLINE]+1 [ICON_CULTURE] Culture to Farms and Forts. [NEWLINE]+1 [ICON_FOOD] Food to Plantations and Fishingboats.[NEWLINE]+1 [ICON_GOLD] Gold to Pastures and Lumbermills[NEWLINE]+1 [ICON_PRODUCTION] Production to Mines and Quarries.</Text>

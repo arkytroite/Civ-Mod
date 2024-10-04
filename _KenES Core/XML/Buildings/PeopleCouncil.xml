@@ -12,7 +12,7 @@
 		<Row>
 			<Type>BUILDING_PEOPLE_COUNCIL</Type>
 			<BuildingClass>BUILDINGCLASS_PEOPLE_COUNCIL</BuildingClass>
-			<Cost>600</Cost>
+			<Cost>300</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_ORDER</PolicyBranchType>

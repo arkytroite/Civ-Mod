@@ -188,7 +188,7 @@
 			<Text>Metternich's Reforms</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_MATTERNICHS_REFORMS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Metternich's Reforms[ENDCOLOR][NEWLINE]+25% strategic resources in your own territory. Gain +10  [ICON_RES_IRON] Iron,  [ICON_RES_HORSE]Horses, and  [ICON_RES_COAL]Coal.[NEWLINE]+5 [ICON_RESEARCH] Science from the Workshop and Factory buildings.[NEWLINE]+1 [ICON_PRODUCTION] Production from mines, pastures, and quarries.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Metternich's Reforms[ENDCOLOR][NEWLINE]+25% strategic resources in your own territory. Gain +10  [ICON_RES_IRON] Iron,  [ICON_RES_HORSE]Horses, and  [ICON_RES_COAL]Coal.[NEWLINE]+5 [ICON_RESEARCH] Science from the Workshop and Factory buildings.</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_POLICY_ELECTIVE_MONARCHY">

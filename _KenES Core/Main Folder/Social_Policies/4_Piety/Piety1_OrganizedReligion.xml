@@ -5,7 +5,7 @@
 	<!-- ORGANIZED RELIGION -->
 	<Policy_BuildingClassHappiness>
 		<Row>
-			<PolicyType>POLICY_MANDATE_OF_HEAVEN</PolicyType>
+			<PolicyType>POLICY_POLICY_ORGANIZED_RELIGION</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
 			<Happiness>2</Happiness>
 		</Row>

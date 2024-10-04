@@ -19,6 +19,10 @@
 			<IconAtlas>BW_ATLAS_AQUARIUM</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 		</Row>
+		<Update>
+			<Where Type="BUILDING_AQUEDUCT"/>
+			<Set MutuallyExclusiveGroup="5672"/>
+		</Update>
 	</Buildings>
 
 	<Civilization_BuildingClassOverrides>

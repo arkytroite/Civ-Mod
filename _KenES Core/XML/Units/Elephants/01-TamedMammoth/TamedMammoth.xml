@@ -22,7 +22,7 @@
 			<BaseSightRange>3</BaseSightRange>
 			<!--<PrereqTech>TECH_TRAPPING</PrereqTech>-->
 			<ObsoleteTech>TECH_AGRICULTURE</ObsoleteTech>
-			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
+			<CombatClass>UNITCOMBAT_RECON</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_SMAN_EU_TAMED_MAMMOTH</Description>

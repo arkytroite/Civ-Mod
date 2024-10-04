@@ -208,7 +208,6 @@
 			<RouteType>ROUTE_RAILROAD</RouteType>
 			<Description>TXT_KEY_BUILD_TUNNEL</Description>
 			<Help>TXT_KEY_BUILD_TUNNEL_HELP</Help>
-			<Recommendation>TXT_KEY_BUILD_TUNNEL_REC</Recommendation>
 			<EntityEvent>ENTITY_EVENT_SHOVEL</EntityEvent>
 			<HotKey>KB_R</HotKey>
 			<CtrlDownAlt>1</CtrlDownAlt>

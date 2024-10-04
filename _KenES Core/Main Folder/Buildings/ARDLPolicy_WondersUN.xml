@@ -41,7 +41,7 @@
 		<Row>
 			<Type>BUILDING_ARDL_UN</Type>
 			<BuildingClass>BUILDINGCLASS_ARDL_UN</BuildingClass>
-			<Cost>250</Cost>
+			<Cost>1250</Cost>
 			<PrereqTech>TECH_RADIO</PrereqTech>
 			<Help>TXT_KEY_WONDER_ARDL_UN_HELP</Help>
 			<Description>TXT_KEY_BUILDING_ARDL_UN</Description>

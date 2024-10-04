@@ -48,49 +48,11 @@
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>3</Yield>
 		</Row>
-		<!--
-		<Row>
-			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
-			<ImprovementType>IMPROVEMENT_BRAZILWOOD_CAMP</ImprovementType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
-			<ImprovementType>IMPROVEMENT_CHATEAU</ImprovementType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
-			<ImprovementType>IMPROVEMENT_FEITORIA</ImprovementType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
-			<ImprovementType>IMPROVEMENT_KASBAH</ImprovementType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
-			<ImprovementType>IMPROVEMENT_MOAI</ImprovementType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
-			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		-->
 	</Policy_ImprovementYieldChanges>
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_POLICY_FREE_THOUGHT_HELP" />
 		<Row Tag="TXT_KEY_POLICY_FREE_THOUGHT_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Free Thought[ENDCOLOR][NEWLINE]+3 [ICON_RESEARCH] Science from every Academy, Customs House, Manufactory, Citadel, Holy Site, and Landmark. Boosts [ICON_RESEARCH] Science gained from research agreements by 50%.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Free Thought[ENDCOLOR][NEWLINE]+3 [ICON_RESEARCH] Science from every Academy, Customs House, Manufactory, Citadel, Holy Site, and Landmark.</Text>
 		</Row>
 	</Language_en_US>
 

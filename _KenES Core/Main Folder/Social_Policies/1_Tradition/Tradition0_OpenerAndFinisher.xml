@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<!-- Tradition Finisher now provides +10% Growth (down from +15%). -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_TRADITION_FINISHER" />
+			<NumCitiesFreeFoodBuilding="0"
+			/>
+		</Update>
+		
+	</Policies>
+
+	<Policy_BuildingClassProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_TRADITION_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_AQUEDUCT</BuildingClassType>
+			<ProductionModifier>200</ProductionModifier>
+		</Row>
+	</Policy_BuildingClassProductionModifiers>
+
+</GameData>

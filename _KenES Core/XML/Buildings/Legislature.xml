@@ -17,7 +17,7 @@
 		<Row>
 			<Type>BUILDING_LEGISLATURE</Type>
 			<BuildingClass>BUILDINGCLASS_LEGISLATURE</BuildingClass>
-			<Cost>850</Cost>
+			<Cost>300</Cost>
 			<GoldMaintenance>3</GoldMaintenance>
 			<PrereqTech>TECH_SCIENTIFIC_THEORY</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_FREEDOM</PolicyBranchType>
@@ -390,6 +390,7 @@
 			<Civilopedia>TXT_SEWER_PEDIA</Civilopedia>
 			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
+			<MutuallyExclusiveGroup>5672</MutuallyExclusiveGroup>
 			<ConquestProb>66</ConquestProb>
 			<FoodKept>40</FoodKept>
 			<IconAtlas>5UC_ATLAS</IconAtlas>

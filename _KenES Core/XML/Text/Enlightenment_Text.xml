@@ -23,7 +23,7 @@
 			<Text>Smithsonian Institute</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_EE_SMITHSONIAN_HELP">
-			<Text>Contains 2 slots for a Great Work of Art. Receive a free Academy in the city where the wonder is built.</Text>
+			<Text>Contains 2 slots for a Great Work of Art.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_EE_SMITHSONIAN_QUOTE">
 			<Text>[NEWLINE]"The best prophet of the future is the past."[NEWLINE] - Lord George Gordon Byron[NEWLINE]</Text>

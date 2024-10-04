@@ -12,7 +12,7 @@
 		<Row>
 			<Type>BUILDING_MILITARY_HQ</Type>
 			<BuildingClass>BUILDINGCLASS_MILITARY_HQ</BuildingClass>
-			<Cost>600</Cost>
+			<Cost>300</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_RIFLING</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_AUTOCRACY</PolicyBranchType>

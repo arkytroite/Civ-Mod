@@ -143,16 +143,11 @@
 		
 	</Building_YieldChanges>
 	<Building_YieldChangesPerPop>
-		<Row>
-			<BuildingType>BUILDING_TCS_PATENT_OFFICE</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>20</Yield>
-		</Row>
 		
 		<Row>
 			<BuildingType>BUILDING_ARDL_CITYBULWARKS</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>20</Yield>
+			<Yield>10</Yield>
 		</Row>
 		
 		<Row>
@@ -224,11 +219,6 @@
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>30</Flavor>
 		</Row>
-		<Row>
-			<BuildingType>BUILDING_TCS_PATENT_OFFICE</BuildingType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
 		<!-- City Bulwarks -->
 		<Row>
 			<BuildingType>BUILDING_ARDL_CITYBULWARKS</BuildingType>
@@ -295,11 +285,11 @@
 
 		<!-- Help Tags -->
 		<Row Tag="TXT_KEY_BUILDING_TCS_PATENT_OFFICE_HELP">
-			<Text>+5 [ICON_SCIENCE] Science. +1 [ICON_GOLD] Gold for every 5 Citizens.[NEWLINE][NEWLINE]Requires Rationalism.</Text>
+			<Text>Improves Science gain and rate of Great Scientist Generation. [NEWLINE][NEWLINE]Requires Rationalism.</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_BUILDING_ARDL_CITYBULWARKS_HELP">
-			<Text>+100 city hitpoints and +10 [ICON_STRENGTH] city strength. +20xp for land units trained in the city. +1 [ICON_FOOD] Food for every 5 Citizens in this city.[NEWLINE][NEWLINE]Requires Security.</Text>
+			<Text>+100 city hitpoints and +10 [ICON_STRENGTH] city strength. +20xp for land units trained in the city. +1 [ICON_FOOD] Food for every 10 Citizens in this city.[NEWLINE][NEWLINE]Requires Security.</Text>
 		</Row>
 	
 		<Row Tag="TXT_KEY_BUILDING_ARDL_INTERNATIONALSCHOOLS_HELP">

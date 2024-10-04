@@ -9,26 +9,7 @@
 				<GoodyHutUpgradeUnitClass>UNITCLASS_SWISS_GUARD</GoodyHutUpgradeUnitClass>
 			</Set>
 		</Update>
-		<Update>
-			<Where Type="UNIT_FRENCH_FOREIGNLEGION"/>
-			<Set>
-				<Class>UNITCLASS_FOREIGNLEGION</Class>
-				<Cost>350</Cost>
-				<FaithCost>700</FaithCost>
-				<PurchaseOnly>true</PurchaseOnly>
-				<MoveAfterPurchase>true</MoveAfterPurchase>
-				<PolicyType>POLICY_TRADE_UNIONS</PolicyType>
-<				<GoodyHutUpgradeUnitClass>UNITCLASS_EXOTIC_UNIT_SOF</GoodyHutUpgradeUnitClass>
-				<ObsoleteTech>TECH_RADAR</ObsoleteTech>
-			</Set>
-		</Update>
-		<Update>
-			<Where Type="UNIT_FRENCH_FOREIGNLEGION"/>
-			<Set>
-				<Class>UNITCLASS_BOMBER</Class>
-				<ObsoleteTech></ObsoleteTech>
-			</Set>
-		</Update>
+
 		<Row>
 			<Class>UNITCLASS_SWISS_GUARD</Class>
 			<Type>UNIT_SWISS_GUARD</Type>
@@ -51,7 +32,7 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<ObsoleteTech>TECH_REPLACEABLE_PARTS</ObsoleteTech>
+			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_FOREIGNLEGION</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>25</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
@@ -63,6 +44,40 @@
 			<UnitFlagAtlas>UNITS_SWISS_GUARD_FLAG_ATLAS</UnitFlagAtlas>
 			<IconAtlas>UNITS_SWISS_GUARD_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_LEGION_F</Class>
+			<Type>UNIT_LEGION_F</Type>
+			<PrereqTech>TECH_RIFLING</PrereqTech>
+			<Combat>42</Combat>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FRENCH_FOREIGNLEGION</Description>
+			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_FOREIGNLEGION_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FRENCH_FOREIGNLEGION_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_FORIEGNLEGION</Help>
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_INFANTRY</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>25</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<PolicyType>POLICY_TRADE_UNIONS</PolicyType>
+			<Conscription>4</Conscription>
+			<FaithCost>700</FaithCost>
+			<ObsoleteTech>TECH_RADIO</ObsoleteTech>
+			<UnitArtInfo>ART_DEF_UNIT_U_FRENCH_FOREIGNLEGION</UnitArtInfo>
+			<UnitFlagIconOffset>55</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>38</PortraitIndex>
+
 		</Row>
 	</Units>
 	<Unit_AITypes>
@@ -78,6 +93,18 @@
 			<UnitType>UNIT_SWISS_GUARD</UnitType>
 			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_LEGION_F</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LEGION_F</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LEGION_F</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
 	</Unit_AITypes>
 	<Unit_ClassUpgrades>
 		<Update>
@@ -86,7 +113,11 @@
 		</Update>
 		<Row>
 			<UnitType>UNIT_SWISS_GUARD</UnitType>
-			<UnitClassType>UNITCLASS_FOREIGNLEGION</UnitClassType>
+			<UnitClassType>UNITCLASS_LEGION_F</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LEGION_F</UnitType>
+			<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
 		</Row>
 	</Unit_ClassUpgrades>
 	<Unit_Flavors>
@@ -97,6 +128,16 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_SWISS_GUARD</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LEGION_F</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LEGION_F</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>18</Flavor>
 		</Row>

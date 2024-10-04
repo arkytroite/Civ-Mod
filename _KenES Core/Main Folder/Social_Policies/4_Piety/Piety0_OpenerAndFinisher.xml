@@ -12,13 +12,6 @@
 	
 
 
-	<!-- PIETY OPENER -->
-	<Buildings>
-		<Update>
-			<Where Type="BUILDING_MOSQUE_OF_DJENNE"/>
-			<Set PolicyBranchType="NULL"/>
-		</Update>
-	</Buildings>
 	<Policy_BuildingClassYieldChanges>
 		<Row>
 			<PolicyType>POLICY_PIETY</PolicyType>
