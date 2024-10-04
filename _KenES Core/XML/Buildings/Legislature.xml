@@ -880,7 +880,7 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BASILICA</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_ORCHESTRA</BuildingType>
