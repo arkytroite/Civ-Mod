@@ -77,6 +77,7 @@
   * Secularism now provides +1 Science per Specialist and +2 per city, instead fo +2 per Specialist.
   * Free Thought now provides +3 Science for all Great Person Tile Improvements and Archeological Landmarks, instead of boosting Trading Posts and Universities.
 ### Rebalances Ideologies
+* Reactionism is a new Ideology focused on internal development with little regard to a particular win condition. It is best for small empires.
 * Freedom
   * Renamed Liberalism
   * Volunteer Army was moved to Level 1 and now provides +1 Sight, 15% Combat Strength, and +15 Healing to all units, as well ad +15% Combat Strength to cities. It no longer gives Free Units.
@@ -116,7 +117,6 @@
     * Melee Units get +15% Combat Strength outside friendly territory and heal 25HP when they kill a unit.
     * Courthouses are built 4 times as fast and give +3 Happiness, +15% Science, and +15% Foo.d
     * Heroic Epic provides double Culture and Tourism.
-* Reactionism: New Ideology
 ### Adds New Policy Buildings
 New Buildings have been added that are restricted to certain policies trees. They are a bit weaker compared to vanilla buildings, but are a good way to squeeze out some extra happiness or specialize a city. 
 * All policies except Honor, Patronage, Aesthetics, and Commerce currently add buildings.
@@ -136,10 +136,39 @@ New Buildings have been added that are restricted to certain policies trees. The
   * Facism gets the Propoganda Office, which also provides faster unit build time.
 * Reactionaries gain the new World Wonder: Buckingham Palace, which provides a Free Social Policy and +15% Great People Generation.
 ## Slavery
-Makes captured civilian units turn into slaves, which are less effective than workers and may revolt.
+Makes captured civilian units turn into Slaves, which build slower than Workers and may revolt.
+* When Slaves revolt, they turn into barbarian units along with any nearby Slaves.
+* Slaves captured (or rescued) by barbarians become barbarians themselves.
+* Workers taken by threats from city-states will not convert into slaves.
 ## New Units
-Adds new buildable units, including an upgrade path for the scout, mercenary army units for later in the game, and an extremely cheap ancient era military unit.
+* New Recon Units
+  * The Scout now upgrades into the Explorer at Gunpowder, which is faster and stronger.
+  * At Rifling, it becomes a Surveyor, which is even stronger.
+  * A Scout that finds a ruin gets a Tamed Mammoth, increasing its combat capabilities.
+* Rabble
+  * Very weak unit that appears often as barbarians in the early game
+  * They can also be built by the player very cheaply
+  * Only 1 movement
+* Currassiers
+  * Mounted Low Range Ranged Unit
+* Dreadnought
+  * Only buildable by Authority Civs
+  * Only 1 per civ
+  * Has the benefits of an Admiral, in addition to being a powerful ship
 ## Detour Technologies
-Adds new tile improvements that require new "detour" technologies to build. These improvements are not focused on yields, but rather utility. One such technology gives access to hand-axemen.
-## Cloth Mill
-Adds the cloth mill, which provides gold for textile resources.
+Adds new technologies that give new benefits, but don't progress the tech tree overall. Many games, they can be ignored, but they can be teched into for military applications or to better navigate you land.
+* Hand-axes
+  * The same ones the barbarians have
+* Pontoon Bridges
+  * Allows units to walk over water tiles
+  * Can only be placed on a tile adjacent to at least 2 land tiles
+* Motte-and-Bailey Castle
+  * Deals damage to nearby units
+  * Provides half the defensive bonus of a fort
+* Tunneling
+  * Allows construction of a tunneling machine that builds railroads through mountains.
+* Coal Machinery
+  * Allows construction of steampunk tanks and airships
+## New Generic Buildings
+* Cloth Mill: Provides gold for textile resources.
+* National Congress: A new National Wonder that gives +3 Happiness and a Free Social Policy
