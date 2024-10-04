@@ -137,7 +137,12 @@ New Buildings have been added that are restricted to certain policies trees. The
 * Reactionaries gain the new World Wonder: Buckingham Palace, which provides a Free Social Policy and +15% Great People Generation.
 ## Slavery
 Makes captured civilian units turn into Slaves, which build slower than Workers and may revolt.
+* Each Slave has a 1% change to revolt every Turn.
+  * 2% past at the Industrial Age or beyond
+  * Doubled by Raging Barbarians
+  * Scales with Game Speed (less revolutions for less Turns)
 * When Slaves revolt, they turn into barbarian units along with any nearby Slaves.
+* Slaves within a large radius of active revolutions will refuse to work for one Turn, but won't revolt.
 * Slaves captured (or rescued) by barbarians become barbarians themselves.
 * Workers taken by threats from city-states will not convert into slaves.
 ## New Units
@@ -165,8 +170,6 @@ Adds new technologies that give new benefits, but don't progress the tech tree o
 * Motte-and-Bailey Castle
   * Deals damage to nearby units
   * Provides half the defensive bonus of a fort
-* Tunneling
-  * Allows construction of a tunneling machine that builds railroads through mountains.
 * Coal Machinery
   * Allows construction of steampunk tanks and airships
 ## New Generic Buildings
