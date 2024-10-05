@@ -289,7 +289,7 @@
 			<Text>To be edited</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_ARDL_BUCKINGHAM_HELP">
-			<Text>Requires Réactionnaire. +15% [ICON_GREAT_PEOPLE] Great People generation rate in your civilization. 1 Free Social Policy.</Text>
+			<Text>Requires Reactionism. +15% [ICON_GREAT_PEOPLE] Great People generation rate in your civilization. 1 Free Social Policy.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_ARDL_BUCKINGHAM_QUOTE">
 			<Text>[NEWLINE][TAB][TAB]"We are not interested in the possibilities of defeat; they do not exist."[NEWLINE]- "Queen Victoria"[NEWLINE][TAB]</Text>
