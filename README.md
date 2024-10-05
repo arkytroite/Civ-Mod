@@ -181,6 +181,7 @@ Adds new technologies that give new benefits, but don't progress the tech tree o
 ## New Generic Buildings
 * Cloth Mill: Provides gold for textile resources.
 * National Congress: A new National Wonder that gives +3 Happiness and a Free Social Policy
+* Paro Taktsang: A new World Wonder with gives +1 Gold and +1 Fath on Mountains (more on workable mountains below)
 ### Workable Mountains
 Mountains can be worked as tiles, though weak ones. Various buildings give +1 to various yeilds, up from the mountains native nothing.
 * Palace: Production
