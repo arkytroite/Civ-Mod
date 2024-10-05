@@ -5,7 +5,7 @@
 		<!-- Policies -->
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_TRADE_UNIONS_HELP"/>
-			<Set Text="[COLOR_POSITIVE_TEXT]Mercenary Army[ENDCOLOR][NEWLINE]Allows the purchasing of Landsknechts, Swiss Guard, and Foreign Legion infantry units, depending on the era."/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Mercenary Army[ENDCOLOR][NEWLINE]Allows the purchasing of Landsknechts, Swiss Guard, Foreign Legion, or Soldiers of Fortune, depending on the era."/>
 		</Update>
 		<!-- Units -->
 		<Update>

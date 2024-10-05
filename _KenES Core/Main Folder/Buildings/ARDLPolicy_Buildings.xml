@@ -436,19 +436,19 @@
 
 		<!-- Help Tags -->
 		<Row Tag="TXT_KEY_BUILDING_TCS_PATENT_OFFICE_HELP">
-			<Text>Improves [ICON_RESEARCH] Science gain and [ICON_GREAT_SCIENTIST] Great Scientist Generation. [NEWLINE][NEWLINE]Requires Rationalism.</Text>
+			<Text>Improves Science gain and Great Scientist Generation. [NEWLINE][NEWLINE]Requires Rationalism.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_NAVAL_OFFICE_HELP">
-			<Text>Spawns a [ICON_GREAT_ADMIRAL] Great Admiral. [NEWLINE][NEWLINE]Requires Imperialism.</Text>
+			<Text>Spawns a Great Admiral. [NEWLINE][NEWLINE]Requires Imperialism.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_CATACOMBS_HELP">
-			<Text>Improves [ICON_CULTURE] Culture gain and [ICON_GREAT_ARTIST] Great Artist Generation. [NEWLINE][NEWLINE]Requires Aesthetics.</Text>
+			<Text>Improves Culture gain and Great Artist Generation. [NEWLINE][NEWLINE]Requires Aesthetics.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_COMMAND_CENTER_HELP">
-			<Text>Spawns a [ICON_GREAT_GENERAL] Great General. [NEWLINE][NEWLINE]Requires Authority.</Text>
+			<Text>Spawns a Great General. [NEWLINE][NEWLINE]Requires Authority.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_RELAY_HELP">
@@ -456,7 +456,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_GENTLEMAN_HELP">
-			<Text>Improves [ICON_GREAT_MERCHANT] Great Merchant Generation. [NEWLINE][NEWLINE]Requires Commerce.</Text>
+			<Text>Improves Great Merchant Generation. [NEWLINE][NEWLINE]Requires Commerce.</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_BUILDING_ARDL_CITYBULWARKS_HELP">
@@ -464,7 +464,7 @@
 		</Row>
 	
 		<Row Tag="TXT_KEY_BUILDING_ARDL_INTERNATIONALSCHOOLS_HELP">
-			<Text>Increases [ICON_GREAT_MUSICIAN] Great Musician Generation and [ICON_GREAT_PEOPLE] Great People Generation Overall.[NEWLINE][NEWLINE]Requires Statecraft.</Text>
+			<Text>Increases Great Musician Generation and Great People Generation Overall.[NEWLINE][NEWLINE]Requires Statecraft.</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES_HELP">

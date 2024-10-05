@@ -7,13 +7,18 @@
 			<DefaultBuilding>BUILDING_COUNTY_COURT</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_COUNTY_COURT</Description>
 		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_ARENA</Type>
+			<DefaultBuilding>BUILDING_ARENA</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ARENA</Description>
+		</Row>
 	</BuildingClasses>
 	<Buildings>
 		<Row>
 			<Type>BUILDING_COUNTY_COURT</Type>
 			<BuildingClass>BUILDINGCLASS_COUNTY_COURT</BuildingClass>
 			<Cost>125</Cost>
-			<GoldMaintenance>0</GoldMaintenance>
+			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_LIBERTY</PolicyBranchType>
 			<Help>TXT_KEY_BUILDING_COUNTY_COURT_HELP</Help>
@@ -24,24 +29,45 @@
 			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>40</ConquestProb>
-			<Happiness>1</Happiness>
+			<Happiness>2</Happiness>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>JUSTGOV_ATLAS_1</IconAtlas>
 			<PortraitIndex>1</PortraitIndex>
 		</Row>
+
+		<Row>
+			<Type>BUILDING_ARENA</Type>
+			<BuildingClass>BUILDINGCLASS_ARENA</BuildingClass>
+			<Cost>125</Cost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_HONOR</PolicyBranchType>
+			<Help>TXT_KEY_BUILDING_ARENA_HELP</Help>
+			<Description>TXT_KEY_BUILDING_ARENA</Description>
+			<Civilopedia>TXT_KEY_BUILDING_ARENA_DESC</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_ARENA_STRATEGY</Strategy>
+			<MutuallyExclusiveGroup>3014</MutuallyExclusiveGroup>
+			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>40</ConquestProb>
+			<Happiness>1</Happiness>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>DRAGON_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>44</PortraitIndex>
+		</Row>
 	</Buildings>
 	<Building_YieldChanges>
 		<Row>
-			<BuildingType>BUILDING_COUNTY_COURT</BuildingType>
+			<BuildingType>BUILDING_ARENA</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 	</Building_YieldChanges>
 	<Building_Flavors>
 		<Row>
-			<BuildingType>BUILDING_COUNTY_COURT</BuildingType>
+			<BuildingType>BUILDING_ARENA</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>30</Flavor>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COUNTY_COURT</BuildingType>
@@ -49,9 +75,9 @@
 			<Flavor>30</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COUNTY_COURT</BuildingType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>1</Flavor>
+			<BuildingType>BUILDING_ARENA</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>20</Flavor>
 		</Row>
 	</Building_Flavors>
 	<Language_en_US>
@@ -62,16 +88,36 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_COUNTY_COURT_HELP">
 			<TEXT>
-				The County Court adds 1 [ICON_GOLD] Gold and 1 [ICON_HAPPINESS_1] Happiness in the city which it is built.
+				The County Court adds 2 [ICON_HAPPINESS_1] Happiness in the city which it is built.
 			</TEXT>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_COUNTY_COURT_STRATEGY">
 			<TEXT>
-				The County Court is a judicial building that raises the [ICON_GOLD] and [ICON_HAPPINESS_1] of a city.
+				The County Court is a judicial building that raises the [ICON_HAPPINESS_1] Happiness of a city.
 			</TEXT>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_COUNTY_COURT_DESC">
 			<Text>In England and throughout Europe law became increasingly secular as the monarch asserted greater authority on legal matters. In some states this embodied a high court and many smaller courts that would travel throughout the counties. These smaller courts enabled the local populace to bypass the local feudal courts of the nobility and seek a fairer trial at a royal court. Overtime this strangthened the monarch's position, increased the political involvement of the population, and reaffirmed a strong rule of law.</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_BUILDING_ARENA">
+			<TEXT>
+				Arena
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ARENA_HELP">
+			<TEXT>
+				The Arena adds 1 [ICON_GOLD] and 1 [ICON_HAPPINESS_1] Happiness in the city which it is built.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ARENA_STRATEGY">
+			<TEXT>
+				The Arena is a judicial building that raises the [ICON_GOLD] Gold and [ICON_HAPPINESS_1] Happiness of a city.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ARENA_DESC">
+			<Text>While it hardly lends itself to fairness, arguably the oldest method to settle disputes is the duel. Taken to an extreme, this too can be the basis of a judicial system. What it lacks in meaningful justice it makes up for in low operating costs, not to mention the spoils of any fallen combantants.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
