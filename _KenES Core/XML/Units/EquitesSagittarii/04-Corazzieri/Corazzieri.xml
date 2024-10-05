@@ -13,7 +13,7 @@
 		<Row>
 			<Class>UNITCLASS_EXOTIC_UNIT_CORAZZIERI</Class>
 			<Type>UNIT_EXOTIC_UNIT_CORAZZIERI</Type>
-			<Combat>24</Combat>
+			<Combat>21</Combat>
 			<RangedCombat>21</RangedCombat>
 			<Range>2</Range>
 			<Moves>4</Moves>

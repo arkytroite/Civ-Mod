@@ -4,35 +4,27 @@
 	<!-- Branch tooltip -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_POLICY_BRANCH_ARDL_DIPLOMACY">
-			<Text>[COLOR_POSITIVE_TEXT]Diplomacy[ENDCOLOR] is best for [ICON_TOURISM] Tourism, [ICON_GOLD] Trade, and [ICON_INFLUENCE] Alliance focused civilizations. In particular, it provides bonuses for Trade, Tourism, and Specialists.[NEWLINE][NEWLINE]Upon adopting Diplomacy, all [ICON_GREAT_PEOPLE] specialists provide +1 of thier respective yield.[NEWLINE]Unlocks building the wonder [COLOR_GREEN]PLACEHOLDER[ENDCOLOR].[NEWLINE]Unlocks building [COLOR_GREEN]International Schools[ENDCOLOR][NEWLINE][NEWLINE]Adopting all Policies in the Diplomacy tree will grant a 15 turn [ICON_GOLDEN_AGE] Golden Ages and 200 Tourism for every Air unit created after adopting. All [ICON_GREAT_PEOPLE] specialists provide an additional +1 of thier respective yield.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Statecraft[ENDCOLOR] is best for [ICON_TOURISM] Tourism, [ICON_GOLD] Trade, and [ICON_INFLUENCE] Alliance focused civilizations. In particular, it provides bonuses for Trade, Tourism, and Specialists.[NEWLINE][NEWLINE]Unlocks building the wonder [COLOR_GREEN]PLACEHOLDER[ENDCOLOR].[NEWLINE]Unlocks building [COLOR_GREEN]International Schools[ENDCOLOR][NEWLINE][NEWLINE]Adopting all Policies in the Diplomacy tree will grant a 15 turn [ICON_GOLDEN_AGE] Golden Ages and 200 Tourism for every Air unit created after adopting. All [ICON_GREAT_PEOPLE] specialists provide an additional +1 of thier respective yield.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_BRANCH_ARDL_DIPLOMACY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Diplomacy[ENDCOLOR] is best for [ICON_TOURISM] Tourism, [ICON_GOLD] Trade, and [ICON_INFLUENCE] Alliance focused civilizations. In particular, it provides bonuses for Trade, Tourism, and Specialists.[NEWLINE][NEWLINE]Upon adopting Diplomacy, all [ICON_GREAT_PEOPLE] specialists provide +1 of thier respective yield.[NEWLINE]Unlocks building the wonder [COLOR_GREEN]League of Nations Headquarters[ENDCOLOR].[NEWLINE][NEWLINE]Adopting all Policies in the Diplomacy tree will grant a 15 turn [ICON_GOLDEN_AGE] Golden Ages and 200 [ICON_TOURISM] Tourism for every Air unit created after adopting. All [ICON_GREAT_PEOPLE] specialists provide an additional +1 of thier respective yield.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Statecraft[ENDCOLOR] is best for [ICON_TOURISM] Tourism, [ICON_GOLD] Trade, and [ICON_INFLUENCE] Alliance focused civilizations. In particular, it provides bonuses for Trade, Tourism, and Specialists.[NEWLINE][NEWLINE]Unlocks building the wonder [COLOR_GREEN]League of Nations Headquarters[ENDCOLOR].[NEWLINE][NEWLINE]Adopting all Policies in the Diplomacy tree will grant a 15 turn [ICON_GOLDEN_AGE] Golden Ages and 200 [ICON_TOURISM] Tourism for every Air unit created after adopting. All [ICON_GREAT_PEOPLE] specialists provide an additional +1 of thier respective yield.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ARDL_DIPLOMACY_TEXT">
-			<Text>[COLOR_POSITIVE_TEXT]Diplomacy[ENDCOLOR] is best for [ICON_TOURISM] Tourism, [ICON_GOLD] Trade, and [ICON_INFLUENCE] Alliance focused civilizations. In particular, it provides bonuses for Trade, Tourism, and Specialists.[NEWLINE][NEWLINE]Upon adopting Diplomacy, all [ICON_GREAT_PEOPLE] specialists provide +1 of thier respective yield.[NEWLINE]Unlocks building the wonder [COLOR_GREEN]League of Nations Headquarters[ENDCOLOR].[NEWLINE][NEWLINE]Adopting all Policies in the Diplomacy tree will grant a 15 turn [ICON_GOLDEN_AGE] Golden Ages and 200 [ICON_TOURISM] Tourism for every Air unit created after adopting. All [ICON_GREAT_PEOPLE] specialists provide an additional +1 of thier respective yield.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_OPENER_DIPLO">
-			<Text>Diplomacy Opener</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Statecraft[ENDCOLOR] is best for [ICON_TOURISM] Tourism, [ICON_GOLD] Trade, and [ICON_INFLUENCE] Alliance focused civilizations. In particular, it provides bonuses for Trade, Tourism, and Specialists.[NEWLINE][NEWLINE]Unlocks building the wonder [COLOR_GREEN]League of Nations Headquarters[ENDCOLOR].[NEWLINE][NEWLINE]Adopting all Policies in the Diplomacy tree will grant a 15 turn [ICON_GOLDEN_AGE] Golden Ages and 200 [ICON_TOURISM] Tourism for every Air unit created after adopting. All [ICON_GREAT_PEOPLE] specialists provide an additional +1 of thier respective yield.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ARDL_DIPLOMACY_HELP">
-			<Text>Diplomacy</Text>
+			<Text>Statecraft</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_ARDL_DIPLOMACY_FINISHER">
-			<Text>Diplomacy Finisher</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_OPENER_DIPLO_HELP">
-			<Text>It grants you +1 to each specialists yield.</Text>
+			<Text>Statecraft Finisher</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FNISHER_DIPLO">
-			<Text>Diplomacy Finisher</Text>
+			<Text>Legation</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FNISHER_DIPLO_HELP">
-			<Text>It grants all specialists +1 to each respective yield.</Text>
+			<Text>Granted for completing the Statecraft Tree.</Text>
 		</Row>
 	</Language_en_US>
-
-
 
 	<!-- OPENER -->
 	<Policies>
@@ -56,11 +48,6 @@
 
 	<BuildingClasses>
 		<Row>
-			<Type>BUILDINGCLASS_OPENER_DIPLO</Type>
-			<DefaultBuilding>BUILDING_OPENER_DIPLO</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_OPENER_DIPLO</Description>
-		</Row>
-		<Row>
 			<Type>BUILDINGCLASS_FNISHER_DIPLO</Type>
 			<DefaultBuilding>BUILDING_FNISHER_DIPLO</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_FNISHER_DIPLO</Description>
@@ -69,19 +56,6 @@
 	
 	<Buildings>
 		<Row>
-			<Type>BUILDING_OPENER_DIPLO</Type>
-			<BuildingClass>BUILDINGCLASS_OPENER_DIPLO</BuildingClass>
-			<Cost>-1</Cost>
-			<HurryCostModifier>-1</HurryCostModifier>
-			<NukeImmune>true</NukeImmune>
-			<Help>TXT_KEY_BUILDING_OPENER_DIPLO_HELP</Help>
-			<Description>TXT_KEY_BUILDING_OPENER_DIPLO</Description>
-			<Strategy>TXT_KEY_BUILDING_OPENER_DIPLO_HELP</Strategy>
-			<MinAreaSize>-1</MinAreaSize>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>BW_ATLAS_1</IconAtlas>
-		</Row>
-		<Row>
 			<Type>BUILDING_FNISHER_DIPLO</Type>
 			<BuildingClass>BUILDINGCLASS_FNISHER_DIPLO</BuildingClass>
 			<Cost>-1</Cost>
@@ -89,20 +63,15 @@
 			<NukeImmune>true</NukeImmune>
 			<Help>TXT_KEY_BUILDING_FNISHER_DIPLO_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FNISHER_DIPLO</Description>
-			<Strategy>TXT_KEY_BUILDING_FNISHER_DIPLO_HELP</Strategy>
 			<MinAreaSize>-1</MinAreaSize>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<IconAtlas>DRAGON_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>37</PortraitIndex>
 		</Row>
 	</Buildings>
 
 
 
 	<Policy_PGB_FreeBuildingClassCapital>
-		<Row>
-			<PolicyType>POLICY_ARDL_DIPLOMACY</PolicyType>
-			<BuildingClassType>BUILDINGCLASS_OPENER_DIPLO</BuildingClassType>
-		</Row>
 		<Row>
 			<PolicyType>POLICY_ARDL_DIPLOMACY_FINISHER</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_FNISHER_DIPLO</BuildingClassType>
@@ -118,42 +87,6 @@
 			<Yield>1</Yield>
 		</Row>
 		-->
-		<Row>
-			<BuildingType>BUILDING_OPENER_DIPLO</BuildingType>
-			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_OPENER_DIPLO</BuildingType>
-			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_OPENER_DIPLO</BuildingType>
-			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_OPENER_DIPLO</BuildingType>
-			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_OPENER_DIPLO</BuildingType>
-			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_OPENER_DIPLO</BuildingType>
-			<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
-		</Row>
 
 
 		<Row>

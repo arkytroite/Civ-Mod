@@ -95,7 +95,7 @@
 			<Text>Rabble</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_RABBLE_HELP">
-			<Text>Early, inexpensive Mercenary melee unit. Price shown is how much it costs to hire this unit for 20 turns.</Text>
+			<Text>Early, inexpensive Mercenary melee unit. It can move the same turn it's built or bought.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_RABBLE_STRATEGY">
 			<Text>Use the Rabble to defend your lands from your enemies.</Text>

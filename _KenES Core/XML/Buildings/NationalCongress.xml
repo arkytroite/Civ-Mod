@@ -15,7 +15,7 @@
 			<BuildingClass>BUILDINGCLASS_NATIONAL_CONGRESS</BuildingClass>
 			<Cost>1200</Cost>
 			<GoldMaintenance>0</GoldMaintenance>
-			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
+			<PrereqTech>TECH_SCIENTIFIC_THEORY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_NATIONAL_CONGRESS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NATIONAL_CONGRESS_DESC</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_NATIONAL_CONGRESS_STRATEGY</Strategy>

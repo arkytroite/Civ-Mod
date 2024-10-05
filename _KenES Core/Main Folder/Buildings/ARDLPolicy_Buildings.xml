@@ -13,7 +13,37 @@
 			<DefaultBuilding>BUILDING_TCS_PATENT_OFFICE</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_TCS_PATENT_OFFICE</Description>
 		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_NAVAL_OFFICE</Type>
+			<DefaultBuilding>BUILDING_NAVAL_OFFICE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_NAVAL_OFFICE</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_CATACOMBS</Type>
+			<DefaultBuilding>BUILDING_CATACOMBS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CATACOMBS</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_COMMAND_CENTER</Type>
+			<DefaultBuilding>BUILDING_COMMAND_CENTER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_COMMAND_CENTER</Description>
+		</Row>
 		
+		<Row>
+			<Type>BUILDINGCLASS_RELAY</Type>
+			<DefaultBuilding>BUILDING_RELAY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_RELAY</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_GENTLEMAN</Type>
+			<DefaultBuilding>BUILDING_GENTLEMAN</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_GENTLEMAN</Description>
+		</Row>
+
 		<Row>
 			<Type>BUILDINGCLASS_ARDL_CITYBULWARKS</Type>
 			<DefaultBuilding>BUILDING_ARDL_CITYBULWARKS</DefaultBuilding>
@@ -46,15 +76,110 @@
 			<PrereqTech>TECH_DYNAMITE</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_RATIONALISM</PolicyBranchType>
 			<Description>TXT_KEY_BUILDING_TCS_PATENT_OFFICE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_TCS_PATENT_OFFICE_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_TCS_PATENT_OFFICE_HELP</Help>
 			<MinAreaSize>-1</MinAreaSize>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<GreatPeopleRateChange>1</GreatPeopleRateChange>
-			<NukeImmune>true</NukeImmune>
+			<NukeImmune>false</NukeImmune>
 			<NeverCapture>true</NeverCapture>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>ARDLBUILDINGS_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>40</PortraitIndex>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_NAVAL_OFFICE</Type>
+			<BuildingClass>BUILDINGCLASS_NAVAL_OFFICE</BuildingClass>
+			<Cost>300</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_COMPASS</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_EXPLORATION</PolicyBranchType>
+			<Description>TXT_KEY_BUILDING_NAVAL_OFFICE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_NAVAL_OFFICE_DESC</Civilopedia>
+			<Help>TXT_KEY_BUILDING_NAVAL_OFFICE_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<NukeImmune>false</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>ENLIGHTENMENT_TECH_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_CATACOMBS</Type>
+			<BuildingClass>BUILDINGCLASS_CATACOMBS</BuildingClass>
+			<Cost>100</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_AESTHETICS</PolicyBranchType>
+			<Description>TXT_KEY_CATACOMBS</Description>
+			<Civilopedia>TXT_KEY_CATACOMBS_DESC</Civilopedia>
+			<Help>TXT_KEY_BUILDING_CATACOMBS_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>DRAGON_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>36</PortraitIndex>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_COMMAND_CENTER</Type>
+			<BuildingClass>BUILDINGCLASS_COMMAND_CENTER</BuildingClass>
+			<Cost>300</Cost>
+			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_ARDL_AUTHORITY</PolicyBranchType>
+			<Description>TXT_KEY_COMMAND_CENTER</Description>
+			<Civilopedia>TXT_KEY_COMMAND_CENTER_DESC</Civilopedia>
+			<Help>TXT_KEY_BUILDING_COMMAND_CENTER_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>400</HurryCostModifier>
+			<IconAtlas>DRAGON_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>18</PortraitIndex>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_RELAY</Type>
+			<BuildingClass>BUILDINGCLASS_RELAY</BuildingClass>
+			<Cost>100</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_PATRONAGE</PolicyBranchType>
+			<Description>TXT_KEY_RELAY</Description>
+			<Civilopedia>TXT_KEY_RELAY_DESC</Civilopedia>
+			<Help>TXT_KEY_BUILDING_RELAY_HELP</Help>
+			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
+			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<MinAreaSize>-1</MinAreaSize>
+			<NukeImmune>false</NukeImmune>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>DRAGON_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>51</PortraitIndex>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_GENTLEMAN</Type>
+			<BuildingClass>BUILDINGCLASS_GENTLEMAN</BuildingClass>
+			<Cost>100</Cost>
+			<PrereqTech>TECH_BANKING</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_COMMERCE</PolicyBranchType>
+			<Description>TXT_KEY_GENTLEMAN</Description>
+			<Civilopedia>TXT_KEY_GENTLEMAN_DESC</Civilopedia>
+			<Help>TXT_KEY_BUILDING_GENTLEMAN_HELP</Help>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<MinAreaSize>-1</MinAreaSize>
+			<NukeImmune>false</NukeImmune>
+			<ConquestProb>33</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>ENLIGHTENMENT_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
 		</Row>
 	
 		<Row>
@@ -65,6 +190,7 @@
 			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_ARDL_SECURITY</PolicyBranchType>
 			<Description>TXT_KEY_BUILDING_ARDL_CITYBULWARKS</Description>
+			<Civilopedia>TXT_KEY_BUILDING_ARDL_CITYBULWARKS_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_ARDL_CITYBULWARKS_HELP</Help>
 			<MinAreaSize>-1</MinAreaSize>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
@@ -86,10 +212,13 @@
 			<PrereqTech>TECH_PENICILIN</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_ARDL_DIPLOMACY</PolicyBranchType>
 			<Description>TXT_KEY_BUILDING_ARDL_INTERNATIONALSCHOOLS</Description>
+			<Civilopedia>TXT_KEY_BUILDING_ARDL_INTERNATIONALSCHOOLS_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_ARDL_INTERNATIONALSCHOOLS_HELP</Help>
 			<MinAreaSize>-1</MinAreaSize>
-			<GreatPeopleRateModifier>15</GreatPeopleRateModifier>
-			<NukeImmune>true</NukeImmune>
+			<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
+			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<NukeImmune>false</NukeImmune>
+			<GreatPeopleRateModifier>5</GreatPeopleRateModifier>
 			<NeverCapture>true</NeverCapture>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>ARDLBUILDINGS_ICON_ATLAS</IconAtlas>
@@ -103,7 +232,6 @@
 			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_ARDL_AUTHORITY</PolicyBranchType>
-			<Description>TXT_KEY_BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES</Description>
 			<Help>TXT_KEY_BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES_HELP</Help>
 			<MinAreaSize>-1</MinAreaSize>
 			<NukeImmune>true</NukeImmune>
@@ -118,7 +246,7 @@
 	<Building_ClassesNeededInCity>
 		<Row>
 			<BuildingType>BUILDING_ARDL_CITYBULWARKS</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
 		</Row>
 	</Building_ClassesNeededInCity>
 
@@ -128,41 +256,27 @@
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>5</Yield>
 		</Row>
-	
-		<Row>
-			<BuildingType>BUILDING_ARDL_CITYBULWARKS</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
-		</Row>
 		
 		<Row>
 			<BuildingType>BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>5</Yield>
 		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_CATACOMBS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+
+		<Row>
+			<BuildingType>BUILDING_RELAY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
 		
 	</Building_YieldChanges>
-	<Building_YieldChangesPerPop>
-		
-		<Row>
-			<BuildingType>BUILDING_ARDL_CITYBULWARKS</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>10</Yield>
-		</Row>
-		
-		<Row>
-			<BuildingType>BUILDING_ARDL_INTERNATIONALSCHOOLS</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>20</Yield>
-		</Row>
-		
-		<Row>
-			<BuildingType>BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>20</Yield>
-		</Row>
-		
-	</Building_YieldChangesPerPop>
 	<!--
 	-->
 	<Building_ResourceYieldChanges>
@@ -204,14 +318,20 @@
 		</Row>
 		
 	</Building_ResourceYieldChanges>
-	<Building_DomainFreeExperiences>
+
+	<Building_FreeUnits>
 		<Row>
-			<BuildingType>BUILDING_ARDL_CITYBULWARKS</BuildingType>
-			<DomainType>DOMAIN_LAND</DomainType>
-			<Experience>15</Experience>
+			<BuildingType>BUILDING_COMMAND_CENTER</BuildingType>
+			<UnitType>UNIT_GREAT_GENERAL</UnitType>
+			<NumUnits>1</NumUnits>
 		</Row>
-	
-	</Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_NAVAL_OFFICE</BuildingType>
+			<UnitType>UNIT_GREAT_ADMIRAL</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+	</Building_FreeUnits>
+
 	<Building_Flavors>
 		<!-- Patent Office-->
 		<Row>
@@ -222,38 +342,48 @@
 		<!-- City Bulwarks -->
 		<Row>
 			<BuildingType>BUILDING_ARDL_CITYBULWARKS</BuildingType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_ARDL_CITYBULWARKS</BuildingType>
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
 			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_ARDL_CITYBULWARKS</BuildingType>
-			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
-			<Flavor>15</Flavor>
 		</Row>
 		
 		<!-- International Schools -->
 		<Row>
 			<BuildingType>BUILDING_ARDL_INTERNATIONALSCHOOLS</BuildingType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
+
 		<Row>
-			<BuildingType>BUILDING_ARDL_INTERNATIONALSCHOOLS</BuildingType>
+			<BuildingType>BUILDING_CATACOMBS</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_GENTLEMAN</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_COMMAND_CENTER</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_NAVAL_OFFICE</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_RELAY</BuildingType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
 		
 		<!-- National Wartime Industries  -->
-		<Row>
-			<BuildingType>BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES</BuildingType>
-			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
-			<Flavor>15</Flavor>
-		</Row>
 		<Row>
 			<BuildingType>BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -263,10 +393,31 @@
 
 	</Building_Flavors>
 	
-	<Language_en_US>
-		<!-- Description Tags -->
+		<Language_en_US>
+
+	<!-- Description Tags -->
 		<Row Tag="TXT_KEY_BUILDING_TCS_PATENT_OFFICE">
 			<Text>Patent Office</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_NAVAL_OFFICE">
+			<Text>Fleet Admiral's Office</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CATACOMBS">
+			<Text>Catacombs</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_COMMAND_CENTER">
+			<Text>Command Center</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RELAY">
+			<Text>Relay Outpost</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GENTLEMAN">
+			<Text>Gentlemen's Club</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_BUILDING_ARDL_CITYBULWARKS">
@@ -285,21 +436,69 @@
 
 		<!-- Help Tags -->
 		<Row Tag="TXT_KEY_BUILDING_TCS_PATENT_OFFICE_HELP">
-			<Text>Improves Science gain and rate of Great Scientist Generation. [NEWLINE][NEWLINE]Requires Rationalism.</Text>
+			<Text>Improves [ICON_RESEARCH] Science gain and [ICON_GREAT_SCIENTIST] Great Scientist Generation. [NEWLINE][NEWLINE]Requires Rationalism.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_NAVAL_OFFICE_HELP">
+			<Text>Spawns a [ICON_GREAT_ADMIRAL] Great Admiral. [NEWLINE][NEWLINE]Requires Imperialism.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_CATACOMBS_HELP">
+			<Text>Improves [ICON_CULTURE] Culture gain and [ICON_GREAT_ARTIST] Great Artist Generation. [NEWLINE][NEWLINE]Requires Aesthetics.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_COMMAND_CENTER_HELP">
+			<Text>Spawns a [ICON_GREAT_GENERAL] Great General. [NEWLINE][NEWLINE]Requires Authority.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_RELAY_HELP">
+			<Text>Improves Gold gain and Great Writer Generation. [NEWLINE][NEWLINE]Requires Patronage.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_GENTLEMAN_HELP">
+			<Text>Improves [ICON_GREAT_MERCHANT] Great Merchant Generation. [NEWLINE][NEWLINE]Requires Commerce.</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_BUILDING_ARDL_CITYBULWARKS_HELP">
-			<Text>+100 city hitpoints and +10 [ICON_STRENGTH] city strength. +20xp for land units trained in the city. +1 [ICON_FOOD] Food for every 10 Citizens in this city.[NEWLINE][NEWLINE]Requires Security.</Text>
+			<Text>+100 city hitpoints and +10 [ICON_STRENGTH] city strength. Increases Great Engineer Generation. [NEWLINE][NEWLINE]Requires Security.</Text>
 		</Row>
 	
 		<Row Tag="TXT_KEY_BUILDING_ARDL_INTERNATIONALSCHOOLS_HELP">
-			<Text>+15% [ICON_GREAT_PEOPLE] Great People Points in this city. +1 [ICON_CULTURE] Culture for every 5 Citizens in this city.[NEWLINE][NEWLINE]Requires Statecraft.</Text>
+			<Text>Increases [ICON_GREAT_MUSICIAN] Great Musician Generation and [ICON_GREAT_PEOPLE] Great People Generation Overall.[NEWLINE][NEWLINE]Requires Statecraft.</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES_HELP">
 			<Text>+5 [ICON_PRODUCTION] Production. +3 [ICON_PRODUCTION] Production from all strategic resources in this city. +1 [ICON_PRODUCTION] Production for every 5 Citizens in this city.[NEWLINE][NEWLINE]Requires Authority.</Text>
 		</Row>
+
+		<!-- Civilopedia -->
+
+		<Row Tag="TXT_KEY_CATACOMBS_DESC">
+			<Text>Catacombs are tunnel structures used for burial. They are notable for their extensive passageways and intricate carvings and frescoes. While the term derives from the catacombs of Rome, similar strucutres have existed into antiquity.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_COMMAND_CENTER_DESC">
+			<Text>As the armies and weapons of war grow larger and more complex, the strain of logistics necessitates an ever growing command structure.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RELAY_DESC">
+			<Text>For as long as there have been travelling merchants, there have been couriers willing to relay messages along trade lines for a fee. While effective, this can still leave less economically important areas out of the loop. Relay Stations connect the information network of an empire to its more rural communities and its satellites. With an extensive enough network, messages can be transferred in significant bulk, leading the primary limiting factor of such communication to be the literacy of the populus.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GENTLEMAN_DESC">
+			<Text>A Gentlemen's Club is an establishment for leisure and networking catering to wealthy men, particularly business leaders and politicians. They emerged in the 18th century in England, where they quickly became sites for important business meetings.</Text>
+		</Row>
 		
+		<Row Tag="TXT_KEY_BUILDING_ARDL_CITYBULWARKS_DESC">
+			<Text>The increased effectiveness of seige weapons has rendered simple walls less and less effective over time. The most straightforward answer to such a problem is to ensure that the walls can shoot back.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_BUILDING_ARDL_INTERNATIONALSCHOOLS_DESC">
+			<Text>International Schools are designed to foster multiculturalism among their students. Their cirriculums differ from that of their host countries and often feature multilingual instruction.</Text>
+		</Row>
 	</Language_en_US>
+
+
+
 	
 </GameData>
