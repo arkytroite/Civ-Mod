@@ -160,6 +160,7 @@ Makes captured civilian units turn into Slaves, which build slower than Workers 
   * Very weak unit that appears often as barbarians in the early game
   * They can also be built by the player very cheaply
   * Only 1 movement
+  * Can move the same turn it's built
 * Currassiers
   * Mounted Low Range Ranged Unit
 * Dreadnought
