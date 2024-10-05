@@ -119,17 +119,23 @@
     * Heroic Epic provides double Culture and Tourism.
 ### Adds New Policy Buildings
 New Buildings have been added that are restricted to certain policies trees. They are a bit weaker compared to vanilla buildings, but are a good way to squeeze out some extra happiness or specialize a city. 
-* All policies except Honor, Patronage, Aesthetics, and Commerce currently add buildings.
-* The starter trees all gain mutually exclusive justice buidings, which provide a small amount of happiness and another yield.
+* The starter trees all gain mutually exclusive justice buidings, which provide a small amount of happiness.
   * Tradition get the Magistrates Office. Available at Writing, it provides Production and Happiness.
-  * Liberty gets the Country Court. Available at Philosophy, it provides Gold and Happiness.
+  * Liberty gets the Country Court. Available at Philosophy, it provides more Happiness.
+  * Honor gets the Arena. Available at Mining, it provides Gold and Happiness.
   * Piety gets the Tribunal Court. Available at Calenders, it provides Faith and Happiness.
-* Rationalism gets the Patent Office, which gives a moderate amount of Science and Great Scientist Points.
-* Security gets the City Bulwarks, which make the city tougher and gives a small amount of scaling Food.
-* Security also gets the Ivangorod Fortress. It is a new World Wonder that makes the city far harder to capture and provides extra Production, Faith, and Gold that scales with the Population.
-* Statecraft get International Schools, which provide +15% Great People Generation.
-* Statecraft also gets the League of Nations Headquarters, a World Wonder that gives +2 World Congress Votes.
-* Authority gains the National Wartime Industries, which provides +3 Production on all Strategic Resources. Each player may have up to 2.
+* The remaining Policy Trees get buildings based on generating particular types of Great People. These are not mutually exclusive.
+  * Patronage gets the Relay Outpost, which generates Gold and Great Writers.
+  * Aesthetics gets the Catacombs, which generate Culture and Great Artists.
+  * Imperialism gets the Fleet Admiral's Office, which generates a free Great Admiral.
+  * Rationalism gets the Patent Office, which generates Science and Great Scientists.
+  * Security gets the City Bulwarks, which provides Defense and generates Great Engineers.
+  * Authority gets the Command Center, which generates a free Great General.
+  * Statecraft get International Schools, which generates all Great People, but especially Great Musicians.
+* The new Policy Trees get new Wonders. 
+  * Security gets the Ivangorod Fortress. It is a new World Wonder that makes the city far harder to capture and provides extra Production, Faith, and Gold that scales with the Population.
+  * Statecraft gets the League of Nations Headquarters, a World Wonder that gives +2 World Congress Votes.
+  * Authority gets the National Industrial Complex, which provides +3 Production on all Strategic Resources. Each player may have up to 2.
 * The Ideologies gain new governmental buidings, which provide extra Happiness.
   * Liberalism gets the Polling Station, which also provides Culture.
   * Communism gets the People's Council, which also provides Science.
