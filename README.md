@@ -188,5 +188,5 @@ Mountains can be worked as tiles, though weak ones. Various buildings give +1 to
 * Aqueduct: Food
 * Stone Works: Production
 * Broadcast Tower: Culture
-* Machu Pichu: Faith x2
+* Machu Pichu: Faith x2  
   and some unique buildings
