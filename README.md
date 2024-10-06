@@ -140,6 +140,7 @@ New Buildings have been added that are restricted to certain policies trees. The
   * Liberalism gets the Polling Station, which also provides Culture.
   * Communism gets the People's Council, which also provides Science.
   * Facism gets the Propoganda Office, which also provides faster unit build time.
+  * Reactionism get the Great Hall, which requires no Maintenance. 
 * Reactionaries gain the new World Wonder: Buckingham Palace, which provides a Free Social Policy and +15% Great People Generation.
 ## Slavery
 Makes captured civilian units turn into Slaves, which build slower than Workers and may revolt.
