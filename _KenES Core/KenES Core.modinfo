@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" version="7">
+<Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" version="8">
   <Properties>
     <Name>*KenES Core</Name>
     <Stability>Beta</Stability>
@@ -1045,7 +1045,38 @@
     <File md5="B7339278967873E11CF553E6C30C9D7A" import="1">Art/IranAtlas45.dds</File>
     <File md5="A4C243A141F0A9592D3CF0AEF9DA4863" import="1">Art/IranAtlas64.dds</File>
     <File md5="E04FE73EC4A7F2CB5CA9627EEB8F2E1C" import="1">Art/IranAtlas80.dds</File>
-    <File md5="A8B638BCA69B33DA2E53330DE79D9E1B" import="0">Core/ART.sql</File>
+    <File md5="A8B638BCA69B33DA2E53330DE79D9E1B" import="0">Core/ART.sql</File>    
+    <File md5="0A4BE6F95C98C4C108230BE78C62EC8A" import="1">Arts/Icons/Icon_Alpha_Atlas_Mez_Japan_Azuchi_Momoyama_016.dds</File>
+    <File md5="E89F2485B730B20D5DD67C722FB8CD7B" import="1">Arts/Icons/Icon_Alpha_Atlas_Mez_Japan_Azuchi_Momoyama_022.dds</File>
+    <File md5="7FC077F9DBEA96D17A46C79E6D7445CF" import="1">Arts/Icons/Icon_Alpha_Atlas_Mez_Japan_Azuchi_Momoyama_024.dds</File>
+    <File md5="40654D4019FB587924C4E913BB17E326" import="1">Arts/Icons/Icon_Alpha_Atlas_Mez_Japan_Azuchi_Momoyama_032.dds</File>
+    <File md5="6BE950767638F95D2E1CE5E01B3BF6AC" import="1">Arts/Icons/Icon_Alpha_Atlas_Mez_Japan_Azuchi_Momoyama_045.dds</File>
+    <File md5="863D998C0346BD2AFD5A2F7AEA45CAB9" import="1">Arts/Icons/Icon_Alpha_Atlas_Mez_Japan_Azuchi_Momoyama_048.dds</File>
+    <File md5="D85D4EFAAAEF90F854B39ECA601BC75E" import="1">Arts/Icons/Icon_Alpha_Atlas_Mez_Japan_Azuchi_Momoyama_064.dds</File>
+    <File md5="96B1FD60247104050B420F9DB6F09F0B" import="1">Arts/Icons/Icon_Alpha_Atlas_Mez_Japan_Azuchi_Momoyama_080.dds</File>
+    <File md5="9EC966F7636E0F48DBF540B6D9D29FC7" import="1">Arts/Icons/Icon_Alpha_Atlas_Mez_Japan_Azuchi_Momoyama_128.dds</File>
+    <File md5="6C74BE4D44E08112DF2F57C3B611959E" import="1">Arts/Icons/Icon_Atlas_Mez_Japan_Azuchi_Momoyama_032.dds</File>
+    <File md5="AC29804BC0E40FCD64A635129609A32A" import="1">Arts/Icons/Icon_Atlas_Mez_Japan_Azuchi_Momoyama_045.dds</File>
+    <File md5="4CE0099B649CC000DAEB24E0DD8F200B" import="1">Arts/Icons/Icon_Atlas_Mez_Japan_Azuchi_Momoyama_064.dds</File>
+    <File md5="02D37EC7BE899F28453E0AF833ACE160" import="1">Arts/Icons/Icon_Atlas_Mez_Japan_Azuchi_Momoyama_080.dds</File>
+    <File md5="1FBF439A5492C5456124E3C63A41692C" import="1">Arts/Icons/Icon_Atlas_Mez_Japan_Azuchi_Momoyama_128.dds</File>
+    <File md5="865E39A9765F324EF41611306AD4A246" import="1">Arts/Icons/Icon_Atlas_Mez_Japan_Azuchi_Momoyama_256.dds</File>
+    <File md5="46E4236CABD8BBD2C6BAD4032246E254" import="1">Arts/Artworks/DOM_Mez_ToyotomiHideyoshi.dds</File>
+    <File md5="051111C6CE86B9523AB54449F55469D7" import="1">Arts/Artworks/LM_Mez_Japan_Azuchi_Momoyama.dds</File>
+    <File md5="6617EC4A1111EF67F070F997A8A6D863" import="1">Arts/Artworks/LS_Mez_ToyotomiHideyoshi.dds</File>
+    <File md5="B7A97B89D7A6960FB3DC8E951485E77F" import="1">Arts/Units/Azuchi-Momoyama Ashigaru/Ashigaru_1.dds</File>
+    <File md5="08E78BA3D0BD1E4A4F7160BC39D56053" import="1">Arts/Units/Azuchi-Momoyama Ashigaru/Ashigaru_1.fxsxml</File>
+    <File md5="E103F706CD15ECFF12B77E4E5D147723" import="1">Arts/Units/Azuchi-Momoyama Ashigaru/Ashigaru_1.gr2</File>
+    <File md5="7A48FBB815143295213DF6FB8C4441FC" import="0">Core/Xml/Artdefines.xml</File>
+    <File md5="1145600D10493BAC06585192790B8595" import="0">Core/Xml/IconTextureAtlases.xml</File>
+    <File md5="0ED8FA09D02B35DC105093AA4652648C" import="0">Core/Xml/Texts/EN_US.xml</File>
+    <File md5="13DAFEAD368033466F3214B4EA1895FC" import="0">Core/Xml/Units.xml</File>
+    <File md5="C3A8C6DD08B1EC88C00911331A9C1CB0" import="1">XML/Units/Camels/03-Rifleman/Art/SMAN_EU_Camel_Rifleman.fxsxml</File>
+    <File md5="5CC7D5A2516E90F3D6B2C67A298C43DB" import="1">XML/Units/Camels/03-Rifleman/Art/SMAN_EU_Camel_Rifleman.gr2</File>
+    <File md5="B97DC373708151C51669BAE8BF36A6F7" import="1">XML/Units/Camels/03-Rifleman/Art/SMAN_EU_Camel_Rifleman_Gunner_diff.dds</File>
+    <File md5="0CA1D1A92C410CD78548686A1C8877AA" import="1">XML/Units/Camels/03-Rifleman/Art/SMAN_EU_Camel_Rifleman_Mount_diff.dds</File>
+    <File md5="8FE645910BC3025D92CDF47A523A02F0" import="0">XML/Units/Camels/03-Rifleman/CamelRifleman.xml</File>
+    <File md5="A35C1B85860A10EF21EC29A6474DD387" import="0">XML/Units/Camels/03-Rifleman/CamelRiflemanArtDefines.sql</File>
   </Files>
   <Actions>
     <OnModActivated>
@@ -1391,6 +1422,12 @@
       <UpdateDatabase>Core/PortugalManuelI_GameDefines.sql</UpdateDatabase>
       <UpdateDatabase>Core/PortugalManuelI_GameText.xml</UpdateDatabase>
       <UpdateDatabase>Core/ART.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Xml/Texts/EN_US.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Xml/Artdefines.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Xml/IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Xml/Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Camels/03-Rifleman/CamelRifleman.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Camels/03-Rifleman/CamelRiflemanArtDefines.sql</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>

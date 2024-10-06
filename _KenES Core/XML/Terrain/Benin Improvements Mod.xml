@@ -11,6 +11,7 @@
 			<SpecificCivRequired>true</SpecificCivRequired>
 			<CivilizationType>CIVILIZATION_ZULU</CivilizationType>
 			<RequiresFlatlands>true</RequiresFlatlands>
+			<NoTwoAdjacent>true</NoTwoAdjacent>
 			<DestroyedWhenPillaged>true</DestroyedWhenPillaged>
 			<DefenseModifier>25</DefenseModifier>
 			<PillageGold>40</PillageGold>

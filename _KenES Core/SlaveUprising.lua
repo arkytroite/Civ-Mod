@@ -75,7 +75,7 @@ function CheckBarbCamp(iPlayer, iUnitID, iX, iY)
 		return;
 	end
 	--local unit = player:GetUnitByID(iUnitID);
-	if camps[idx] and player:HasPolicy(GameInfoTypes.POLICY_WARRIOR_CODE) and player:GetCurrentEra() < GameInfoTypes.ERA_INDUSTRIAL then
+	if camps[idx] and player:HasPolicy(GameInfoTypes.POLICY_MILITARY_CASTE) then
 		camps[idx] = false;
 		local slave = player:InitUnit(GameInfoTypes.UNIT_SLAVE, iX, iY, GameInfoTypes.UNITAI_WORKER);
 	end

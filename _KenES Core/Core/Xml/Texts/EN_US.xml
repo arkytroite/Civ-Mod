@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+
+		<!-- Unit : Azuchi-Momoyama Ashigaru -->
+		<Row Tag="TXT_KEY_UNIT_MEZ_MUSKETMAN_AZUCHI_MOMOYAMA_DESC">
+			<Text>Ronin</Text>
+			<gender>masculine</gender>
+		</Row>
+
+	</Language_en_US>
+</GameData>

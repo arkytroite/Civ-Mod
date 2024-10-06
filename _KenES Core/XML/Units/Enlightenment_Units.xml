@@ -109,7 +109,7 @@
 			<Class>UNITCLASS_EE_SURVEYOR</Class>
 			<Type>UNIT_EE_SURVEYOR</Type>
 			<PrereqTech>TECH_RIFLING</PrereqTech>
-<			<ObsoleteTech>TECH_COMPUTERS</ObsoleteTech>
+			<ObsoleteTech>TECH_COMPUTERS</ObsoleteTech>
 			<Combat>24</Combat>
 			<Cost>175</Cost>
 			<Moves>4</Moves>

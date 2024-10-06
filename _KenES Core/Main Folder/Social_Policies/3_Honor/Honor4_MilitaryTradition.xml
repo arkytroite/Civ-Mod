@@ -41,6 +41,10 @@
 		<Row Tag="TXT_KEY_POLICY_MILITARY_TRADITION_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Military Tradition[ENDCOLOR][NEWLINE]Gold cost of upgrading Military Units reduced by 25%.[NEWLINE]Forts provide +1 [ICON_PRODUCTION] Production and +1 [ICON_CULTURE] Culture.[NEWLINE]Citadels provide +3 [ICON_CULTURE] Culture and [ICON_GOLD] Gold.</Text>
 		</Row>
+		<Delete Tag="TXT_KEY_POLICY_MILITARY_CASTE_HELP" />
+		<Row Tag="TXT_KEY_POLICY_MILITARY_CASTE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Military Caste[ENDCOLOR][NEWLINE]Capturing Barbarian Encampments spawns a Slave unit.[NEWLINE]Cities with a Garrison get +1 [ICON_HAPPINESS_1] and +2 [ICON_CULTURE]</Text>
+		</Row>
 	</Language_en_US>
 	
 
