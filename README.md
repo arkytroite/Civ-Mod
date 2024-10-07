@@ -53,6 +53,7 @@
   * Completing the tree provides +5 Science, Gold, and Culture from City Ruins.
 * Imperialism
   * Exploration has been renamed Imperialism
+  * Adopting Imperialism allows the purchase and training of Slaves
   * The Tree has been reordered
     * Merchant Navy no longer has any requirements
     * Naval Tradition now requires Maritime Infrastructure
@@ -154,6 +155,8 @@ Makes captured civilian units turn into Slaves, which build slower than Workers 
 * Slaves within a large radius of active revolutions will refuse to work for one Turn, but won't revolt.
 * Slaves captured (or rescued) by barbarians become barbarians themselves.
 * Workers taken by threats from city-states will not convert into slaves.
+* Slaves can be obtained through Social Policies
+* Attila gains Slaves when razing cities
 ## New Units
 * New Recon Units
   * The Scout now upgrades into the Explorer at Gunpowder, which is faster and stronger.
