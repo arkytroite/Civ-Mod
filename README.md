@@ -21,9 +21,10 @@
     * Military Caste now requires Warrior Code instead of Discipline
     * Military Tradition now requires Professional Army in addition to Warrior Code
   * The culture received from killing Barbarians with Honor now applies to all units killed.
-  * Adopting Honor now gives +1 Production in all cities and spawns Slaves whenever you capture a city.
+  * Adopting Honor spawns Slaves whenever you capture a city before the Renaissance.
   * Professional Army now gives 50% more experience and faster military training building construction, instead of its previous benefits.
   * Military Tradition now gives Production from Forts and Culture from Citadels, instead of its previous benefits.
+  * Military Caste now spawns Slaves when you clear a Barbarian Encampment, in addition to its previous benefits.
   * Completing the Honor Tree now gives reduced unit maintenance, reduced unhappiness from Puppeted Cities, and spawns Slave units whenever you capture a barbarian encampment.
 * Piety
   * The Piety Tree has been reordered
@@ -144,6 +145,7 @@ New Buildings have been added that are restricted to certain policies trees. The
 * Reactionaries gain the new World Wonder: Buckingham Palace, which provides a Free Social Policy and +15% Great People Generation.
 ## Slavery
 Makes captured civilian units turn into Slaves, which build slower than Workers and may revolt.
+* Slaves can also be used to hurry building in cities, similar to a Great Engineer.
 * Each Slave has a 1% change to revolt every Turn.
   * 2% past at the Industrial Age or beyond
   * Doubled by Raging Barbarians
@@ -168,6 +170,9 @@ Makes captured civilian units turn into Slaves, which build slower than Workers 
   * Only buildable by Authority Civs
   * Only 1 per civ
   * Has the benefits of an Admiral, in addition to being a powerful ship
+* Barbarian Exclusives
+  * Ronin: Musketmen that maintain their damage when injured.
+  * Camel Raiders: Cavalry specialized for the Desert.
 ## Detour Technologies
 Adds new technologies that give new benefits, but don't progress the tech tree overall. Many games, they can be ignored, but they can be teched into for military applications or to better navigate you land.
 * Hand-axes
