@@ -232,6 +232,7 @@
 			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_ARDL_AUTHORITY</PolicyBranchType>
+			<Description>TXT_KEY_BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES</Description>
 			<Help>TXT_KEY_BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES_HELP</Help>
 			<MinAreaSize>-1</MinAreaSize>
 			<NukeImmune>true</NukeImmune>
@@ -247,6 +248,10 @@
 		<Row>
 			<BuildingType>BUILDING_ARDL_CITYBULWARKS</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NAVAL_OFFICE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
 		</Row>
 	</Building_ClassesNeededInCity>
 
@@ -277,8 +282,7 @@
 		</Row>
 		
 	</Building_YieldChanges>
-	<!--
-	-->
+
 	<Building_ResourceYieldChanges>
 		<Row>
 			<BuildingType>BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES</BuildingType>

@@ -1,3 +1,21 @@
+--Dummy
+---------------------------
+
+INSERT INTO Units 
+		(Class,										       Type,	Cost,	Moves,              Capture,                CivilianAttackPriority,		       Domain,        DefaultUnitAI,                            Description,                                           Civilopedia,                                         Strategy,                                           Help,		AdvancedStartCost,		WorkRate,		CombatLimit,			                    UnitArtInfo,        UnitArtInfoEraVariation,                     UnitFlagIconOffset,              IconAtlas,		   PortraitIndex,        ShowInPedia)
+VALUES	('UNITCLASS_GARAMA_DUMMY',			'UNIT_GARAMA_DUMMY',	  -1,	    2,	 'UNITCLASS_WORKER',		'CIVILIAN_ATTACK_PRIORITY_LOW',     'DOMAIN_LAND',		'UNITAI_WORKER',	              'TXT_KEY_UNIT_WORKER',		          'TXT_KEY_CIV5_ANTIQUITY_WORKER_TEXT',		              'TXT_KEY_UNIT_WORKER_STRATEGY',		              'TXT_KEY_UNIT_HELP_WORKER',		               20,           100,                 0,		             'ART_DEF_UNIT__WORKER',		                      1,		                              1,			'UNIT_ATLAS_1',                    1,                  0);
+
+INSERT INTO Unit_AITypes
+		(UnitType,															 UnitAIType)
+Values	('UNIT_GARAMA_DUMMY',								            'UNITAI_WORKER');
+
+INSERT INTO Unit_Flavors
+		(UnitType,															 FlavorType,						Flavor)
+Values	('UNIT_GARAMA_DUMMY',					              'FLAVOR_TILE_IMPROVEMENT',							30);
+
+INSERT INTO UnitClasses
+		(Type,											  Description,						DefaultUnit)
+Values	('UNITCLASS_GARAMA_DUMMY',				'TXT_KEY_UNIT_WORKER',				'UNIT_GARAMA_DUMMY');
 ---------------------------
 --Improvements
 ---------------------------

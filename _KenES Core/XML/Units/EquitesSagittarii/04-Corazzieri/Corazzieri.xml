@@ -13,8 +13,8 @@
 		<Row>
 			<Class>UNITCLASS_EXOTIC_UNIT_CORAZZIERI</Class>
 			<Type>UNIT_EXOTIC_UNIT_CORAZZIERI</Type>
-			<Combat>21</Combat>
-			<RangedCombat>21</RangedCombat>
+			<Combat>19</Combat>
+			<RangedCombat>19</RangedCombat>
 			<Range>2</Range>
 			<Moves>4</Moves>
 			<Cost>185</Cost>
@@ -74,17 +74,17 @@
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_CORAZZIERI</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_CORAZZIERI</UnitType>
 			<FlavorType>FLAVOR_RANGED</FlavorType>
-			<Flavor>17</Flavor>
+			<Flavor>7</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_CORAZZIERI</UnitType>
 			<FlavorType>FLAVOR_MOBILE</FlavorType>
-			<Flavor>17</Flavor>
+			<Flavor>7</Flavor>
 		</Row>
 	</Unit_Flavors>
 

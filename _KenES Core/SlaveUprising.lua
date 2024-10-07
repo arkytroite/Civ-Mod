@@ -83,8 +83,8 @@ end
 -----------------------------------------------------------------------------------------------------------
 function SlavesFromConquest(iOldOwner, bIsCapital, x, y, iNewOwner, iPop, bConquest)
 	local player = Players[iNewOwner];
-	if not bConquest or not CanTakeSlavesFromCities(player) then
-		--return;	DEBUG
+	if not CanTakeSlavesFromCities(player) then
+		return;	
 	end
 	local city = Map.GetPlot(x, y):GetPlotCity();
 	if city:GetOriginalOwner() == iNewOwner then

@@ -5,12 +5,13 @@
 	<Policies>
 		<Update>
 			<Where Type="POLICY_TRADITION_FINISHER" />
-			<NumCitiesFreeFoodBuilding="0"
+			<Set CityGrowthMod="0"
+			NumCitiesFreeFoodBuilding="0"
 			/>
 		</Update>
 		
 	</Policies>
-
+	
 	<Policy_BuildingClassProductionModifiers>
 		<Row>
 			<PolicyType>POLICY_TRADITION_FINISHER</PolicyType>
