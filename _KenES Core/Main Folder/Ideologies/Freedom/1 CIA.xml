@@ -23,8 +23,8 @@
 			<Cost>-1</Cost>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
-			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<PortraitIndex>19</PortraitIndex>
+			<PortraitIndex>51</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 			<Description>Central Intelligence Agency</Description>
 			<Help>TXT_KEY_BUILDING_CAMPAIGN_CONSULTANTS_HELP</Help>
 

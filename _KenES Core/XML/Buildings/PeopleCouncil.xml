@@ -7,12 +7,6 @@
 			<DefaultBuilding>BUILDING_PEOPLE_COUNCIL</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_PEOPLE_COUNCIL</Description>
 		</Row>
-
-		<Row>
-			<Type>BUILDINGCLASS_GREAT_HALL</Type>
-			<DefaultBuilding>BUILDING_GREAT_HALL</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_GREAT_HALL</Description>
-		</Row>
 	</BuildingClasses>
 	<Buildings>
 		<Row>
@@ -35,26 +29,6 @@
 			<PortraitIndex>5</PortraitIndex>
 		</Row>
 
-		<Row>
-			<Type>BUILDING_GREAT_HALL</Type>
-			<BuildingClass>BUILDINGCLASS_GREAT_HALL</BuildingClass>
-			<Cost>300</Cost>
-			<GoldMaintenance>0</GoldMaintenance>
-			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
-			<PolicyBranchType>POLICY_BRANCH_REACTIONARY</PolicyBranchType>
-			<Help>TXT_KEY_BUILDING_GREAT_HALL_HELP</Help>
-			<Description>TXT_KEY_BUILDING_GREAT_HALL</Description>
-			<Civilopedia>TXT_KEY_BUILDING_GREAT_HALL_DESC</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_GREAT_HALL_STRATEGY</Strategy>
-			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
-			<MinAreaSize>-1</MinAreaSize>
-			<NeverCapture>true</NeverCapture>
-			<Happiness>1</Happiness>
-			<HurryCostModifier>25</HurryCostModifier>
-			<IconAtlas>DRAGON_UNIT_ATLAS</IconAtlas>
-			<PortraitIndex>28</PortraitIndex>
-		</Row>
-
 	</Buildings>
 	<Building_YieldChanges>
 		<Row>
@@ -63,12 +37,6 @@
 			<Yield>1</Yield>
 		</Row>
 	</Building_YieldChanges>
-	<Building_ClassesNeededInCity>
-		<Row>
-			<BuildingType>BUILDING_GREAT_HALL</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
-		</Row>
-	</Building_ClassesNeededInCity>
 	<Building_Flavors>
 		<Row>
 			<BuildingType>BUILDING_PEOPLE_COUNCIL</BuildingType>
@@ -84,11 +52,6 @@
 			<BuildingType>BUILDING_PEOPLE_COUNCIL</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>1</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_GREAT_HALL</BuildingType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>40</Flavor>
 		</Row>
 	</Building_Flavors>
 	<Language_en_US>
@@ -111,23 +74,5 @@
 			<Text>The masses organise themselves into council and committees under the stewardship of the Party and for the first time in history rule themselves with no masters.</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_BUILDING_GREAT_HALL">
-			<TEXT>
-				Great Hall
-			</TEXT>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_GREAT_HALL_HELP">
-			<TEXT>
-				The Great Hall adds 1 [ICON_HAPPINESS_1] Happiness in the city which it is built.
-			</TEXT>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_GREAT_HALL_STRATEGY">
-			<TEXT>
-				The Great Hall is a government building available only to Reactionary Civilizations that raises and [ICON_HAPPINESS_1] of a city.
-			</TEXT>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_GREAT_HALL_DESC">
-			<Text>The class disparity caused by a monarchy can lead to disquiet among one's subjects. A simple solution is to make them feel included in the grandeur by opening up the castle to them.</Text>
-		</Row>
 	</Language_en_US>
 </GameData>

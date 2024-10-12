@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 04.08.2020 12:24:06 -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>SREB_ICON_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>Art/SrebAtlas256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SREB_ICON_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>Art/SrebAtlas128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SREB_ICON_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>Art/SrebAtlas64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SREB_ICON_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>Art/SrebAtlas45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

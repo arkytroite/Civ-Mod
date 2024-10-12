@@ -54,12 +54,12 @@
 			<NukeImmune>true</NukeImmune>
 			<ExtraLeagueVotes>2</ExtraLeagueVotes>
 			<Help>TXT_KEY_BUILDING_TREATY_DIPLO_HELP</Help>
-			<Description>TXT_KEY_BUILDING_TREATY_DIPLO</Description>
+			<Description>Charter School</Description>
 			<Strategy>TXT_KEY_BUILDING_TREATY_DIPLO_HELP</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_MARKET</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<IconAtlas>DRAGON_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>28</PortraitIndex>
 		</Row>
 	</Buildings>
 
