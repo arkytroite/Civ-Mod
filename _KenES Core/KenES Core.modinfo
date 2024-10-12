@@ -20,6 +20,7 @@
   </Properties>
   <Dependencies />
   <References>
+    <Mod id="a840a4fd-d210-45ad-9ea7-c10a4cad345f" minversion="0" maxversion="999" title="Dynamic Towns" />
   </References>
   <Blocks />
   <Files>

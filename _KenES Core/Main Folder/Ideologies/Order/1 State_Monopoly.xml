@@ -5,6 +5,7 @@
 		<Update>
 			<Set Level="1"
 				 PolicyBranchType="POLICY_BRANCH_ORDER"
+				 CatchSpiesModifier="100"
 				 StrategicResourceMod="150" />
 			<Where Type="POLICY_PATRIOTIC_WAR" />
 		</Update>
@@ -34,6 +35,18 @@
 		</Row>
 	</Buildings>
 	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_STATE_MONOPOLY</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STATE_MONOPOLY</BuildingType>
+			<ResourceType>RESOURCE_HORSES</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
 		<Row>
 			<BuildingType>BUILDING_STATE_MONOPOLY</BuildingType>
 			<ResourceType>RESOURCE_COAL</ResourceType>
@@ -92,7 +105,7 @@
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_PATRIOTIC_WAR_HELP" />
-			<Set Text="[COLOR_POSITIVE_TEXT]State Monopoly[ENDCOLOR][NEWLINE][ICON_BULLET]+50% quantity of Strategic Resources.[NEWLINE][ICON_BULLET]+2 [ICON_PRODUCTION] Production from [ICON_RES_COAL] Coal, [ICON_RES_OIL] Oil, [ICON_RES_ALUMINUM] Aluminum and [ICON_RES_URANIUM] Uranium." />
+			<Set Text="[COLOR_POSITIVE_TEXT]State Monopoly[ENDCOLOR][NEWLINE][ICON_BULLET]+50% quantity of Strategic Resources and +2 [ICON_PRODUCTION] Production from all tiles producing them.[NEWLINE][ICON_BULLET]Spies are twice as effective of killing spies trying to steal technology." />
 		</Update>
 		<Row Tag="TXT_KEY_BUILDING_STATE_MONOPOLY_HELP">
 			<Text>+2 [ICON_PRODUCTION] Production from every [ICON_RES_COAL] Coal, [ICON_RES_OIL] Oil, [ICON_RES_ALUMINUM] Aluminum and [ICON_RES_URANIUM] Uranium.</Text>

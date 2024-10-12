@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/10/2013 12:15:48 PM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Set UnitPurchaseCostModifier="0"
+				 Level="2"
+				 PolicyBranchType="POLICY_BRANCH_AUTOCRACY"
+				 UnitGoldMaintenanceMod="-25" />
+			<Where Type="POLICY_MOBILIZATION" />
+		</Update>
+	</Policies>
+
+	<Policy_Flavors>
+		<Delete PolicyType="POLICY_MOBILIZATION" />
+		<Row>
+			<PolicyType>POLICY_MOBILIZATION</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MOBILIZATION</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MOBILIZATION</PolicyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MOBILIZATION" />
+			<Set Text="Mandatory Service" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MOBILIZATION_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Mandatory Service[ENDCOLOR][NEWLINE]-25% [ICON_GOLD] Gold maintenance costs for Military Units." />
+		</Update>
+	</Language_en_US>
+
+	<Language_RU_RU>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MOBILIZATION" />
+			<Set Text="Воинская повинность" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MOBILIZATION_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Воинская повинность[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_GOLD] Стоимость содержания военных юнитов -25%." />
+		</Update>
+	</Language_RU_RU>
+
+	<Language_ES_ES>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MOBILIZATION" />
+			<Set Text="Reclutamiento" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MOBILIZATION_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Reclutamiento[ENDCOLOR][NEWLINE][ICON_BULLET]El mantenimiento de unidades militares cuesta un -25% de [ICON_GOLD] Oro." />
+		</Update>
+	</Language_ES_ES>
+</GameData>

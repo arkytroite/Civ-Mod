@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/10/2013 1:38:43 PM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Set Level="3"
+				 PolicyBranchType="POLICY_BRANCH_AUTOCRACY" />
+			<Where Type="POLICY_LIGHTNING_WARFARE" />
+		</Update>
+	</Policies>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_AUTOCRACY_FLANK_BONUS</Type>
+			<Description>TXT_KEY_PROMOTION_AUTOCRACY_FLANK_BONUS</Description>
+			<Help>TXT_KEY_PROMOTION_AUTOCRACY_FLANK_BONUS_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_AUTOCRACY_FLANK_BONUS</PediaEntry>
+			<FlankAttackModifier>50</FlankAttackModifier>
+		</Row>
+		<Row>
+			<Type>PROMOTION_AUTOCRACY_GUNPOWDER_ZOC</Type>
+			<Description>TXT_KEY_PROMOTION_AUTOCRACY_GUNPOWDER_ZOC</Description>
+			<Help>TXT_KEY_PROMOTION_AUTOCRACY_GUNPOWDER_ZOC_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_AUTOCRACY_GUNPOWDER_ZOC</PediaEntry>
+
+			<IgnoreZOC>true</IgnoreZOC>
+		</Row>
+	</UnitPromotions>
+	<Policy_FreePromotions>
+		<Delete PolicyType="POLICY_LIGHTNING_WARFARE" />
+		<Row>
+			<PolicyType>POLICY_LIGHTNING_WARFARE</PolicyType>
+			<PromotionType>PROMOTION_AUTOCRACY_FLANK_BONUS</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIGHTNING_WARFARE</PolicyType>
+			<PromotionType>PROMOTION_AUTOCRACY_GUNPOWDER_ZOC</PromotionType>
+		</Row>
+	</Policy_FreePromotions>
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_AUTOCRACY_FLANK_BONUS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_AUTOCRACY_FLANK_BONUS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_AUTOCRACY_FLANK_BONUS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_AUTOCRACY_FLANK_BONUS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_AUTOCRACY_FLANK_BONUS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_AUTOCRACY_FLANK_BONUS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_AUTOCRACY_FLANK_BONUS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+		</Row>
+		<!-- =========================================================== -->
+		<Row>
+			<PromotionType>PROMOTION_AUTOCRACY_GUNPOWDER_ZOC</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+
+	<Policy_Flavors>
+		<Delete PolicyType="POLICY_LIGHTNING_WARFARE" />
+		<Row>
+			<PolicyType>POLICY_LIGHTNING_WARFARE</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>22</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIGHTNING_WARFARE</PolicyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>11</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIGHTNING_WARFARE</PolicyType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>11</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_LIGHTNING_WARFARE" />
+			<Set Text="Blitzkrieg" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_LIGHTNING_WARFARE_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Blitzkrieg[ENDCOLOR][NEWLINE][ICON_BULLET]All non-ranged units flank attack bonus is increased by 50%.[NEWLINE][ICON_BULLET]Gunpowder-class units ignore enemy Zones of Control." />
+		</Update>
+		<Row Tag="TXT_KEY_PROMOTION_AUTOCRACY_FLANK_BONUS">
+			<Text>Blitzkrieg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AUTOCRACY_FLANK_BONUS_HELP">
+			<Text>Flank attack bonus is increased by 50%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AUTOCRACY_GUNPOWDER_ZOC">
+			<Text>Pervitin Dosing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AUTOCRACY_GUNPOWDER_ZOC_HELP">
+			<Text>Ignore enemy Zones of Control.</Text>
+		</Row>
+	</Language_en_US>
+
+	<Language_RU_RU>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_LIGHTNING_WARFARE" />
+			<Set Text="В тылу врага" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_LIGHTNING_WARFARE_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]В тылу врага[ENDCOLOR][NEWLINE][ICON_BULLET]Бонус при атаке с фланга для юнитов ближнего боя увеличен на 100%.[NEWLINE][ICON_BULLET]Огнестрельные юниты могут игнорировать зоны влияния вражеских юнитов." />
+		</Update>
+		<Row Tag="TXT_KEY_PROMOTION_AUTOCRACY_FLANK_BONUS">
+			<Text>В тылу врага</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AUTOCRACY_FLANK_BONUS_HELP">
+			<Text>Бонус при атаке с фланга увеличивается на 100%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AUTOCRACY_GUNPOWDER_ZOC">
+			<Text>В тылу врага</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AUTOCRACY_GUNPOWDER_ZOC_HELP">
+			<Text>Игнорирует вражескую зону влияния.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_ES_ES>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_LIGHTNING_WARFARE" />
+			<Set Text="Guerra relámpago" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_LIGHTNING_WARFARE_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Guerra relámpago[ENDCOLOR][NEWLINE][ICON_BULLET]La bonificación por flanqueo de las unidades de cuerpo a cuerpo se incrementa en un 100%.[NEWLINE][ICON_BULLET]Las unidades de pólvora ignoran las zonas de control enemigas." />
+		</Update>
+		<Row Tag="TXT_KEY_PROMOTION_AUTOCRACY_FLANK_BONUS">
+			<Text>Guerra relámpago</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AUTOCRACY_FLANK_BONUS_HELP">
+			<Text>La bonificación por flanqueo se incrementa en un 100%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AUTOCRACY_GUNPOWDER_ZOC">
+			<Text>Guerra relámpago</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AUTOCRACY_GUNPOWDER_ZOC_HELP">
+			<Text>Ignora las zonas de control enemigas.</Text>
+		</Row>
+	</Language_ES_ES>
+</GameData>

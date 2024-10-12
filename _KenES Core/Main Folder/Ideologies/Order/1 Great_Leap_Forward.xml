@@ -5,22 +5,22 @@
 		<Update>
 			<Set Level="2"
 				 PolicyBranchType="POLICY_BRANCH_ORDER" />
-			<Where Type="POLICY_ACADEMY_SCIENCES" />
+			<Where Type="POLICY_YOUNG_PIONEERS" />
 		</Update>
 	</Policies>
 	<Policy_BuildingClassHappiness>
-		<Delete PolicyType="POLICY_ACADEMY_SCIENCES" />
+		<Delete PolicyType="POLICY_YOUNG_PIONEERS" />
 	</Policy_BuildingClassHappiness>
 	<Policy_BuildingClassCultureChanges>
 		<Row>
-			<PolicyType>POLICY_ACADEMY_SCIENCES</PolicyType>
+			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
 			<CultureChange>4</CultureChange>
 		</Row>
 	</Policy_BuildingClassCultureChanges>
 	<Policy_BuildingClassProductionModifiers>
 		<Row>
-			<PolicyType>POLICY_ACADEMY_SCIENCES</PolicyType>
+			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
 			<ProductionModifier>100</ProductionModifier>
 		</Row>
@@ -30,7 +30,7 @@
 		<Row>
 			<Type>BUILDINGCLASS_GREAT_LEAP_FORWARD</Type>
 			<DefaultBuilding>BUILDING_GREAT_LEAP_FORWARD</DefaultBuilding>
-			<Description>TXT_KEY_POLICY_ACADEMY_SCIENCES</Description>
+			<Description>TXT_KEY_POLICY_YOUNG_PIONEERS</Description>
 		</Row>
 	</BuildingClasses>
 	<Buildings>
@@ -42,7 +42,7 @@
 			<NukeImmune>true</NukeImmune>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>19</PortraitIndex>
-			<Description>TXT_KEY_POLICY_ACADEMY_SCIENCES</Description>
+			<Description>TXT_KEY_POLICY_YOUNG_PIONEERS</Description>
 			<Help>TXT_KEY_BUILDING_GREAT_LEAP_FORWARD_HELP</Help>
 		</Row>
 	</Buildings>
@@ -55,20 +55,20 @@
 	</Building_ResourceQuantity>
 	<Policy_PGB_FreeBuildingClassCapital>
 		<Row>
-			<PolicyType>POLICY_ACADEMY_SCIENCES</PolicyType>
+			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_GREAT_LEAP_FORWARD</BuildingClassType>
 		</Row>
 	</Policy_PGB_FreeBuildingClassCapital>
 
 	<Policy_Flavors>
-		<Delete PolicyType="POLICY_ACADEMY_SCIENCES" />
+		<Delete PolicyType="POLICY_YOUNG_PIONEERS" />
 		<Row>
-			<PolicyType>POLICY_ACADEMY_SCIENCES</PolicyType>
+			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>28</Flavor>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_ACADEMY_SCIENCES</PolicyType>
+			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
@@ -76,11 +76,11 @@
 
 	<Language_en_US>
 		<Update>
-			<Where Tag="TXT_KEY_POLICY_ACADEMY_SCIENCES" />
+			<Where Tag="TXT_KEY_POLICY_YOUNG_PIONEERS" />
 			<Set Text="Great Leap Forward" />
 		</Update>
 		<Update>
-			<Where Tag="TXT_KEY_POLICY_ACADEMY_SCIENCES_HELP" />
+			<Where Tag="TXT_KEY_POLICY_YOUNG_PIONEERS_HELP" />
 			<Set Text="[COLOR_POSITIVE_TEXT]Great Leap Forward[ENDCOLOR][NEWLINE][ICON_BULLET]+8 [ICON_RES_COAL] Coal.[NEWLINE][ICON_BULLET]+4 [ICON_CULTURE] Culture from Factories.[NEWLINE][ICON_BULLET]+100% [ICON_PRODUCTION] Production when building Factories." />
 		</Update>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_LEAP_FORWARD_HELP">

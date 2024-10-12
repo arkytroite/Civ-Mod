@@ -19,6 +19,34 @@
 	<Policy_BuildingClassProductionModifiers>
 		<Delete PolicyType="POLICY_WORKERS_FACULTIES" />
 	</Policy_BuildingClassProductionModifiers>
+	<Policy_BuildingClassHappiness>
+		<Row>
+			<PolicyType>POLICY_WORKERS_FACULTIES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WORKERS_FACULTIES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HYDRO_PLANT</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WORKERS_FACULTIES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_RECYCLING_CENTER</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WORKERS_FACULTIES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SOLAR_PLANT</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WORKERS_FACULTIES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_NUCLEAR_PLANT</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+	</Policy_BuildingClassHappiness>
+
 	<Language_en_US>
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_WORKERS_FACULTIES" />
@@ -26,7 +54,7 @@
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_WORKERS_FACULTIES_HELP" />
-			<Set Text="[COLOR_POSITIVE_TEXT]Soviets[ENDCOLOR][NEWLINE][ICON_BULLET]+25% [ICON_RESEARCH] Science from Cities with Factories." />
+			<Set Text="[COLOR_POSITIVE_TEXT]Soviets[ENDCOLOR][NEWLINE][ICON_BULLET]+25% [ICON_RESEARCH] Science from Cities with Factories.[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] Happiness from Factories, Hydro Plants, Recycling Centers, Solar Plants and Nuclear Plants." />
 		</Update>
 	</Language_en_US>
 

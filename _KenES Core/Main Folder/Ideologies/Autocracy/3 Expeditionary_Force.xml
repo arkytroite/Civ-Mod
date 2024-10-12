@@ -14,12 +14,6 @@
 	<Policy_BuildingClassYieldModifiers>
 		<Row>
 			<PolicyType>POLICY_NEW_ORDER</PolicyType>
-			<BuildingClassType>BUILDINGCLASS_HEROIC_EPIC</BuildingClassType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldMod>100</YieldMod>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_NEW_ORDER</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<YieldMod>15</YieldMod>
@@ -40,15 +34,6 @@
 			<ProductionModifier>400</ProductionModifier>
 		</Row>
 	</Policy_BuildingClassProductionModifiers>
-
-	<Policy_BuildingClassTourismModifiers>
-		<Row>
-			<PolicyType>POLICY_NEW_ORDER</PolicyType>
-			<BuildingClassType>BUILDINGCLASS_HEROIC_EPIC</BuildingClassType>
-			<TourismModifier>100</TourismModifier>
-		</Row>
-	</Policy_BuildingClassTourismModifiers>
-
 
 	<UnitPromotions>
 		<Row>
@@ -125,7 +110,7 @@
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_NEW_ORDER_HELP" />
-			<Set Text="[COLOR_POSITIVE_TEXT]Blood and Soil[ENDCOLOR][NEWLINE][ICON_BULLET]Melee Units get +15% [ICON_STRENGTH] Combat Strength outside friendly territory and heal +25HP when they kill a unit.[NEWLINE][ICON_BULLET]Couthouses are built 4 times as fast and each provide +3 [ICON_HAPPINESS_1] Happiness, +15% [ICON_RESEARCH]Science, and +15% [ICON_FOOD]Food.[NEWLINE][ICON_BULLET]+100% [ICON_CULTURE] Culture and [ICON_TOURISM] Tourism from the Heroic Epic." />
+			<Set Text="[COLOR_POSITIVE_TEXT]Blood and Soil[ENDCOLOR][NEWLINE][ICON_BULLET]Melee Units get +15% [ICON_STRENGTH] Combat Strength outside friendly territory and heal +25HP when they kill a unit.[NEWLINE][ICON_BULLET]Couthouses are built 4 times as fast and each provide +3 [ICON_HAPPINESS_1] Happiness, +15% [ICON_RESEARCH]Science, and +15% [ICON_FOOD]Food." />
 		</Update>
 		<Row Tag="TXT_KEY_PROMOTION_EXPEDITIONARY_FORCE_HELP">
 			<Text>+15% [ICON_STRENGTH] Combat Strength outside friendly territory and heal +25HP when they kill a unit</Text>

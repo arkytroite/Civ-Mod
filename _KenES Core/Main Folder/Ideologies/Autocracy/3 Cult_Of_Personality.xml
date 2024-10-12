@@ -3,12 +3,12 @@
 <GameData>
 	<Policies>
 		<Update>
-			<Set Level="3"
+			<Set Level="2"
 				 PolicyBranchType="POLICY_BRANCH_AUTOCRACY"
-				 CommonFoeTourismModifier="50"
-				 AttackBonusTurns="50"
+				 AttackBonusTurns="30"
 				 OneShot="true"
-				 IncludesOneShotFreeUnits="true"/>
+				 IncludesOneShotFreeUnits="true"
+			         GoldenAgeTurns="30"/>
 			<Where Type="POLICY_CULT_PERSONALITY" />
 		</Update>
 	</Policies>
@@ -33,7 +33,7 @@
 	<Language_en_US>
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_CULT_PERSONALITY_HELP" />
-			<Set Text="[COLOR_POSITIVE_TEXT]Cult of Personality[ENDCOLOR][NEWLINE][ICON_BULLET]For the next 50 turns recieve a attack [ICON_STRENGTH] bonus for all units.[NEWLINE][ICON_BULLET]+2 free Great Generals.[NEWLINE][ICON_BULLET]+50% [ICON_TOURISM] Tourism modifier to civilizations fighting a common enemy." />
+			<Set Text="[COLOR_POSITIVE_TEXT]Cult of Personality[ENDCOLOR][NEWLINE][ICON_BULLET]For the next 30 turns recieve an attack [ICON_STRENGTH] bonus for all units.[NEWLINE][ICON_BULLET]Starts a 30 Turn [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][ICON_BULLET]+2 free Great Generals." />
 		</Update>
 	</Language_en_US>
 

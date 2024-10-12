@@ -114,13 +114,13 @@
 		</Row>
 		
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_FREEDOM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Freedom[ENDCOLOR] is best for small, focused empires. In particular, it provides bonuses for [ICON_GREAT_PEOPLE] Great People and Specialists.[NEWLINE][NEWLINE]Upon adopting Freedom, the rate at which [ICON_GREAT_PEOPLE] Great People are born is increased by 25%.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Autocracy,  Order or Reactionarie.[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Liberalism[ENDCOLOR] is best for small, focused empires. In particular, it provides bonuses for [ICON_GREAT_PEOPLE] Great People and Specialists.[NEWLINE][NEWLINE]Upon adopting Freedom, the rate at which [ICON_GREAT_PEOPLE] Great People are born is increased by 25%.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Fascism or Communism.[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_ORDER_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Order[ENDCOLOR] is best for large, sprawling empires, increasing the strength of the empire based on the number of Cities it contains.[NEWLINE][NEWLINE]Adopting Order will increase [ICON_HAPPINESS_1] Happiness by +1 per City.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Freedom, Autocracy or Reactionarie.[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Communism[ENDCOLOR] is best for large, sprawling empires, increasing the strength of the empire based on the number of Cities it contains.[NEWLINE][NEWLINE]Adopting Order will increase [ICON_HAPPINESS_1] Happiness by +1 per City.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Liberalism or Fascism.[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Autocracy[ENDCOLOR] is for militaristic civilizations, dreaming of world conquest.[NEWLINE][NEWLINE]Adopting Autocracy reduces Unit [ICON_GOLD] Gold Maintenance costs by 33%, allowing an empire to field a larger military. Receive 10 [ICON_CULTURE] Culture as plunder for each point of [ICON_CULTURE] Culture produced in the captured city.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Freedom, Order or Reactionarie.[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Fascism[ENDCOLOR] is for militaristic civilizations, dreaming of world conquest.[NEWLINE][NEWLINE]Adopting Autocracy reduces Unit [ICON_GOLD] Gold Maintenance costs by 33%, allowing an empire to field a larger military. Receive 10 [ICON_CULTURE] Culture as plunder for each point of [ICON_CULTURE] Culture produced in the captured city.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Liberalism or Communism.[ENDCOLOR]</Text>
 		</Replace>
 
 		
@@ -164,10 +164,10 @@
 		</Row>
 		
 		<Row Tag="TXT_KEY_POLICY_ANCIENREGIME">
-			<Text>Ancien Régime</Text>
+			<Text>Ancient Regime</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_ANCIENREGIME_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Ancien Régime[ENDCOLOR][NEWLINE]+1 [ICON_FOOD] food and +1 [ICON_PRODUCTION] Production from farms, plantations, and pastures.[NEWLINE]+3 [ICON_PRODUCTION]Production and [ICON_GOLD] Gold from Castles.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Ancient Regime[ENDCOLOR][NEWLINE]+1 [ICON_GOLD] from Farms.[NEWLINE]+3 [ICON_PRODUCTION]Production and [ICON_GOLD] Gold from Castles.</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_POLICY_LEGION_HONOR">

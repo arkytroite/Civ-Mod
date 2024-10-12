@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/9/2013 6:39:47 PM -->
+<GameData>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_SKYSCRAPERS" />
+			<Set Text="Brutalist Architecture" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_SKYSCRAPERS_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Brutalist Archiecture[ENDCOLOR][NEWLINE]-33% [ICON_GOLD] Gold cost to purchase buildings in cities." />
+		</Update>
+	</Language_en_US>
+
+	<Language_RU_RU>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_SKYSCRAPERS" />
+			<Set Text="Коммунизм" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_SKYSCRAPERS_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Коммунизм[ENDCOLOR][NEWLINE][ICON_BULLET]-25% [ICON_GOLD] стоимость содержания зданий." />
+		</Update>
+	</Language_RU_RU>
+
+	<Language_ES_ES>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_SKYSCRAPERS" />
+			<Set Text="Comunismo" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_SKYSCRAPERS_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Comunismo[ENDCOLOR][NEWLINE][ICON_BULLET]-25% de [ICON_GOLD] Oro al coste de mantenimiento de edificios." />
+		</Update>
+	</Language_ES_ES>
+</GameData>

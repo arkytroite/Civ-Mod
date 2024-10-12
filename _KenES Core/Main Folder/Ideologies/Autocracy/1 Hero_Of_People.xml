@@ -42,7 +42,7 @@
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_FUTURISM_HELP" />
-			<Set Text="[COLOR_POSITIVE_TEXT]Master Race[ENDCOLOR][NEWLINE]Gain Slaves whenever you capture a city. [NEWLINE]Slave Rebellions no longer occur." />
+			<Set Text="[COLOR_POSITIVE_TEXT]Master Race[ENDCOLOR][NEWLINE]Gain Slaves whenever you capture a city and Slave Rebellions no longer occur." />
 		</Update>
 	</Language_en_US>
 

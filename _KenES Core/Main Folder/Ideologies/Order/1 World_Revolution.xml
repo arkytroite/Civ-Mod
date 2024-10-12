@@ -38,7 +38,7 @@
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_SOCIALIST_REALISM_HELP" />
-			<Set Text="[COLOR_POSITIVE_TEXT]World Revolution[ENDCOLOR][NEWLINE][ICON_BULLET]+25% [ICON_TOURISM] Tourism modifier to other Order civilizations.[NEWLINE][ICON_BULLET]+8 [ICON_GOLD] Gold from trade routes to other Order civilizations." />
+			<Set Text="[COLOR_POSITIVE_TEXT]World Revolution[ENDCOLOR][NEWLINE]+25% [ICON_TOURISM] Tourism modifier to and +8 [ICON_GOLD] Gold from [ICON_INTERNATIONAL_TRADE] trade routes to other Order civilizations." />
 		</Update>
 	</Language_en_US>
 

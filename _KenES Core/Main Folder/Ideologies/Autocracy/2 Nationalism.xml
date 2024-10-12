@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/10/2013 1:40:12 PM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Set UnitGoldMaintenanceMod="0"
+				 Level="1"
+				 PolicyBranchType="POLICY_BRANCH_AUTOCRACY"
+				 GreatPeopleRateModifier="0"
+				 MilitaryUnitGiftExtraInfluence="0" />
+			<Where Type="POLICY_NATIONALISM" />
+		</Update>
+	</Policies>
+	
+	
+	<Policy_Flavors>
+		<Delete PolicyType="POLICY_NATIONALISM" />
+		<Row>
+			<PolicyType>POLICY_NATIONALISM</PolicyType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>34</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_NATIONALISM" />
+			<Set Text="Ubermensch" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_NATIONALISM_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Ubermensch[ENDCOLOR][NEWLINE]The rate at which [ICON_GREAT_PEOPLE] Great People are born is increased by 25%." />
+		</Update>
+	</Language_en_US>
+
+	
+</GameData>

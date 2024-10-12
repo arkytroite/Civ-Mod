@@ -83,7 +83,7 @@
 			<PolicyType>POLICY_SPACEFLIGHT_PIONEERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_NUCLEAR_PLANT</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldMod>25</YieldMod>
+			<YieldMod>5</YieldMod>
 		</Row>
 	</Policy_BuildingClassYieldModifiers>
 		
@@ -103,7 +103,7 @@
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_SPACEFLIGHT_PIONEERS_HELP" />
-			<Set Text="[COLOR_POSITIVE_TEXT]Nuclear Program[ENDCOLOR][NEWLINE][ICON_BULLET]+4 [ICON_RES_URANIUM] Uranium.[NEWLINE][ICON_BULLET]Nuclear plants recieve +25% [ICON_PRODUCTION]Production and +4 [ICON_RESEARCH]Science.[NEWLINE][ICON_BULLET]Atomic Bombs, Nuclear Missles and Guided Missles get +5 range.[NEWLINE][ICON_BULLET]Giant Death Robots get +15 experience from Spaceship factories.[NEWLINE]Allows spaceship parts to be finished by Great Engineers." />
+			<Set Text="[COLOR_POSITIVE_TEXT]Nuclear Program[ENDCOLOR][NEWLINE][ICON_BULLET]+4 [ICON_RES_URANIUM] Uranium.[NEWLINE][ICON_BULLET]Nuclear plants recieve +5% [ICON_PRODUCTION]Production and +4 [ICON_RESEARCH]Science.[NEWLINE][ICON_BULLET]Atomic Bombs, Nuclear Missles and Guided Missles get +5 range.[NEWLINE][ICON_BULLET]Giant Death Robots get +15 experience from Spaceship factories.[NEWLINE][ICON_BULLET]Allows spaceship parts to be finished by Great Engineers." />
 		</Update>
 		<Row Tag="TXT_KEY_BUILDING_NUCLEAR_PROGRAM_HELP">
 			<Text>+2 [ICON_RES_URANIUM] Uranium.</Text>

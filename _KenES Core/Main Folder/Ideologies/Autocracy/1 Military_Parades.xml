@@ -39,11 +39,11 @@
 	<Language_en_US>
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_UNITED_FRONT" />
-			<Set Text="Mandatory Service" />
+			<Set Text="Military Industrial Complex" />
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_UNITED_FRONT_HELP" />
-			<Set Text="[COLOR_POSITIVE_TEXT]Mandatory Service[ENDCOLOR][NEWLINE][ICON_BULLET]+4 [ICON_CULTURE] Culture in cities with a garrison.[NEWLINE][ICON_BULLET]-25% [ICON_GOLD] Gold costs for upgrading Military Units." />
+			<Set Text="[COLOR_POSITIVE_TEXT]Military Industrial Complex[ENDCOLOR][NEWLINE]-25% [ICON_GOLD] Gold costs for upgrading Military Units." />
 		</Update>
 	</Language_en_US>
 

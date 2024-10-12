@@ -39,7 +39,7 @@
 			<Text>Poverty Elimination</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_MONUMENT_TO_PARTY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Poverty Elimination[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_HAPPINESS_1] Happiness and +2 [ICON_CULTURE] Culture from every National Wonder.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Poverty Elimination[ENDCOLOR][NEWLINE]+2 [ICON_HAPPINESS_1] Happiness and +2 [ICON_CULTURE] Culture from every National Wonder.</Text>
 		</Row>
 	</Language_en_US>
 

@@ -57,7 +57,7 @@
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_GUNBOAT_DIPLOMACY_HELP" />
-			<Set Text="[COLOR_POSITIVE_TEXT]Protectorate[ENDCOLOR][NEWLINE][ICON_BULLET]+2 Delegates for every City-State you have conqured.[NEWLINE][ICON_BULLET]Militaristic City-States give units +200% faster when you are at war with a common foe." />
+			<Set Text="[COLOR_POSITIVE_TEXT]Protectorate[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_DIPLOMAT] Delegates for every City-State you have conqured.[NEWLINE][ICON_BULLET]Militaristic City-States give units +200% faster when you are at war with a common foe." />
 		</Update>
 		<Row Tag="TXT_KEY_BUILDING_PROTECTORATE_HELP">
 			<Text>+2 Delegates.</Text>

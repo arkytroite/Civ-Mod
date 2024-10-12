@@ -3,7 +3,7 @@
 <GameData>
 	<Policies>
 		<Update>
-			<Set Level="2"
+			<Set Level="1"
 				 PolicyBranchType="POLICY_BRANCH_ORDER" />
 			<Where Type="POLICY_ACADEMY_SCIENCES" />
 		</Update>
@@ -15,7 +15,7 @@
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_ACADEMY_SCIENCES_HELP" />
-			<Set Text="[COLOR_POSITIVE_TEXT]Environmental Research[ENDCOLOR][NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] per Observatory, Public School and Research Lab." />
+			<Set Text="[COLOR_POSITIVE_TEXT]Environmental Research[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] per Observatory, Public School and Research Lab." />
 		</Update>
 		<Row Tag="TXT_KEY_BUILDING_ENVIRONMENTAL_RESEARCH_HELP">
 			<Text>+4 [ICON_RES_ALUMINUM] Aluminum.</Text>

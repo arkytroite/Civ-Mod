@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/11/2013 8:35:23 AM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Set SharedIdeologyTradeGoldChange="10"
+				 Level="1"
+				 PolicyBranchType="POLICY_BRANCH_FREEDOM" />
+			<Where Type="POLICY_ECONOMIC_UNION" />
+		</Update>
+	</Policies>
+
+	<Policy_Flavors>
+		<Delete PolicyType="POLICY_ECONOMIC_UNION" />
+		<Row>
+			<PolicyType>POLICY_ECONOMIC_UNION</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>33</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_ECONOMIC_UNION_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Economic Union[ENDCOLOR][NEWLINE]+10 [ICON_GOLD] Gold from [ICON_INTERNATIONAL_TRADE] Trade Routes with other Freedom Civilizations.[NEWLINE]+4 [ICON_GOLD] Gold from Oil Wells" />
+		</Update>
+		
+	</Language_en_US>
+
+	
+</GameData>

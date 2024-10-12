@@ -62,7 +62,7 @@
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE_HELP" />
-			<Set Text="[COLOR_POSITIVE_TEXT]Imperial Legacy[ENDCOLOR][NEWLINE][ICON_BULLET]+12 [ICON_RESEARCH] Science from dig sites when conducting Archaeological Digs.[NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] Culture from Landmarks and +10 for City Ruins.[NEWLINE] +3 [ICON_CULTURE] from Citadels." />
+			<Set Text="[COLOR_POSITIVE_TEXT]Imperial Legacy[ENDCOLOR][NEWLINE][ICON_BULLET]+12 [ICON_RESEARCH] Science from dig sites when conducting Archaeological Digs.[NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] Culture from Landmarks and +10 for City Ruins.[NEWLINE][ICON_BULLET]+3 [ICON_CULTURE] from Citadels." />
 		</Update>
 	</Language_en_US>
 	

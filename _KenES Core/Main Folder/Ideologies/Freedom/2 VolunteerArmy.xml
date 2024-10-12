@@ -5,7 +5,7 @@
 	<!-- Volunteer Army: Military Land Units in friendly territory gain +25 additional HP when healing. -->
 	<Policies>
 		<Update>
-			<Set Level="1" IncludesOneShotFreeUnits="false" BaseFreeUnits="0" CityStrengthMod="15"/>
+			<Set Level="1" IncludesOneShotFreeUnits="false" BaseFreeUnits="0"/>
 			<Where Type="POLICY_VOLUNTEER_ARMY" />
 		</Update>
 	</Policies>
@@ -102,7 +102,7 @@
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY_HELP" />
-			<Set Text="[COLOR_POSITIVE_TEXT]Volunteer Army[ENDCOLOR][NEWLINE]Military Land and Sea Units in friendly territory gain +1 sight, +15% combat strength, +15 additional HP when healing.[NEWLINE]Combat [ICON_STRENGTH] strength of cities inceased by 15%." />
+			<Set Text="[COLOR_POSITIVE_TEXT]Volunteer Army[ENDCOLOR][NEWLINE]Military Land and Sea Units in friendly territory gain +1 sight, +15% combat strength, +15 additional HP when healing." />
 		</Update>
 		
 		<Row Tag="TXT_KEY_PROMOTION_VOLUNTEER_ARMY_ARDL">

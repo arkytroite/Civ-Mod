@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/11/2013 12:28:55 AM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Set Level="1"
+				 PolicyBranchType="POLICY_BRANCH_FREEDOM"
+				 RiggingElectionModifier="100"/>
+			<Where Type="POLICY_COVERT_ACTION" />
+		</Update>
+	</Policies>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_CAMPAIGN_CONSULTANTS</Type>
+			<DefaultBuilding>BUILDING_CAMPAIGN_CONSULTANTS</DefaultBuilding>
+			<Description>TXT_KEY_POLICY_COVERT_ACTION</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_CAMPAIGN_CONSULTANTS</Type>
+			<BuildingClass>BUILDINGCLASS_CAMPAIGN_CONSULTANTS</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
+			<Description>Central Intelligence Agency</Description>
+			<Help>TXT_KEY_BUILDING_CAMPAIGN_CONSULTANTS_HELP</Help>
+
+			<ExtraSpies>1</ExtraSpies>
+		</Row>
+	</Buildings>
+	<Policy_PGB_FreeBuildingClassCapital>
+		<Row>
+			<PolicyType>POLICY_COVERT_ACTION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CAMPAIGN_CONSULTANTS</BuildingClassType>
+		</Row>
+	</Policy_PGB_FreeBuildingClassCapital>
+
+	<Policy_Flavors>
+		<Delete PolicyType="POLICY_COVERT_ACTION" />
+		<Row>
+			<PolicyType>POLICY_COVERT_ACTION</PolicyType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_COVERT_ACTION</PolicyType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>13</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_COVERT_ACTION" />
+			<Set Text="Covert Action" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_COVERT_ACTION_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Covert Action[ENDCOLOR][NEWLINE]+1 [ICON_SPY] Spy and spies are twices as effective at rigging city-state elections." />
+		</Update>
+		<Row Tag="TXT_KEY_BUILDING_CAMPAIGN_CONSULTANTS_HELP">
+			<Text>+1 Spy.</Text>
+		</Row>
+	</Language_en_US>
+
+	
+</GameData>

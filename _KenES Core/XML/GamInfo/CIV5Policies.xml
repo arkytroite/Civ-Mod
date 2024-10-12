@@ -3,7 +3,7 @@
 <GameData>
 		<Policy_BuildingClassHappiness>
 			<Row>
-				<PolicyType>POLICY_POLICE_STATE</PolicyType>
+				<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
 				<BuildingClassType>BUILDINGCLASS_MILITARY_HQ</BuildingClassType>
 				<Happiness>1</Happiness>
 			</Row>

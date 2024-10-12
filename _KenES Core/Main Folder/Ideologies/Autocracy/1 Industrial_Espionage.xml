@@ -3,7 +3,7 @@
 <GameData>
 	<Policies>
 		<Update>
-			<Set Level="1"
+			<Set Level="2"
 				 PolicyBranchType="POLICY_BRANCH_AUTOCRACY"
 				 StealTechFasterModifier="50" />
 			<Where Type="POLICY_INDUSTRIAL_ESPIONAGE" />
@@ -26,13 +26,6 @@
 			<YieldMod>25</YieldMod>
 		</Row>
 	</Policy_BuildingClassYieldModifiers>
-	<Policy_BuildingClassTourismModifiers>
-		<Row>
-			<PolicyType>POLICY_INDUSTRIAL_ESPIONAGE</PolicyType>
-			<BuildingClassType>BUILDINGCLASS_INTELLIGENCE_AGENCY</BuildingClassType>
-			<TourismModifier>25</TourismModifier>
-		</Row>
-	</Policy_BuildingClassTourismModifiers>
 
 	<Policy_ImprovementYieldChanges>
 		<Row>
@@ -60,7 +53,7 @@
 	<Language_en_US>
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_INDUSTRIAL_ESPIONAGE_HELP" />
-			<Set Text="[COLOR_POSITIVE_TEXT]Industrial Espionage[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_RESEARCH] Science from customs houses.[NEWLINE][ICON_BULLET]Spies steal technologies 50% faster.[NEWLINE][ICON_BULLET]+25% [ICON_RESEARCH] Science and +25% [ICON_TOURISM] Tourism from the National Intelligence Agency." />
+			<Set Text="[COLOR_POSITIVE_TEXT]Industrial Espionage[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_RESEARCH] Science from customs houses.[NEWLINE][ICON_BULLET]Spies steal technologies 50% faster.[NEWLINE][ICON_BULLET]+25% [ICON_RESEARCH] Science from the National Intelligence Agency." />
 		</Update>
 	</Language_en_US>
 
