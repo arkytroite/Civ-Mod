@@ -41,7 +41,7 @@
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
 			<IconAtlas>SREB_ICON_ATLAS</IconAtlas>
-			<PortraitIndex>7</PortraitIndex>
+			<PortraitIndex>6</PortraitIndex>
 			<Description>Bucket and Wheel Extractor</Description>
 			<Help>TXT_KEY_BUILDING_GREAT_LEAP_FORWARD_HELP</Help>
 		</Row>

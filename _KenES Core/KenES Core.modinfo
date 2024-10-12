@@ -1078,6 +1078,11 @@
     <File md5="0CA1D1A92C410CD78548686A1C8877AA" import="1">XML/Units/Camels/03-Rifleman/Art/SMAN_EU_Camel_Rifleman_Mount_diff.dds</File>
     <File md5="8FE645910BC3025D92CDF47A523A02F0" import="0">XML/Units/Camels/03-Rifleman/CamelRifleman.xml</File>
     <File md5="A35C1B85860A10EF21EC29A6474DD387" import="0">XML/Units/Camels/03-Rifleman/CamelRiflemanArtDefines.sql</File>
+    <File md5="66E84FBBAD8807C2DE1B3BF03169B386" import="1">Art/SrebAtlas128.dds</File>
+    <File md5="44D79346ABFBCA8BEF691873E4BA12E0" import="1">Art/SrebAtlas256.dds</File>
+    <File md5="1C6B0ED91EDE7A60EDEDD4B616475E83" import="1">Art/SrebAtlas45.dds</File>
+    <File md5="5614E2C89CBBDAF28501B7B5624E0F37" import="1">Art/SrebAtlas64.dds</File>
+    <File md5="F4F9F6E48DCDAFD3018F4C99DDA402B6" import="0">Xml/SrebAtlas.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
@@ -1429,6 +1434,7 @@
       <UpdateDatabase>Core/Xml/Units.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/Camels/03-Rifleman/CamelRifleman.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/Camels/03-Rifleman/CamelRiflemanArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Xml/SrebAtlas.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>
