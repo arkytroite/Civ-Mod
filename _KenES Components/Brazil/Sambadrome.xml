@@ -37,10 +37,10 @@
 			<Text>Sambadrome</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_3UC_SAMBADROME_STRATEGY">
-			<Text>The Sambradrome is the Brazilian unique building, replacing the Stadium. It increases the [ICON_HAPPINESS_1] Happiness of the city. It cannot provide more [ICON_HAPPINESS_1] Happiness than there are [ICON_CITIZEN] Citizens in a city. Unlike the Stadium it replaces, the Sambadrome boosts [ICON_TOURISM] Tourism in the city. City must already have a Zoo. </Text>
+			<Text>The Sambradrome is the Brazilian unique building, replacing the Stadium. It increases the [ICON_HAPPINESS_1] Happiness of the city. It cannot provide more [ICON_HAPPINESS_1] Happiness than there are [ICON_CITIZEN] Citizens in a city. Unlike the Stadium it replaces, the Sambadrome has a slot for a [ICON_GREAT_MUSICIAN] Musician. City must already have a Zoo. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_3UC_SAMBADROME_HELP">
-			<Text>Increases the [ICON_HAPPINESS_1] Happiness and [ICON_TOURISM] Tourism of a city. Only Brazil may build it.</Text>
+			<Text>Increases the [ICON_HAPPINESS_1] Happiness of a city and also has a slot for a [ICON_GREAT_MUSICIAN] Musician. Only Brazil may build it.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_3UC_SAMBADROME_TEXT">
 			<Text>Sambadrome (Sambódromo in Portuguese language) is the name given to an exhibition place for the Samba schools parades during Carnaval in Brazil. A sambadrome generally consists of tiered spectator viewing areas surrounding a long alley for the schools to parade down.  The parades attract many thousands of Brazilians and foreign tourists each year.</Text>

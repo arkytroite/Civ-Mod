@@ -2,7 +2,7 @@
 ------------------------------	
 INSERT INTO Buildings 	
 	(Type, BuildingClass, Cost, Happiness, EnhancedYieldTech, TechEnhancedTourism,  GoldMaintenance, PrereqTech, ArtDefineTag, SpecialistType, SpecialistCount, MinAreaSize, ConquestProb, HurryCostModifier, Help, Description, Civilopedia, Strategy, IconAtlas, PortraitIndex)
-SELECT	'BUILDING_3UC_SAMBADROME', BuildingClass, Cost, Happiness, 'TECH_REFRIGERATION', 0, GoldMaintenance, PrereqTech, ArtDefineTag, SpecialistType, SpecialistCount, MinAreaSize, ConquestProb, HurryCostModifier, 'TXT_KEY_BUILDING_3UC_SAMBADROME_HELP', 'TXT_KEY_BUILDING_3UC_SAMBADROME', 'TXT_KEY_BUILDING_3UC_SAMBADROME_TEXT', 'TXT_KEY_BUILDING_3UC_SAMBADROME_STRATEGY', 'SAMBA_TECH_ATLAS', 7
+SELECT	'BUILDING_3UC_SAMBADROME', BuildingClass, Cost, Happiness, 'TECH_REFRIGERATION', 0, GoldMaintenance, PrereqTech, ArtDefineTag, 'SPECIALIST_MUSICIAN', 1, MinAreaSize, ConquestProb, HurryCostModifier, 'TXT_KEY_BUILDING_3UC_SAMBADROME_HELP', 'TXT_KEY_BUILDING_3UC_SAMBADROME', 'TXT_KEY_BUILDING_3UC_SAMBADROME_TEXT', 'TXT_KEY_BUILDING_3UC_SAMBADROME_STRATEGY', 'SAMBA_TECH_ATLAS', 7
 FROM Buildings WHERE Type = 'BUILDING_STADIUM';	
 ------------------------------	
 -- Building_Flavors
