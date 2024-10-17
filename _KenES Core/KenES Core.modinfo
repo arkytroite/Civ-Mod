@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" version="8">
+<Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" version="9">
   <Properties>
     <Name>*KenES Core</Name>
     <Stability>Beta</Stability>
@@ -56,7 +56,6 @@
     <File md5="2CE071B138339613EEB708147C706FF0" import="1">Main Folder/Art/mod_galleon.gr2</File>
     <File md5="F8A9A0912BFDCEE1E71CCB895F646E50" import="1">Main Folder/Art/mod_galleon_diff.dds</File>
     <File md5="0C4FFF6062C19D7BAD1DA2536512A00B" import="1">Main Folder/Art/mod_galleon_sref.dds</File>
-    <File md5="9FA924195E7807F87BBF8E6A67E25F46" import="0">Main Folder/Art/NOVGOROD_splash.dds</File>
     <File md5="9187D36F37CE9FF4F9D62074BD25BF79" import="1">Main Folder/Art/socialpoliciesaestheticsnew.dds</File>
     <File md5="D70AA50F79F7C1CBAE9CAF0301855A74" import="1">Main Folder/Art/socialpoliciesaestheticsnew2.dds</File>
     <File md5="6B681669817058E1C20A3B63E640D3A5" import="1">Main Folder/Art/socialpoliciesaestheticsnew3.dds</File>

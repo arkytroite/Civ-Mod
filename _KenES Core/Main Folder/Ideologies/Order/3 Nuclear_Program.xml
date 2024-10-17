@@ -47,9 +47,9 @@
 			<Cost>-1</Cost>
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
-			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<PortraitIndex>19</PortraitIndex>
-			<Description>TXT_KEY_POLICY_SPACEFLIGHT_PIONEERS</Description>
+			<IconAtlas>ARDLBUILDINGS_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>17</PortraitIndex>
+			<Description>Yellowcake Refinery</Description>
 			<Help>TXT_KEY_BUILDING_NUCLEAR_PROGRAM_HELP</Help>
 		</Row>
 	</Buildings>
@@ -106,7 +106,7 @@
 			<Set Text="[COLOR_POSITIVE_TEXT]Nuclear Program[ENDCOLOR][NEWLINE][ICON_BULLET]+4 [ICON_RES_URANIUM] Uranium.[NEWLINE][ICON_BULLET]Nuclear plants recieve +5% [ICON_PRODUCTION]Production and +4 [ICON_RESEARCH]Science.[NEWLINE][ICON_BULLET]Atomic Bombs, Nuclear Missles and Guided Missles get +5 range.[NEWLINE][ICON_BULLET]Giant Death Robots get +15 experience from Spaceship factories.[NEWLINE][ICON_BULLET]Allows spaceship parts to be finished by Great Engineers." />
 		</Update>
 		<Row Tag="TXT_KEY_BUILDING_NUCLEAR_PROGRAM_HELP">
-			<Text>+2 [ICON_RES_URANIUM] Uranium.</Text>
+			<Text>+4 [ICON_RES_URANIUM] Uranium.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NUCLEAR_PROGRAM_HELP">
 			<Text>+5 [ICON_RANGE] Range.</Text>

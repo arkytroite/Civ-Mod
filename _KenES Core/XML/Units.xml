@@ -65,14 +65,13 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_INFANTRY</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>25</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<PolicyType>POLICY_TRADE_UNIONS</PolicyType>
 			<Conscription>4</Conscription>
 			<FaithCost>700</FaithCost>
-			<ObsoleteTech>TECH_RADIO</ObsoleteTech>
+			<ObsoleteTech>TECH_RADAR</ObsoleteTech>
 			<UnitArtInfo>ART_DEF_UNIT_U_FRENCH_FOREIGNLEGION</UnitArtInfo>
 			<UnitFlagIconOffset>55</UnitFlagIconOffset>
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
@@ -117,7 +116,7 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_LEGION_F</UnitType>
-			<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
+			<UnitClassType>UNITCLASS_EXOTIC_UNIT_SOF</UnitClassType>
 		</Row>
 	</Unit_ClassUpgrades>
 	<Unit_Flavors>

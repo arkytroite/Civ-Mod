@@ -19,8 +19,8 @@ VALUES	('PROMOTION_JFD_COSMOGRAPHER', 	0,				 'TXT_KEY_PROMOTION_JFD_COSMOGRAPHE
 -- Units
 ------------------------------------------------------------------------------------------------------------------------
 INSERT INTO Units 	
-		(Type, 						Class, PrereqTech, Combat, RangedCombat, Cost, Moves, HurryCostModifier, Range, CombatClass, Domain, DefaultUnitAI, MilitarySupport, MilitaryProduction, Pillage, ObsoleteTech, Mechanized, AdvancedStartCost, MinAreaSize, XPValueAttack, XPValueDefense, MoveRate, Description, 						Help, 									 Strategy, 									Civilopedia, 							UnitArtInfo, 						UnitFlagAtlas,							  UnitFlagIconOffset,	IconAtlas,							PortraitIndex)
-SELECT	'UNIT_JFD_COSMOGRAPHER',	Class, PrereqTech, Combat, RangedCombat, Cost, Moves, HurryCostModifier, Range, CombatClass, Domain, DefaultUnitAI, MilitarySupport, MilitaryProduction, Pillage, ObsoleteTech, Mechanized, AdvancedStartCost, MinAreaSize, XPValueAttack, XPValueDefense, MoveRate, 'TXT_KEY_UNIT_JFD_COSMOGRAPHER',	'TXT_KEY_UNIT_JFD_COSMOGRAPHER_HELP', 	 'TXT_KEY_UNIT_JFD_COSMOGRAPHER_STRATEGY',  'TXT_KEY_UNIT_JFD_COSMOGRAPHER_TEXT',	'ART_DEF_UNIT_JFD_COSMOGRAPHER',	'JFD_PORTUGAL_MANUEL_I_UNIT_FLAG_ATLAS',  0,					'JFD_PORTUGAL_MANUEL_I_ICON_ATLAS',	2
+		(Type, 						Class, PrereqTech, Combat, RangedCombat, Cost, Moves, HurryCostModifier, Range, CombatClass, Domain, DefaultUnitAI, MilitarySupport, MilitaryProduction, Pillage, ObsoleteTech, Mechanized, AdvancedStartCost, MinAreaSize, XPValueAttack, XPValueDefense, MoveRate, Description, 						Help, 									 Strategy, 									Civilopedia, 							UnitArtInfo, 						UnitFlagAtlas,							  UnitFlagIconOffset,	IconAtlas,							PortraitIndex, WorkRate)
+SELECT	'UNIT_JFD_COSMOGRAPHER',	Class, PrereqTech, Combat, RangedCombat, Cost, Moves, HurryCostModifier, Range, CombatClass, Domain, DefaultUnitAI, MilitarySupport, MilitaryProduction, Pillage, ObsoleteTech, Mechanized, AdvancedStartCost, MinAreaSize, XPValueAttack, XPValueDefense, MoveRate, 'TXT_KEY_UNIT_JFD_COSMOGRAPHER',	'TXT_KEY_UNIT_JFD_COSMOGRAPHER_HELP', 	 'TXT_KEY_UNIT_JFD_COSMOGRAPHER_STRATEGY',  'TXT_KEY_UNIT_JFD_COSMOGRAPHER_TEXT',	'ART_DEF_UNIT_JFD_COSMOGRAPHER',	'JFD_PORTUGAL_MANUEL_I_UNIT_FLAG_ATLAS',  0,					'JFD_PORTUGAL_MANUEL_I_ICON_ATLAS',	2, 1
 FROM Units WHERE Type = 'UNIT_SCIENTIST';	
 
 UPDATE Units
@@ -38,13 +38,6 @@ INSERT INTO Unit_AITypes
 		(UnitType, 					UnitAIType)
 SELECT	'UNIT_JFD_COSMOGRAPHER', 	UnitAIType
 FROM Unit_AITypes WHERE UnitType = 'UNIT_SETTLER';
-------------------------------------------------------------------------------------------------------------------------
--- Unit_Builds
-------------------------------------------------------------------------------------------------------------------------
-INSERT INTO Unit_Builds 	
-		(UnitType, 					BuildType)
-SELECT	'UNIT_JFD_COSMOGRAPHER', 	BuildType
-FROM Unit_Builds WHERE UnitType = 'UNIT_SCIENTIST';
 ------------------------------------------------------------------------------------------------------------------------
 -- Unit_Flavors
 ------------------------------------------------------------------------------------------------------------------------

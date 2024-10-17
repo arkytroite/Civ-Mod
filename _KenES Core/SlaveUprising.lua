@@ -361,7 +361,7 @@ end
 -----------------------------------------------------------------------------------------------------------
 function Resettlement(iPlayer, iX, iY)
 	local player = Players[iPlayer];
-	if not player:HasPolicy(GameInfoTypes.POLICY_RESETTLEMENT) then
+	if not player:HasPolicy(GameInfoTypes.POLICY_EMANCIPATION) then
 		return;
 	end
 	local plot = Map.GetPlot(iX, iY);

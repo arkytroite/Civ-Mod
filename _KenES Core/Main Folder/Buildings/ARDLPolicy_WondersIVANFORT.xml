@@ -53,8 +53,6 @@
 			<ConquestProb>100</ConquestProb>
 			<IconAtlas>ARDLBUILDINGS_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>55</PortraitIndex>
-			<WonderSplashImage>NOVGOROD_splash.dds</WonderSplashImage>
-			<WonderSplashAnchor>R,T</WonderSplashAnchor>
 		</Row>
 	</Buildings>
 	<Building_Flavors>

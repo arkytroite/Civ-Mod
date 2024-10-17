@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 1/16/2014 11:54:41 PM -->
 <GameData>
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_JFD_COSMOGRAPHER</UnitType>
+			<BuildType>BUILD_ACADEMY</BuildType>
+		</Row>
+	</Unit_Builds>
 	<Language_en_US>
 		<!--UNIQUE 2-->
 		<Row Tag="TXT_KEY_UNIT_JFD_COSMOGRAPHER">
