@@ -359,22 +359,6 @@ function CanBuySlave(player, city, unitType)
 	return true;
 end
 -----------------------------------------------------------------------------------------------------------
-function Resettlement(iPlayer, iX, iY)
-	local player = Players[iPlayer];
-	if not player:HasPolicy(GameInfoTypes.POLICY_EMANCIPATION) then
-		return;
-	end
-	local plot = Map.GetPlot(iX, iY);
-	if plot == nil then
-		return;
-	end
-	local city = plot:GetPlotCity();
-	if city == nil then 
-		return;
-	end
-	AddSlave(player, city, GameInfoTypes.UNITAI_WORKER);
-	AddSlave(player, city, GameInfoTypes.UNITAI_WORKER);
-end
 -----------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------
