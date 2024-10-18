@@ -41,7 +41,7 @@
 			<GreatPeopleRateModifier>15</GreatPeopleRateModifier>
 			<IncludesOneShotFreeUnits>true</IncludesOneShotFreeUnits>
 			<NumFreeGreatPeople>1</NumFreeGreatPeople>
-			<PortraitIndex>15</PortraitIndex>
+			<PortraitIndex>16</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>

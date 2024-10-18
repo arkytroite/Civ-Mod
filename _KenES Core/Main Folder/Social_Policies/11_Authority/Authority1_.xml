@@ -4,13 +4,13 @@
 	<!-- IRON TRIANGLE Damn the torpedoes, full speed ahead!-->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_POLICY_ARDL_AUTH01">
-			<Text>The Iron Triangle</Text>
+			<Text>Military Keynesianism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_ARDL_AUTH01_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]The Iron Triangle[ENDCOLOR][NEWLINE]Unit mainteneance and upgrade costs are reduced by 20% [ICON_GOLD].</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Military Keynesianism[ENDCOLOR][NEWLINE]Unit mainteneance and upgrade costs are reduced by 20% [ICON_GOLD].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_ARDL_AUTH01_TEXT">
-			<Text>[COLOR_POSITIVE_TEXT]The Iron Triangle[ENDCOLOR][NEWLINE]Unit mainteneance and upgrade costs are reduced by 20% [ICON_GOLD].</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Military Keynesianism[ENDCOLOR][NEWLINE]Unit mainteneance and upgrade costs are reduced by 20% [ICON_GOLD].</Text>
 		</Row>
 	</Language_en_US>
 
@@ -29,7 +29,7 @@
 			<GridY>1</GridY>
 			<UnitUpgradeCostMod>-20</UnitUpgradeCostMod>
 			<UnitGoldMaintenanceMod>-20</UnitGoldMaintenanceMod>
-			<PortraitIndex>29</PortraitIndex>
+			<PortraitIndex>7</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>

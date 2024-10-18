@@ -7,10 +7,10 @@
 			<Text>Allied Skies</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_ARDL_DIPLO04_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Allied Skies[ENDCOLOR][NEWLINE]Fighters and Bombers get +1 [ICON_RANGE] Range.[NEWLINE]Fighter and Bomber units gain [COLOR_POSITIVE_TEXT]+25XP[ENDCOLOR] when created.[NEWLINE] Engineer specialists produce an extra +1 and manufacturies produce an extra +2 [ICON_RESEARCH] Science, [ICON_PRODUCTION] Production, [ICON_GOLD] Gold, and [ICON_FAITH] Faith.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Allied Skies[ENDCOLOR][NEWLINE]Fighters and Bombers get +1 [ICON_RANGE] Range.[NEWLINE]Fighter and Bomber units gain [COLOR_POSITIVE_TEXT]+25XP[ENDCOLOR] when created.[NEWLINE]Engineer specialists produce an extra +1 [ICON_PRODUCTION] Production.[NEWLINE]Manufacturies produce an extra +2 [ICON_RESEARCH] Science, [ICON_PRODUCTION] Production, [ICON_GOLD] Gold, and [ICON_FAITH] Faith.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_ARDL_DIPLO04_TEXT">
-			<Text>[COLOR_POSITIVE_TEXT]Allied Skies[ENDCOLOR][NEWLINE]Fighters and Bombers get +1 [ICON_RANGE] Range.[NEWLINE]Fighter and Bomber units gain [COLOR_POSITIVE_TEXT]+25XP[ENDCOLOR] when created.[NEWLINE] Engineer specialists produce an extra +1 and manufacturies produce an extra +2 [ICON_RESEARCH] Science, [ICON_PRODUCTION] Production, [ICON_GOLD] Gold, and [ICON_FAITH] Faith.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Allied Skies[ENDCOLOR][NEWLINE]Fighters and Bombers get +1 [ICON_RANGE] Range.[NEWLINE]Fighter and Bomber units gain [COLOR_POSITIVE_TEXT]+25XP[ENDCOLOR] when created.[NEWLINE]Engineer specialists produce an extra +1 and manufacturies produce an extra +2 [ICON_RESEARCH] Science, [ICON_PRODUCTION] Production, [ICON_GOLD] Gold, and [ICON_FAITH] Faith.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DIPLO_ALLIED_AIR_HELP">
 			<Text>+1 [ICON_RESEARCH] Science, [ICON_PRODUCTION] Production, [ICON_GOLD] Gold, and [ICON_FAITH] Faith from Engineer Specialists</Text>
@@ -33,13 +33,13 @@
 		<Row>
 			<Type>POLICY_ARDL_DIPLO04</Type>
 			<Description>TXT_KEY_POLICY_ARDL_DIPLO04</Description>
-			<Civilopedia>TXT_KEY_POLICY_ARDL_DIPLO04_TEXT</Civilopedia>
+			<Civilopedia>TXT_KEY_POLICY_ARDL_DIPLO04_HELP</Civilopedia>
 			<Help>TXT_KEY_POLICY_ARDL_DIPLO04_HELP</Help>
 			<PolicyBranchType>POLICY_BRANCH_ARDL_DIPLOMACY</PolicyBranchType>
 			<CultureCost>10</CultureCost>
 			<GridX>4</GridX>
 			<GridY>2</GridY>
-			<PortraitIndex>16</PortraitIndex>
+			<PortraitIndex>33</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>

@@ -6,6 +6,10 @@
 			<UnitType>UNIT_JFD_COSMOGRAPHER</UnitType>
 			<BuildType>BUILD_ACADEMY</BuildType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_JFD_COSMOGRAPHER</UnitType>
+			<BuildType>BUILD_FEITORIA</BuildType>
+		</Row>
 	</Unit_Builds>
 	<Language_en_US>
 		<!--UNIQUE 2-->
@@ -13,7 +17,7 @@
 			<Text>Cosmographer</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_JFD_COSMOGRAPHER_HELP">
-			<Text>Unique Great Scientist replacement for Portugal that excels at exploring the seas. Can be used to found new cities, granting bonus [ICON_RESEARCH] Science in the process. The amount of [ICON_RESEARCH] Science received increases with the city's distance from the [ICON_CAPITAL] Capital.</Text>
+			<Text>Unique Great Scientist replacement for Portugal that excels at exploring the seas. Can be used to found new cities, granting bonus [ICON_RESEARCH] Science in the process. The amount of [ICON_RESEARCH] Science received increases with the city's distance from the [ICON_CAPITAL] Capital. They can also build a Feitoria at Navigation.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_JFD_COSMOGRAPHER_STRATEGY">
 			<Text>The Cosmographer is Portugal's unique replacement for the Great Scientist. Cosmographers are best suited for exploration over the standard Great Scientist, possessing a bonus to its [ICON_MOVES] Movement when Embarked. It can be used to establish new cities, granting a burst of [ICON_RESEARCH] Science based upon the distance the city is from the [ICON_CAPITAL] Capital as well as your [ICON_RESEARCH] Science Per Turn at the time. Unlike the Great Scientist, however, Cosmographers cannot be normally expended for [ICON_RESEARCH] Science - although it can still be expended to build the Academy Tile Improvement. Send Cosmographers far across the seas to reap as much science as you can, but be sure to send a military escort with them as they remain vulnerable to attack.</Text>

@@ -4,27 +4,16 @@
   <!-- ARMED TRADE -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_POLICY_ARDL_AUTH03">
-			<Text>Armored and Mechanized</Text>
+			<Text>War Machine</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_ARDL_AUTH03_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Armored and Mechanized[ENDCOLOR][NEWLINE]Armored and Naval units gain +10% [ICON_STRENGTH] Defensive Combat Strength and +1 Movement. </Text>
+			<Text>[COLOR_POSITIVE_TEXT]War Machine[ENDCOLOR][NEWLINE]Armored and Naval units gain +10% [ICON_STRENGTH] Defensive Combat Strength and +1 Movement. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_ARDL_AUTH03_TEXT">
-			<Text>[COLOR_POSITIVE_TEXT]Armored and Mechanized[ENDCOLOR][NEWLINE]Armored and Naval units gain +10% [ICON_STRENGTH] Defensive Combat Strength and +1 Movement. </Text>
+			<Text>[COLOR_POSITIVE_TEXT]War Machine[ENDCOLOR][NEWLINE]Armored and Naval units gain +10% [ICON_STRENGTH] Defensive Combat Strength and +1 Movement. </Text>
 		</Row>
 		<!-- Can build the Armored Trade ship, unique trading ships with defensive combat strength and +1 extra move per turn. -->
 	</Language_en_US>
-	<!--
-	<Units>
-		<Update>
-			<Where Class="UNITCLASS_CARGO_SHIP"/>
-			<Set>
-				<Combat>16</Combat>
-				<CombatLimit>1</CombatLimit>
-			</Set>
-		</Update>
-	</Units>
-	-->
 
 	<!-- OPENER -->
 	<Policies>
@@ -37,7 +26,7 @@
 			<CultureCost>10</CultureCost>
 			<GridX>2</GridX>
 			<GridY>2</GridY>
-			<PortraitIndex>4</PortraitIndex>
+			<PortraitIndex>1</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
