@@ -25,7 +25,7 @@
   * Professional Army now gives 50% more experience and faster military training building construction, instead of its previous benefits.
   * Military Tradition now gives Production from Forts and Culture from Citadels, instead of its previous benefits.
   * Military Caste now spawns Slaves when you clear a Barbarian Encampment, in addition to its previous benefits.
-  * Completing the Honor Tree now gives reduced unit maintenance, reduced unhappiness from Puppeted Cities, and spawns Slave units whenever you capture a barbarian encampment.
+  * Completing the Honor Tree now gives reduced unit maintenance and reduced unhappiness from Puppeted Cities.
 * Piety
   * The Piety Tree has been reordered
     * Theocracy now requires Mandate of Heaven in addition to Organized Religion
