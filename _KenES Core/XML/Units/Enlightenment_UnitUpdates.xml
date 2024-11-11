@@ -35,6 +35,10 @@
 			<UnitType>UNIT_SMAN_EU_TAMED_MAMMOTH</UnitType>
 			<UnitClassType>UNITCLASS_EE_EXPLORER</UnitClassType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_GT_TOKHAROI</UnitType>
+			<UnitClassType>UNITCLASS_LONGSWORDSMAN</UnitClassType>
+		</Row>
 		<Update>
 			<Where UnitClassType="UNITCLASS_ANTI_TANK_GUN"/>
 			<Set UnitClassType="UNITCLASS_CAVALRY"/>

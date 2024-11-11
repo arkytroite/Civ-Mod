@@ -1747,7 +1747,7 @@
 		</Row>
 		<Row Tag="TXT_SMELTER_HELP">
 			<TEXT>
-				The Smelter reduces the cost of upgrading military units, allowing for cheap modernization.
+				The Smelter reduces the cost of upgrading military units within workable range of a city housing one, allowing for cheap modernization.
 			</TEXT>
 		</Row>
 		<Row Tag="TXT_SMELTERS_STRATEGY">

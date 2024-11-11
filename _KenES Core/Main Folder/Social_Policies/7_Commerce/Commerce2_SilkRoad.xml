@@ -9,8 +9,6 @@
 		</Row>
 		<Delete Tag="TXT_KEY_POLICY_CARAVANS_HELP" />
 		<Row Tag="TXT_KEY_POLICY_CARAVANS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Trade Unions[ENDCOLOR][NEWLINE] 50% maintenance from roads and railroads [NEWLINE] +1 [ICON_FOOD] Food and +1 [ICON_HAPPINESS_1] Happiness from Caravanesaries.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Trade Unions[ENDCOLOR][NEWLINE] 50% maintenance from roads and railroads [NEWLINE] +1 [ICON_HAPPINESS_1] Happiness from Caravanesaries.</Text>
 	</Language_en_US>
-	
-
 </GameData>

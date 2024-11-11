@@ -37,8 +37,7 @@
 			<MilitaryProduction>1</MilitaryProduction>
 			<Pillage>1</Pillage>
 			<IgnoreBuildingDefense>1</IgnoreBuildingDefense>
-			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
-			<ObsoleteTech>TECH_INDUSTRIALIZATION</ObsoleteTech>
+			<ObsoleteTech>TECH_AGRICULTURE</ObsoleteTech>
 			<GoodyHutUpgradeUnitClass></GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>35</AdvancedStartCost>
 			<MinAreaSize>-1</MinAreaSize>

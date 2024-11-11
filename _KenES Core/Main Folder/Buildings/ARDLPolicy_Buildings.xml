@@ -256,11 +256,6 @@
 	</Building_ClassesNeededInCity>
 
 	<Building_YieldChanges>
-		<Row>
-			<BuildingType>BUILDING_TCS_PATENT_OFFICE</BuildingType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>5</Yield>
-		</Row>
 		
 		<Row>
 			<BuildingType>BUILDING_ARDL_NATIONAL_WARTIME_INDUSTRIES</BuildingType>
@@ -440,7 +435,7 @@
 
 		<!-- Help Tags -->
 		<Row Tag="TXT_KEY_BUILDING_TCS_PATENT_OFFICE_HELP">
-			<Text>Improves Science gain and Great Scientist Generation. [NEWLINE][NEWLINE]Requires Rationalism.</Text>
+			<Text>Improves Great Scientist Generation. [NEWLINE][NEWLINE]Requires Rationalism.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_NAVAL_OFFICE_HELP">
