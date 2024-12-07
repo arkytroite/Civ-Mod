@@ -649,7 +649,7 @@
 			<BuildingClass>BUILDINGCLASS_STONE_WORKS</BuildingClass>
 			<Cost>75</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
-			<Help>TXT_BANCO_HELP</Help>
+			<Help>TXT_BANCO_TEXT</Help>
 			<Description>TXT_BANCO</Description>
 			<Civilopedia>TXT_BANCO_TEXT</Civilopedia>
 			<Strategy>Songhai's unique stone works. It provides more base production and isn't related to stone. It also provides no happiness.</Strategy>

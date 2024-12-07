@@ -7,7 +7,7 @@
 			<Text>Koa</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_3_HAWAIIAN_KOA_STRATEGY">
-			<Text>The Koa is a Polynesian Unique Unit. It is slightly stronger than the Swordsman it replaces, has the Amphibious promotion, and does not require Iron.</Text>
+			<Text>The Koa is a Polynesian Unique Unit. It has has the Amphibious promotion and does not require Iron.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_3_HAWAIIAN_KOA_HELP">
 			<Text>Amphibious melee unit of the Classical era that does not require Iron. Only Polynesia may build it.</Text>
