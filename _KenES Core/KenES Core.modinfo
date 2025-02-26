@@ -1082,6 +1082,7 @@
     <File md5="1C6B0ED91EDE7A60EDEDD4B616475E83" import="1">Art/SrebAtlas45.dds</File>
     <File md5="5614E2C89CBBDAF28501B7B5624E0F37" import="1">Art/SrebAtlas64.dds</File>
     <File md5="F4F9F6E48DCDAFD3018F4C99DDA402B6" import="0">Xml/SrebAtlas.xml</File>
+    <File md5="A0ABF96232FA20CD0D35DC31E71AB1CA" import="0">XML/ReligionFixedProphets.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
@@ -1434,6 +1435,7 @@
       <UpdateDatabase>XML/Units/Camels/03-Rifleman/CamelRifleman.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/Camels/03-Rifleman/CamelRiflemanArtDefines.sql</UpdateDatabase>
       <UpdateDatabase>Xml/SrebAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/ReligionFixedProphets.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>
