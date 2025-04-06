@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 12/02/17 11:25:43 AM -->
 <GameData>
-
 	<Units>
 		<Row>
 			<Class>UNITCLASS_SCOUT</Class>
 			<Type>UNIT_SMAN_EU_CAMEL_RAIDING_PARTY</Type>
 			<Combat>6</Combat>
+			<!--<RangedCombat>11</RangedCombat>
+			<Range>2</Range>-->
 			<Cost>25</Cost>
 			<FaithCost>90</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<BaseSightRange>2</BaseSightRange>
 			<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
-			<CombatClass>UNITCOMBAT_EXPLORE</CombatClass>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_SCOUT</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_SMAN_EU_CAMEL_RAIDING_PARTY</Description>
 			<Help>TXT_KEY_UNIT_SMAN_EU_CAMEL_RAIDING_PARTY_HELP</Help>
 			<Strategy>TXT_KEY_UNIT_SMAN_EU_CAMEL_RAIDING_PARTY_STRATEGY</Strategy>
+			<Civilopedia>TXT_KEY_UNIT_SMAN_EU_CAMEL_RAIDING_PARTY_PEDIA</Civilopedia>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
@@ -26,6 +28,7 @@
 			<AdvancedStartCost>25</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT_SMAN_EU_CAMEL_RAIDING_PARTY</UnitArtInfo>
 			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
 			<PortraitIndex>2</PortraitIndex>
@@ -34,11 +37,11 @@
 			<MoveRate>QUADRUPED</MoveRate>
 		</Row>
 	</Units>
-	
+
 	<Unit_FreePromotions>
 		<Row>
 			<UnitType>UNIT_SMAN_EU_CAMEL_RAIDING_PARTY</UnitType>
-			<PromotionType>PROMOTION_SMAN_SANDSTORM_PROMOTION</PromotionType>
+			<PromotionType>PROMOTION_SMAN_KHAMSIN_PROMOTION</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SMAN_EU_CAMEL_RAIDING_PARTY</UnitType>
@@ -49,17 +52,27 @@
 	<Unit_AITypes>
 		<Row>
 			<UnitType>UNIT_SMAN_EU_CAMEL_RAIDING_PARTY</UnitType>
-			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_CAMEL_RAIDING_PARTY</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>		
 	</Unit_AITypes>
 
 	<Unit_Flavors>
 		<Row>
 			<UnitType>UNIT_SMAN_EU_CAMEL_RAIDING_PARTY</UnitType>
-			<FlavorType>FLAVOR_EXPLORE</FlavorType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_CAMEL_RAIDING_PARTY</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
 	</Unit_Flavors>
+
 
 	<Unit_ClassUpgrades>
 		<Row>

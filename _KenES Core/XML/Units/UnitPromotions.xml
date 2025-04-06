@@ -3,19 +3,19 @@
 <GameData>
 
 	<UnitPromotions>
+		<!--			Camel Unit Promotions			-->
 		<Row>
-			<Type>PROMOTION_SMAN_SANDSTORM_PROMOTION</Type>
-			<Description>TXT_KEY_PROMOTION_SMAN_SANDSTORM_PROMOTION</Description>
-			<Help>TXT_KEY_PROMOTION_SMAN_SANDSTORM_PROMOTION_HELP</Help>
+			<Type>PROMOTION_SMAN_KHAMSIN_PROMOTION</Type>
+			<Description>TXT_KEY_PROMOTION_SMAN_KHAMSIN_PROMOTION</Description>
+			<Help>TXT_KEY_PROMOTION_SMAN_KHAMSIN_PROMOTION_HELP</Help>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
-			<PediaEntry>TXT_KEY_PROMOTION_SMAN_SANDSTORM_PROMOTION_PEDIA</PediaEntry>
+			<PediaEntry>TXT_KEY_PROMOTION_SMAN_KHAMSIN_PROMOTION_PEDIA</PediaEntry>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<IconAtlas>SMAN_EXOTIC_UNIT_PROMOTION_ATLAS</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 			<CannotBeChosen>true</CannotBeChosen>
-			<LostWithUpgrade>false</LostWithUpgrade>
-			<CanMoveAfterAttacking>false</CanMoveAfterAttacking>						<!-- Camel Bowman Abilities-->
-			<OnlyDefensive>1</OnlyDefensive>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<CanMoveAfterAttacking>true</CanMoveAfterAttacking>						<!-- Camel Raiding and War Party Abilities-->
 			<FreePillageMoves>true</FreePillageMoves>
 		</Row>
 		<!--			Elephant Unit Promotions			-->
@@ -87,6 +87,28 @@
 			<NearbyEnemyCombatMod>-25</NearbyEnemyCombatMod>
 			<NearbyEnemyCombatRange>1</NearbyEnemyCombatRange>
 		</Row>		
+		
+		<!--	Guerrilla Promotions - unit has too many capabilities to assign separately. Would overbook the available space for promotions on the unit screen -->
+		<Row>
+			<Type>PROMOTION_EXOTIC_UNIT_GUERILLA_PROMOTION</Type>
+			<Description>TXT_KEY_PROMOTION_EXOTIC_UNIT_GUERILLA_PROMOTION</Description>
+			<Help>TXT_KEY_PROMOTION_EXOTIC_UNIT_GUERILLA_PROMOTION_HELP</Help>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_EXOTIC_UNIT_GUERILLA_PROMOTION_PEDIA</PediaEntry>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<IconAtlas>SMAN_EXOTIC_UNIT_PROMOTION_ATLAS</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+			<CannotBeChosen>true</CannotBeChosen>
+			<LostWithUpgrade>true</LostWithUpgrade>
+
+			<CanMoveAfterAttacking>1</CanMoveAfterAttacking>								<!-- Specific Guerrilla Abilities-->
+			<ExtraWithdrawal>25</ExtraWithdrawal>
+			<FriendlyLandsAttackModifier>15</FriendlyLandsAttackModifier>
+			<FreePillageMoves>true</FreePillageMoves>
+
+			<NoDefensiveBonus>true</NoDefensiveBonus>
+			<CityAttack>-50</CityAttack>
+		</Row>
 		<Row>
 			<Type>PROMOTION_HUN_INVADER</Type>
 			<Description>TXT_KEY_PROMOTION_EXOTIC_UNIT_GUERILLA_PROMOTION</Description>
@@ -100,27 +122,32 @@
 			<LostWithUpgrade>false</LostWithUpgrade>
 			<EnemyHealChange>10</EnemyHealChange>
 		</Row>
+		
 	</UnitPromotions>
 
 	<UnitPromotions_Terrains>
 		<Row>
-			<PromotionType>PROMOTION_SMAN_SANDSTORM_PROMOTION</PromotionType>
+			<PromotionType>PROMOTION_SMAN_KHAMSIN_PROMOTION</PromotionType>
 			<TerrainType>TERRAIN_DESERT</TerrainType>
 			<Attack>33</Attack>
 			<DoubleMove>true</DoubleMove>
 		</Row>
 	</UnitPromotions_Terrains>
+	
 
 	<Language_en_US>
-		<Row Tag="TXT_KEY_PROMOTION_SMAN_SANDSTORM_PROMOTION">
-			<Text>Sandstorm</Text>
+
+		<!--			Camel Unit Promotions			-->
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_KHAMSIN_PROMOTION">
+			<Text>Khamsin Promotion</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_SMAN_SANDSTORM_PROMOTION_HELP">
-			<Text>+33% attack bonus when attacking from Desert tiles, doubles its movement in Desert tiles, and can pillage at no movement cost</Text>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_KHAMSIN_PROMOTION_HELP">
+			<Text>May move after combat. +33% attack bonus when attacking from Desert tiles, doubles its movement in Desert tiles, and can pillage at no movement cost</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_SMAN_SANDSTORM_PROMOTION_PEDIA">
-			<Text>Sandstorm</Text>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_KHAMSIN_PROMOTION_PEDIA">
+			<Text>Khamsin Promotion</Text>
 		</Row>
+
 		<!--			Elephant Unit Promotions			-->
 		<Row Tag="TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_1_PROMOTION">
 			<Text>Perilous Pachyderm I</Text>
@@ -162,16 +189,18 @@
 			<Text>Perilous Pachyderm IV</Text>
 		</Row>
 
+
 		<!--	Guerilla Promotion		-->
 		<Row Tag="TXT_KEY_PROMOTION_EXOTIC_UNIT_GUERILLA_PROMOTION">
-			<Text>Invader</Text>
+			<Text>Guerilla Promotion</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_EXOTIC_UNIT_GUERILLA_PROMOTION_HELP">
-			<Text>Heals in enemy territory as if it were their own.</Text>
+			<Text>Guerilla may move after attacking, receive a +15 combat bonus in friendly territory, pillage at no movement cost, and have a 25% chance of withdrawing from combat. It receives no defensive terrain bonuses and -50% combat strength when attacking cities.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_EXOTIC_UNIT_GUERILLA_PROMOTION_PEDIA">
-			<Text>Invader</Text>
+			<Text>Guerilla Promotion</Text>
 		</Row>
+
 	</Language_en_US>	
 
 </GameData>
