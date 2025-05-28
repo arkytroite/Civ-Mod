@@ -41,7 +41,7 @@
     * Mercantalism no longer has any requirements
     * Mercanary Army now requires Mercantilism
   * Adopting Commerce provides +2 Gold in every city and +33% Great Merchant generation.
-  * Wagon Trains has been renamed to Trade Unions and now provides +1 Food and Happiness from Caravanasaries.
+  * Wagon Trains has been renamed to Trade Unions and now provides +1 Happiness from Caravanasaries.
   * Mercenary Army has been expanded to have new units for later eras
     * Swiss Guard at Metallurgy
     * Foreign Legion at Rifling
@@ -53,7 +53,7 @@
   * Completing the tree provides +5 Science, Gold, and Culture from City Ruins.
 * Imperialism
   * Exploration has been renamed Imperialism
-  * Adopting Imperialism allows the purchase and training of Slaves
+  * Adopting Imperialism allows the purchase and training of Slaves, as well as dramatically decreasing their revolution chance. 
   * The Tree has been reordered
     * Merchant Navy no longer has any requirements
     * Naval Tradition now requires Maritime Infrastructure
@@ -125,7 +125,7 @@
     *  +10 Culture from City Ruins
     *  +12 Science while conducting a dig site.
     *  +3 Culture from Citadels.
-  * Cult of Personality now gives an attack bonus and a Golden Age for the next 30 Turns after it is picked, 2 Great Generals.
+  * Cult of Personality now gives an attack bonus and a Golden Age for the next 30 Turns after it is picked, as well as 2 Great Generals.
   * Gunboat Diplomacy replaced with Protectorate, which gives +2 Delegates from conquered city-states and makes Militaristic City-States give units and triple speed while at war with a common foe.
   * Clausewitz's Legacy replaced with Blood and Soil, which gives the following benefits:
     * Melee Units get +15% Combat Strength outside friendly territory and heal 25HP when they kill a unit.
@@ -139,10 +139,10 @@ New Buildings have been added that are restricted to certain policies trees. The
   * Honor gets the Arena. Available at Mining, it provides Gold and Happiness.
   * Piety gets the Tribunal Court. Available at Calenders, it provides Faith and Happiness.
 * The remaining Policy Trees get buildings based on generating particular types of Great People. These are not mutually exclusive.
-  * Patronage gets the Relay Outpost, which generates Gold and Great Writers.
+  * Patronage gets the Relay Outpost, which generates Great Writers.
   * Aesthetics gets the Catacombs, which generate Culture and Great Artists.
   * Imperialism gets the Fleet Admiral's Office, which generates a free Great Admiral.
-  * Rationalism gets the Patent Office, which generates Science and Great Scientists.
+  * Rationalism gets the Patent Office, which generates Great Scientists.
   * Security gets the City Bulwarks, which provides Defense and generates Great Engineers.
   * Authority gets the Command Center, which generates a free Great General.
   * Statecraft get International Schools, which generates all Great People, but especially Great Musicians.
@@ -153,7 +153,7 @@ New Buildings have been added that are restricted to certain policies trees. The
 * The Ideologies gain new governmental buidings, which provide extra Happiness.
   * Liberalism gets the Polling Station, which also provides Culture.
   * Communism gets the People's Council, which also provides Science.
-  * Facism gets the Propoganda Office, which also provides faster unit build time,
+  * Facism gets the Propoganda Office, which also provides faster unit build time.
 ## Slavery
 Makes captured civilian units turn into Slaves, which build slower than Workers and may revolt.
 * Slaves can also be used to hurry building in cities, similar to a Great Engineer.
@@ -162,7 +162,7 @@ Makes captured civilian units turn into Slaves, which build slower than Workers 
   * Doubled by Raging Barbarians
   * Scales with Game Speed (less revolutions for less Turns)
 * When Slaves revolt, they turn into barbarian units along with any nearby Slaves.
-* Slaves within a large radius of active revolutions will refuse to work for one Turn, but won't revolt.
+* Slaves within a larger radius of active revolutions will refuse to work for one Turn, but won't revolt.
 * Slaves captured (or rescued) by barbarians become barbarians themselves.
 * Workers taken by threats from city-states will not convert into slaves.
 * Slaves can be obtained through Social Policies
@@ -176,6 +176,7 @@ Makes captured civilian units turn into Slaves, which build slower than Workers 
   * Very weak unit that appears often as barbarians in the early game
   * They can also be built by the player very cheaply
   * Only 1 movement
+  * Pay no Maintenance 
   * Can move the same turn it's built
 * Currassiers
   * Mounted Low Range Ranged Unit
