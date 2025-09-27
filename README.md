@@ -197,7 +197,7 @@ Mountains can be worked as tiles, though weak ones. Various buildings give +1 to
 * Broadcast Tower: Culture
 * Machu Pichu: Faith x2
 * some unique buildings
-### Other Tweaks
+# Other Tweaks
 ## Detour Technologies
 Adds new technologies that give new benefits, but don't progress the tech tree overall. Many games, they can be ignored, but they can be teched into for military applications or to better navigate you land.
 * Hand-axes
