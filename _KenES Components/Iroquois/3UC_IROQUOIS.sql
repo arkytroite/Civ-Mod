@@ -89,7 +89,7 @@ FROM Unit_ResourceQuantityRequirements WHERE UnitType = 'UNIT_MUSKETMAN';
 
 INSERT INTO UnitPromotions 
 			(Type, 						Description, 					Help, 									Sound, 				 IgnoreTerrainCost,	LostWithUpgrade, CannotBeChosen, PortraitIndex, 	IconAtlas, 			PediaType, 			PediaEntry)
-VALUES	('PROMOTION_3UC_RUSHER',	'TXT_KEY_PROMOTION_3UC_RUSHER',	'TXT_KEY_PROMOTION_3UC_RUSHER_HELP',	'AS2D_IF_LEVELUP', 		'true', 				'true',				 1, 				59, 			'ABILITY_ATLAS', 	'PEDIA_ATTRIBUTES', 'TXT_KEY_PROMOTION_3UC_RUSHER');
+VALUES	('PROMOTION_3UC_RUSHER',	'TXT_KEY_PROMOTION_3UC_RUSHER',	'TXT_KEY_PROMOTION_3UC_RUSHER_HELP',	'AS2D_IF_LEVELUP', 		'true', 				'true',				 1, 				12, 			'VALERY_ATLAS', 	'PEDIA_ATTRIBUTES', 'TXT_KEY_PROMOTION_3UC_RUSHER');
 	
 INSERT INTO Unit_FreePromotions 	
 		(UnitType, 					PromotionType)

@@ -184,7 +184,7 @@
 	<Unit_FreePromotions>
 		<Row>
 			<UnitType>UNIT_AIRSHIP</UnitType>
-			<PromotionType>PROMOTION_FLAT_MOVEMENT_COST_A</PromotionType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_AIRSHIP</UnitType>
@@ -197,10 +197,6 @@
 		<Row>
 			<UnitType>UNIT_AIRSHIP</UnitType>
 			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AIRSHIP</UnitType>
-			<PromotionType>PROMOTION_NO_CAPTURE_A</PromotionType>
 		</Row>
 	</Unit_FreePromotions>
 

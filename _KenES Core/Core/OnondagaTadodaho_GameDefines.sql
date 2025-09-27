@@ -6,7 +6,7 @@
 ------------------------------------------------------------------------------------------------------------------------
 INSERT INTO UnitPromotions 
 		(Type, 							TradeMissionGoldModifier,	TradeMissionInfluenceModifier,	LostWithUpgrade,	Description, 						Help, 										Sound, 				CannotBeChosen,  PortraitIndex, 	IconAtlas, 			PediaType, 				PediaEntry)
-VALUES	('PROMOTION_LEU_FIREKEEPER', 	-100,						100,								1, 					'TXT_KEY_PROMOTION_LEU_FIREKEEPER',	'TXT_KEY_PROMOTION_LEU_FIREKEEPER_HELP',	'AS2D_IF_LEVELUP', 	1, 				 59, 				'ABILITY_ATLAS', 	'PEDIA_ATTRIBUTES',		'TXT_KEY_PROMOTION_LEU_FIREKEEPER');
+VALUES	('PROMOTION_LEU_FIREKEEPER', 	-100,						100,								1, 					'TXT_KEY_PROMOTION_LEU_FIREKEEPER',	'TXT_KEY_PROMOTION_LEU_FIREKEEPER_HELP',	'AS2D_IF_LEVELUP', 	1, 				 13, 				'VALERY_ATLAS', 	'PEDIA_ATTRIBUTES',		'TXT_KEY_PROMOTION_LEU_FIREKEEPER');
 ------------------------------------------------------------------------------------------------------------------------
 -- Units
 ------------------------------------------------------------------------------------------------------------------------	

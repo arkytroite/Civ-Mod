@@ -29,6 +29,7 @@
     <Dlc id="ECF7C605-BA11-4CAC-8D80-D71306AAC471" minversion="0" maxversion="999" />
     <Dlc id="7459BA32-5764-44ae-8E95-01AD0E0EFD48" minversion="0" maxversion="999" />
     <Dlc id="BBB0D085-A0B1-4475-B007-3E549CF3ADC3" minversion="0" maxversion="999" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" />
   </Dependencies>
   <References>
   </References>
@@ -1248,7 +1249,6 @@
     <File md5="914E4F2E7EDE785F0A6145892767F127" import="1">Art/Uniticons/toyon80.dds</File>
     <File md5="150F983EBE684D00672BB1D240685342" import="1">Art/yakutDOM.dds</File>
     <File md5="AA6FE948C327DF56D16C445315351D52" import="1">Art/yakutmap.dds</File>
-    <File md5="0C6EE9F54B41A116693BF5A105BE3623" import="0">XML/IconAtlas.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
@@ -1511,6 +1511,7 @@
       <UpdateDatabase>RPText.xml</UpdateDatabase>
       <UpdateDatabase>GenericTerracesAndPolders.xml</UpdateDatabase>
       <UpdateDatabase>XML/IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/New Promotions pack.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>

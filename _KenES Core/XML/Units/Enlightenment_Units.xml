@@ -228,10 +228,6 @@
 	<Unit_FreePromotions>
 		<Row>
 			<UnitType>UNIT_EE_EXPLORER</UnitType>
-			<PromotionType>PROMOTION_EE_EXPLORER</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EE_EXPLORER</UnitType>
 			<PromotionType>PROMOTION_SCOUTING_1</PromotionType>
 		</Row>
 		<Row>

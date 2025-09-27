@@ -150,13 +150,13 @@
 
 		<!--			Elephant Unit Promotions			-->
 		<Row Tag="TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_1_PROMOTION">
-			<Text>Perilous Pachyderm I</Text>
+			<Text>Perilous Pachyderm</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_1_PROMOTION_HELP">
 			<Text>Frightens adjacent enemies, reducing their Combat Strength -10%, no defensive terrain bonuses, and -33% penalty when attacking cities</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_1_PROMOTION_PEDIA">
-			<Text>Perilous Pachyderm I</Text>
+			<Text>Perilous Pachyderm</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_SMAN_PERILOUS_PACHYDERM_2_PROMOTION">

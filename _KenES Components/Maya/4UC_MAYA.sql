@@ -72,7 +72,7 @@ VALUES	('UNIT_3MAYAN_SWORDSMAN',	'FLAVOR_OFFENSE', 4),
 --------------------------------	
 INSERT INTO Unit_FreePromotions
 		(UnitType, 					PromotionType)
-VALUES	('UNIT_3MAYAN_SWORDSMAN',  'PROMOTION_3MAYAN');
+VALUES	('UNIT_3MAYAN_SWORDSMAN',  'PROMOTION_ANTI_MOUNTED_I');
 
 --------------------------------	
 -- Civilization_UnitClassOverrides 

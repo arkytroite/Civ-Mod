@@ -36,6 +36,9 @@
 	</Building_YieldChanges>
 	<Language_en_US>
 		<!--UNIQUE 1-->
+		<Row Tag="TXT_KEY_PROMOTION_LEU_FIREKEEPER_HELP">
+			<Text>Can be expended at City-States for a burst of and [ICON_INFLUENCE] Influence twice that of what a Great Merchant would get.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_UNIT_LEU_FIREKEEPER">
 			<Text>Fire Keeper</Text>
 		</Row>
@@ -49,7 +52,7 @@
 			<Text>The term Fire Keeper was used by the Iroquois to refer to their most influential spiritual leader in New York State; it has been used in this way for centuries.The Tadodaho in New York State is the spiritual leader of the Haudenosaunee, Six Nations that includes the Cayuga, Mohawk, Oneida, Onondaga, Seneca, and Tuscarora people. The post is also called the "Head Chief of All the Six Nations". He presides over the Grand Council of the Haudenosaunee (also called Iroquois). The Great Council Fire of the Iroquois League is still located within the Onondaga reservation in present-day New York. Many of the Iroquois live in Canada, where their ancestors moved after the American Revolutionary War, as they were allies of the defeated British. The Crown gave them some land in compensation for what they lost.[NEWLINE][NEWLINE]Along with other Native American leaders, the Fire Keeper is responsible for maintaining the history of the Haudenosaunee people. The position of Fire Keeper, also called Tadodaho, is a lifetime appointment. According to tradition, when the previous Tadodaho dies, a council of chiefs from the Haudenosaunee chooses a leader from the Onondaga people.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LEU_FIREKEEPER">
-			<Text>No [ICON_GOLD] Gold but double [ICON_INFLUENCE] Influence from Trade Missions. </Text>
+			<Text>Tadodaho</Text>
 		</Row>
 
 		<!--UNIQUE 2-->

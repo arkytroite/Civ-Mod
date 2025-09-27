@@ -38,7 +38,7 @@
 		<Row>
 			<Type>BUILDING_ARDL_IVANFORT</Type>
 			<BuildingClass>BUILDINGCLASS_ARDL_IVANFORT</BuildingClass>
-			<Cost>250</Cost>
+			<Cost>1250</Cost>
 			<PrereqTech>TECH_NAVIGATION</PrereqTech>
 			<Help>TXT_KEY_WONDER_ARDL_IVANFORT_HELP</Help>
 			<Description>TXT_KEY_BUILDING_ARDL_IVANFORT</Description>

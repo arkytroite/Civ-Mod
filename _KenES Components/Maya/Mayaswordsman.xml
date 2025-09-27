@@ -34,7 +34,7 @@
 			<Text>Obsidian Blade</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_3MAYAN_HELP">
-			<Text>50% Bonus vs. Mounted units.</Text>
+			<Text>20% Bonus vs. Mounted units.</Text>
 		</Row>
 	</Language_en_US>
 
@@ -42,7 +42,7 @@
 		<Row>
 			<PromotionType>PROMOTION_3MAYAN</PromotionType>
 			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-			<Modifier>50</Modifier>
+			<Modifier>20</Modifier>
 		</Row>
 	</UnitPromotions_UnitCombatMods>
 

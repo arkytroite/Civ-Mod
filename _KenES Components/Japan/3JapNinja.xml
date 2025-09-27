@@ -83,8 +83,8 @@
 			<Help>TXT_KEY_PROMOTION_INVISIBLE_ELVEN_RANGER_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<Invisible>INVISIBLE_SUBMARINE</Invisible>
-			<PortraitIndex>59</PortraitIndex>
-			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PortraitIndex>31</PortraitIndex>
+			<IconAtlas>VALERY_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
 			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_INVISIBLE_ELVEN_RANGER</PediaEntry>
 		</Row>

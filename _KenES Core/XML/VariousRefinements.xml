@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Written by zai4z -->
+<GameData>
+
+	<Trait_FreePromotionUnitCombats>
+		<Delete TraitType="TRAIT_AMPHIB_WARLORD" PromotionType="PROMOTION_WAR_CANOES"/>
+		<Delete TraitType="TRAIT_VIKING_FURY"/>
+		<Row>
+			<TraitType>TRAIT_VIKING_FURY</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_DENMARK</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_VIKING_FURY</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_DENMARK</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_VIKING_FURY</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_DENMARK</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_VIKING_FURY</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<PromotionType>PROMOTION_DENMARK</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
+
+	<Natural_Wonder_Placement>
+		<Update>
+			<Where NaturalWonderType="FEATURE_VOLCANO"/>
+			<Set EligibilityMethodNumber="3" TileChangesMethodNumber="3" AdjacentTilesCareAboutPlotTypes="false" AdjacentTilesCareAboutFeatureTypes="false" ChangeCoreTileToMountain="false" ChangeCoreTileTerrainToGrass="false" SetAdjacentTilesToShallowWater="false"/>
+		</Update>
+	</Natural_Wonder_Placement>
+
+	<Improvements>
+		<Update>
+			<Where Type="IMPROVEMENT_FORT"/>
+			<Set DestroyedWhenPillaged="false"/>
+		</Update>
+
+		<Row>
+			<Type>IMPROVEMENT_LANDMARK_EURO</Type>
+			<Description>TXT_KEY_IMPROVEMENT_LANDMARK</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_LANDMARK_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_MONOLITH_EURO</ArtDefineTag>
+			<RequiresImprovement>true</RequiresImprovement>
+			<IgnoreOwnership>true</IgnoreOwnership>
+			<PillageGold>20</PillageGold>
+			<PortraitIndex>36</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+			<CreatedByGreatPerson>true</CreatedByGreatPerson>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_LANDMARK_ASIA</Type>
+			<Description>TXT_KEY_IMPROVEMENT_LANDMARK</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_LANDMARK_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_MONOLITH_ASIA</ArtDefineTag>
+			<RequiresImprovement>true</RequiresImprovement>
+			<IgnoreOwnership>true</IgnoreOwnership>
+			<PillageGold>20</PillageGold>
+			<PortraitIndex>36</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+			<CreatedByGreatPerson>true</CreatedByGreatPerson>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_LANDMARK_AMER</Type>
+			<Description>TXT_KEY_IMPROVEMENT_LANDMARK</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_LANDMARK_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_MONOLITH_AMER</ArtDefineTag>
+			<RequiresImprovement>true</RequiresImprovement>
+			<IgnoreOwnership>true</IgnoreOwnership>
+			<PillageGold>20</PillageGold>
+			<PortraitIndex>36</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+			<CreatedByGreatPerson>true</CreatedByGreatPerson>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_LANDMARK_AFRI</Type>
+			<Description>TXT_KEY_IMPROVEMENT_LANDMARK</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_LANDMARK_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_MONOLITH_AFRI</ArtDefineTag>
+			<RequiresImprovement>true</RequiresImprovement>
+			<IgnoreOwnership>true</IgnoreOwnership>
+			<PillageGold>20</PillageGold>
+			<PortraitIndex>36</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+			<CreatedByGreatPerson>true</CreatedByGreatPerson>
+		</Row>
+	</Improvements>
+
+	<Improvement_YieldPerEra>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LANDMARK_EURO</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LANDMARK_ASIA</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LANDMARK_AMER</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LANDMARK_AFRI</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_YieldPerEra>
+
+	<Trait_ImprovementYieldChanges>
+		<Row>
+			<TraitType>TRAIT_SCHOLARS_JADE_HALL</TraitType>
+			<ImprovementType>IMPROVEMENT_LANDMARK_EURO</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_SCHOLARS_JADE_HALL</TraitType>
+			<ImprovementType>IMPROVEMENT_LANDMARK_ASIA</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_SCHOLARS_JADE_HALL</TraitType>
+			<ImprovementType>IMPROVEMENT_LANDMARK_AMER</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_SCHOLARS_JADE_HALL</TraitType>
+			<ImprovementType>IMPROVEMENT_LANDMARK_AFRI</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges>
+
+	<Resolutions>
+		<Update>
+			<Where Type="RESOLUTION_HISTORICAL_LANDMARKS"/>
+			<Set LandmarkCulture="2"/>
+		</Update>
+	</Resolutions>
+
+	<Builds>
+		<Update>
+			<Where Type="BUILD_FORT"/>
+			<Set Time="600"/>
+		</Update>
+		<Row>
+			<Type>SATELLITES_REVEAL</Type>
+			<PrereqTech>TECH_SATELLITES</PrereqTech>
+			<Description>TXT_KEY_SATELLITES_REVEAL</Description>
+			<IconIndex>0</IconIndex>
+			<IconAtlas>GENERIC_FUNC_ATLAS</IconAtlas>
+			<ShowInPedia>false</ShowInPedia>
+			<ShowInTechTree>true</ShowInTechTree>
+		</Row>
+	</Builds>
+	
+	<BuildFeatures>
+		<Update>
+			<Where BuildType="BUILD_FORT" FeatureType="FEATURE_JUNGLE"/>
+			<Set Time="525"/>
+		</Update>
+		<Update>
+			<Where BuildType="BUILD_FORT" FeatureType="FEATURE_FOREST"/>
+			<Set Time="300"/>
+		</Update>
+		<Update>
+			<Where BuildType="BUILD_FORT" FeatureType="FEATURE_MARSH"/>
+			<Set Time="450"/>
+		</Update>
+		<Update>
+			<Where BuildType="BUILD_FEITORIA" FeatureType="FEATURE_JUNGLE"/>
+			<Set Remove="false"/>
+		</Update>
+		<Update>
+			<Where BuildType="BUILD_FEITORIA" FeatureType="FEATURE_FOREST"/>
+			<Set Remove="false" Production="0"/>
+		</Update>
+	</BuildFeatures>
+
+	<Units>
+		<Update>
+			<Where Type="UNIT_PARATROOPER"/>
+			<Set ObsoleteTech="TECH_NANOTECHNOLOGY"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SHOSHONE_COMANCHE_RIDERS"/>
+			<Set Moves="5"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_ANTI_TANK_GUN"/>
+			<Set CombatClass="UNITCOMBAT_ARCHER" RangedCombat="50" Range="1" DefaultUnitAI="UNITAI_RANGED"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_WORKBOAT"/>
+			<Set Cost="25" Capture="UNITCLASS_WORKBOAT"/>
+		</Update>
+
+		<Update>
+			<Where Type="UNIT_ENGLISH_SHIPOFTHELINE"/>
+			<Set IconAtlas="SHIPOFTHELINE_ATLAS" PortraitIndex="0"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_FRIGATE"/>
+			<Set PortraitIndex="9"/>
+		</Update>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_ANTI_TANK_GUN</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_DENMARK</Type>
+			<Description>TXT_KEY_PROMOTION_DENMARK</Description>
+			<Help>TXT_KEY_PROMOTION_DENMARK_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<FreePillageMoves>true</FreePillageMoves>
+			<PortraitIndex>22</PortraitIndex>
+			<IconAtlas>PROMOTION_ICONS_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_DENMARK</PediaEntry>
+		</Row>
+
+		<Update>
+			<Where Type="PROMOTION_PARADROP"/>
+			<Set Help="TXT_KEY_PROMOTION_PARADROP_HELP" PediaEntry="TXT_KEY_PROMOTION_PARADROP" IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="1"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_EXTENDED_PARADROP"/>
+			<Set ExtraAttacks="1"/>
+		</Update>
+		<Row>
+			<Type>PROMOTION_EXTENDED_PARADROP_2</Type>
+			<Description>TXT_KEY_PROMOTION_EXTENDED_PARADROP</Description>
+			<Help>TXT_KEY_PROMOTION_EXTENDED_PARADROP_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
+			<CannotBeChosen>true</CannotBeChosen>
+			<DropRange>40</DropRange>
+		</Row>
+
+		<Update>
+			<Where Type="PROMOTION_SENTRY"/>
+			<Set DefenseMod="10"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_EVASION"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="35"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_EVASION_II"/>
+			<Set Help="TXT_KEY_PROMOTION_EVASION_II_HELP" PediaEntry="TXT_KEY_PROMOTION_EVASION_II" IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="20"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_STATUE_ZEUS"/>
+			<Set CityAttack="25" AttackFortifiedMod="25" IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="29"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_ADJACENT_BONUS"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="0"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_INDIRECT_FIRE"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="2"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_MEDIC_II"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="3"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_OCEAN_IMPASSABLE"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="8"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_OCEAN_IMPASSABLE_HUMAN"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="8"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_AIR_RECON"/>
+			<Set IconAtlas="PROMOTION_ATLAS" PortraitIndex="37"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_AIR_RECON_2"/>
+			<Set IconAtlas="PROMOTION_ATLAS" PortraitIndex="38"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_AIR_RECON_3"/>
+			<Set IconAtlas="PROMOTION_ATLAS" PortraitIndex="39"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_NAVAL_TRADITION"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="5"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_GREAT_LIGHTHOUSE"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="7"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_OCEAN_MOVEMENT"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="6"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_FASTER_HEAL"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="9" Help="TXT_KEY_PROMOTION_FASTER_HEAL_HELP"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_MORALE"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="10"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_DEFEND_NEAR_CAPITAL"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="34"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_NATIONALISM"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="36"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_ALLWATER_EMBARKATION"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="13"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_EMBARKATION"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="14"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_AIR_SWEEP"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="16"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_LOGISTICS"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="19"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_BLITZ"/>
+			<Set IconAtlas="PROMOTION_ATLAS" PortraitIndex="30"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_INTERCEPTION_III"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="56"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_INTERCEPTION_IV"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="57"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_ANTI_AIR_II"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="52"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_ANTI_FIGHTER"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="51"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_ANTI_GUNPOWDER"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="59"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_ANTI_MOUNTED_I"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="60"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_ANTI_SUBMARINE_II"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="43"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_ANTI_TANK"/>
+			<Set IconAtlas="EXPANSION2_PROMOTION_ATLAS" PortraitIndex="5"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_CAN_MOVE_AFTER_ATTACKING"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="44"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_CAN_MOVE_IMPASSABLE"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="18"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_CARGO_II"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="25"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_CARGO_III"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="26"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_DEFENSE_PENALTY"/>
+			<Set IconAtlas="KRIS_SWORDSMAN_PROMOTION_ATLAS" PortraitIndex="2"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_FIRE_SUPPORT"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="61"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_CITY_SIEGE"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="62"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_CITY_ASSAULT"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="63"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_ATTACK_BONUS"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="47"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_EMBARKED_SIGHT"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="15"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_CITY_PENALTY"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="42"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_FEARED_ELEPHANT"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="21"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_FLANK_ATTACK_BONUS"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="41"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_FOREIGN_LANDS"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="31"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_FREE_PILLAGE_MOVES"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="33"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_GAIN_EXPERIENCE"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="54"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_MOVEMENT_TO_GENERAL"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="49" GreatGeneralCombatModifier="15"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_GREAT_ADMIRAL"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="46"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_GREAT_GENERAL"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="53"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_HAKA_WAR_DANCE"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="17"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_HEAL_IF_DESTROY_ENEMY"/>
+			<Set IconAtlas="KRIS_SWORDSMAN_PROMOTION_ATLAS" PortraitIndex="6"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_WOODSMAN"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="30"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_JAGUAR"/>
+			<Set IconAtlas="PROMOTION_ATLAS" PortraitIndex="56"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_MOHAWK"/>
+			<Set IconAtlas="PROMOTION_ATLAS" PortraitIndex="56"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_MEDIC_GENERAL"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="58"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_INVISIBLE_SUBMARINE"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="20"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_MUST_SET_UP"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="40"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_NAVAL_BONUS"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="28" Help="TXT_KEY_PROMOTION_NAVAL_BONUS_HELP"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_NO_DEFENSIVE_BONUSES"/>
+			<Set IconAtlas="KRIS_SWORDSMAN_PROMOTION_ATLAS" PortraitIndex="2"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_ONLY_ATTACKS_CITIES"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="42"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY"/>
+			<Set IconAtlas="KRIS_SWORDSMAN_PROMOTION_ATLAS" PortraitIndex="6"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_PRIZE_SHIPS"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="55"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_SILENT_HUNTER"/>
+			<Set IconAtlas="VALERY_ATLAS" PortraitIndex="50"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_ROUGH_TERRAIN_ENDS_TURN"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="45"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_RIVAL_TERRITORY"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="50"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_UNWELCOME_EVANGELIST"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="48"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_SEE_INVISIBLE_SUBMARINE"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="39"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_SIGHT_PENALTY"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="38"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_WITHDRAW_BEFORE_MELEE"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="24"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_SMALL_CITY_PENALTY"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="42"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_STEAM_POWERED"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="27"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_SPAWN_GENERALS_I"/>
+			<Set IconAtlas="PROMOTION_ATLAS" PortraitIndex="23"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_SPAWN_GENERALS_II"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="37"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_SKI_INFANTRY"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="23"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_ONLY_DEFENSIVE"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="11"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_HIMEJI_CASTLE"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="32"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_LIGHTNING_WARFARE"/>
+			<Set IconAtlas="PROMOTION_ATLAS" PortraitIndex="9"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_IGNORE_TERRAIN_COST"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="12"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_AIR_LOGISTICS"/>
+			<Set IconAtlas="PROMOTION_ICONS_ATLAS" PortraitIndex="19"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_FAST_GENERAL"/>
+			<Set IconAtlas="PROMOTION_ATLAS" PortraitIndex="33"/>
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_FAST_ADMIRAL"/>
+			<Set IconAtlas="PROMOTION_ATLAS" PortraitIndex="33"/>
+		</Update>
+	</UnitPromotions>
+
+	<Unit_FreePromotions>
+		<Delete UnitType="UNIT_RUSSIAN_COSSACK" PromotionType="PROMOTION_STRONGER_VS_DAMAGED"/>
+		<Delete UnitType="UNIT_SHOSHONE_COMANCHE_RIDERS" PromotionType="PROMOTION_MOON_STRIKER"/>
+		<Delete UnitType="UNIT_SWEDISH_HAKKAPELIITTA" PromotionType="PROMOTION_GENERAL_STACKING"/>
+		<Delete UnitType="UNIT_DESTROYER" PromotionType="PROMOTION_INTERCEPTION_II"/>
+		<Row>
+			<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
+			<PromotionType>PROMOTION_CHARGE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DESTROYER</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_III</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ANTI_TANK_GUN</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Delete UnitType="UNIT_ATOMIC_BOMB" PromotionType="PROMOTION_EVASION_I"/>
+		<Delete UnitType="UNIT_NUCLEAR_MISSILE" PromotionType="PROMOTION_EVASION_I"/>
+		<Delete UnitType="UNIT_CHINESE_CHUKONU" PromotionType="PROMOTION_SECOND_ATTACK"/>
+		<Delete UnitType="UNIT_ENGLISH_SHIPOFTHELINE" PromotionType="PROMOTION_EXTRA_SIGHT_I"/>
+		<Delete UnitType="UNIT_CARAVEL" PromotionType="PROMOTION_EXTRA_SIGHT_I"/>
+		<Delete UnitType="UNIT_NUCLEAR_SUBMARINE" PromotionType="PROMOTION_EXTRA_SIGHT_I"/>
+		<Delete UnitType="UNIT_OTTOMAN_SIPAHI" PromotionType="PROMOTION_EXTRA_SIGHT_I"/>
+		<Delete UnitType="UNIT_ASSYRIAN_SIEGE_TOWER" PromotionType="PROMOTION_EXTRA_SIGHT_I"/>
+		<Delete UnitType="UNIT_PORTUGUESE_NAU" PromotionType="PROMOTION_EXTRA_SIGHT_I"/>
+		<Delete UnitType="UNIT_INQUISITOR" PromotionType="PROMOTION_EXTRA_SIGHT_I"/>
+		<Row>
+			<UnitType>UNIT_ATOMIC_BOMB</UnitType>
+			<PromotionType>PROMOTION_EVASION_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_MISSILE</UnitType>
+			<PromotionType>PROMOTION_EVASION_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INQUISITOR</UnitType>
+			<PromotionType>PROMOTION_SCOUTING_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PORTUGUESE_NAU</UnitType>
+			<PromotionType>PROMOTION_SCOUTING_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ASSYRIAN_SIEGE_TOWER</UnitType>
+			<PromotionType>PROMOTION_SCOUTING_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_OTTOMAN_SIPAHI</UnitType>
+			<PromotionType>PROMOTION_SCOUTING_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
+			<PromotionType>PROMOTION_SCOUTING_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARAVEL</UnitType>
+			<PromotionType>PROMOTION_SCOUTING_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHINESE_CHUKONU</UnitType>
+			<PromotionType>PROMOTION_LOGISTICS</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EGYPTIAN_WARCHARIOT</UnitType>
+			<PromotionType>PROMOTION_ACCURACY_1</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Building_FeatureYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_FLOATING_GARDENS</BuildingType>
+			<FeatureType>FEATURE_LAKE_VICTORIA</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_FeatureYieldChanges>
+
+
+	<Civilizations>
+		<Update>
+			<Where Type="CIVILIZATION_INDIA"/>
+			<Set ArtStyleType="ARTSTYLE_MIDDLE_EAST" ArtStyleSuffix="_AFRI" ArtStylePrefix="AFRICAN"/>
+		</Update>
+		<Update>
+			<Where Type="CIVILIZATION_PORTUGAL"/>
+			<Set ArtStyleType="ARTSTYLE_GRECO_ROMAN" ArtStyleSuffix="_MED" ArtStylePrefix="MEDITERRANEAN"/>
+		</Update>
+		<Update>
+			<Where Type="CIVILIZATION_SPAIN"/>
+			<Set ArtStyleType="ARTSTYLE_GRECO_ROMAN" ArtStyleSuffix="_MED" ArtStylePrefix="MEDITERRANEAN"/>
+		</Update>
+		<Update>
+			<Where Type="CIVILIZATION_HUNS"/>
+			<Set ArtStyleType="ARTSTYLE_EUROPEAN" ArtStyleSuffix="_EURO" ArtStylePrefix="EUROPEAN"/>
+		</Update>
+		<Update>
+			<Where Type="CIVILIZATION_BRAZIL"/>
+			<Set ArtStyleType="ARTSTYLE_GRECO_ROMAN" ArtStyleSuffix="_MED" ArtStylePrefix="MEDITERRANEAN"/>
+		</Update>
+		<Update>
+			<Where Type="CIVILIZATION_OTTOMAN"/>
+			<Set ArtStyleType="ARTSTYLE_GRECO_ROMAN" ArtStyleSuffix="_MED" ArtStylePrefix="MEDITERRANEAN"/>
+		</Update>
+	</Civilizations>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SATELLITES_REVEAL">
+			<Text>All cities on the map will remain visible</Text>
+		</Row>
+
+		<Update>
+			<Where Tag="TXT_KEY_RESOLUTION_HISTORICAL_LANDMARKS_HELP"/>
+			<Set Text="Great Person tile improvements and Landmarks provide +2 [ICON_CULTURE] Culture[NEWLINE][NEWLINE]Available once any Civilization discovers Archaeology"/>
+		</Update>
+
+		<Row Tag="TXT_KEY_PROMOTION_DENMARK">
+			<Text>Viking Fury</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DENMARK_HELP">
+			<Text>+1 [ICON_MOVES] Movement while Embarked. Pay 1 [ICON_MOVES] Movement for Disembarking. No [ICON_MOVES] Movement cost to pillage</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_EGYPT_DUMMY">
+			<Text>Egypt Dummy</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_TRAIT_WONDER_BUILDER"/>
+			<Set Text="+25% [ICON_PRODUCTION] Production towards Wonder construction. +1 [ICON_PEACE] Faith from Flood Plains"/>
+		</Update>
+
+		<Update>
+			<Where Tag="TXT_KEY_TRAIT_AMPHIB_WARLORD"/>
+			<Set Text="Units pay just 1 movement to enter any tile adjacent to a river and gain the Amphibious promotion. Receive double [ICON_GOLD] gold from barbarian encampments and pillaging cities"/>
+		</Update>
+
+		<Update>
+			<Where Tag="TXT_KEY_PROMOTION_NAVAL_BONUS_HELP"/>
+			<Set Text="+50% [ICON_STRENGTH] Combat Strength vs Naval units"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PROMOTION_NAVAL_BONUS"/>
+			<Set Text="Greek Fire"/>
+		</Update>
+
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_XCOM_SQUAD"/>
+			<Set Text="Futuristic infantry unit skilled at dropping into danger from far across the world. Unlike the Paratrooper, the XCOM squad can attack after landing."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PROMOTION_EXTENDED_PARADROP_HELP"/>
+			<Set Text="May paradrop up to 40 tiles away, can attack after paradropping"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PROMOTION_PARADROP"/>
+			<Set Text="Paradrop"/>
+		</Update>
+		<Row Tag="TXT_KEY_PROMOTION_PARADROP_HELP">
+			<Text>May paradrop up to 9 tiles away</Text>
+		</Row>
+
+		<Update>
+			<Where Tag="TXT_KEY_PROMOTION_MOVEMENT_TO_GENERAL_HELP"/>
+			<Set Text="Great General moves at rate of this unit if they start the turn stacked. 15% combat bonus with Great General in same tile"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PROMOTION_ALLWATER_EMBARKATION"/>
+			<Set Text="Wayfinding"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_STATUE_ZEUS_HELP"/>
+			<Set Text="Requires Honor. All units gain +25% [ICON_STRENGTH] Combat Strength vs Fortified Units and Cities"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PROMOTION_STATUE_ZEUS_HELP"/>
+			<Set Text="+25% [ICON_STRENGTH] Combat Strength vs Fortified Units and Cities"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PROMOTION_FASTER_HEAL"/>
+			<Set Text="Fountain of Youth"/>
+		</Update>
+		<Row Tag="TXT_KEY_PROMOTION_FASTER_HEAL_HELP">
+			<Text>Heals at Double Rate</Text>
+		</Row>
+
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_KREMLIN_HELP"/>
+			<Set Text="Requires Order. +50% Ideological and tourism influence resistance. 1 Free Social Policy"/>
+		</Update>
+
+		<Update>
+			<Where Tag="TXT_KEY_PROMOTION_EVASION_II"/>
+			<Set Text="Stealth"/>
+		</Update>
+		<Row Tag="TXT_KEY_PROMOTION_EVASION_II_HELP">
+			<Text>Cannot be intercepted</Text>
+		</Row>
+
+		<Update>
+			<Where Tag="TXT_KEY_PROMOTION_SENTRY_HELP"/>
+			<Set Text="+1 Sight, +10% Defence"/>
+		</Update>
+
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_MAYAN_ATLATLIST_STRATEGY"/>
+			<Set Text="Atlatlists are both cheaper and stronger than a traditional archer but are limited by their range, performing best in forests or jungles"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_MAYAN_ATLATLIST"/>
+			<Set Text="Only the Maya may built this unit. It is cheaper and stronger than the Archer, which it replaces, but limited by its one-hex range"/>
+		</Update>
+
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_TRADE_UNIONS_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Mercenary Army[ENDCOLOR][NEWLINE]Allows the purchasing of Landsknechts and Foreign Legions"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_FRENCH_FOREIGNLEGION_STRATEGY"/>
+			<Set Text="Being able to move immediately after purchase, and with a significant bonus in foreign land, the Foreign Legion is an excellent unit for aggressive attacks"/> 
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_FOREIGN_LEGION"/>
+			<Set Text="May only be received through adopting the Volunteer Army tenet of the Autocracy Ideology or the Mercenary Army social policy. Has a combat bonus outside of friendly territory"/>
+		</Update>
+	</Language_en_US>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>SHIPOFTHELINE_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>ShipOfTheLine_256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SHIPOFTHELINE_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>ShipOfTheLine_128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SHIPOFTHELINE_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>ShipOfTheLine_080.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SHIPOFTHELINE_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ShipOfTheLine_064.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SHIPOFTHELINE_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>ShipOfTheLine_045.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<Row>
+			<Atlas>PROMOTION_ICONS_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>PromotionIcons_256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>PROMOTION_ICONS_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>PromotionIcons_064.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>PROMOTION_ICONS_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>PromotionIcons_045.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>PROMOTION_ICONS_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>PromotionIcons_032.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+
+		<Row>
+			<Atlas>EMPTY_ICON_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>EmptyIcon_256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>EMPTY_ICON_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>EmptyIcon_064.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>EMPTY_ICON_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>EmptyIcon_045.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>EMPTY_ICON_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>EmptyIcon_032.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

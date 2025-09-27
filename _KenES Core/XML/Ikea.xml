@@ -7,7 +7,7 @@
 				<BuildingClass>BUILDINGCLASS_UNIQUE</BuildingClass>
 				<Cost>550</Cost>
 				<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
-				<Help>Provides +5 [ICON_PRODUCTION] Production, +10 [ICON_GOLD] Gold, and +1 [ICON_FOOD] Food in city.</Help>
+				<Help>Provides +2 [ICON_PRODUCTION] Production, +3 [ICON_GOLD] Gold, and +1 [ICON_FOOD] Food in city.</Help>
 				<Description>Ikea</Description>
 				<Civilopedia>
 					Ikea is the absolute pride and joy of Sweden, being founded in 1943 by Ingvar Kamprad, is one of the most famous furniture stores in existance, not to mention their Swedish meatballs.
@@ -73,12 +73,12 @@
 			<Row>
 				<BuildingType>BUILDING_IKEA</BuildingType>
 				<YieldType>YIELD_PRODUCTION</YieldType>
-				<Yield>5</Yield>
+				<Yield>2</Yield>
 			</Row>
 			<Row>
 				<BuildingType>BUILDING_IKEA</BuildingType>
 				<YieldType>YIELD_GOLD</YieldType>
-				<Yield>10</Yield>
+				<Yield>3</Yield>
 			</Row>
 			<Row>
 				<BuildingType>BUILDING_IKEA</BuildingType>

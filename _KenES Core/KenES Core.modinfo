@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" version="8">
+<Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" version="9">
   <Properties>
     <Name>*KenES Core</Name>
     <Stability>Beta</Stability>
@@ -1083,6 +1083,30 @@
     <File md5="5614E2C89CBBDAF28501B7B5624E0F37" import="1">Art/SrebAtlas64.dds</File>
     <File md5="F4F9F6E48DCDAFD3018F4C99DDA402B6" import="0">Xml/SrebAtlas.xml</File>
     <File md5="A0ABF96232FA20CD0D35DC31E71AB1CA" import="0">XML/ReligionFixedProphets.xml</File>
+    <File md5="8827A2B5D0447BAEEE579018B2D94531" import="1">Art/ShipOfTheLine_045.dds</File>
+    <File md5="71753FA43B51F649E8CF44C36633DEEB" import="1">Art/ShipOfTheLine_064.dds</File>
+    <File md5="D44EF8DBB0B2AAB5DE0D87D2766C14F1" import="1">Art/ShipOfTheLine_080.dds</File>
+    <File md5="8851699FCDCD4C37167DBAC303CCFD11" import="1">Art/ShipOfTheLine_128.dds</File>
+    <File md5="C2CCDEAAB98D3F77F590F15A240A48E3" import="1">Art/ShipOfTheLine_256.dds</File>
+    <File md5="34ED6231DC64D47C48CB20D36ADBF20A" import="1">Art/MadeByZai4z/EmptyIcon_032.dds</File>
+    <File md5="46143AAABF7F7E1E6F37B5C1FBFD42FB" import="1">Art/MadeByZai4z/EmptyIcon_045.dds</File>
+    <File md5="99F97A527ED4C59CF905C93C1F46CE84" import="1">Art/MadeByZai4z/EmptyIcon_064.dds</File>
+    <File md5="E60A0E313BF7F7183EACA8BF2C1ADD42" import="1">Art/MadeByZai4z/EmptyIcon_256.dds</File>
+    <File md5="46CC870A0C8B498E4B67EFF58C2672D2" import="1">Art/MadeByZai4z/PromotionIcons_032.dds</File>
+    <File md5="A5760524F3A2B57629359183F5F66287" import="1">Art/MadeByZai4z/PromotionIcons_045.dds</File>
+    <File md5="23D2E2D0370473EC2A1651929C3E2F75" import="1">Art/MadeByZai4z/PromotionIcons_064.dds</File>
+    <File md5="F4F2E86B5347229C2378AF38DB7596DC" import="1">Art/MadeByZai4z/PromotionIcons_256.dds</File>
+    <File md5="E9687C8BB48B181ECB14F3403FBD90B6" import="0">SQL/VariousRefinements.sql</File>
+    <File md5="414D3BAEA2469115007AFF3B025FF5B2" import="0">XML/VariousRefinements.xml</File>
+    <File md5="1AE62673EC39F2438803AD64E41C5F91" import="1">Lua/Import/NaturalWondersCustomMethods.lua</File>
+    <File md5="19F1E302209E16E2F7329B59A938506B" import="0">Lua/VariousRefinements.lua</File>
+    <File md5="8493AA2234679DC805A99B60B27B48D6" import="0">XML/IncreaseAircraftRange.xml</File>
+    <File md5="3C1CB22AADA509AB09CA7C5753143810" import="1">ART/PromoIconAtlasx256.dds</File>
+    <File md5="9197C631ED303D2B50571428F6AE73DF" import="1">ART/PromoIconAtlasx32.dds</File>
+    <File md5="FC03341C63BD79B54D97F444431A9E89" import="1">ART/PromoIconAtlasx45.dds</File>
+    <File md5="AFB402C903F15496EA4911A70A5BA05E" import="1">ART/PromoIconAtlasx64.dds</File>
+    <File md5="D1F0A69952AE0DAE4CF04A30C3664FE5" import="0">XML/New Promotions pack.xml</File>
+    <File md5="5C00BA6CE6E1DC73C410CF068424DE14" import="1">Art/Fear.dds</File>
   </Files>
   <Actions>
     <OnModActivated>
@@ -1436,6 +1460,10 @@
       <UpdateDatabase>XML/Units/Camels/03-Rifleman/CamelRiflemanArtDefines.sql</UpdateDatabase>
       <UpdateDatabase>Xml/SrebAtlas.xml</UpdateDatabase>
       <UpdateDatabase>XML/ReligionFixedProphets.xml</UpdateDatabase>
+      <UpdateDatabase>XML/IncreaseAircraftRange.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/VariousRefinements.sql</UpdateDatabase>
+      <UpdateDatabase>XML/VariousRefinements.xml</UpdateDatabase>
+      <UpdateDatabase>XML/New Promotions pack.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>
@@ -1538,6 +1566,10 @@
       <Name>JFD_Civs_PortugalManuelI_Functions.lua</Name>
       <Description>
       </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/VariousRefinements.lua">
+      <Name>Various Refinements</Name>
+      <Description>Handles general logic</Description>
     </EntryPoint>
   </EntryPoints>
 </Mod>

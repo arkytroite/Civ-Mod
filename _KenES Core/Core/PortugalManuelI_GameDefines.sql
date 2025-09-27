@@ -14,7 +14,7 @@ INSERT OR REPLACE INTO CustomModOptions(Name, Value) VALUES('EVENTS_UNIT_FOUNDED
 ------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO UnitPromotions 
 		(Type, 							LostWithUpgrade, Description, 							 Help, 										 Sound, 			 CannotBeChosen, PortraitIndex, IconAtlas, 		 PediaType, 		 PediaEntry)
-VALUES	('PROMOTION_JFD_COSMOGRAPHER', 	0,				 'TXT_KEY_PROMOTION_JFD_COSMOGRAPHER',	 'TXT_KEY_PROMOTION_JFD_COSMOGRAPHER_HELP',  'AS2D_IF_LEVELUP',  1, 			 59, 			'ABILITY_ATLAS', 'PEDIA_ATTRIBUTES', 'TXT_KEY_PROMOTION_JFD_COSMOGRAPHER');
+VALUES	('PROMOTION_JFD_COSMOGRAPHER', 	0,				 'TXT_KEY_PROMOTION_JFD_COSMOGRAPHER',	 'TXT_KEY_PROMOTION_JFD_COSMOGRAPHER_HELP',  'AS2D_IF_LEVELUP',  1, 			 20, 			'VALERY_ATLAS', 'PEDIA_ATTRIBUTES', 'TXT_KEY_PROMOTION_JFD_COSMOGRAPHER');
 ------------------------------------------------------------------------------------------------------------------------	
 -- Units
 ------------------------------------------------------------------------------------------------------------------------
@@ -60,8 +60,7 @@ FROM Unit_FreePromotions WHERE UnitType = 'UNIT_SCIENTIST';
 
 INSERT INTO Unit_FreePromotions 	
 		(UnitType, 					PromotionType)
-VALUES	('UNIT_JFD_COSMOGRAPHER',	'PROMOTION_JFD_COSMOGRAPHER'),
-		('UNIT_JFD_COSMOGRAPHER',	'PROMOTION_OCEAN_MOVEMENT');
+VALUES	('UNIT_JFD_COSMOGRAPHER',	'PROMOTION_JFD_COSMOGRAPHER');
 ------------------------------------------------------------------------------------------------------------------------
 -- Unit_UniqueNames
 ------------------------------------------------------------------------------------------------------------------------

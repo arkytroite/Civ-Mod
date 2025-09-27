@@ -108,4 +108,20 @@
 			<Flavor>1</Flavor>
 		</Row>
 	</Technology_Flavors>
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>Angus Burgers</UniqueName>
+			<GreatWorkType>GREAT_WORK_KINGISAAC</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_KINGISAAC</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>The Ass Devourer</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>Fear.dds</Image>
+		</Row>
+	</GreatWorks>
 </GameData>

@@ -8,10 +8,10 @@
 			<Help>TXT_KEY_PROMOTION_IZINDUNA_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<CannotBeChosen>true</CannotBeChosen>
-			<NearbyEnemyCombatMod>-15</NearbyEnemyCombatMod>
-			<NearbyEnemyCombatRange>2</NearbyEnemyCombatRange>
-			<PortraitIndex>59</PortraitIndex>
-			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<NearbyEnemyCombatMod>-5</NearbyEnemyCombatMod>
+			<NearbyEnemyCombatRange>1</NearbyEnemyCombatRange>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>VALERY_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
 			<PediaEntry>TXT_KEY_PROMOTION_IZINDUNA</PediaEntry>
 		</Row>
@@ -35,10 +35,10 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_IZINDUNA">
-			<Text>Izinduna Leader</Text>
+			<Text>Lead from the Front</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_IZINDUNA_HELP">
-			<Text>Nearby enemy units suffer a -15% [ICON_STRENGTH] Combat Strength penalty.</Text>
+			<Text>Adjacent enemy units suffer a -5% [ICON_STRENGTH] Combat Strength penalty.</Text>
 		</Row>
 	</Language_en_US>
 

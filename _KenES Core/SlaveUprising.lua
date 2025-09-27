@@ -1,5 +1,3 @@
---print("SLAVERY MOD ENABLED");
-
 local RebelTypes = {
 	GameInfoTypes.UNIT_WARRIOR, GameInfoTypes.UNIT_WARRIOR, GameInfoTypes.UNIT_SPEARMAN, GameInfoTypes.UNIT_BARBARIAN_SWORDSMAN, 
 	GameInfoTypes.UNIT_MUSKETMAN, GameInfoTypes.UNIT_GREAT_WAR_INFANTRY, GameInfoTypes.UNIT_INFANTRY, GameInfoTypes.UNIT_INFANTRY, 
@@ -25,8 +23,7 @@ function ReplaceWithRebel(unit)
 end
 -----------------------------------------------------------------------------------------------------------
 function CheckForSlaveRevolution(player)
-	if player:IsPolicyBranchUnlocked(GameInfoTypes.POLICY_BRANCH_AUTOCRACY) 
-	or player:IsPolicyBranchUnlocked(GameInfoTypes.POLICY_BRANCH_ORDER) then
+	if player:IsPolicyBranchUnlocked(GameInfoTypes.POLICY_BRANCH_AUTOCRACY) then
 		return;
 	end
 	local barbs = Players[GameDefines.MAX_PLAYERS-1];
