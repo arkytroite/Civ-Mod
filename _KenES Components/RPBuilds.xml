@@ -12,4 +12,27 @@
 			</Update>
 		</Builds>
 
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_NATIONAL_TREASURY"/>
+			<Set>
+				<NumTradeRouteBonus>1</NumTradeRouteBonus>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_3UC_INTERNATIONAL_TRADEHOUSE"/>
+			<Set>
+				<NumTradeRouteBonus>2</NumTradeRouteBonus>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_3UC_INTERNATIONAL_TRADEHOUSE"/>
+			<Set Help="Increases the amount of [ICON_GOLD] Gold in a city and adds two additional trade route slots. Trade routes both -to- and -from- this city yield [ICON_GOLD] Gold for the city owner. May only be built by Portugal in one city."/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_NATIONAL_TREASURY"/>
+			<Set Help="Must have built a Market in all Cities. The cost goes up the more cities there are in the empire. Gains an additional trade route slot. Trade routes other players make to a city with an East India Company will generate an extra 4 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 2 [ICON_GOLD] Gold for the trade route."/>
+		</Update>
+	</Buildings>
+
 	</GameData>

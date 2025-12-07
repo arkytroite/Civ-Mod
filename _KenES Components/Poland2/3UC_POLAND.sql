@@ -23,7 +23,7 @@ FROM Building_ClassesNeededInCity WHERE BuildingType = 'BUILDING_CASTLE';
 ------------------------------		
 INSERT INTO Building_YieldChanges 	
 		(BuildingType, 				YieldType, Yield)
-VALUES	('BUILDING_3UC_BARBICAN',	'YIELD_FOOD',	2);
+VALUES	('BUILDING_3UC_BARBICAN',	'YIELD_FOOD',	1);
 
 ------------------------------	
 -- Building_TechEnhancedYieldChanges
