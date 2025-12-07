@@ -227,6 +227,7 @@ Adds new technologies that give new benefits, but don't progress the tech tree o
 * China's Chu-Ko-Nu now get Logistics instead of their unique version to prevent obtaining both. They already didn't stack; this is simply done to avoid disappointment or confusion. 
 ## Miscellaneous Changes
 * Original Capitals and City-States can now be raised. They are still considered captured for the purposes of a Domination Victory. The AI does not use this feature.
+* The East India Company now provides an additional trade route slot (but not a free caravan/cargo ship). Portugal gets 2.
 * Great Person Tile Improvements now connect Luxury resources
 * Anti-Tank Guns are now ranged units.
 * Satellites now give vision of all cities on the map at all times.
